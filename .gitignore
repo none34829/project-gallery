@@ -1,5 +1,6 @@
 .env
 .config.js
+.DS_Store
 data.json
 dist
 node_modules
