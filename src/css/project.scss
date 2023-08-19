@@ -1,0 +1,179 @@
+@import "base.scss";
+
+button {
+    border: 0;
+    padding: 0;
+    background-color: unset;
+    outline:none !important;
+
+    &:focus {
+        outline:none !important;
+    }
+}
+
+
+.header-offset{
+    position: absolute;
+    top: -116.8px;
+
+}
+
+.header-container {
+    background: linear-gradient(340deg, #A7FFF6, #2E5EAA);
+    height: calc(50vh + 116.8px);
+    width: 100%;
+    min-height: 300px;
+}
+
+@keyframes mymove {
+  0%   {margin-left: 0.5rem; margin-right: 0rem;}
+  50%  {margin-left: 0rem; margin-right: 0.5rem;}
+  100% {margin-left: 0.5rem; margin-right: 0rem;}
+}
+
+.backArrow{
+    margin-left: 0.5rem;
+    transition-duration: 0.4s;
+}
+
+.backArrowContainer:hover .backArrow{
+    animation: mymove 0.4s;
+}
+
+.projectGraphic{
+    width: 40%;
+    height: 40%;
+}
+
+.projectBody{
+    min-height:40%;
+}
+
+.projectDesc{
+    color: black !important;
+}
+
+.projectDivider{
+    border-top: 3px solid #3365B2;
+    opacity: 1;
+}
+
+.involedPeople{
+    background-color: #1C427D
+}
+
+.largerProfile{
+    width:100px;
+    height:100px;
+}
+
+.backArrowRelated{
+    transform: rotate(180deg);
+}
+
+.blackTitle{
+    color:black !important;
+}
+
+.unclosedButton{
+    color: #1C427D !important;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-top: 2px solid #1C427D;
+    border-left: 2px solid #1C427D;
+    transition: all 0.25s;
+    transition-delay: 0.25s;
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        transition: transform 250ms 250ms;
+        bottom: 0;
+        height: 2px;
+        left: 0;
+        -ms-transform: scaleX(0.77);
+        transform: scaleX(0.77);
+        -ms-transform-origin: 0 1px;
+        transform-origin: 0 1px;
+        width: 100%;
+        background: #1C427D;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        transition: transform 250ms 250ms;
+        height: 100%;
+        right: 0;
+        top: 0;
+        -ms-transform: scaleY(0.6);
+        transform: scaleY(0.6);
+        -ms-transform-origin: 1px 0;
+        transform-origin: 1px 0;
+        width: 2px;
+        background: #1C427D;
+    }
+
+    &:hover:before {
+        transform: none;
+        transition-delay: 0s;
+    }
+    &:hover:after {
+        transform: none;
+        transition-delay: 0s;
+    }
+
+    &:hover > .externalLink {
+        filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(208deg) brightness(109%) contrast(101%);
+    }
+
+    &:hover {
+        background: #1C427D;
+        color: white !important;
+    }
+}
+
+.externalLink{
+    filter: invert(17%) sepia(51%) saturate(2220%) hue-rotate(199deg) brightness(98%) contrast(89%);
+    width:20px;
+    height:auto;
+    margin-left: 1rem;
+    transition: all 0.25s;
+    transition-delay: 0.25s;
+}
+
+
+.pdfModal{
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0,0,0, 0);
+    position: fixed;
+    top:0px;
+    min-height: 400px;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.2s;
+
+    & > .modal-container {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+
+        & > .modal-body {
+
+        }
+    }
+}
+
+.modal-title{
+    color: black !important;
+}
+
+.pdfModal--show {
+    background: rgba(0,0,0, 0.6);
+    transform: scale(1);
+    opacity: 1;
+}
