@@ -1,0 +1,11 @@
+.env
+data.json
+dist
+node_modules
+package-lock.json
+src/assets/images/student_imgs/*
+src/assets/images/mentor_imgs/*
+src/assets/pdfs/*
+!**/.keep
+
+
