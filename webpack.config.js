@@ -119,4 +119,3 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
  };
 
 
- 

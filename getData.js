@@ -217,7 +217,7 @@ Promise.all([domainsPromise, basePromise]).then(() => {
         if(project.research_paper != undefined){
             let research_paper_url = project.research_paper
             let research_paper_id = research_paper_url.substring(research_paper_url.indexOf("id=") + 3)
-            let research_paper_api_link = `https://www.googleapis.com/drive/v3/files/${research_paper_id}?alt=media&key=${process.env.GOOGLE_API_KEY}`
+            let research_paper_api_link = `https://www.googleapis.com/drive/v3/files/${research_paper_id}?key=${process.env.GOOGLE_API_KEY}`
 
 
             let research_paper_promise = new Promise((resolve, reject) => {
