@@ -244,3 +244,5 @@ Promise.all([domainsPromise, basePromise]).then(() => {
         fs.writeFileSync('./data.json', JSON.stringify(projectData, null, 2) , 'utf-8');
     })
 });
+
+
