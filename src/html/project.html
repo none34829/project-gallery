@@ -74,6 +74,14 @@
                 </div>
               </button>
             {% endif %}
+            {% if ctx.publication_link %}
+              <div onclick="window.open('{{ ctx.publication_link }}', '_blank').focus();" class="position-relative me-3 mb-3 text-decoration-none cursor-p">
+                <div class="unclosedButton d-flex">
+                  Published Paper
+                  <img class="externalLink" src="../assets/images/external_link.svg">
+                </div>
+              </div>
+            {% endif %}
             {% if ctx.github %}
               <div onclick="window.open('{{ ctx.github }}', '_blank').focus();" class="position-relative me-3 mb-3 text-decoration-none cursor-p">
                 <div class="unclosedButton d-flex">
