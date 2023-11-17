@@ -81,6 +81,10 @@ const basePromise = new Promise((resolve, reject) => {
             tempObj["project_id"] = crypto.createHash('sha1').update(`${item["Project Title"]}${item["Mentee Name"]}`).digest('hex');
             tempObj["expand"] = item["Project Title"].length > 75 ? true : false;
             tempObj["tags"] = item["Tags"];
+            tempObj["published"] = item["Published"];
+            tempObj["publications"] = item["Publications"];
+            tempObj["science_fairs"] = item["Science Fairs"];
+            tempObj["publication_link"] = item["Publication Link"];
             projectData.projects.push(tempObj);
 
             // tempObj.domains.forEach(topic => projectData.topics.add(topic));

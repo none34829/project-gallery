@@ -106,6 +106,19 @@ nav{
     }
 }
 
+.ribbonInfoContainer {
+    padding-top: 2%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+    .ribbonInfoIcon {
+        padding: 0 0.1rem 0.25rem; 
+        font-size: 22px;
+    }
+}
+
 .profile_image{
     height: auto;
     border-radius: 50%;
@@ -142,6 +155,51 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         &:hover {
             height: calc(100% - 0.5rem);
             width: calc(100% - 0.5rem);
+        }
+
+        /* Tooltip container */
+        .ribbonTooltip {
+            float: right;
+            z-index: 90;
+            position: relative;
+            color: #fff;
+            height: 15%;
+
+            .ribbonIcon {
+                font-size: 2.5rem;
+            }
+
+            .ribbonTooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            z-index: 100;
+
+            /* Position the tooltip text */
+            position: absolute;
+            z-index: 120;
+
+                &:hover {
+                    visibility: visible;
+                }
+            }
+
+            &:hover {
+                visibility: visible;
+            }
+
+            .ribbonTooltiptext:hover {
+                visibility: visible;
+            }
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        &:hover > .projectContainer > .projectSubContainer > .ribbonTooltip > .ribbonTooltiptext {
+            visibility: visible;
         }
 
         .projectImage{

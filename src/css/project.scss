@@ -75,12 +75,33 @@ button {
     color:black !important;
 }
 
+.ribbonProjectIcon {
+    padding: 0 0.1rem 0.3rem; 
+    align-self: flex-start;
+}
+
+.ribbonRelatedProjectContainer {
+    padding: 1.5% 1.5% 0; 
+    height: 0;
+    float: right;
+    color: #fff;
+
+    .ribbonRelatedProjectIcon {
+        font-size: 2.5rem;
+    }
+}
+
+.publicationLinkIcon {
+    font-size: 14px; 
+    padding: 0.35rem 0.2rem 0.5rem; 
+    align-self: flex-start;
+}
+
 .unclosedButton{
     color: #1C427D !important;
     text-decoration: none;
     padding: 1rem 2rem;
-    border-top: 2px solid #1C427D;
-    border-left: 2px solid #1C427D;
+    border: 2px solid #1C427D;
     transition: all 0.25s;
     transition-delay: 0.25s;
 
