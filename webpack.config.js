@@ -24,7 +24,7 @@ let proj_ids = data.projects.map(item => {
   };
 });
 
-let entry_points = { index: './src/js/index.js' } 
+let entry_points = { index: './src/js/index.js', published: './src/js/published.js', } 
 data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.js");
 
  module.exports = {
@@ -101,6 +101,11 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
         {
           from: "./src/html/index.html",
           to: "index.html",
+          context: data,
+        },
+        {
+          from: "./src/html/published.html",
+          to: "published.html",
           context: data,
         },
         ...proj_ids

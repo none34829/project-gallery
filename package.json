@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "exports": {
+    "./published.js": "./src/js/published.js"
+  },
   "scripts": {
     "prod-build": "npx webpack",
     "load-data": "node getData.js",
