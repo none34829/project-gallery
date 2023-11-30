@@ -168,6 +168,7 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
             display: flex;
             align-items: center;
             font-family: 'DIN Condensed';
+            overflow: auto;
 
             .ribbonIcon {
                 font-size: 2rem;

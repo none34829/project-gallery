@@ -53,7 +53,7 @@
         <div class="projectSubContainer">
             <div class="projectImage" style="background:url('{{ project.graphic_link }}') center 50% / cover no-repeat">
               {% if project.published == true %}
-                <div class="ribbonTooltip" style="{{ 'padding: 0.7% 1.75%;' if project.expand else 'padding: 1.5%;'}}"> 
+                <div class="ribbonTooltip" style="{{ 'padding: 0.7% 1.75%;' if project.expand else 'padding: 0.7% 0 0 1.75%;'}}"> 
                   {% if project.publications %} {{ project.publications }} {% endif %} 
                   {% if project.science_fairs %} {{ project.science_fairs }} {% endif %}
                   <span class="material-symbols-outlined ribbonIcon">workspace_premium</span>
