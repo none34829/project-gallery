@@ -29,7 +29,7 @@
   "homepage": "https://github.com/inspiritaiedu/inspirit_ai_projects#readme",
   "dependencies": {
     "@babel/core": "^7.19.1",
-    "airtable": "^0.11.4",
+    "airtable": "^0.11.6",
     "babel-loader": "^8.2.5",
     "bootstrap": "^5.2.1",
     "crypto": "^1.0.1",
