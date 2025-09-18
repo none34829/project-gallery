@@ -2,7 +2,8 @@
 .config.js
 .DS_Store
 data.json
-dist
+# dist - commented out for Netlify deployment
+# dist
 node_modules
 package-lock.json
 src/assets/images/student_imgs/*

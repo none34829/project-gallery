@@ -1,0 +1,9 @@
+# Netlify redirects for SPA routing
+# This ensures all routes are handled by the main index.html file
+# so that client-side routing can work properly
+
+# Handle project pages
+/projects/* /index.html 200
+
+# Handle any other routes that don't match static files
+/* /index.html 200
