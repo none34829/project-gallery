@@ -19,6 +19,32 @@ class DataService {
     };
   }
 
+  // Helper method to fetch data.json with multiple path attempts
+  async fetchDataJson() {
+    const paths = [
+      '/data.json',
+      './data.json', 
+      'data.json',
+      '/dist/data.json',
+      './dist/data.json'
+    ];
+    
+    for (const path of paths) {
+      try {
+        console.log(`Trying to fetch data from: ${path}`);
+        const response = await fetch(path);
+        if (response.ok) {
+          console.log(`Successfully fetched data from: ${path}`);
+          return await response.json();
+        }
+      } catch (error) {
+        console.log(`Failed to fetch from ${path}:`, error);
+      }
+    }
+    
+    throw new Error('Could not fetch data.json from any path');
+  }
+
   // Load topics and tags first (lightweight data for filters)
   async loadFilterData() {
     if (this.loading.topics) return this.waitForData('topics');
@@ -26,19 +52,7 @@ class DataService {
     this.loading.topics = true;
     
     try {
-      // Try different paths for data.json
-      let response;
-      try {
-        response = await fetch('/data.json');
-      } catch (e) {
-        response = await fetch('./data.json');
-      }
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      
-      const fullData = await response.json();
+      const fullData = await this.fetchDataJson();
       
       // Extract lightweight filter data
       this.data.topics = fullData.topics || [];
@@ -63,19 +77,7 @@ class DataService {
     this.loading.projects = true;
     
     try {
-      // Try different paths for data.json
-      let response;
-      try {
-        response = await fetch('/data.json');
-      } catch (e) {
-        response = await fetch('./data.json');
-      }
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      
-      const fullData = await response.json();
+      const fullData = await this.fetchDataJson();
       
       this.data.projects = fullData.projects || [];
       this.loading.projects = false;
