@@ -105,7 +105,7 @@ class DataService {
   }
 
   getProjects() {
-    return this.data.projects;
+    return this.sortProjects([...this.data.projects]);
   }
 
   // Check if data is loaded
@@ -153,13 +153,32 @@ class DataService {
     this.callbacks[type] = [];
   }
 
+  // Sort projects with published ones first, then by newest date
+  sortProjects(projects) {
+    return projects.sort((a, b) => {
+      // First priority: published projects come first
+      const aPublished = a.published === true ? 1 : 0;
+      const bPublished = b.published === true ? 1 : 0;
+      
+      if (aPublished !== bPublished) {
+        return bPublished - aPublished; // Published projects first
+      }
+      
+      // Second priority: sort by date (newest first)
+      const aDate = new Date(a.date || a.created_at || 0);
+      const bDate = new Date(b.date || b.created_at || 0);
+      
+      return bDate - aDate; // Newest first
+    });
+  }
+
   // Filter projects by active filters
   filterProjects(activeFilters) {
     if (!this.isProjectsLoaded()) {
       return [];
     }
 
-    return this.data.projects.filter(project => {
+    const filteredProjects = this.data.projects.filter(project => {
       return activeFilters.every(filter => {
         const filterValue = filter.value.toLowerCase();
         
@@ -189,6 +208,9 @@ class DataService {
         return false;
       });
     });
+
+    // Sort the filtered results
+    return this.sortProjects(filteredProjects);
   }
 }
 
