@@ -44,10 +44,10 @@ async function initializeApp() {
     
     // Load projects in the background
     dataService.onProjectsLoaded((projects) => {
-      // Filter to only published projects and sort them
-      const publishedProjects = projects.filter(project => project.published === true);
-      const sortedPublishedProjects = dataService.sortProjects(publishedProjects);
-      renderAllProjects(sortedPublishedProjects);
+      // Get all sorted projects from dataService, then filter to published only
+      const allSortedProjects = dataService.getProjects();
+      const publishedProjects = allSortedProjects.filter(project => project.published === true);
+      renderAllProjects(publishedProjects);
     });
     
     // Start loading projects

@@ -155,12 +155,15 @@ class DataService {
 
   // Sort projects with published ones first, then by newest date
   sortProjects(projects) {
-    return projects.sort((a, b) => {
+    console.log('Sorting projects, total:', projects.length);
+    
+    const sorted = projects.sort((a, b) => {
       // First priority: published projects come first
       const aPublished = a.published === true ? 1 : 0;
       const bPublished = b.published === true ? 1 : 0;
       
       if (aPublished !== bPublished) {
+        console.log(`Published priority: ${a.project_title} (${aPublished}) vs ${b.project_title} (${bPublished})`);
         return bPublished - aPublished; // Published projects first
       }
       
@@ -168,8 +171,19 @@ class DataService {
       const aDate = this.parseProjectDate(a);
       const bDate = this.parseProjectDate(b);
       
+      console.log(`Date sorting: ${a.project_title} (${aDate.getFullYear()}-${aDate.getMonth()}) vs ${b.project_title} (${bDate.getFullYear()}-${bDate.getMonth()})`);
+      
       return bDate - aDate; // Newest first
     });
+    
+    console.log('Sorted projects preview:', sorted.slice(0, 5).map(p => ({
+      title: p.project_title,
+      published: p.published,
+      year: p.project_yr,
+      quarter: p.project_quarter
+    })));
+    
+    return sorted;
   }
 
   // Parse project date from project_yr and project_quarter

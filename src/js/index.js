@@ -44,7 +44,9 @@ async function initializeApp() {
     
     // Load projects in the background
     dataService.onProjectsLoaded((projects) => {
-      renderAllProjects(projects);
+      // Get sorted projects from dataService
+      const sortedProjects = dataService.getProjects();
+      renderAllProjects(sortedProjects);
     });
     
     // Start loading projects
