@@ -4,7 +4,7 @@ const webpack = require('webpack');
 const NunjucksWebpackPlugin = require("nunjucks-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
-let data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+let data = JSON.parse(fs.readFileSync(path.join(__dirname, 'data.json'), 'utf8'));
 let projects_raw = JSON.parse(JSON.stringify(data.projects))
 let prodect_id_map = {}
 projects_raw.forEach(proj => {
