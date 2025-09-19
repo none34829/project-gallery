@@ -26,7 +26,18 @@ class DataService {
     this.loading.topics = true;
     
     try {
-      const response = await fetch('/data.json');
+      // Try different paths for data.json
+      let response;
+      try {
+        response = await fetch('/data.json');
+      } catch (e) {
+        response = await fetch('./data.json');
+      }
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const fullData = await response.json();
       
       // Extract lightweight filter data
@@ -52,7 +63,18 @@ class DataService {
     this.loading.projects = true;
     
     try {
-      const response = await fetch('/data.json');
+      // Try different paths for data.json
+      let response;
+      try {
+        response = await fetch('/data.json');
+      } catch (e) {
+        response = await fetch('./data.json');
+      }
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const fullData = await response.json();
       
       this.data.projects = fullData.projects || [];

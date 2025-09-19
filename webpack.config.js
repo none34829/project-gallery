@@ -120,7 +120,8 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
     // Removed data bundling - data is now loaded dynamically via dataService
     new CopyWebpackPlugin([
       {from:'src/assets/',to:'assets/'},
-      {from:'data.json',to:'data.json'}
+      {from:'data.json',to:'data.json'},
+      {from:'public/_redirects',to:'_redirects'}
     ]), 
   ]
  };

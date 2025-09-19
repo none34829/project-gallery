@@ -1,0 +1,3 @@
+# Netlify redirects file
+# Ensure data.json is accessible
+/data.json /data.json 200
