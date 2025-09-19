@@ -7,6 +7,7 @@
     "./published.js": "./src/js/published.js"
   },
   "scripts": {
+    "build": "npx webpack",
     "prod-build": "npx webpack",
     "load-data": "node getData.js",
     "prod-hydrate": "npm run load-data && npm run prod-build",
