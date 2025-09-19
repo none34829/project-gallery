@@ -1,0 +1,18 @@
+[build]
+  # Directory that contains the deploy-ready HTML files and assets
+  publish = "dist"
+  
+  # Build command
+  command = "npm run prod-build"
+
+# Serve data.json directly without redirects
+[[headers]]
+  for = "/data.json"
+  [headers.values]
+    Content-Type = "application/json"
+
+# SPA fallback for all other routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
