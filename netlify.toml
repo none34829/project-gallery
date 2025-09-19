@@ -1,9 +1,6 @@
 [build]
-  # Directory to change to before starting a build
-  base = "project-gallery"
-  
   # Directory that contains the deploy-ready HTML files and assets
-  publish = "project-gallery/dist"
+  publish = "dist"
   
   # Build command
   command = "npm run prod-build"
