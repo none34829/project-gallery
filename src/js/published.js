@@ -283,37 +283,37 @@ window.addEventListener('load', (event) => {
     })
   }
 
-  function renderResults() {
-    if (!dataService.isProjectsLoaded()) {
-      return; // Don't filter until projects are loaded
-    }
-    
-    // Get only published projects
-    const allProjects = dataService.getProjects();
-    const publishedProjects = allProjects.filter(project => project.published === true);
-    const filteredProjects = dataService.filterProjects(active_filters).filter(project => project.published === true);
-    
-    const projectElements = Array.from(document.getElementsByClassName("projectContainer"));
-    
-    // Hide all projects first
-    projectElements.forEach(elem => {
-      elem.style.display = "none";
-    });
-    
-    // Show only filtered projects
-    filteredProjects.forEach(project => {
-      const projectElement = document.querySelector(`[data-id="${project.project_id}"]`);
-      if (projectElement) {
-        projectElement.style.display = "block";
-      }
-    });
-    
-    // Show/hide error message
-    const errorElement = document.querySelector(".galleryError");
-    if (errorElement) {
-      errorElement.style.display = filteredProjects.length === 0 ? "block" : "none";
-    }
+function renderResults() {
+  if (!dataService.isProjectsLoaded()) {
+    return; // Don't filter until projects are loaded
   }
+  
+  // Get only published projects
+  const allProjects = dataService.getProjects();
+  const publishedProjects = allProjects.filter(project => project.published === true);
+  const filteredProjects = dataService.filterProjects(active_filters).filter(project => project.published === true);
+  
+  const projectElements = Array.from(document.getElementsByClassName("projectContainer"));
+  
+  // Hide all projects first
+  projectElements.forEach(elem => {
+    elem.style.display = "none";
+  });
+  
+  // Show only filtered projects
+  filteredProjects.forEach(project => {
+    const projectElement = document.querySelector(`[data-id="${project.project_id}"]`);
+    if (projectElement) {
+      projectElement.style.display = "block";
+    }
+  });
+  
+  // Show/hide error message
+  const errorElement = document.querySelector(".galleryError");
+  if (errorElement) {
+    errorElement.style.display = filteredProjects.length === 0 ? "block" : "none";
+  }
+}
 
   function renderSuggestions(items) {
     let target = document.querySelector(".searchSuggestions");
