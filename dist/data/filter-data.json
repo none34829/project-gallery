@@ -1,0 +1,2330 @@
+{
+  "topics": [
+    "Business and Finance",
+    "Education",
+    "Engineering",
+    "Environment",
+    "Generative AI",
+    "Healthcare and Biology",
+    "Humanitarian Efforts and Social Justice",
+    "Journalism",
+    "Language and Literature",
+    "Misc",
+    "Physics",
+    "PoliSci and Law",
+    "Psychology",
+    "Published Papers and Science Fairs",
+    "Specific Technologies",
+    "Sports and Motion Sciences"
+  ],
+  "tags": [
+    "Aerospace Engineering",
+    "Alzheimer's",
+    "App Development",
+    "Astronomy",
+    "Audio Analysis",
+    "Autonomous Vehicles",
+    "BERT",
+    "Baseball",
+    "Biology",
+    "Biotechnology",
+    "Brain Cancer",
+    "CNNs",
+    "COVID-19",
+    "Cancer",
+    "Chemicals",
+    "Chemistry",
+    "Classification",
+    "Climate Change",
+    "Computer Vision",
+    "Consumer Behavior",
+    "Criminal Justice",
+    "DNA",
+    "Data and Privacy",
+    "Deep Learning",
+    "Dental Health",
+    "Depression",
+    "Developmental Disorders",
+    "Diabetes",
+    "Diseases",
+    "Diseases and Health Conditions",
+    "Dropout Rates",
+    "Drug Overdose",
+    "Drugs",
+    "E-Commerce",
+    "EOL",
+    "Earth Systems",
+    "Economics",
+    "Education",
+    "Engineering",
+    "Environmentalism",
+    "Eyes",
+    "Facial Emotion",
+    "Fake News",
+    "Farming",
+    "Fencing",
+    "Food and Beverage",
+    "Forest Fires",
+    "Fraud",
+    "GHGs",
+    "GPT-3",
+    "Gamma Rays",
+    "Gender Equality",
+    "Generative AI",
+    "Google",
+    "Government Systems",
+    "Gradient Boosting",
+    "Hardware",
+    "Heart Disease",
+    "Inequality",
+    "Irrigation",
+    "Kinematics",
+    "LSTMs",
+    "Law and Order",
+    "Leukemia",
+    "Linguistics",
+    "Logistic Regression",
+    "Lung Cancer",
+    "Mental Health",
+    "Microfinance",
+    "Modern Languages",
+    "Music",
+    "Natural Disasters",
+    "Natural Language Processing",
+    "Neuroscience",
+    "New York",
+    "News",
+    "Object Detection Models",
+    "Optimization",
+    "Physics",
+    "Physiology",
+    "Plants",
+    "Pneumonia",
+    "Political Science",
+    "Pollution",
+    "Pop Culture",
+    "Prediction",
+    "Pricing",
+    "Product Analysis",
+    "Psych",
+    "Published",
+    "Racial Equality",
+    "Random Forests",
+    "Real Estate",
+    "Recidivism",
+    "Recycling",
+    "Reinforcement Learning",
+    "Renewable Energy",
+    "Robotics",
+    "Running",
+    "Satellite Imagery",
+    "Science Fairs",
+    "Skin Cancer",
+    "Social Justice",
+    "Social Media",
+    "Sociology",
+    "Solar Cycles",
+    "Solar Flares",
+    "Solar Power",
+    "Sports",
+    "Standardized Testing",
+    "Star Clusters",
+    "Stellar Classification",
+    "Stocks",
+    "Strokes",
+    "Sustainability",
+    "Video Games",
+    "Visual Arts",
+    "Vollyball",
+    "Wage Gap",
+    "Water",
+    "Water Use",
+    "Weather",
+    "Web Deployment",
+    "Web Development",
+    "Wildlife",
+    "Women's Health",
+    "Writing",
+    "yoga"
+  ],
+  "tagsMap": {
+    "Business and Finance": [
+      "Consumer Behavior",
+      "Cryptocurrency",
+      "E-Commerce",
+      "Economics",
+      "Fraud",
+      "Microfinance",
+      "Options",
+      "Pricing",
+      "Real Estate",
+      "Stocks"
+    ],
+    "Education": [
+      "Dropout Rates",
+      "Education",
+      "Psych",
+      "Standardized Testing"
+    ],
+    "Engineering": [
+      "Aerospace Engineering",
+      "Autonomous Vehicles",
+      "Control Systems",
+      "Engineering",
+      "Hardware",
+      "Optimization",
+      "Recycling",
+      "Robotics"
+    ],
+    "Environment": [
+      "Chemicals",
+      "Climate Change",
+      "Earth Systems",
+      "Farming",
+      "Forest Fires",
+      "GHGs",
+      "Irrigation",
+      "Natural Disasters",
+      "Plants",
+      "Pollution",
+      "Renewable Energy",
+      "Sustainability",
+      "Water",
+      "Water Use",
+      "Weather",
+      "Wildlife"
+    ],
+    "Healthcare and Biology": [
+      "Biology",
+      "Biotechnology",
+      "Brain Cancer",
+      "COVID-19",
+      "Cancer",
+      "DNA",
+      "Dental Health",
+      "Developmental Disorders",
+      "Diabetes",
+      "Diseases and Health Conditions",
+      "Drugs",
+      "Eyes",
+      "Heart Disease",
+      "Lung Cancer",
+      "Mental Health",
+      "Neuroscience",
+      "Physiology",
+      "Pneumonia",
+      "Skin Cancer",
+      "Strokes",
+      "Women's Health"
+    ],
+    "Humanitarian Efforts and Social Justice": [
+      "Criminal Justice",
+      "Data and Privacy",
+      "Drug Overdose",
+      "Fake News",
+      "Gender Equality",
+      "Inequality",
+      "Law and Order",
+      "Mental Health",
+      "Racial Equality",
+      "Recidivism",
+      "Social Justice",
+      "Sociology",
+      "Wage Gap"
+    ],
+    "Journalism": [
+      "Fake News",
+      "News"
+    ],
+    "Language and Literature": [
+      "Fake News",
+      "GPT-3",
+      "Linguistics",
+      "Modern Languages",
+      "Natural Language Processing",
+      "News",
+      "Writing"
+    ],
+    "Physics": [
+      "Astronomy",
+      "Gamma Rays",
+      "Kinematics",
+      "Physics",
+      "Solar Cycles",
+      "Solar Flares",
+      "Star Clusters"
+    ],
+    "PoliSci and Law": [
+      "Criminal Justice",
+      "Government Systems",
+      "Law and Order",
+      "Political Science",
+      "Recidivism"
+    ],
+    "Psychology": [
+      "Depression",
+      "Facial Emotion",
+      "Mental Health",
+      "Psych"
+    ],
+    "Specific Technologies": [
+      "App Development",
+      "Audio Analysis",
+      "BERT",
+      "CNNs",
+      "Classification",
+      "Computer Vision",
+      "Deep Learning",
+      "EOL",
+      "GPT-3",
+      "Generative AI",
+      "Google",
+      "Gradient Boosting",
+      "LSTMs",
+      "Logistic Regression",
+      "Natural Language Processing",
+      "Object Detection Models",
+      "Prediction",
+      "Q Learning",
+      "Reinforcement Learning",
+      "Web Development"
+    ],
+    "Misc": [
+      "Food and Beverage",
+      "Music",
+      "New York",
+      "Pop Culture",
+      "Product Analysis",
+      "Social Media",
+      "Video Games",
+      "Visual Arts",
+      "Yoga"
+    ],
+    "Published Papers and Science Fairs": [
+      "Published",
+      "Science Fairs"
+    ],
+    "Sports and Motion Sciences": [
+      "Baseball",
+      "Fencing",
+      "Running",
+      "Sports",
+      "Vollyball"
+    ],
+    "Generative AI": [
+      "LLMs",
+      "Transformers"
+    ]
+  },
+  "projects": [
+    {
+      "project_id": "0a574bde2fff76c3dafb371ae2cef1cfbd7ed854",
+      "domains": [
+        "Humanitarian Efforts and Social Justice",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Wage Gap",
+        "Economics",
+        "Published",
+        "Science Fairs"
+      ]
+    },
+    {
+      "project_id": "073776ccdb02a715b1a9c4ea590c72703600cadc",
+      "domains": [
+        "Physics",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "LSTMs",
+        "Solar Cycles",
+        "Astronomy",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "aeb3a7e9bdee8ba99533d1e263521562419a8fb6",
+      "domains": [
+        "Business and Finance",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Economics",
+        "Microfinance",
+        "Inequality",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "5ee1177c671abf3e11897fc2ebbba3e1355573d4",
+      "domains": [
+        "Physics",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Astronomy",
+        "Stellar Classification",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "8f11c9cea7ec6c6ef1b452880aceade84635e612",
+      "domains": [
+        "Sports and Motion Sciences"
+      ],
+      "tags": [
+        "Sports",
+        "Running",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "project_id": "1dbfe39aa305fa7f40158cb17cd70a167c56d275",
+      "domains": [
+        "Environment",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "News",
+        "Fake News",
+        "Climate Change",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "project_id": "58dec3622ea48a99256e07cb547de3f8418e0c94",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Pneumonia",
+        "Classification",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "c5872d603a0e4ff94f5ecab64817175d43b9961c",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Strokes",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "c6626d41c51d0fda47297103ef1343bd58a9b435",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Biology",
+        "Chemistry",
+        "DNA",
+        "Gradient Boosting"
+      ]
+    },
+    {
+      "project_id": "72bcaf1817b1e88e623d2b3f28f29d58dd65d048",
+      "domains": [
+        "Healthcare and Biology",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Women's Health",
+        "Racial Equality",
+        "Gender Equality"
+      ]
+    },
+    {
+      "project_id": "0a26e050296441b0075ca224251dbbc48c833cb3",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Strokes",
+        "Neuroscience",
+        "Published",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "project_id": "f6c0acfb6db69f9cc850d744d56092222ac474e4",
+      "domains": [
+        "Sports and Motion Sciences",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Sports",
+        "Pop Culture",
+        "Published",
+        "Prediction"
+      ]
+    },
+    {
+      "project_id": "d50b4f55ed899b280df774d50ecd798c54043892",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Strokes",
+        "Neuroscience",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "cc63fba2402223c028df68372b1779aa8e947df6",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Strokes",
+        "Neuroscience",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "3d64a57084fa3a9804772cbb3d3518cebdd44bea",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Heart Disease",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "3dd373e176952ff4830b8d1d532e0973054b9d40",
+      "domains": [
+        "Environment",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Environmentalism",
+        "Recycling",
+        "Sustainability"
+      ]
+    },
+    {
+      "project_id": "2157806554f790856dcb6cc95179a733d8161679",
+      "domains": [
+        "Psychology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Facial Emotion",
+        "Developmental Disorders"
+      ]
+    },
+    {
+      "project_id": "9941206fc0938ca237fdb718341d95aff57a5192",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Skin Cancer",
+        "Diseases and Health Conditions",
+        "Diseases",
+        "Science Fairs"
+      ]
+    },
+    {
+      "project_id": "b8f192e089d782f55aba98d180b19be10e08b51c",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Neuroscience",
+        "Biotechnology"
+      ]
+    },
+    {
+      "project_id": "021f95a954214e2cd5744063595ab1f3bc876923",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Neuroscience",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "dbb1119fb778c16237dcc64e0d56987c55dc6f96",
+      "domains": [
+        "Physics",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Astronomy",
+        "Physics",
+        "Science Fairs"
+      ]
+    },
+    {
+      "project_id": "021f95a954214e2cd5744063595ab1f3bc876923",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Alzheimer's",
+        "Diseases and Health Conditions",
+        "Science Fairs"
+      ]
+    },
+    {
+      "project_id": "ee8aff36bebcc433122a1e77eb970374a11c0aa1",
+      "domains": [
+        "Business and Finance",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Stocks",
+        "Economics",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "598032afba3b6220dcc69ec7f0c0fd101475e823",
+      "domains": [
+        "Environment",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Climate Change",
+        "Sustainability",
+        "Published"
+      ]
+    },
+    {
+      "project_id": "7197e6be056bf44a07ddae9b38e3c556c4d93ec9",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "ce2b76a0ff00e0d1bd386c2afaebfb5f77484b4d",
+      "domains": [
+        "Physics",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Engineering",
+        "Astronomy",
+        "Physics"
+      ]
+    },
+    {
+      "project_id": "4064cb21920d9ef34392a083b12c6a426307a1e4",
+      "domains": [
+        "Healthcare and Biology",
+        "Published Papers and Science Fairs"
+      ],
+      "tags": [
+        "Eyes",
+        "Diseases and Health Conditions",
+        "Engineering"
+      ]
+    },
+    {
+      "project_id": "cb6efe28ac166c1553671ee2e20ce03f130ee44f",
+      "domains": [
+        "Environment",
+        "Engineering"
+      ],
+      "tags": [
+        "Sustainability",
+        "Pollution",
+        "Engineering"
+      ]
+    },
+    {
+      "project_id": "c8ddc52adbc15aa68fc701cde83fd2e65d2e5fcd",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Irrigation",
+        "Water Use"
+      ]
+    },
+    {
+      "project_id": "497d2dfb6fdc004c66430347d7e0e2026a04d6c5",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Cancer",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "77ececfe30468cb64dc87fadf0e983552743a873",
+      "domains": [
+        "Sports and Motion Sciences",
+        "Engineering"
+      ],
+      "tags": [
+        "Sports",
+        "Fencing",
+        "App Development",
+        "Audio Analysis"
+      ]
+    },
+    {
+      "project_id": "358df9da416a0cea3a9ae9e2232c1b6fd978dde5",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Cancer",
+        "Brain Cancer",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "5e84d8f6b96a6f4606997b2bff26e36a6635f559",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Diabetes"
+      ]
+    },
+    {
+      "project_id": "06ce4752b575b0bee26c2b7e67d42f6b372107ab",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Earth Systems",
+        "GHGs",
+        "Pollution"
+      ]
+    },
+    {
+      "project_id": "949e6f3e9e51ef95bc5426b1288aa28d9cd465d9",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Skin Cancer",
+        "Diseases and Health Conditions",
+        "Cancer"
+      ]
+    },
+    {
+      "project_id": "6021eb4f2c7e1f36f6d75c3ba4ea1a05c93bcc50",
+      "domains": [
+        "Psychology",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Mental Health",
+        "Psych"
+      ]
+    },
+    {
+      "project_id": "22b10a274fc2ce6a3c295b663210ee33b1ec2c1f",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Astronomy",
+        "Gamma Rays"
+      ]
+    },
+    {
+      "project_id": "6fa1b51e4ed9c740192fc78b3337892731c0a76a",
+      "domains": [
+        "Environment",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Water Use"
+      ]
+    },
+    {
+      "project_id": "12bafc1b0d40c5efca04d8d8aaef32d3ba22e042",
+      "domains": [
+        "Language and Literature"
+      ],
+      "tags": [
+        "GPT-3",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "project_id": "ead7c7979987656fc00f4364ca8cbc9d2331b23e",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Cancer",
+        "Diseases and Health Conditions",
+        "Lung Cancer"
+      ]
+    },
+    {
+      "project_id": "eb645ba3e84ff785a70b7e6d92d0b9aacab60af8",
+      "domains": [
+        "Psychology",
+        "Education"
+      ],
+      "tags": [
+        "Psych"
+      ]
+    },
+    {
+      "project_id": "ccfcd2d500fd177b3719b2a5ffec20d8a7b703ed",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Logistic Regression",
+        "Earth Systems",
+        "Natural Disasters"
+      ]
+    },
+    {
+      "project_id": "a11279d957e8a60c671b45c11106105670960e49",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Skin Cancer",
+        "Diseases and Health Conditions",
+        "App Development",
+        "Cancer"
+      ]
+    },
+    {
+      "project_id": "e99ba3f040d469c86d17bed3f2bdd03a9f653c89",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Chemistry",
+        "Water"
+      ]
+    },
+    {
+      "project_id": "14fe693153a6a674ce2cf5f7b2028b54c56e3b8a",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Cancer",
+        "Diseases and Health Conditions",
+        "Skin Cancer"
+      ]
+    },
+    {
+      "project_id": "e129d1129e9f9dc7f421566b7409f57da0680cff",
+      "domains": [
+        "Environment",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Forest Fires",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "project_id": "a56ab8773f5c9ee799a933a83bb78a4f62887aa4",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "Economics",
+        "Consumer Behavior",
+        "Fraud"
+      ]
+    },
+    {
+      "project_id": "3b1e19d91a523f901204bc8995c84da97f5085cd",
+      "domains": [
+        "PoliSci and Law"
+      ],
+      "tags": [
+        "Criminal Justice",
+        "Recidivism",
+        "Law and Order"
+      ]
+    },
+    {
+      "project_id": "135ecb38979e957454d852cfe9e34cd39eee2ec6",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Biology",
+        "DNA",
+        "LSTMs",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "project_id": "97a5b129fe54fbe0de6a6e5cf0be48752691b5df",
+      "domains": [
+        "Sports and Motion Sciences"
+      ],
+      "tags": [
+        "Sports",
+        "LSTMs"
+      ]
+    },
+    {
+      "project_id": "bfe1af68283bedebfde2328478d0a265c3429119",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Drugs",
+        "Biology",
+        "Web Deployment"
+      ]
+    },
+    {
+      "project_id": "5e1b2bfaa9c8506d5425ef0bdff1944ddaff00c7",
+      "domains": [
+        "Language and Literature"
+      ],
+      "tags": [
+        "Music",
+        "Optimization",
+        "Generative AI"
+      ]
+    },
+    {
+      "project_id": "4777f1633b5a64e6b806fbb637962cdb73afde74",
+      "domains": [
+        "Engineering",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Renewable Energy",
+        "Satellite Imagery",
+        "Solar Power"
+      ]
+    },
+    {
+      "project_id": "28be4b1740f489c7b5116dfe0095211e74b1cfea",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Star Clusters",
+        "Astronomy"
+      ]
+    },
+    {
+      "project_id": "419f2aa1abd6d04e1bb0ee5d9ed0f798c461d94a",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Recycling"
+      ]
+    },
+    {
+      "project_id": "c030fe0fd0857c2c8640e4879ee074ef767e49f6",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "LSTMs",
+        "COVID-19",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "d2fa188f0c1fc416dab710c7365bd445f6bd6018",
+      "domains": [
+        "Healthcare and Biology",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Drug Overdose",
+        "Drugs"
+      ]
+    },
+    {
+      "project_id": "75980cadee1c8968603f2a45662662cc2fe31db8",
+      "domains": [
+        "Journalism"
+      ],
+      "tags": [
+        "News",
+        "Fake News",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "project_id": "668fe721f198b9326694fc2f33856dcef5f31f81",
+      "domains": [
+        "Healthcare and Biology",
+        "Psychology"
+      ],
+      "tags": [
+        "Mental Health",
+        "Depression",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "3bdffe331f52081e0f2024f17e079d5ec940cc41",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Cancer",
+        "Brain Cancer",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "3da55ed927a10c8aac6d7150c913ad187e288721",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Astronomy",
+        "Solar Flares"
+      ]
+    },
+    {
+      "project_id": "05db0922f47faa75083fbb1384b9915d90f119a7",
+      "domains": [
+        "Psychology",
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Mental Health",
+        "Education",
+        "Psych"
+      ]
+    },
+    {
+      "project_id": "cc8726745726dab5f9cfc29ff8712b4823648242",
+      "domains": [
+        "Business and Finance",
+        "Arts and Music"
+      ],
+      "tags": [
+        "Pop Culture",
+        "Social Media",
+        "Random Forests"
+      ]
+    },
+    {
+      "project_id": "78937f8c624c506b3879d74078159e88a7a6d2af",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Farming",
+        "Chemicals"
+      ]
+    },
+    {
+      "project_id": "0f5df92f9d5f434d7216389869ded3e6ce721194",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Physiology",
+        "Sports",
+        "Vollyball"
+      ]
+    },
+    {
+      "project_id": "6a81620dda02871bb7ce4f1b2c806a64ac08f1be",
+      "domains": [
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Gender Equality",
+        "Racial Equality",
+        "Education",
+        "Social Justice"
+      ]
+    },
+    {
+      "project_id": "01032d50e1636761d051f258a4ed525c6834fac1",
+      "domains": [
+        "Language and Literature"
+      ],
+      "tags": [
+        "Natural Language Processing",
+        "Modern Languages"
+      ]
+    },
+    {
+      "project_id": "e74fd4dd5f1bdd0250ad1c870497b02257280bb2",
+      "domains": [
+        "Environment",
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Wildlife",
+        "Farming"
+      ]
+    },
+    {
+      "project_id": "71e4256690404e931a1ba7dbc8524aa7f15eb54b",
+      "domains": [
+        "Healthcare and Biology",
+        "Environment"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Plants",
+        "Classification"
+      ]
+    },
+    {
+      "project_id": "f8e34d726f8105d43be6e3ca5c92e7ff69d4dc6c",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Astronomy",
+        "Physics"
+      ]
+    },
+    {
+      "project_id": "028983fdbb7bceb940cab8c91909f93a229c83af",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Solar Cycles",
+        "Solar Power",
+        "Solar Flares",
+        "Earth Systems"
+      ]
+    },
+    {
+      "project_id": "a9e8f0362783db914e4fc941e2d7e176e13f0e8a",
+      "domains": [
+        "Psychology"
+      ],
+      "tags": [
+        "Psych",
+        "Facial Emotion"
+      ]
+    },
+    {
+      "project_id": "1c112a8fe4e6a3353c722d06b6f53e75d25bc422",
+      "domains": [
+        "PoliSci and Law"
+      ],
+      "tags": [
+        "Criminal Justice",
+        "Recidivism",
+        "Social Justice"
+      ]
+    },
+    {
+      "project_id": "7a409f003cf56c704a89210b564fa7ef5ddec77e",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Leukemia",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "2e33ac90723516d3347d5bd42fabc3f4163edd87",
+      "domains": [
+        "Cybersecurity"
+      ],
+      "tags": [
+        "Natural Language Processing",
+        "EOL",
+        "Web Development"
+      ]
+    },
+    {
+      "project_id": "cf9350cead2fe96bbfaf975fb68dd1f94d126b3e",
+      "domains": [
+        "Education",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Education",
+        "COVID-19",
+        "Racial Equality",
+        "Inequality",
+        "Wage Gap",
+        "Gender Equality",
+        "New York"
+      ]
+    },
+    {
+      "project_id": "eb405932a81ebf0ee021c4d7110eb79a8be94072",
+      "domains": [
+        "Arts and Music",
+        "Engineering"
+      ],
+      "tags": [
+        "Google",
+        "Visual Arts",
+        "CNNs",
+        "Classification"
+      ]
+    },
+    {
+      "project_id": "4cc59fab0643e8de76419946644772a98630fb3b",
+      "domains": [
+        "Education"
+      ],
+      "tags": [
+        "Education",
+        "COVID-19",
+        "Dropout Rates"
+      ]
+    },
+    {
+      "project_id": "c074529d01f1911b9dead55c4b7171d4168250c2",
+      "domains": [
+        "PoliSci and Law"
+      ],
+      "tags": [
+        "Criminal Justice",
+        "Law and Order",
+        "Racial Equality"
+      ]
+    },
+    {
+      "project_id": "de8eddad7c2dad6d67decd1f64ce8124032c2129",
+      "domains": [
+        "PoliSci and Law",
+        "Language and Literature"
+      ],
+      "tags": [
+        "Law and Order",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "project_id": "d390a53d3c26a270b7cd24698fc9696b884b86ea",
+      "domains": [
+        "Education"
+      ],
+      "tags": [
+        "Education",
+        "COVID-19",
+        "Dropout Rates",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "project_id": "85fb41c71beb68825639358f04f6b3dce97a4b31",
+      "domains": [
+        "Journalism",
+        "Language and Literature"
+      ],
+      "tags": [
+        "News",
+        "Fake News",
+        "Natural Language Processing",
+        "LSTMs"
+      ]
+    },
+    {
+      "project_id": "de4b0165aff73fddc32d35a35376d1647cd002f8",
+      "domains": [
+        "Language and Literature"
+      ],
+      "tags": [
+        "Natural Language Processing",
+        "Generative AI",
+        "GPT-3"
+      ]
+    },
+    {
+      "project_id": "88fdc975a0663bc34d05cc15d62b26f5e1807526",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Astronomy",
+        "Stellar Classification",
+        "Logistic Regression",
+        "Classification"
+      ]
+    },
+    {
+      "project_id": "ded1e42ec9ef421c5cd42fdacb594176a55a3139",
+      "domains": [
+        "Psychology",
+        "Language and Literature"
+      ],
+      "tags": [
+        "Pop Culture",
+        "Psych",
+        "Writing"
+      ]
+    },
+    {
+      "project_id": "d65aecd529c0729d9126735bb39fde11ccd3a9e4",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Environmentalism",
+        "Recycling",
+        "Classification"
+      ]
+    },
+    {
+      "project_id": "aac3c77f5f93d758213854796a0c04ba7bd27ae0",
+      "domains": [
+        "Education"
+      ],
+      "tags": [
+        "Education",
+        "Standardized Testing"
+      ]
+    },
+    {
+      "project_id": "6f3fc38d7da0d7ab52b86f567f619edd9d3239a7",
+      "domains": [
+        "Journalism",
+        "Language and Literature"
+      ],
+      "tags": [
+        "News",
+        "Fake News",
+        "BERT"
+      ]
+    },
+    {
+      "project_id": "acf2bdaf2675d101299af10dc1b6e5d411d0f085",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "Economics",
+        "Consumer Behavior"
+      ]
+    },
+    {
+      "project_id": "9c6db7729f0bd3434f86a8496bbea560d83db38b",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "Economics",
+        "New York",
+        "Prediction"
+      ]
+    },
+    {
+      "project_id": "93f69f6e27f7f28be4488f702851296b8fccb230",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Physiology",
+        "Eyes"
+      ]
+    },
+    {
+      "project_id": "f78d53783940a77db8cf626d3031cc95f5ad469b",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Astronomy",
+        "Stellar Classification",
+        "Kinematics"
+      ]
+    },
+    {
+      "project_id": "1a5ced28013c5a496d372a1278286642217a817d",
+      "domains": [
+        "Arts and Music"
+      ],
+      "tags": [
+        "Visual Arts",
+        "Google",
+        "Classification"
+      ]
+    },
+    {
+      "project_id": "27117f99bd699eb87adf3d43adad7cbccafacd69",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Brain Cancer",
+        "CNNs",
+        "Cancer"
+      ]
+    },
+    {
+      "project_id": "45f834c7383730d93c58656b5897988425ec17da",
+      "domains": [
+        "Education"
+      ],
+      "tags": [
+        "Modern Languages",
+        "Natural Language Processing",
+        "Education"
+      ]
+    },
+    {
+      "project_id": "32d254828e54221df930fa94f6c3b043b0ba2f34",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Weather",
+        "Earth Systems"
+      ]
+    },
+    {
+      "project_id": "41eff1ff1ea4f09dbcc0b372f9b3661ab1771abb",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering",
+        "Autonomous Vehicles",
+        "Reinforcement Learning",
+        "Aerospace Engineering"
+      ]
+    },
+    {
+      "project_id": "2aa71ce9beb4d3442eb8fd6b29b15511db67485f",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Strokes",
+        "Diseases and Health Conditions",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "a261ae580ac91826850be5ebf96dec1675450b5d",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Cancer",
+        "Brain Cancer",
+        "Diseases and Health Conditions",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "1db4612635034101fc7503af5cac8451fcc6ffb5",
+      "domains": [
+        "Physics",
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering",
+        "Hardware",
+        "Physics"
+      ]
+    },
+    {
+      "project_id": "41b97acb4bd9cc99bf474f62c6ae41e5388af259",
+      "domains": [
+        "PoliSci and Law",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Government Systems",
+        "Inequality",
+        "Racial Equality",
+        "Modern Languages"
+      ]
+    },
+    {
+      "project_id": "dfcd5decb9debec976f2be8a62ace6493354126c",
+      "domains": [
+        "Healthcare and Biology",
+        "Psychology"
+      ],
+      "tags": [
+        "Facial Emotion",
+        "Mental Health",
+        "Psych"
+      ]
+    },
+    {
+      "project_id": "2f2df5aaa8a8cb7605c3ba9894d7babb208cdaff",
+      "domains": [
+        "Arts and Music"
+      ],
+      "tags": [
+        "Music",
+        "Deep Learning",
+        "Pop Culture"
+      ]
+    },
+    {
+      "project_id": "2e324cf18859058cfb75c0543cf269a2a3ca9042",
+      "domains": [
+        "Healthcare and Biology",
+        "Psychology"
+      ],
+      "tags": [
+        "Mental Health",
+        "Data and Privacy"
+      ]
+    },
+    {
+      "project_id": "d15ec1b5bee0b0f29862e6546548a232928f0694",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Dental Health",
+        "Computer Vision"
+      ]
+    },
+    {
+      "project_id": "00976cbc8acc933fdb58db38dd5af801a0a7cfc9",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Heart Disease",
+        "Social Justice"
+      ]
+    },
+    {
+      "project_id": "bbb3616167b2e8749aefac1ccdc0ab267936c018",
+      "domains": [
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Social Justice",
+        "Drugs",
+        "Drug Overdose",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "project_id": "40215bb18dab3df076b529d0cb7079e4782d2aa9",
+      "domains": [
+        "Healthcare and Biology",
+        "Environment"
+      ],
+      "tags": [
+        "Autonomous Vehicles",
+        "Pollution",
+        "Renewable Energy",
+        "Environmentalism"
+      ]
+    },
+    {
+      "project_id": "b28a74bc5275cc2672fb36c1797ec49235a84a0f",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Cancer",
+        "DNA"
+      ]
+    },
+    {
+      "project_id": "5f6afe37529fa4c059aa78e3f028f5a6736faa99",
+      "domains": [
+        "Language and Literature"
+      ],
+      "tags": [
+        "Social Media",
+        "GPT-3",
+        "Generative AI",
+        "Pop Culture"
+      ]
+    },
+    {
+      "project_id": "6841a2ee4fd5265bb7aa9adecc64f4126b3eeb4e",
+      "domains": [
+        "Physics",
+        "Engineering"
+      ],
+      "tags": [
+        "Fake News",
+        "News"
+      ]
+    },
+    {
+      "project_id": "028bbc5a631b1d7076ba0f607e05ea4edc80a5f4",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Environmentalism",
+        "Weather"
+      ]
+    },
+    {
+      "project_id": "83b8dba6998311289d5b09fe6cd9939404c278f9",
+      "domains": [
+        "Sports and Motion Sciences"
+      ],
+      "tags": [
+        "Sports",
+        "Pop Culture"
+      ]
+    },
+    {
+      "project_id": "c222e4830d9eece578ea0265e8615520340610ed",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Environmentalism",
+        "Solar Power",
+        "Renewable Energy"
+      ]
+    },
+    {
+      "project_id": "c7ed18c5ec1b1ab442b32c81db290943de96e4cf",
+      "domains": [
+        "PoliSci and Law"
+      ],
+      "tags": [
+        "Sociology",
+        "Political Science"
+      ]
+    },
+    {
+      "project_id": "61b6744c6bb550e4068d693e1c0ab942d2751c91",
+      "domains": [
+        "Engineering",
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Video Games",
+        "Product Analysis"
+      ]
+    },
+    {
+      "project_id": "4b66e513746ea2fc104cdc9cf98f036d1ce77873",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "E-Commerce",
+        "Consumer Behavior"
+      ]
+    },
+    {
+      "project_id": "d039e4651663265c2b5b5254617d09b10bebba4b",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Strokes",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "6f78e24f676fcfdce1480095509f10b44837dd52",
+      "domains": [
+        "Language and Literature"
+      ],
+      "tags": [
+        "Natural Language Processing",
+        "Modern Languages",
+        "CNNs"
+      ]
+    },
+    {
+      "project_id": "8838703db15c71a335ea938b1fb380ab03726bcf",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Physiology",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "f8bd2c06742c4deb8185ee4142035293796c3d51",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Wildlife"
+      ]
+    },
+    {
+      "project_id": "229d998bb0c3ad8c33a6edec3a7e0c7544463dbc",
+      "domains": [
+        "Business and Finance",
+        "Environment"
+      ],
+      "tags": [
+        "Real Estate",
+        "Pricing",
+        "Farming"
+      ]
+    },
+    {
+      "project_id": "603bda285bb9d365b98a38e2314c59751886eab0",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "Fraud"
+      ]
+    },
+    {
+      "project_id": "c563b1d8921cad372ca0c933b012be3fc9910082",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Earth Systems",
+        "Farming"
+      ]
+    },
+    {
+      "project_id": "7db277df6e82f85fb5943f78ce202129619ee44f",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Biology",
+        "DNA"
+      ]
+    },
+    {
+      "project_id": "12d0ba551ac91ec981010b287a4026f75ca451bf",
+      "domains": [
+        "Environment",
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Renewable Energy",
+        "Earth Systems"
+      ]
+    },
+    {
+      "project_id": "4b4af9496d29d87deae52a285bf64b58f22b0c39",
+      "domains": [
+        "Healthcare and Biology",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Mental Health",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "a4ebfa3dbea353010959ac3d581a4955f0506ef4",
+      "domains": [
+        "Psychology"
+      ],
+      "tags": [
+        "Mental Health",
+        "Social Media"
+      ]
+    },
+    {
+      "project_id": "0d221e1c32a9166edee886d980d9fefb06705a18",
+      "domains": [
+        "Arts and Music"
+      ],
+      "tags": [
+        "Music",
+        "Generative AI",
+        "Classification"
+      ]
+    },
+    {
+      "project_id": "2aee5ef4fe79ef6b70c97e4b1f665db4ea5c4225",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Physics",
+        "Astronomy"
+      ]
+    },
+    {
+      "project_id": "dec39b5fc78709d9127bd63ae43cf80e085e1853",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering",
+        "Optimization"
+      ]
+    },
+    {
+      "project_id": "0675e2316aa4417f0bf8ac1567b3825acde3bad0",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Physiology",
+        "yoga"
+      ]
+    },
+    {
+      "project_id": "9bfabfb410728099cea1e6eb1a49eeae30540f25",
+      "domains": [
+        "Physics",
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering",
+        "Aerospace Engineering",
+        "Physics"
+      ]
+    },
+    {
+      "project_id": "94ad35d1a84b38252fe686e8edb852af014b9ac5",
+      "domains": [
+        "Healthcare and Biology",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Mental Health"
+      ]
+    },
+    {
+      "project_id": "2ff75b570ebbe7dd84c3619cff2c5a92955a9956",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Heart Disease",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "4665fd467d2e84261599d6cea1d41ec877ab3237",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Eyes",
+        "Physiology"
+      ]
+    },
+    {
+      "project_id": "5f1a3d3e9d9998bc1f28e25ba5e69a2181325671",
+      "domains": [
+        "Arts and Music"
+      ],
+      "tags": [
+        "Social Media",
+        "Prediction"
+      ]
+    },
+    {
+      "project_id": "615b2c2126920d26e911cc4e86a6de0e61af3cd5",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Drugs",
+        "DNA"
+      ]
+    },
+    {
+      "project_id": "78f0e01f28258ca04624c000611c99f0837a9147",
+      "domains": [
+        "Misc"
+      ],
+      "tags": [
+        "CNNs",
+        "Product Analysis"
+      ]
+    },
+    {
+      "project_id": "25baa7faf331188083c3a5d51e154e31ce742e9a",
+      "domains": [
+        "Misc"
+      ],
+      "tags": [
+        "Product Analysis",
+        "Food and Beverage"
+      ]
+    },
+    {
+      "project_id": "1a50abdfd8876387fa2c410e2db1a71e4ff8becc",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering",
+        "Physics"
+      ]
+    },
+    {
+      "project_id": "4cbd7912aa2b26a6e01fce8033e84450cc8b7ab5",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Robotics",
+        "Engineering",
+        "Computer Vision"
+      ]
+    },
+    {
+      "project_id": "82e46a61593e6d202f711cefe72392ea5a32be0b",
+      "domains": [
+        "Sports and Motion Sciences"
+      ],
+      "tags": [
+        "Sports",
+        "Baseball",
+        "Prediction"
+      ]
+    },
+    {
+      "project_id": "754c784f63af9a35b8e6230f4746b04c85e674fa",
+      "domains": [
+        "Healthcare and Biology",
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Neuroscience",
+        "Eyes",
+        "Computer Vision"
+      ]
+    },
+    {
+      "project_id": "fcbf889b2c91cfc127e896309a0c9462b1daff5f",
+      "domains": [
+        "Engineering",
+        "Arts and Music"
+      ],
+      "tags": [
+        "Robotics",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "cb6efe28ac166c1553671ee2e20ce03f130ee44f",
+      "domains": [
+        "Environment"
+      ],
+      "tags": [
+        "Environmentalism",
+        "Computer Vision",
+        "Pollution",
+        "Sustainability"
+      ]
+    },
+    {
+      "project_id": "5a78c5130a64bedf75d1697bf6fc9e48fe030de6",
+      "domains": [
+        "Language and Literature"
+      ],
+      "tags": [
+        "Natural Language Processing",
+        "Linguistics"
+      ]
+    },
+    {
+      "project_id": "e7bd3704175e954c53553307d6aeb08e983bf8ff",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "Economics",
+        "Fraud"
+      ]
+    },
+    {
+      "project_id": "ff9640910e2640cfcaf7dd1b6fab69e3738aa2d8",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Heart Disease",
+        "Deep Learning"
+      ]
+    },
+    {
+      "project_id": "d646ae24ff1f03ce15e6ee6a791dfb00d9e98675",
+      "domains": [
+        "Humanitarian Efforts and Social Justice"
+      ],
+      "tags": [
+        "Audio Analysis",
+        "Classification"
+      ]
+    },
+    {
+      "project_id": "5c59dc9365f1ae2733b9011ffe344b825a55ebc6",
+      "domains": [
+        "Physics",
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering",
+        "Aerospace Engineering",
+        "Physics",
+        "Hardware"
+      ]
+    },
+    {
+      "project_id": "73b6110a7dfa250dc5206d04d760431ea59ac72e",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Physics",
+        "Astronomy",
+        "Solar Cycles"
+      ]
+    },
+    {
+      "project_id": "405c4ba36519ba48408c05c20fc2df7589141e72",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Alzheimer's",
+        "Diseases and Health Conditions",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "5a7a1c7d976d73a974d8eeb12f79370cd1567e98",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "24f1dc2e3c24722e6b9fe246cb619983f97a316e",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "Economics",
+        "Pricing"
+      ]
+    },
+    {
+      "project_id": "211787ec35ab454019468b40679ef4ec55ab7de1",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Skin Cancer"
+      ]
+    },
+    {
+      "project_id": "943e6532b333974920b1d1e107a54561a1ccb859",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Biotechnology",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "43d31825d4f316dea22f68dae92bb5bbf5f17986",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Heart Disease",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "45611bdae6df0734251d49fe11aba6314fb664c2",
+      "domains": [
+        "Engineering",
+        "Specific Technologies"
+      ],
+      "tags": [
+        "Natural Language Processing",
+        "CNNs",
+        "Social Media"
+      ]
+    },
+    {
+      "project_id": "6800a73e4b57a0964429d3508941ee2c9263cd44",
+      "domains": [
+        "Education",
+        "Engineering"
+      ],
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "project_id": "97131fb426c66cb2d7b8ad16b9352f880eb5f976",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diabetes",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "18352981768f1d001bae3cef68e973a51aa9d1eb",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Object Detection Models",
+        "Autonomous Vehicles",
+        "Engineering"
+      ]
+    },
+    {
+      "project_id": "fb65232bfef7b178fc17bfc88fd18a55b1dd2687",
+      "domains": [
+        "Language and Literature",
+        "Generative AI"
+      ],
+      "tags": [
+        "Natural Language Processing",
+        "Generative AI",
+        "GPT-3"
+      ]
+    },
+    {
+      "project_id": "90afdea6e9eab0f0fe023a7f91e3359d76f205ec",
+      "domains": [
+        "Healthcare and Biology",
+        "Engineering"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Neuroscience"
+      ]
+    },
+    {
+      "project_id": "94158a8b9817ca7d811bc605d39e0026cfbcfd6c",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Neuroscience",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "04600800bdd26d05dd5543710170b3527ef892cd",
+      "domains": [
+        "Cybersecurity",
+        "PoliSci and Law"
+      ],
+      "tags": [
+        "Government Systems",
+        "Political Science",
+        "Engineering"
+      ]
+    },
+    {
+      "project_id": "b956a677f572edc5e215d0e272858a8ff3fec7b2",
+      "domains": [
+        "Physics",
+        "Engineering"
+      ],
+      "tags": [
+        "Astronomy",
+        "Gamma Rays"
+      ]
+    },
+    {
+      "project_id": "1d602d4f705699f52d148e85ca410e89077fac49",
+      "domains": [
+        "Healthcare and Biology",
+        "Engineering"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Engineering",
+        "Biology"
+      ]
+    },
+    {
+      "project_id": "80699a13682827c3ad79bf940973d4cbdd6496dd",
+      "domains": [
+        "Physics"
+      ],
+      "tags": [
+        "Astronomy",
+        "Physics"
+      ]
+    },
+    {
+      "project_id": "19648840479d377917554319f6f043e4158a67bb",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Neuroscience",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "2549cd0399a882042fd1aff5316475dd89af893c",
+      "domains": [
+        "Engineering",
+        "Specific Technologies"
+      ],
+      "tags": [
+        "Engineering",
+        "Computer Vision"
+      ]
+    },
+    {
+      "project_id": "5c10f4c099ff578f3715eb7c7328dda677ab2433",
+      "domains": [
+        "Healthcare and Biology",
+        "Environment"
+      ],
+      "tags": [
+        "Pollution",
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "9f183f967fec1c178bcd92ceb8019b191e137564",
+      "domains": [
+        "Environment",
+        "Engineering"
+      ],
+      "tags": [
+        "Environmentalism",
+        "Farming",
+        "Irrigation"
+      ]
+    },
+    {
+      "project_id": "3756d55acae0d7d4f98b9774a09702adf87a4f1b",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering"
+      ]
+    },
+    {
+      "project_id": "7db4578136d1f58aa125d3621a5787aea4398796",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diseases and Health Conditions"
+      ]
+    },
+    {
+      "project_id": "3b5df0df74a3d01151a7b76374a074efe5554e28",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Engineering",
+        "Robotics"
+      ]
+    },
+    {
+      "project_id": "3909d61520a0745e03e226823de080a4a5d7bb70",
+      "domains": [
+        "Engineering",
+        "Arts and Music"
+      ],
+      "tags": [
+        "Engineering",
+        "Music"
+      ]
+    },
+    {
+      "project_id": "97d5556bd58ffcb6b344c3369e1d8de45960cf6c",
+      "domains": [
+        "Business and Finance"
+      ],
+      "tags": [
+        "Consumer Behavior",
+        "Pricing",
+        "Economics"
+      ]
+    },
+    {
+      "project_id": "b779de4df863905eac36a31c3fc8c0cf7baadec9",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "tags": [
+        "Diseases and Health Conditions",
+        "Eyes"
+      ]
+    },
+    {
+      "project_id": "1906b2258ade3dafbdcc51f2105a37d662969b4b",
+      "domains": [
+        "Generative AI"
+      ],
+      "tags": [
+        "Visual Arts",
+        "Generative AI"
+      ]
+    },
+    {
+      "project_id": "e85f46fe40645bc97eb2bb933d8c877951e70d60",
+      "domains": [
+        "Engineering"
+      ],
+      "tags": [
+        "Autonomous Vehicles",
+        "Engineering"
+      ]
+    }
+  ]
+}

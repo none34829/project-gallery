@@ -35,9 +35,15 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
      publicPath: "/"
    },
    devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
+    static: [
+      {
+        directory: path.join(__dirname, 'dist'),
+      },
+      {
+        directory: path.join(__dirname),
+        publicPath: '/',
+      }
+    ],
     watchContentBase: true
    },
    module: {
@@ -111,14 +117,10 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
         ...proj_ids
       ],
     }),
-    new webpack.DefinePlugin({
-      TOPICS: JSON.stringify({topics: data.topics}),
-      TAGS: JSON.stringify({tags: data.tags}),
-      TAGSMAP: JSON.stringify({tagsMap: data.tagsMap}),
-      PROJECTS: JSON.stringify({projects: prodect_id_map})
-    }),
+    // Removed data bundling - data is now loaded dynamically via dataService
     new CopyWebpackPlugin([
-      {from:'src/assets/',to:'assets/'} 
+      {from:'src/assets/',to:'assets/'},
+      {from:'data.json',to:'data.json'}
     ]), 
   ]
  };

@@ -62,57 +62,7 @@
     </div>
   </div>
   <div class="projectGallery row g-0 mx-2">
-    <div class="galleryError text-center font-secondary h2 pt-5"> Sorry, no projects match those filters :( </div>
-    {% for project in projects %}
-    <div class=" {{ 'col-12 col-md-8' if project.expand else 'col-12 col-md-6 col-lg-4'}} p-2 projectContainer"
-      onclick="window.location='projects/{{ project.project_id }}.html';" data-id="{{ project.project_id }}">
-      <div class="projectSubContainer">
-        <div class="projectImage" style="background:url('{{ project.graphic_link }}') center 50% / cover no-repeat">
-          {% if project.published == true %}
-          <div class="ribbonTooltip"
-            style="{{ 'padding: 0.7% 1.75%;' if project.expand else 'padding: 0.7% 0 0 1.75%;'}}">
-            {% if project.publications %} {{ project.publications }} {% endif %}
-            {% if project.science_fairs %} {{ project.science_fairs }} {% endif %}
-            <span class="material-symbols-outlined ribbonIcon">workspace_premium</span>
-          </div>
-          {% endif %}
-          <div
-            class=" {{ 'h-85' if project.published else 'h-100'}} contentContainer w-100 d-flex flex-column justify-content-end p-3">
-            <div class="hoverContainer">
-              <div class="projectTitle text-white font-secondary h2 m-0">
-                {{ project.project_title }}
-              </div>
-              <hr class="contentDivider mx-auto my-2" />
-              <div class="projectHeadline text-white font-text m-0"
-                style="{{ '-webkit-line-clamp: 2;' if project.expand else '-webkit-line-clamp: 3;'}}">
-                {{ project.headline }}
-              </div>
-            </div>
-            <div class="d-flex w-100 align-items-center">
-              <div class="profile_image"
-                style="background:url('{{ project.student_image }}') center 50% / cover no-repeat"></div>
-              <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
-                {{ project.student_name }}
-                {% if project.project_yr %}
-                | {{ project.project_quarter }} {{ project.project_yr }}
-                {% endif %}
-              </div>
-            </div>
-            <div class="d-flex w-100 justify-content-between align-items-center mentorImage">
-              <div class="d-flex align-items-center">
-                <div class="profile_image"
-                  style="background:url('{{ project.mentor_image }}') center 50% / cover no-repeat"></div>
-                <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
-                  Mentored by {{ project.mentor_name }}
-                </div>
-              </div>
-              <img width="25px" height="25px" src="assets/images/arrow.png" class="backArrow me-2">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
+    <!-- Projects will be loaded dynamically by JavaScript -->
   </div>
   {% include "src/html/components/footer.html" %}
 </body>
