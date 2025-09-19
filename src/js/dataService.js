@@ -165,11 +165,50 @@ class DataService {
       }
       
       // Second priority: sort by date (newest first)
-      const aDate = new Date(a.date || a.created_at || 0);
-      const bDate = new Date(b.date || b.created_at || 0);
+      const aDate = this.parseProjectDate(a);
+      const bDate = this.parseProjectDate(b);
       
       return bDate - aDate; // Newest first
     });
+  }
+
+  // Parse project date from project_yr and project_quarter
+  parseProjectDate(project) {
+    // Try to get date from standard date fields first
+    if (project.date) {
+      return new Date(project.date);
+    }
+    if (project.created_at) {
+      return new Date(project.created_at);
+    }
+    
+    // Parse from project_yr and project_quarter
+    if (project.project_yr && project.project_quarter) {
+      const year = parseInt(project.project_yr);
+      const quarter = project.project_quarter.toLowerCase();
+      
+      // Convert quarter to month (approximate)
+      let month = 1; // Default to January
+      switch (quarter) {
+        case 'spring':
+          month = 3; // March
+          break;
+        case 'summer':
+          month = 6; // June
+          break;
+        case 'fall':
+          month = 9; // September
+          break;
+        case 'winter':
+          month = 12; // December
+          break;
+      }
+      
+      return new Date(year, month - 1, 1); // month is 0-indexed in Date constructor
+    }
+    
+    // Fallback to epoch if no date info
+    return new Date(0);
   }
 
   // Filter projects by active filters
