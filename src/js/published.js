@@ -134,10 +134,8 @@ function renderAllProjects(projects) {
 
 // Create a project element
 function createProjectElement(project) {
-  const colClass = project.expand ? 'col-12 col-md-8' : 'col-12 col-md-6 col-lg-4';
-  
   const projectElement = document.createElement('div');
-  projectElement.className = `${colClass} p-2 projectContainer`;
+  projectElement.className = `projectContainer`;
   projectElement.setAttribute('data-id', project.project_id);
   projectElement.onclick = () => window.location = `projects/${project.project_id}.html`;
   
@@ -154,31 +152,33 @@ function createProjectElement(project) {
     <div class="projectSubContainer">
       <div class="projectImage" style="background:url('${project.graphic_link}') center 50% / cover no-repeat">
         ${publishedRibbon}
-        <div class="${contentHeight} contentContainer w-100 d-flex flex-column justify-content-end p-3">
+        <div class="${contentHeight} contentContainer w-100 d-flex flex-column justify-content-end p-2">
           <div class="hoverContainer">
-            <div class="projectTitle text-white font-secondary h2 m-0">
+            <div class="projectTitle text-white font-secondary m-0">
               ${project.project_title}
             </div>
-            <hr class="contentDivider mx-auto my-2" />
-            <div class="projectHeadline text-white font-text m-0" style="${project.expand ? '-webkit-line-clamp: 2;' : '-webkit-line-clamp: 3;'}">
+            <hr class="contentDivider mx-auto my-1" />
+            <div class="projectHeadline text-white font-text m-0" style="-webkit-line-clamp: 2;">
               ${project.headline}
             </div>
           </div>
           <div class="d-flex w-100 align-items-center">
             <div class="profile_image" style="background:url('${project.student_image}') center 50% / cover no-repeat"></div>
-            <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
+            <div class="meta-text text-white font-secondary m-0 ps-2 pt-1">
               ${project.student_name}
               ${project.project_yr ? `| ${project.project_quarter} ${project.project_yr}` : ''}
             </div>
           </div>
           <div class="d-flex w-100 justify-content-between align-items-center mentorImage">
-            <div class="d-flex align-items-center">
-              <div class="profile_image" style="background:url('${project.mentor_image}') center 50% / cover no-repeat"></div>
-              <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
-                Mentored by ${project.mentor_name}
+            ${project.mentor_name && String(project.mentor_name).trim() && String(project.mentor_name).toLowerCase() !== 'undefined' ? `
+              <div class="d-flex align-items-center">
+                <div class="profile_image" style="background:url('${project.mentor_image}') center 50% / cover no-repeat"></div>
+                <div class="meta-text text-white font-secondary m-0 ps-2 pt-1">
+                  Mentored by ${project.mentor_name}
+                </div>
               </div>
-            </div>
-            <img width="25px" height="25px" src="assets/images/arrow.png" class="backArrow me-2">
+            ` : `<div></div>`}
+            <img width="18" height="18" src="assets/images/arrow.png" class="backArrow me-2">
           </div>
         </div>
       </div>
@@ -284,37 +284,37 @@ window.addEventListener('load', (event) => {
     })
   }
 
-function renderResults() {
-  if (!dataService.isProjectsLoaded()) {
-    return; // Don't filter until projects are loaded
-  }
-  
-  // Get only published projects
-  const allProjects = dataService.getProjects();
-  const publishedProjects = allProjects.filter(project => project.published === true);
-  const filteredProjects = dataService.filterProjects(active_filters).filter(project => project.published === true);
-  
-  const projectElements = Array.from(document.getElementsByClassName("projectContainer"));
-  
-  // Hide all projects first
-  projectElements.forEach(elem => {
-    elem.style.display = "none";
-  });
-  
-  // Show only filtered projects
-  filteredProjects.forEach(project => {
-    const projectElement = document.querySelector(`[data-id="${project.project_id}"]`);
-    if (projectElement) {
-      projectElement.style.display = "block";
+  function renderResults() {
+    if (!dataService.isProjectsLoaded()) {
+      return; // Don't filter until projects are loaded
     }
-  });
-  
-  // Show/hide error message
-  const errorElement = document.querySelector(".galleryError");
-  if (errorElement) {
-    errorElement.style.display = filteredProjects.length === 0 ? "block" : "none";
+    
+    // Get only published projects
+    const allProjects = dataService.getProjects();
+    const publishedProjects = allProjects.filter(project => project.published === true);
+    const filteredProjects = dataService.filterProjects(active_filters).filter(project => project.published === true);
+    
+    const projectElements = Array.from(document.getElementsByClassName("projectContainer"));
+    
+    // Hide all projects first
+    projectElements.forEach(elem => {
+      elem.style.display = "none";
+    });
+    
+    // Show only filtered projects
+    filteredProjects.forEach(project => {
+      const projectElement = document.querySelector(`[data-id="${project.project_id}"]`);
+      if (projectElement) {
+        projectElement.style.display = "block";
+      }
+    });
+    
+    // Show/hide error message
+    const errorElement = document.querySelector(".galleryError");
+    if (errorElement) {
+      errorElement.style.display = filteredProjects.length === 0 ? "block" : "none";
+    }
   }
-}
 
   function renderSuggestions(items) {
     let target = document.querySelector(".searchSuggestions");

@@ -27,9 +27,9 @@
       "published": true,
       "science_fairs": "2nd Place at San Diego BROADCOM Science Fair (Senior Division)",
       "related_proj": [
-        52,
-        126,
-        11
+        65,
+        23,
+        75
       ]
     },
     {
@@ -60,9 +60,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/3996",
       "related_proj": [
-        129,
-        25,
-        23
+        4,
+        36,
+        7
       ]
     },
     {
@@ -92,9 +92,9 @@
       "published": true,
       "science_fairs": "Massachusetts Science and Engineering Fair (MSEF)",
       "related_proj": [
-        7,
-        46,
-        20
+        8,
+        26,
+        25
       ]
     },
     {
@@ -125,9 +125,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4375",
       "related_proj": [
-        36,
-        60,
-        99
+        1,
+        53,
+        11
       ]
     },
     {
@@ -137,7 +137,8 @@
       "mentor_image": "assets/images/mentor_imgs/7b7ea5005c74c69e40cdacd9a0d7b16c2822f5dc.png",
       "student_image": "assets/images/student_imgs/bc8b920d3e66bddeb3fb23064ca3ffd56f4a38ce.png",
       "domains": [
-        "Sports and Motion Sciences"
+        "Sports and Motion Sciences",
+        "Published Papers and Science Fairs"
       ],
       "project_title": "Predicting Running Injuries with Machine Learning Models",
       "project_desc": "Is it possible to predict running injuries with only a dataset and machine learning models? This paper explores this question by using classification models, including the Logistic Regression model and the Random Forest Classifier model. In the dataset used, ten features were taken into account when predicting running injuries. With slight modifications, the Weighted Logistic Regression and over and down-sampling Random Forest Classifier models were used to mitigate the imbalance in the dataset. The results suggested that the best model was Weighted Logistic Regression and that the best score metric to take into account was the F beta score.",
@@ -157,9 +158,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4046",
       "related_proj": [
-        11,
-        142,
-        49
+        30,
+        20,
+        142
       ]
     },
     {
@@ -192,9 +193,9 @@
       "published": true,
       "science_fairs": "Santa Clara ISEF Qualifier",
       "related_proj": [
-        25,
-        43,
-        15
+        26,
+        7,
+        12
       ]
     },
     {
@@ -222,9 +223,9 @@
       "published": true,
       "science_fairs": "2nd Place at Orange County Science Fair, California Science and Engineering Fair (CSEF)",
       "related_proj": [
-        174,
-        22,
-        17
+        115,
+        68,
+        164
       ]
     },
     {
@@ -252,8 +253,8 @@
       "published": true,
       "publications": "Curieux Academic Journal",
       "related_proj": [
-        5,
-        135,
+        64,
+        163,
         133
       ]
     },
@@ -287,9 +288,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4364",
       "related_proj": [
-        26,
-        25,
-        1
+        105,
+        42,
+        156
       ]
     },
     {
@@ -321,9 +322,9 @@
       "publications": "medRxiv Medical Ethics preprint",
       "publication_link": "https://www.medrxiv.org/content/10.1101/2023.10.14.23296978v1",
       "related_proj": [
-        7,
-        106,
-        156
+        67,
+        90,
+        31
       ]
     },
     {
@@ -355,9 +356,9 @@
       "published": true,
       "publications": "Journal of Emerging Investigators",
       "related_proj": [
-        50,
-        73,
-        23
+        104,
+        131,
+        93
       ]
     },
     {
@@ -389,9 +390,9 @@
       "published": true,
       "science_fairs": "2nd Place at Contra Costa Science and Engineering Fair",
       "related_proj": [
-        16,
-        8,
-        7
+        5,
+        14,
+        21
       ]
     },
     {
@@ -421,9 +422,9 @@
       "publications": "Journal of High School Research",
       "publication_link": "https://jhss.scholasticahq.com/article/89930",
       "related_proj": [
-        24,
-        90,
-        50
+        115,
+        169,
+        44
       ]
     },
     {
@@ -455,9 +456,9 @@
       "published": true,
       "publications": "Journal of Student Research",
       "related_proj": [
-        26,
-        135,
-        16
+        164,
+        11,
+        125
       ]
     },
     {
@@ -488,9 +489,9 @@
       "published": true,
       "publications": "Journal of Emerging Investigators",
       "related_proj": [
-        20,
-        157,
-        155
+        3,
+        12,
+        31
       ]
     },
     {
@@ -520,9 +521,9 @@
       "published": true,
       "science_fairs": "Synopsys Science Fair",
       "related_proj": [
-        16,
-        18,
-        26
+        41,
+        10,
+        14
       ]
     },
     {
@@ -553,9 +554,9 @@
       "publications": "Curieux Academic Journal",
       "publication_link": "https://www.curieuxacademicjournal.com/_files/ugd/99711c_cae123aa84284189b8142087c8589d21.pdf",
       "related_proj": [
-        7,
-        5,
-        101
+        24,
+        14,
+        26
       ]
     },
     {
@@ -585,9 +586,9 @@
       "published": true,
       "science_fairs": "3rd Place in the Alameda County Science Fair",
       "related_proj": [
-        8,
-        55,
-        18
+        9,
+        119,
+        44
       ]
     },
     {
@@ -616,9 +617,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/5601",
       "related_proj": [
-        119,
-        133,
-        117
+        32,
+        14,
+        48
       ]
     },
     {
@@ -647,9 +648,9 @@
       "published": true,
       "publication_link": "https://mareg5.zfairs.com/File/Client/efd07aa7-d1f7-43cc-8292-3bf60118f1f7?ext=.pdf",
       "related_proj": [
-        90,
-        42,
-        133
+        108,
+        10,
+        164
       ]
     },
     {
@@ -678,8 +679,8 @@
       "science_fairs": "Accepted for Exhibition at TNJSF",
       "related_proj": [
         18,
-        6,
-        10
+        83,
+        7
       ]
     },
     {
@@ -711,9 +712,9 @@
       "science_fairs": "2nd place at Massachusetts Region V Science Fair",
       "publication_link": "https://mareg5.zfairs.com/File/Client/efd07aa7-d1f7-43cc-8292-3bf60118f1f7?ext=.pdf",
       "related_proj": [
-        117,
-        131,
-        134
+        73,
+        44,
+        5
       ]
     },
     {
@@ -744,9 +745,9 @@
       "publications": "The Stanford Journal of Science, Technology, and Society",
       "publication_link": "https://ojs.stanford.edu/ojs/index.php/intersect/article/view/3031",
       "related_proj": [
-        177,
-        0,
-        21
+        88,
+        7,
+        122
       ]
     },
     {
@@ -776,9 +777,9 @@
       "publications": "Frontiers in Environmental Science",
       "publication_link": "https://www.frontiersin.org/articles/10.3389/fenvs.2024.1301343/full",
       "related_proj": [
-        13,
-        45,
-        25
+        107,
+        2,
+        85
       ]
     },
     {
@@ -808,9 +809,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/6558",
       "related_proj": [
-        68,
-        104,
-        93
+        135,
+        14,
+        115
       ]
     },
     {
@@ -840,9 +841,9 @@
       "science_fairs": "3rd Place in the Texas Science and Engineering Fair",
       "publication_link": "https://txsef.tamu.edu/awards/2024-category-awards/",
       "related_proj": [
-        23,
-        6,
-        129
+        12,
+        8,
+        11
       ]
     },
     {
@@ -872,9 +873,9 @@
       "science_fairs": "1st Place in the Alameda County Science Fair",
       "publication_link": "https://docs.google.com/presentation/d/1A3VusY0XctXC1fBKNjxb-26fjAWup7ajJel2ZtFxVsY/edit?slide=id.g335de835b50_0_965#slide=id.g335de835b50_0_965",
       "related_proj": [
-        155,
-        5,
-        107
+        16,
+        6,
+        97
       ]
     },
     {
@@ -904,9 +905,9 @@
       "published": true,
       "science_fairs": "Tackling Social Issues with AI | Inspirit AI Research Symposium | Category Winner",
       "related_proj": [
-        45,
-        96,
-        68
+        30,
+        150,
+        180
       ]
     },
     {
@@ -933,9 +934,9 @@
         "Water Use"
       ],
       "related_proj": [
-        125,
-        70,
-        120
+        171,
+        145,
+        123
       ]
     },
     {
@@ -961,9 +962,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        56,
-        24,
-        160
+        21,
+        39,
+        67
       ]
     },
     {
@@ -993,9 +994,9 @@
         "Audio Analysis"
       ],
       "related_proj": [
-        161,
-        173,
-        99
+        170,
+        166,
+        115
       ]
     },
     {
@@ -1022,9 +1023,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        125,
-        178,
-        9
+        105,
+        34,
+        163
       ]
     },
     {
@@ -1047,9 +1048,9 @@
         "Diabetes"
       ],
       "related_proj": [
-        6,
-        167,
-        143
+        134,
+        126,
+        160
       ]
     },
     {
@@ -1077,7 +1078,7 @@
       ],
       "related_proj": [
         68,
-        123,
+        27,
         172
       ]
     },
@@ -1105,9 +1106,9 @@
         "Cancer"
       ],
       "related_proj": [
-        42,
-        24,
-        21
+        125,
+        55,
+        160
       ]
     },
     {
@@ -1134,9 +1135,9 @@
         "Psych"
       ],
       "related_proj": [
-        75,
-        149,
-        40
+        100,
+        0,
+        58
       ]
     },
     {
@@ -1162,9 +1163,9 @@
         "Gamma Rays"
       ],
       "related_proj": [
-        1,
-        99,
-        151
+        69,
+        91,
+        3
       ]
     },
     {
@@ -1191,9 +1192,9 @@
         "Water Use"
       ],
       "related_proj": [
-        33,
-        149,
-        41
+        70,
+        121,
+        133
       ]
     },
     {
@@ -1220,9 +1221,9 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        118,
+        66,
         162,
-        51
+        79
       ]
     },
     {
@@ -1249,9 +1250,9 @@
         "Lung Cancer"
       ],
       "related_proj": [
-        171,
-        12,
-        90
+        19,
+        164,
+        143
       ]
     },
     {
@@ -1277,9 +1278,9 @@
         "Psych"
       ],
       "related_proj": [
-        127,
-        101,
-        84
+        80,
+        16,
+        35
       ]
     },
     {
@@ -1305,9 +1306,9 @@
         "Natural Disasters"
       ],
       "related_proj": [
-        95,
-        172,
-        70
+        85,
+        113,
+        145
       ]
     },
     {
@@ -1336,8 +1337,8 @@
       ],
       "related_proj": [
         34,
-        155,
-        124
+        56,
+        29
       ]
     },
     {
@@ -1363,9 +1364,9 @@
         "Water"
       ],
       "related_proj": [
-        23,
-        95,
-        15
+        63,
+        125,
+        121
       ]
     },
     {
@@ -1392,9 +1393,9 @@
         "Skin Cancer"
       ],
       "related_proj": [
-        8,
-        174,
-        18
+        143,
+        56,
+        134
       ]
     },
     {
@@ -1422,9 +1423,9 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        23,
-        123,
-        70
+        126,
+        95,
+        33
       ]
     },
     {
@@ -1451,9 +1452,9 @@
         "Fraud"
       ],
       "related_proj": [
+        154,
         121,
-        88,
-        2
+        88
       ]
     },
     {
@@ -1507,9 +1508,9 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        44,
-        56,
-        155
+        153,
+        160,
+        7
       ]
     },
     {
@@ -1535,8 +1536,8 @@
       ],
       "related_proj": [
         142,
-        112,
-        4
+        4,
+        11
       ]
     },
     {
@@ -1565,9 +1566,9 @@
         "Web Deployment"
       ],
       "related_proj": [
-        164,
-        56,
-        98
+        13,
+        167,
+        48
       ]
     },
     {
@@ -1594,9 +1595,9 @@
         "Generative AI"
       ],
       "related_proj": [
+        66,
         81,
-        118,
-        38
+        109
       ]
     },
     {
@@ -1625,9 +1626,9 @@
         "Solar Power"
       ],
       "related_proj": [
-        140,
-        9,
-        75
+        175,
+        56,
+        130
       ]
     },
     {
@@ -1653,9 +1654,9 @@
         "Astronomy"
       ],
       "related_proj": [
-        150,
-        1,
-        3
+        83,
+        110,
+        132
       ]
     },
     {
@@ -1681,9 +1682,9 @@
         "Recycling"
       ],
       "related_proj": [
-        28,
-        111,
-        67
+        5,
+        23,
+        111
       ]
     },
     {
@@ -1712,9 +1713,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        160,
-        34,
-        21
+        137,
+        58,
+        178
       ]
     },
     {
@@ -1741,9 +1742,9 @@
         "Drugs"
       ],
       "related_proj": [
-        164,
-        167,
-        39
+        26,
+        103,
+        126
       ]
     },
     {
@@ -1772,7 +1773,7 @@
       "related_proj": [
         81,
         87,
-        4
+        126
       ]
     },
     {
@@ -1799,9 +1800,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        19,
-        32,
-        156
+        84,
+        157,
+        12
       ]
     },
     {
@@ -1829,9 +1830,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        26,
-        143,
-        42
+        9,
+        21,
+        167
       ]
     },
     {
@@ -1857,9 +1858,9 @@
         "Solar Flares"
       ],
       "related_proj": [
-        150,
+        1,
         83,
-        69
+        110
       ]
     },
     {
@@ -1887,9 +1888,9 @@
         "Psych"
       ],
       "related_proj": [
-        153,
-        17,
-        40
+        107,
+        148,
+        171
       ]
     },
     {
@@ -1917,9 +1918,9 @@
         "Random Forests"
       ],
       "related_proj": [
+        136,
         88,
-        121,
-        154
+        122
       ]
     },
     {
@@ -1946,8 +1947,8 @@
         "Chemicals"
       ],
       "related_proj": [
-        125,
-        41,
+        37,
+        111,
         67
       ]
     },
@@ -1974,9 +1975,9 @@
         "Vollyball"
       ],
       "related_proj": [
-        163,
-        119,
-        9
+        135,
+        68,
+        108
       ]
     },
     {
@@ -2004,9 +2005,9 @@
         "Social Justice"
       ],
       "related_proj": [
-        149,
-        126,
-        75
+        56,
+        9,
+        35
       ]
     },
     {
@@ -2033,8 +2034,8 @@
       ],
       "related_proj": [
         51,
-        118,
-        82
+        87,
+        109
       ]
     },
     {
@@ -2062,9 +2063,9 @@
         "Farming"
       ],
       "related_proj": [
-        172,
-        56,
-        42
+        120,
+        152,
+        157
       ]
     },
     {
@@ -2092,9 +2093,9 @@
         "Classification"
       ],
       "related_proj": [
-        143,
-        59,
-        93
+        126,
+        45,
+        107
       ]
     },
     {
@@ -2120,9 +2121,9 @@
         "Physics"
       ],
       "related_proj": [
-        132,
-        1,
-        60
+        110,
+        150,
+        91
       ]
     },
     {
@@ -2148,9 +2149,9 @@
         "Earth Systems"
       ],
       "related_proj": [
-        54,
-        28,
-        171
+        67,
+        125,
+        172
       ]
     },
     {
@@ -2176,9 +2177,9 @@
         "Facial Emotion"
       ],
       "related_proj": [
-        84,
-        127,
-        35
+        103,
+        40,
+        61
       ]
     },
     {
@@ -2203,9 +2204,9 @@
         "Social Justice"
       ],
       "related_proj": [
-        78,
-        114,
-        47
+        47,
+        100,
+        114
       ]
     },
     {
@@ -2231,9 +2232,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        117,
-        137,
-        24
+        178,
+        42,
+        56
       ]
     },
     {
@@ -2261,8 +2262,8 @@
       ],
       "related_proj": [
         165,
-        124,
-        142
+        0,
+        49
       ]
     },
     {
@@ -2294,9 +2295,9 @@
         "New York"
       ],
       "related_proj": [
-        40,
-        126,
-        37
+        143,
+        80,
+        35
       ]
     },
     {
@@ -2324,9 +2325,9 @@
         "Classification"
       ],
       "related_proj": [
-        27,
-        176,
-        170
+        161,
+        180,
+        136
       ]
     },
     {
@@ -2355,9 +2356,9 @@
         "Dropout Rates"
       ],
       "related_proj": [
-        80,
-        40,
-        75
+        75,
+        86,
+        80
       ]
     },
     {
@@ -2383,9 +2384,9 @@
         "Racial Equality"
       ],
       "related_proj": [
-        72,
-        47,
-        114
+        114,
+        165,
+        100
       ]
     },
     {
@@ -2413,9 +2414,9 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        109,
-        146,
-        84
+        100,
+        114,
+        78
       ]
     },
     {
@@ -2444,9 +2445,9 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        86,
+        94,
         77,
-        159
+        75
       ]
     },
     {
@@ -2475,9 +2476,9 @@
         "LSTMs"
       ],
       "related_proj": [
-        82,
+        162,
         51,
-        146
+        82
       ]
     },
     {
@@ -2506,8 +2507,8 @@
       ],
       "related_proj": [
         162,
-        146,
-        51
+        84,
+        81
       ]
     },
     {
@@ -2535,9 +2536,9 @@
         "Classification"
       ],
       "related_proj": [
-        60,
-        20,
-        99
+        91,
+        1,
+        168
       ]
     },
     {
@@ -2565,9 +2566,9 @@
         "Writing"
       ],
       "related_proj": [
-        127,
-        118,
-        82
+        16,
+        162,
+        127
       ]
     },
     {
@@ -2594,9 +2595,9 @@
         "Classification"
       ],
       "related_proj": [
-        28,
-        68,
-        171
+        172,
+        45,
+        121
       ]
     },
     {
@@ -2622,9 +2623,9 @@
         "Standardized Testing"
       ],
       "related_proj": [
-        80,
         75,
-        40
+        40,
+        80
       ]
     },
     {
@@ -2652,9 +2653,9 @@
         "BERT"
       ],
       "related_proj": [
-        81,
-        146,
-        38
+        79,
+        109,
+        57
       ]
     },
     {
@@ -2680,9 +2681,9 @@
         "Consumer Behavior"
       ],
       "related_proj": [
-        121,
         154,
-        2
+        2,
+        121
       ]
     },
     {
@@ -2709,9 +2710,9 @@
         "Prediction"
       ],
       "related_proj": [
-        177,
-        22,
-        154
+        147,
+        88,
+        121
       ]
     },
     {
@@ -2737,9 +2738,9 @@
         "Eyes"
       ],
       "related_proj": [
-        133,
-        178,
-        126
+        26,
+        101,
+        18
       ]
     },
     {
@@ -2766,9 +2767,9 @@
         "Kinematics"
       ],
       "related_proj": [
-        20,
-        60,
-        25
+        150,
+        36,
+        3
       ]
     },
     {
@@ -2794,9 +2795,9 @@
         "Classification"
       ],
       "related_proj": [
-        136,
-        128,
-        102
+        102,
+        76,
+        136
       ]
     },
     {
@@ -2821,9 +2822,9 @@
         "Cancer"
       ],
       "related_proj": [
-        59,
-        58,
-        134
+        157,
+        9,
+        90
       ]
     },
     {
@@ -2850,9 +2851,9 @@
         "Education"
       ],
       "related_proj": [
+        75,
         40,
-        86,
-        75
+        77
       ]
     },
     {
@@ -2878,9 +2879,9 @@
         "Earth Systems"
       ],
       "related_proj": [
-        63,
-        123,
-        45
+        67,
+        145,
+        113
       ]
     },
     {
@@ -2908,9 +2909,9 @@
         "Aerospace Engineering"
       ],
       "related_proj": [
+        144,
         173,
-        141,
-        158
+        110
       ]
     },
     {
@@ -2936,9 +2937,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        93,
-        105,
-        156
+        169,
+        134,
+        137
       ]
     },
     {
@@ -2965,9 +2966,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        56,
-        73,
-        119
+        48,
+        6,
+        117
       ]
     },
     {
@@ -2993,9 +2994,9 @@
         "Physics"
       ],
       "related_proj": [
-        20,
-        161,
-        76
+        144,
+        158,
+        167
       ]
     },
     {
@@ -3025,9 +3026,9 @@
         "Modern Languages"
       ],
       "related_proj": [
-        75,
-        143,
-        114
+        79,
+        72,
+        0
       ]
     },
     {
@@ -3056,9 +3057,9 @@
         "Psych"
       ],
       "related_proj": [
-        42,
-        58,
-        35
+        163,
+        16,
+        29
       ]
     },
     {
@@ -3086,9 +3087,9 @@
         "Pop Culture"
       ],
       "related_proj": [
-        144,
         76,
-        128
+        176,
+        144
       ]
     },
     {
@@ -3115,9 +3116,9 @@
         "Data and Privacy"
       ],
       "related_proj": [
-        152,
-        148,
-        97
+        12,
+        61,
+        44
       ]
     },
     {
@@ -3143,9 +3144,9 @@
         "Computer Vision"
       ],
       "related_proj": [
-        24,
-        107,
-        56
+        59,
+        143,
+        34
       ]
     },
     {
@@ -3171,9 +3172,9 @@
         "Social Justice"
       ],
       "related_proj": [
-        104,
-        163,
-        117
+        135,
+        55,
+        167
       ]
     },
     {
@@ -3201,9 +3202,9 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        9,
-        0,
-        45
+        35,
+        56,
+        143
       ]
     },
     {
@@ -3230,9 +3231,9 @@
         "Environmentalism"
       ],
       "related_proj": [
-        64,
-        44,
-        105
+        37,
+        115,
+        44
       ]
     },
     {
@@ -3259,9 +3260,9 @@
         "DNA"
       ],
       "related_proj": [
-        134,
-        19,
-        44
+        160,
+        119,
+        98
       ]
     },
     {
@@ -3288,9 +3289,9 @@
         "Pop Culture"
       ],
       "related_proj": [
-        81,
-        146,
-        79
+        162,
+        79,
+        87
       ]
     },
     {
@@ -3316,9 +3317,9 @@
         "News"
       ],
       "related_proj": [
-        115,
-        27,
-        175
+        1,
+        99,
+        52
       ]
     },
     {
@@ -3344,9 +3345,9 @@
         "Weather"
       ],
       "related_proj": [
-        70,
-        123,
-        125
+        113,
+        125,
+        37
       ]
     },
     {
@@ -3373,8 +3374,8 @@
         "Pop Culture"
       ],
       "related_proj": [
-        142,
-        49,
+        4,
+        30,
         11
       ]
     },
@@ -3401,9 +3402,9 @@
         "Renewable Energy"
       ],
       "related_proj": [
-        28,
-        120,
-        37
+        63,
+        95,
+        45
       ]
     },
     {
@@ -3428,9 +3429,9 @@
         "Political Science"
       ],
       "related_proj": [
-        78,
         47,
-        79
+        100,
+        165
       ]
     },
     {
@@ -3456,9 +3457,9 @@
         "Product Analysis"
       ],
       "related_proj": [
-        166,
-        64,
-        55
+        108,
+        56,
+        166
       ]
     },
     {
@@ -3485,7 +3486,7 @@
       ],
       "related_proj": [
         177,
-        121,
+        22,
         89
       ]
     },
@@ -3511,9 +3512,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        10,
-        8,
-        108
+        174,
+        31,
+        98
       ]
     },
     {
@@ -3540,9 +3541,9 @@
         "CNNs"
       ],
       "related_proj": [
-        82,
-        162,
-        66
+        87,
+        51,
+        38
       ]
     },
     {
@@ -3568,9 +3569,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        125,
-        17,
-        12
+        68,
+        97,
+        32
       ]
     },
     {
@@ -3595,9 +3596,9 @@
         "Wildlife"
       ],
       "related_proj": [
-        67,
-        111,
-        68
+        171,
+        54,
+        107
       ]
     },
     {
@@ -3625,9 +3626,9 @@
         "Farming"
       ],
       "related_proj": [
-        88,
-        120,
-        54
+        15,
+        122,
+        37
       ]
     },
     {
@@ -3650,8 +3651,8 @@
         "Fraud"
       ],
       "related_proj": [
-        177,
-        22,
+        116,
+        147,
         46
       ]
     },
@@ -3677,9 +3678,9 @@
         "Farming"
       ],
       "related_proj": [
-        125,
-        33,
-        107
+        15,
+        113,
+        145
       ]
     },
     {
@@ -3705,9 +3706,9 @@
         "DNA"
       ],
       "related_proj": [
-        42,
-        32,
-        98
+        103,
+        73,
+        133
       ]
     },
     {
@@ -3732,9 +3733,9 @@
         "Earth Systems"
       ],
       "related_proj": [
-        120,
-        61,
-        64
+        55,
+        28,
+        29
       ]
     },
     {
@@ -3759,9 +3760,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        100,
-        55,
-        169
+        19,
+        24,
+        93
       ]
     },
     {
@@ -3785,9 +3786,9 @@
         "Social Media"
       ],
       "related_proj": [
-        58,
-        84,
-        61
+        101,
+        16,
+        40
       ]
     },
     {
@@ -3815,9 +3816,9 @@
         "Classification"
       ],
       "related_proj": [
-        136,
+        92,
         176,
-        144
+        136
       ]
     },
     {
@@ -3843,8 +3844,8 @@
         "Astronomy"
       ],
       "related_proj": [
-        53,
-        36,
+        25,
+        150,
         151
       ]
     },
@@ -3870,9 +3871,9 @@
         "Optimization"
       ],
       "related_proj": [
-        150,
-        99,
-        170
+        144,
+        180,
+        161
       ]
     },
     {
@@ -3898,9 +3899,9 @@
         "yoga"
       ],
       "related_proj": [
-        156,
-        101,
-        29
+        19,
+        9,
+        156
       ]
     },
     {
@@ -3929,9 +3930,9 @@
         "Physics"
       ],
       "related_proj": [
-        115,
+        76,
         129,
-        180
+        158
       ]
     },
     {
@@ -3957,9 +3958,9 @@
         "Mental Health"
       ],
       "related_proj": [
-        137,
-        163,
-        134
+        7,
+        108,
+        90
       ]
     },
     {
@@ -3982,9 +3983,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        39,
-        156,
-        103
+        21,
+        93,
+        68
       ]
     },
     {
@@ -4011,9 +4012,9 @@
         "Physiology"
       ],
       "related_proj": [
-        163,
-        17,
-        171
+        152,
+        50,
+        174
       ]
     },
     {
@@ -4039,9 +4040,9 @@
         "Prediction"
       ],
       "related_proj": [
-        176,
         144,
-        128
+        128,
+        62
       ]
     },
     {
@@ -4065,9 +4066,9 @@
         "DNA"
       ],
       "related_proj": [
-        156,
-        160,
-        167
+        126,
+        163,
+        174
       ]
     },
     {
@@ -4092,8 +4093,8 @@
       ],
       "related_proj": [
         139,
-        49,
-        152
+        145,
+        97
       ]
     },
     {
@@ -4120,8 +4121,8 @@
       ],
       "related_proj": [
         138,
-        172,
-        105
+        160,
+        22
       ]
     },
     {
@@ -4147,9 +4148,9 @@
         "Physics"
       ],
       "related_proj": [
+        172,
         144,
-        96,
-        130
+        96
       ]
     },
     {
@@ -4175,9 +4176,9 @@
         "Computer Vision"
       ],
       "related_proj": [
-        132,
-        166,
-        150
+        167,
+        172,
+        163
       ]
     },
     {
@@ -4204,9 +4205,9 @@
         "Prediction"
       ],
       "related_proj": [
-        112,
+        4,
         30,
-        49
+        112
       ]
     },
     {
@@ -4233,8 +4234,8 @@
       ],
       "related_proj": [
         104,
-        14,
-        106
+        19,
+        156
       ]
     },
     {
@@ -4262,9 +4263,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        96,
-        99,
-        130
+        170,
+        141,
+        128
       ]
     },
     {
@@ -4293,9 +4294,9 @@
         "Sustainability"
       ],
       "related_proj": [
-        113,
-        107,
-        45
+        33,
+        27,
+        125
       ]
     },
     {
@@ -4321,9 +4322,9 @@
         "Linguistics"
       ],
       "related_proj": [
-        81,
-        82,
-        162
+        79,
+        66,
+        84
       ]
     },
     {
@@ -4349,9 +4350,9 @@
         "Fraud"
       ],
       "related_proj": [
-        62,
-        22,
-        46
+        177,
+        46,
+        89
       ]
     },
     {
@@ -4376,9 +4377,9 @@
         "Deep Learning"
       ],
       "related_proj": [
-        17,
-        39,
-        119
+        59,
+        58,
+        19
       ]
     },
     {
@@ -4404,9 +4405,9 @@
         "Classification"
       ],
       "related_proj": [
-        143,
-        37,
-        35
+        75,
+        56,
+        126
       ]
     },
     {
@@ -4433,9 +4434,9 @@
         "Hardware"
       ],
       "related_proj": [
-        167,
-        27,
-        163
+        141,
+        83,
+        140
       ]
     },
     {
@@ -4460,9 +4461,9 @@
         "Solar Cycles"
       ],
       "related_proj": [
-        60,
-        3,
-        1
+        129,
+        69,
+        99
       ]
     },
     {
@@ -4489,9 +4490,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        56,
-        98,
-        18
+        97,
+        108,
+        143
       ]
     },
     {
@@ -4516,9 +4517,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        31,
-        9,
-        143
+        98,
+        12,
+        134
       ]
     },
     {
@@ -4543,9 +4544,9 @@
         "Pricing"
       ],
       "related_proj": [
-        46,
         147,
-        2
+        88,
+        89
       ]
     },
     {
@@ -4571,9 +4572,9 @@
         "Skin Cancer"
       ],
       "related_proj": [
-        31,
-        17,
-        34
+        58,
+        21,
+        55
       ]
     },
     {
@@ -4599,9 +4600,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        34,
-        31,
-        98
+        90,
+        68,
+        101
       ]
     },
     {
@@ -4627,9 +4628,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        107,
-        167,
-        108
+        164,
+        101,
+        10
       ]
     },
     {
@@ -4656,9 +4657,9 @@
         "Social Media"
       ],
       "related_proj": [
-        141,
-        130,
-        99
+        30,
+        144,
+        172
       ]
     },
     {
@@ -4684,9 +4685,9 @@
         "Education"
       ],
       "related_proj": [
-        161,
-        166,
-        176
+        132,
+        30,
+        75
       ]
     },
     {
@@ -4713,9 +4714,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        12,
-        125,
-        108
+        6,
+        17,
+        163
       ]
     },
     {
@@ -4741,9 +4742,9 @@
         "Engineering"
       ],
       "related_proj": [
-        159,
-        110,
-        175
+        180,
+        163,
+        158
       ]
     },
     {
@@ -4771,9 +4772,9 @@
         "GPT-3"
       ],
       "related_proj": [
-        81,
-        66,
-        118
+        82,
+        84,
+        79
       ]
     },
     {
@@ -4799,9 +4800,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        117,
-        103,
-        105
+        58,
+        14,
+        175
       ]
     },
     {
@@ -4827,9 +4828,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        134,
-        126,
-        155
+        29,
+        67,
+        8
       ]
     },
     {
@@ -4858,8 +4859,8 @@
       ],
       "related_proj": [
         100,
-        79,
-        72
+        47,
+        114
       ]
     },
     {
@@ -4886,9 +4887,9 @@
         "Gamma Rays"
       ],
       "related_proj": [
-        69,
-        91,
-        150
+        140,
+        130,
+        176
       ]
     },
     {
@@ -4916,9 +4917,9 @@
         "Biology"
       ],
       "related_proj": [
-        8,
-        176,
-        10
+        155,
+        175,
+        56
       ]
     },
     {
@@ -4943,9 +4944,9 @@
         "Physics"
       ],
       "related_proj": [
-        129,
-        3,
-        150
+        25,
+        110,
+        36
       ]
     },
     {
@@ -4970,9 +4971,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        9,
-        29,
-        143
+        13,
+        104,
+        17
       ]
     },
     {
@@ -4998,9 +4999,9 @@
         "Computer Vision"
       ],
       "related_proj": [
-        163,
-        144,
-        176
+        96,
+        141,
+        144
       ]
     },
     {
@@ -5026,9 +5027,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        156,
-        133,
-        10
+        131,
+        12,
+        152
       ]
     },
     {
@@ -5055,9 +5056,9 @@
         "Irrigation"
       ],
       "related_proj": [
-        163,
-        70,
-        45
+        115,
+        141,
+        41
       ]
     },
     {
@@ -5081,8 +5082,8 @@
         "Engineering"
       ],
       "related_proj": [
-        30,
-        158,
+        172,
+        150,
         163
       ]
     },
@@ -5108,9 +5109,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        169,
-        14,
-        119
+        6,
+        143,
+        14
       ]
     },
     {
@@ -5135,9 +5136,9 @@
         "Robotics"
       ],
       "related_proj": [
-        167,
-        150,
-        130
+        181,
+        166,
+        96
       ]
     },
     {
@@ -5163,9 +5164,9 @@
         "Music"
       ],
       "related_proj": [
-        128,
-        130,
-        110
+        173,
+        110,
+        150
       ]
     },
     {
@@ -5191,9 +5192,9 @@
         "Economics"
       ],
       "related_proj": [
-        2,
-        46,
-        116
+        121,
+        89,
+        46
       ]
     },
     {
@@ -5219,9 +5220,9 @@
         "Eyes"
       ],
       "related_proj": [
-        34,
-        31,
-        167
+        73,
+        134,
+        6
       ]
     },
     {
@@ -5247,8 +5248,8 @@
       ],
       "related_proj": [
         162,
-        65,
-        159
+        125,
+        33
       ]
     },
     {
@@ -5273,9 +5274,37 @@
         "Engineering"
       ],
       "related_proj": [
-        166,
-        52,
-        96
+        144,
+        140,
+        52
+      ]
+    },
+    {
+      "student_name": "Pandian A.",
+      "mentor_name": "Udgam Goyal",
+      "mentor_title": "MEng CS from MIT, Product Manager at Aurora and prior AI Product Management at Microsoft",
+      "mentor_image": "assets/images/mentor_imgs/5230705f60c33cfe2f58bdb0b315946dbaadb515.png",
+      "student_image": "assets/images/student_imgs/80cf9fb8379f54f0adde042ff525f4479b140323.png",
+      "domains": [
+        "Engineering"
+      ],
+      "project_title": "Enhancement of Autonomous Vehicles During Extreme Weather",
+      "project_desc": "Autonomous vehicles are self-driving vehicles that operate without human assistance. Self-driving vehicles, which include Teslas, BMWs, Waymos, Fords, and Mercedes, struggle to detect objects under extreme weather conditions, such as rain and fog, due to a lack of visibility, thereby significantly increasing the likelihood of collisions. Although autonomous vehicles have proven to be exceptional in nominal conditions, their poor performance in stormy, foggy, and snowy conditions currently limits their deployment on real roads today. This is important to know because AI can be used to improve the safety of vehicles using algorithms like deep learning via neural networks. In order to answer the question, it involved training and fine-tuning a neural network called the YOLOv8n  model. We loaded a pretrained model, called yolov8n. This model was inaccurate at predicting cars when the vision isn’t clear. However, from the DAWN dataset from Kaggle + YOLOV8, we fine-tuned the model and got it to predict vehicles when the vision wasn’t clear. Initially, the model failed to predict other vehicles in extreme weather conditions, or often predicted other vehicles and objects with low confidence levels. However, after the model was fine-tuned, it was able to increase its prediction confidence level by 40%, also being able to predict 91% of the presented objects, way higher compared to its predicting 22% of its presented objects per image. However, during normal conditions, the fine-tuned model predicted other vehicles at a lower confidence level compared to the original Yolov8n model due to it being trained during extreme weather and not nominal conditions. It was concluded that the fine-tuning of YOLOv8n contributed to the feasibility of object detection during extreme weather conditions, with a 64% increase in objects detected with it being able to detect 94.87% of vehicles and pedestrians,  but led to a 10% decrease in confidence level and <1% decrease in object detection rate under nominal conditions and failed to detect traffic lights, which the non-tuned model could do. This makes it necessary for self-driving providers to build a car with at least two different models: one non-tuned YOLOv8n model, operating during nominal conditions and during traffic lights, and the other being a tuned YOLOv8n model that operates during extreme weather. ",
+      "research_paper": "assets/pdfs/79ca771197d292aa7499b0f12c7b75554204155e.pdf",
+      "project_yr": "2025",
+      "github": "https://github.com/PandianAnand/Autonomous-Vehicle-Improvement",
+      "graphic_link": "https://cms.accuweather.com/wp-content/uploads/2016/10/650x366_10101621_650x366_10080011_fordnaias_autonomy_05.jpg",
+      "headline": "This research investigates improving object detection for autonomous vehicles in extreme weather by fine-tuning the YOLOv8n neural network. Starting with a pretrained model that struggled to recognize vehicles in rain, fog, and snow, we used the DAWN dataset from Kaggle to retrain it, raising detection accuracy from about 22 percent to over 90 percent in poor-visibility conditions while increasing confidence levels by roughly 40 percent, though at the cost of slightly reduced performance and traffic-light detection in normal conditions.",
+      "project_id": "2fcfe3ae3e0ac0b0bd88127727f8578cb517626d",
+      "expand": false,
+      "tags": [
+        "Autonomous Vehicles",
+        "Engineering"
+      ],
+      "related_proj": [
+        175,
+        176,
+        163
       ]
     }
   ],

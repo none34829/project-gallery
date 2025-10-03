@@ -1,9 +1,9 @@
 [build]
   # Directory that contains the deploy-ready HTML files and assets
   publish = "dist"
-  
+
   # Build command
-  command = "npm run prod-build"
+  command = "npm run prod-hydrate"
 
 # Serve data.json directly without redirects
 [[headers]]

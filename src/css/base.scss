@@ -1,3 +1,10 @@
+.meta-text{
+  font-size: 0.7rem;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 @import "bootstrap";
 
 @font-face {
@@ -59,7 +66,7 @@
 }
 
 html {
-
+    scroll-behavior: smooth;
 }
 
 body{
@@ -122,9 +129,9 @@ nav{
 .profile_image{
     height: auto;
     border-radius: 50%;
-    width:45px;
-    height:45px;
-    min-width: 45px;
+    width:24px;
+    height:24px;
+    min-width: 24px;
 }
 
 input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -133,28 +140,31 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 
 .projectContainer{
-    height: 45vh;
+    height: 260px;
     transition: padding 0.2s ;
     pointer-events: none;
-    min-height: 300px;
-    max-height: 600px;
+    min-height: 220px;
+    max-height: 260px;
     cursor: pointer;
-    flex-grow: 1;
+    flex-grow: 0 !important; /* do not override Bootstrap col widths */
+    width: 100%;
+    box-sizing: border-box;
 
-    &:hover {
-        padding:0.25rem !important;
-    }
+    /* Removed padding change on hover to keep fixed size and avoid layout shift */
 
     .projectSubContainer{
-        height: calc(100% - 1rem);
-        width: calc(100% - 1rem);
-        transition: all 0.9s;
-        transition: height 0.2s, width 0.2s;
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+        transition: transform 0.2s, box-shadow 0.2s;
         pointer-events: auto;
 
         &:hover {
-            height: calc(100% - 0.5rem);
-            width: calc(100% - 0.5rem);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 22px rgba(0,0,0,0.24);
         }
 
         /* Tooltip container */
@@ -163,20 +173,22 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
             z-index: 90;
             position: relative;
             color: #fff;
-            height: 15%;
-            font-size: 1.5rem;
+            height: 12%;
+            font-size: 0.85rem;
             display: flex;
             align-items: center;
             font-family: 'DIN Condensed';
-            overflow: auto;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
 
             .ribbonIcon {
-                font-size: 2rem;
+                font-size: 1.6rem;
                 padding-bottom: 2%;
             }
             @media only screen and (max-width: 700px) {
                 .ribbonIcon {
-                    font-size: 1.4rem;
+                    font-size: 1.2rem;
                     padding-bottom: 2%;
                     margin-left: 0.2rem;
                 }
@@ -230,6 +242,8 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
             z-index: -2;
             position:absolute;
             transition: background .5s;
+            border-radius: inherit;
+            overflow: hidden;
             &:before{
                 z-index: -1;
                 content: "";
@@ -247,16 +261,16 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         }
 
         &:hover > .projectImage > .contentContainer > .hoverContainer{
-            flex: 1;
+            flex: 0.45;
         }
 
         &:hover > .projectImage > .contentContainer > .hoverContainer > .projectTitle{
-            font-size: 1.9rem;
+            font-size: 1rem;
         }
 
         @media only screen and (max-width: 700px) {
             &:hover > .projectImage > .contentContainer > .hoverContainer > .projectTitle{
-                font-size: 1.5rem;
+                font-size: 0.95rem; /* keep same as base on mobile */
             }
         }
 
@@ -270,8 +284,8 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         }
         &:hover > .projectImage > .contentContainer > .mentorImage{
             opacity: 1;
-            height: 50px;
-            margin-top: 1rem;
+            height: 28px;
+            margin-top: 0.35rem;
         }
     }
 }
@@ -279,6 +293,15 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 .projectTitle{
     transition: all .5s;
     // transition-delay: 0.1s
+    font-size: 1rem;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 .hoverContainer{
@@ -296,11 +319,14 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 .projectHeadline{
     opacity: 0;
     height:0px;
-    font-size: 14px;
+    font-size: 11px;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    word-break: break-word;
+    hyphens: auto;
     transition: height .5s, opacity 0.5s;
 }
 
@@ -311,7 +337,8 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 
 .contentContainer {
-    z-index:3
+    z-index:3;
+    overflow: hidden;
 }
 
 .dropdown-toggle:after{

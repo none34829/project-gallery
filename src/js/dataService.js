@@ -155,35 +155,21 @@ class DataService {
 
   // Sort projects with published ones first, then by newest date
   sortProjects(projects) {
-    console.log('Sorting projects, total:', projects.length);
-    
-    const sorted = projects.sort((a, b) => {
+    return projects.sort((a, b) => {
       // First priority: published projects come first
       const aPublished = a.published === true ? 1 : 0;
       const bPublished = b.published === true ? 1 : 0;
-      
+
       if (aPublished !== bPublished) {
-        console.log(`Published priority: ${a.project_title} (${aPublished}) vs ${b.project_title} (${bPublished})`);
         return bPublished - aPublished; // Published projects first
       }
-      
+
       // Second priority: sort by date (newest first)
       const aDate = this.parseProjectDate(a);
       const bDate = this.parseProjectDate(b);
-      
-      console.log(`Date sorting: ${a.project_title} (${aDate.getFullYear()}-${aDate.getMonth()}) vs ${b.project_title} (${bDate.getFullYear()}-${bDate.getMonth()})`);
-      
+
       return bDate - aDate; // Newest first
     });
-    
-    console.log('Sorted projects preview:', sorted.slice(0, 5).map(p => ({
-      title: p.project_title,
-      published: p.published,
-      year: p.project_yr,
-      quarter: p.project_quarter
-    })));
-    
-    return sorted;
   }
 
   // Parse project date from project_yr and project_quarter
@@ -195,12 +181,19 @@ class DataService {
     if (project.created_at) {
       return new Date(project.created_at);
     }
-    
+
     // Parse from project_yr and project_quarter
-    if (project.project_yr && project.project_quarter) {
+    if (project.project_yr) {
       const year = parseInt(project.project_yr);
+
+      // If no quarter specified, assume it's a current/recent project
+      if (!project.project_quarter || project.project_quarter === 'undefined') {
+        // Treat projects without quarters as very recent (current year, future date)
+        return new Date(year + 1, 0, 1); // January 1st of next year (very recent)
+      }
+
       const quarter = project.project_quarter.toLowerCase();
-      
+
       // Convert quarter to month (approximate)
       let month = 1; // Default to January
       switch (quarter) {
@@ -217,10 +210,10 @@ class DataService {
           month = 12; // December
           break;
       }
-      
+
       return new Date(year, month - 1, 1); // month is 0-indexed in Date constructor
     }
-    
+
     // Fallback to epoch if no date info
     return new Date(0);
   }

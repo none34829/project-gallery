@@ -8,10 +8,14 @@ airtableData = []
 
 airtable.configure({
     endpointUrl: 'https://api.airtable.com',
-    apiKey: process.env.AIRTABLE_API_KEY
+    requestTimeout: 30000
 });
 
-let base = airtable.base(process.env.AIRTABLE_BASE_ID);
+let base = airtable.base(process.env.AIRTABLE_BASE_ID, {
+    headers: {
+        'Authorization': `Bearer ${process.env.AIRTABLE_API_KEY}`
+    }
+});
 
 projectData = {
     projects: [],

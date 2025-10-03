@@ -44,6 +44,7 @@ async function initializeApp() {
     
     // Load projects in the background
     dataService.onProjectsLoaded((projects) => {
+      renderAllProjects(projects);
       // Get sorted projects from dataService
       const sortedProjects = dataService.getProjects();
       renderAllProjects(sortedProjects);
@@ -199,6 +200,35 @@ function showErrorState() {
   }
 }
 
+// Render results function (moved outside window.load for proper scope)
+function renderResults() {
+  if (!dataService.isProjectsLoaded()) {
+    return; // Don't filter until projects are loaded
+  }
+
+  const filteredProjects = dataService.filterProjects(active_filters);
+  const projectElements = Array.from(document.getElementsByClassName("projectContainer"));
+
+  // Hide all projects first
+  projectElements.forEach(elem => {
+    elem.style.display = "none";
+  });
+
+  // Show only filtered projects
+  filteredProjects.forEach(project => {
+    const projectElement = document.querySelector(`[data-id="${project.project_id}"]`);
+    if (projectElement) {
+      projectElement.style.display = "block";
+    }
+  });
+
+  // Show/hide error message
+  const errorElement = document.querySelector(".galleryError");
+  if (errorElement) {
+    errorElement.style.display = filteredProjects.length === 0 ? "block" : "none";
+  }
+}
+
 window.addEventListener('load', (event) => {
   // Initialize the app with progressive loading
   initializeApp();
@@ -208,7 +238,7 @@ window.addEventListener('load', (event) => {
       document.querySelector(".searchSuggestions").style.display = 'none';
     }
   });
-  
+
   document.querySelector("#searchCategories").onchange = () => {
     document.getElementById('searchBar').value = ""
     current_category = document.querySelector("#searchCategories").value
@@ -224,9 +254,9 @@ window.addEventListener('load', (event) => {
     })
 
     if(hasFilter) return;
-    
+
     const topics = dataService.getTopics();
-    
+
     if((current_category == "No Domain" || current_category == "Misc" || current_category == "Specific Technologies") && queryString == ""){
       active_filters.forEach((filter, index, array) => {
         if(topics.includes(filter.value))
@@ -267,13 +297,13 @@ window.addEventListener('load', (event) => {
     document.querySelector(".activeFilters").innerHTML = ""
 
     const topics = dataService.getTopics();
-    
+
     active_filters.forEach(filter => {
       // console.log(filter.value)
       if(filter.value == "" || topics.includes(filter.value)) return;
       document.querySelector(".activeFilters").innerHTML += `
         <div class="searchPill pr-2" data-value='${filter.value}'>
-          ${filter.value} 
+          ${filter.value}
           <img class="closeIcon" src="assets/images/x_icon.svg" />
         </div>`;
     })
@@ -281,34 +311,6 @@ window.addEventListener('load', (event) => {
       elem.onclick = (e) => {deleteFilter(e)};
     })
   }
-
-function renderResults() {
-  if (!dataService.isProjectsLoaded()) {
-    return; // Don't filter until projects are loaded
-  }
-  
-  const filteredProjects = dataService.filterProjects(active_filters);
-  const projectElements = Array.from(document.getElementsByClassName("projectContainer"));
-  
-  // Hide all projects first
-  projectElements.forEach(elem => {
-    elem.style.display = "none";
-  });
-  
-  // Show only filtered projects
-  filteredProjects.forEach(project => {
-    const projectElement = document.querySelector(`[data-id="${project.project_id}"]`);
-    if (projectElement) {
-      projectElement.style.display = "block";
-    }
-  });
-  
-  // Show/hide error message
-  const errorElement = document.querySelector(".galleryError");
-  if (errorElement) {
-    errorElement.style.display = filteredProjects.length === 0 ? "block" : "none";
-  }
-}
 
   function renderSuggestions(items) {
     let target = document.querySelector(".searchSuggestions");
