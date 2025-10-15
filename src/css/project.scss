@@ -40,13 +40,35 @@ button {
     animation: mymove 0.4s;
 }
 
-.projectGraphic{
-    width: 40%;
-    height: 40%;
-}
-
 .projectBody{
     min-height:40%;
+    position: relative;
+}
+
+.projectBody::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.projectGraphic{
+    float: right !important;
+    width: min(40%, 420px);
+    max-width: 100%;
+    height: auto;
+    max-height: clamp(240px, 60vh, 520px);
+    object-fit: cover;
+    margin: 1.5rem 1.5rem 1.5rem 2rem !important;
+}
+
+@media (max-width: 991.98px) {
+    .projectGraphic{
+        float: none !important;
+        display: block;
+        width: min(100%, 22rem);
+        margin: 0 auto 1.5rem auto !important;
+        max-height: clamp(200px, 55vh, 420px);
+    }
 }
 
 .projectDesc{
@@ -182,10 +204,6 @@ button {
         background: white;
         border-radius: 10px;
         overflow: hidden;
-
-        & > .modal-body {
-
-        }
     }
 }
 
