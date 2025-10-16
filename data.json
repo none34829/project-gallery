@@ -3,7 +3,7 @@
     {
       "student_name": "Sophia G.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/8b889dd53b0841698abc1253aae2f3a1b368ddf3.png",
+      "student_image": "assets/images/student_imgs/25fb3536164ff3412efca7e41e08e85763b9c40f.png",
       "domains": [
         "Humanitarian Efforts and Social Justice",
         "Published Papers and Science Fairs"
@@ -27,9 +27,9 @@
       "published": true,
       "science_fairs": "2nd Place at San Diego BROADCOM Science Fair (Senior Division)",
       "related_proj": [
-        65,
-        23,
-        75
+        21,
+        133,
+        7
       ]
     },
     {
@@ -37,7 +37,7 @@
       "mentor_name": "Tony Rodriguez",
       "mentor_title": "PhD Candidate in Astrophysics at Caltech",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/84229884cba35fe4956e6f77fe5cec7245c1caaa.png",
+      "student_image": "assets/images/student_imgs/e3c71b4cb5bdd5775de029db904c939030e0e618.png",
       "domains": [
         "Physics",
         "Published Papers and Science Fairs"
@@ -60,9 +60,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/3996",
       "related_proj": [
-        4,
         36,
-        7
+        12,
+        2
       ]
     },
     {
@@ -92,17 +92,17 @@
       "published": true,
       "science_fairs": "Massachusetts Science and Engineering Fair (MSEF)",
       "related_proj": [
-        8,
+        5,
         26,
-        25
+        186
       ]
     },
     {
       "student_name": "Roberto T.",
       "mentor_name": "Sophia Barton",
       "mentor_title": "Computer Science MS from Stanford",
-      "mentor_image": "assets/images/mentor_imgs/5fba3ab08aeaacfa77fdad7c012f4c97cd983c3a.png",
-      "student_image": "assets/images/student_imgs/ed209204772644abae275cace7df30983e797a0f.png",
+      "mentor_image": "assets/images/mentor_imgs/56c2b2fb8dc613f5a0a7ae222a5ee595734e2950.png",
+      "student_image": "assets/images/student_imgs/3794c48b2334ab46228d00da2c6c7e612e5bc9e9.png",
       "domains": [
         "Physics",
         "Published Papers and Science Fairs"
@@ -125,17 +125,17 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4375",
       "related_proj": [
-        1,
-        53,
-        11
+        60,
+        18,
+        36
       ]
     },
     {
       "student_name": "Elgin V.",
       "mentor_name": "Joseph Vincent",
       "mentor_title": "Aerospace Engineering PhD Candidate at Stanford",
-      "mentor_image": "assets/images/mentor_imgs/7b7ea5005c74c69e40cdacd9a0d7b16c2822f5dc.png",
-      "student_image": "assets/images/student_imgs/bc8b920d3e66bddeb3fb23064ca3ffd56f4a38ce.png",
+      "mentor_image": "assets/images/mentor_imgs/808f2a4f0dad138963d86e72fa8a6bca1820e194.png",
+      "student_image": "assets/images/student_imgs/235e3e4102d4ee2526e5af8047f3ed72e18f083f.png",
       "domains": [
         "Sports and Motion Sciences",
         "Published Papers and Science Fairs"
@@ -158,9 +158,9 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4046",
       "related_proj": [
-        30,
-        20,
-        142
+        13,
+        15,
+        0
       ]
     },
     {
@@ -168,7 +168,7 @@
       "mentor_name": "Philip Bell",
       "mentor_title": "Computer Science MS from Georgia Tech, Harvard and Oxford alum, AI Engineer at Cognino ",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/19f59a6417431b5e1507ccea4a6c84bbe58a95ff.png",
+      "student_image": "assets/images/student_imgs/eef1734ba79e5067353abc408ba77616a654a8e7.png",
       "domains": [
         "Environment",
         "Published Papers and Science Fairs"
@@ -193,9 +193,9 @@
       "published": true,
       "science_fairs": "Santa Clara ISEF Qualifier",
       "related_proj": [
-        26,
-        7,
-        12
+        27,
+        67,
+        2
       ]
     },
     {
@@ -223,15 +223,15 @@
       "published": true,
       "science_fairs": "2nd Place at Orange County Science Fair, California Science and Engineering Fair (CSEF)",
       "related_proj": [
-        115,
-        68,
-        164
+        98,
+        119,
+        16
       ]
     },
     {
       "student_name": "Avyukth H.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/5880d94fb70acc5896f46cfb5b6816710a3783cc.png",
+      "student_image": "assets/images/student_imgs/431caaf556b23766fb3909779a4d98cb8b62de72.png",
       "domains": [
         "Healthcare and Biology",
         "Published Papers and Science Fairs"
@@ -253,9 +253,9 @@
       "published": true,
       "publications": "Curieux Academic Journal",
       "related_proj": [
-        64,
-        163,
-        133
+        67,
+        2,
+        19
       ]
     },
     {
@@ -288,16 +288,16 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4364",
       "related_proj": [
-        105,
-        42,
-        156
+        2,
+        21,
+        73
       ]
     },
     {
       "student_name": "Anjali S.",
       "mentor_name": "Katie O'Nell",
       "mentor_title": "PhD Student at Dartmouth, Brain and Cognitive Sciences BS from MIT, Ethics+Social Sciences project and course developer at Inspirit AI",
-      "mentor_image": "assets/images/mentor_imgs/38cee623522cedeafd446336b28a370d7ffbf591.png",
+      "mentor_image": "assets/images/mentor_imgs/3df727e01bd6076d80bdefdd1c47288c998e0f7e.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology",
@@ -322,9 +322,9 @@
       "publications": "medRxiv Medical Ethics preprint",
       "publication_link": "https://www.medrxiv.org/content/10.1101/2023.10.14.23296978v1",
       "related_proj": [
-        67,
-        90,
-        31
+        167,
+        104,
+        184
       ]
     },
     {
@@ -332,7 +332,7 @@
       "mentor_name": "Odysseas Drosis",
       "mentor_title": "PhD Candidate in Computer Science, Masters in Computer Science Alum from Cornell",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/5ddd5e1f795e6967c1e4269e91d5df5b5814aa41.png",
+      "student_image": "assets/images/student_imgs/79f656245a5e9bd9b5892bae9b8c3fb9ad33f352.png",
       "domains": [
         "Healthcare and Biology",
         "Published Papers and Science Fairs"
@@ -356,9 +356,9 @@
       "published": true,
       "publications": "Journal of Emerging Investigators",
       "related_proj": [
-        104,
+        133,
         131,
-        93
+        135
       ]
     },
     {
@@ -390,9 +390,9 @@
       "published": true,
       "science_fairs": "2nd Place at Contra Costa Science and Engineering Fair",
       "related_proj": [
-        5,
-        14,
-        21
+        22,
+        16,
+        8
       ]
     },
     {
@@ -422,9 +422,9 @@
       "publications": "Journal of High School Research",
       "publication_link": "https://jhss.scholasticahq.com/article/89930",
       "related_proj": [
-        115,
-        169,
-        44
+        3,
+        68,
+        133
       ]
     },
     {
@@ -456,9 +456,9 @@
       "published": true,
       "publications": "Journal of Student Research",
       "related_proj": [
-        164,
-        11,
-        125
+        101,
+        133,
+        185
       ]
     },
     {
@@ -466,7 +466,7 @@
       "mentor_name": "Sriram Hathwar",
       "mentor_title": "Princeton Alum, Bioinformatics Researcher",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/01e8a6d69f6d6b45d9bd6c72558378385d304c1f.png",
+      "student_image": "assets/images/student_imgs/e882056b2810f35a11fd1195b408148cdebea4d8.png",
       "domains": [
         "Healthcare and Biology",
         "Published Papers and Science Fairs"
@@ -489,17 +489,17 @@
       "published": true,
       "publications": "Journal of Emerging Investigators",
       "related_proj": [
-        3,
-        12,
-        31
+        34,
+        42,
+        108
       ]
     },
     {
       "student_name": "Katarina A.",
       "mentor_name": "Ayush Pandit",
       "mentor_title": "PhD Candidate at Stanford, prior Stanford Bioengineering Alum",
-      "mentor_image": "assets/images/mentor_imgs/9d7510546b71a66f2dbe4aca574af57805e1e422.png",
-      "student_image": "assets/images/student_imgs/c3336e69c5b452159ae06e8c43ee5157fac8669d.png",
+      "mentor_image": "assets/images/mentor_imgs/8ebea060f7acf53ebda820482eaa4ee26d37df4b.png",
+      "student_image": "assets/images/student_imgs/16e627973984da51e6911c2796361a48a3207583.png",
       "domains": [
         "Environment",
         "Published Papers and Science Fairs"
@@ -521,16 +521,16 @@
       "published": true,
       "science_fairs": "Synopsys Science Fair",
       "related_proj": [
-        41,
-        10,
-        14
+        11,
+        21,
+        120
       ]
     },
     {
       "student_name": "Jack L.",
       "mentor_name": "Peter Washington",
       "mentor_title": "Computer Science Professor at UHawaii, CS PhD from Stanford",
-      "mentor_image": "assets/images/mentor_imgs/81b57e60dc34ae160629ed39a1610d82adcdea4b.png",
+      "mentor_image": "assets/images/mentor_imgs/19db8abe6f5ba342397cabd447a93cbb5d008688.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Psychology",
@@ -554,9 +554,9 @@
       "publications": "Curieux Academic Journal",
       "publication_link": "https://www.curieuxacademicjournal.com/_files/ugd/99711c_cae123aa84284189b8142087c8589d21.pdf",
       "related_proj": [
-        24,
-        14,
-        26
+        15,
+        40,
+        103
       ]
     },
     {
@@ -586,9 +586,9 @@
       "published": true,
       "science_fairs": "3rd Place in the Alameda County Science Fair",
       "related_proj": [
-        9,
-        119,
-        44
+        29,
+        133,
+        9
       ]
     },
     {
@@ -617,17 +617,17 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/5601",
       "related_proj": [
-        32,
-        14,
-        48
+        10,
+        11,
+        103
       ]
     },
     {
       "student_name": "Sam L.",
       "mentor_name": "Ivan Villa-Renteria",
       "mentor_title": "MS Computer Science at Stanford",
-      "mentor_image": "assets/images/mentor_imgs/4550d3f29131e2d0ce4918ea4668086440aa93b8.png",
-      "student_image": "assets/images/student_imgs/977063da02a3f2f4a34a7a12ea9aa343b900ad69.png",
+      "mentor_image": "assets/images/mentor_imgs/c3367c49c4a121b7eae2189efc7662edd8de4720.png",
+      "student_image": "assets/images/student_imgs/c3e842b38827667b0ff8824ec9e23d2bcc1854ba.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -648,9 +648,9 @@
       "published": true,
       "publication_link": "https://mareg5.zfairs.com/File/Client/efd07aa7-d1f7-43cc-8292-3bf60118f1f7?ext=.pdf",
       "related_proj": [
-        108,
         10,
-        164
+        137,
+        133
       ]
     },
     {
@@ -678,17 +678,17 @@
       "published": true,
       "science_fairs": "Accepted for Exhibition at TNJSF",
       "related_proj": [
-        18,
-        83,
-        7
+        6,
+        8,
+        99
       ]
     },
     {
       "student_name": "Sam L.",
       "mentor_name": "Ivan Villa-Renteria",
       "mentor_title": "MS Computer Science at Stanford",
-      "mentor_image": "assets/images/mentor_imgs/4550d3f29131e2d0ce4918ea4668086440aa93b8.png",
-      "student_image": "assets/images/student_imgs/977063da02a3f2f4a34a7a12ea9aa343b900ad69.png",
+      "mentor_image": "assets/images/mentor_imgs/c3367c49c4a121b7eae2189efc7662edd8de4720.png",
+      "student_image": "assets/images/student_imgs/c3e842b38827667b0ff8824ec9e23d2bcc1854ba.png",
       "domains": [
         "Healthcare and Biology",
         "Published Papers and Science Fairs"
@@ -712,9 +712,9 @@
       "science_fairs": "2nd place at Massachusetts Region V Science Fair",
       "publication_link": "https://mareg5.zfairs.com/File/Client/efd07aa7-d1f7-43cc-8292-3bf60118f1f7?ext=.pdf",
       "related_proj": [
-        73,
-        44,
-        5
+        68,
+        4,
+        178
       ]
     },
     {
@@ -722,7 +722,7 @@
       "mentor_name": "Odysseas Drosis",
       "mentor_title": "PhD Candidate in Computer Science, Masters in Computer Science Alum from Cornell",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/1487e8dfcc067989bf8f6ab2d2e7605d83c74b24.png",
+      "student_image": "assets/images/student_imgs/fabc7768e36a22d4f25408e974243604e9913227.png",
       "domains": [
         "Business and Finance",
         "Published Papers and Science Fairs"
@@ -745,16 +745,16 @@
       "publications": "The Stanford Journal of Science, Technology, and Society",
       "publication_link": "https://ojs.stanford.edu/ojs/index.php/intersect/article/view/3031",
       "related_proj": [
-        88,
-        7,
-        122
+        2,
+        8,
+        14
       ]
     },
     {
       "student_name": "Seokhyun C.",
       "mentor_name": "Victoria Lloyd",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/0a47664f6d4704e579ee680beb6e8fa97d75e9a8.png",
+      "student_image": "assets/images/student_imgs/a05002f29eb54c606f45e6ae8d8d7d6b9885493b.png",
       "domains": [
         "Environment",
         "Published Papers and Science Fairs"
@@ -777,16 +777,16 @@
       "publications": "Frontiers in Environmental Science",
       "publication_link": "https://www.frontiersin.org/articles/10.3389/fenvs.2024.1301343/full",
       "related_proj": [
-        107,
-        2,
-        85
+        113,
+        95,
+        70
       ]
     },
     {
       "student_name": "Arnav J.",
       "mentor_name": "Erick Siavichay",
       "mentor_title": "Computer Science Alum from Stanford, Software Engineering and Data Science at Tagg",
-      "mentor_image": "assets/images/mentor_imgs/48cd50fbc46ad248bd2191c1a75141d96180efff.png",
+      "mentor_image": "assets/images/mentor_imgs/788ef03445f644b0e53860927d1ce0d68eeac867.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology",
@@ -809,16 +809,16 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/6558",
       "related_proj": [
-        135,
-        14,
-        115
+        164,
+        125,
+        32
       ]
     },
     {
       "student_name": "Suhaan K.",
       "mentor_name": "Tony Rodriguez",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/5d90182cb35a587f58515967e15e5c86e00c922b.png",
+      "student_image": "assets/images/student_imgs/b985b04a876866abc4fd7da68d847f15e821bbe2.png",
       "domains": [
         "Physics",
         "Published Papers and Science Fairs"
@@ -841,9 +841,9 @@
       "science_fairs": "3rd Place in the Texas Science and Engineering Fair",
       "publication_link": "https://txsef.tamu.edu/awards/2024-category-awards/",
       "related_proj": [
+        16,
         12,
-        8,
-        11
+        36
       ]
     },
     {
@@ -873,16 +873,16 @@
       "science_fairs": "1st Place in the Alameda County Science Fair",
       "publication_link": "https://docs.google.com/presentation/d/1A3VusY0XctXC1fBKNjxb-26fjAWup7ajJel2ZtFxVsY/edit?slide=id.g335de835b50_0_965#slide=id.g335de835b50_0_965",
       "related_proj": [
-        16,
-        6,
-        97
+        97,
+        135,
+        67
       ]
     },
     {
       "student_name": "Anika S.",
       "mentor_name": "Ying Hang Seah",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/bfd0ac5246d5f2cecbdc716dd7b5d221a3428af3.png",
+      "student_image": "assets/images/student_imgs/3e81a81724cf0073d0800f5d96bcfd5615110f17.png",
       "domains": [
         "Environment",
         "Engineering"
@@ -905,9 +905,9 @@
       "published": true,
       "science_fairs": "Tackling Social Issues with AI | Inspirit AI Research Symposium | Category Winner",
       "related_proj": [
-        30,
-        150,
-        180
+        70,
+        159,
+        125
       ]
     },
     {
@@ -915,7 +915,7 @@
       "mentor_name": "Mirna Kheir Gouda",
       "mentor_title": "Biomedical Engineering PhD Candidate at MIT",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/e3702402970e0a9dd8984c10b240e255ff68fa34.png",
+      "student_image": "assets/images/student_imgs/649fdf32d8c6917b69fb059ba2d77c623865341c.png",
       "domains": [
         "Environment"
       ],
@@ -934,9 +934,9 @@
         "Water Use"
       ],
       "related_proj": [
-        171,
-        145,
-        123
+        63,
+        123,
+        33
       ]
     },
     {
@@ -944,7 +944,7 @@
       "mentor_name": "Odysseas Drosis",
       "mentor_title": "PhD Candidate in Computer Science, Masters in Computer Science Alum from Cornell",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/f8431ef22e13e936dde5c81829e2576838ef2cb1.png",
+      "student_image": "assets/images/student_imgs/23725615a8586e726fc6fa97c0ccdc962d6825bd.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -962,9 +962,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        21,
-        39,
-        67
+        163,
+        156,
+        7
       ]
     },
     {
@@ -972,7 +972,7 @@
       "mentor_name": "Anna Orosz",
       "mentor_title": "Data Science MS from UPenn, Machine Learning Engineer at LinkedIn",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/c50317cf7c0da5ac8d79ea3b320a37860ef9fe88.png",
+      "student_image": "assets/images/student_imgs/938de8743e5016120fb1d9f657fbd8f531a0858d.png",
       "domains": [
         "Sports and Motion Sciences",
         "Engineering"
@@ -994,9 +994,9 @@
         "Audio Analysis"
       ],
       "related_proj": [
-        170,
-        166,
-        115
+        49,
+        141,
+        167
       ]
     },
     {
@@ -1023,9 +1023,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        105,
-        34,
-        163
+        42,
+        134,
+        183
       ]
     },
     {
@@ -1048,9 +1048,9 @@
         "Diabetes"
       ],
       "related_proj": [
-        134,
-        126,
-        160
+        98,
+        31,
+        163
       ]
     },
     {
@@ -1077,17 +1077,17 @@
         "Pollution"
       ],
       "related_proj": [
-        68,
-        27,
-        172
+        120,
+        67,
+        54
       ]
     },
     {
       "student_name": "Keithan P.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
-      "student_image": "assets/images/student_imgs/6904fe8bf639f5c719de88741e9d1a5cdbcfc4ce.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
+      "student_image": "assets/images/student_imgs/9802270da4fc207a5bb544c48b138c699262efcb.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -1106,9 +1106,9 @@
         "Cancer"
       ],
       "related_proj": [
-        125,
-        55,
-        160
+        24,
+        167,
+        44
       ]
     },
     {
@@ -1116,7 +1116,7 @@
       "mentor_name": "Akshay Jagadeesh",
       "mentor_title": "Computational Neuroscience PhD from Stanford",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/35b5cd5154861fba41f499203d1b1081eae4cbb1.png",
+      "student_image": "assets/images/student_imgs/1cf575a6af76512e25f671e8f8a2e2ebf39f9af9.png",
       "domains": [
         "Psychology",
         "Humanitarian Efforts and Social Justice"
@@ -1135,9 +1135,9 @@
         "Psych"
       ],
       "related_proj": [
-        100,
-        0,
-        58
+        84,
+        52,
+        126
       ]
     },
     {
@@ -1163,9 +1163,9 @@
         "Gamma Rays"
       ],
       "related_proj": [
-        69,
-        91,
-        3
+        151,
+        150,
+        166
       ]
     },
     {
@@ -1192,17 +1192,17 @@
         "Water Use"
       ],
       "related_proj": [
-        70,
-        121,
-        133
+        172,
+        106,
+        9
       ]
     },
     {
       "student_name": "Anitej S.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
-      "student_image": "assets/images/student_imgs/40cf8e4efe989b6d688c9ff498a88fa6db4a4ebe.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
+      "student_image": "assets/images/student_imgs/6ef1f4892c6d91e8d1c41242eda56a902f2c3807.png",
       "domains": [
         "Language and Literature"
       ],
@@ -1221,9 +1221,9 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        66,
-        162,
-        79
+        118,
+        87,
+        66
       ]
     },
     {
@@ -1231,7 +1231,7 @@
       "mentor_name": "Odysseas Drosis",
       "mentor_title": "PhD Candidate in Computer Science, Masters in Computer Science Alum from Cornell",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/d87ff4ded1201c69e2b048780db273cfea43b324.png",
+      "student_image": "assets/images/student_imgs/530e0699a5b243cc889e69d330ab5532879e7043.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -1251,8 +1251,8 @@
       ],
       "related_proj": [
         19,
-        164,
-        143
+        10,
+        101
       ]
     },
     {
@@ -1278,15 +1278,15 @@
         "Psych"
       ],
       "related_proj": [
-        80,
-        16,
-        35
+        86,
+        58,
+        61
       ]
     },
     {
       "student_name": "Ian C.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/2c3734b0dabdeab847e102603847be85cefb2344.png",
+      "student_image": "assets/images/student_imgs/bce6dade3cedd6222d229fb853ade51f61262b17.png",
       "domains": [
         "Environment"
       ],
@@ -1306,9 +1306,9 @@
         "Natural Disasters"
       ],
       "related_proj": [
-        85,
-        113,
-        145
+        95,
+        121,
+        54
       ]
     },
     {
@@ -1336,9 +1336,9 @@
         "Cancer"
       ],
       "related_proj": [
-        34,
-        56,
-        29
+        152,
+        174,
+        135
       ]
     },
     {
@@ -1364,9 +1364,9 @@
         "Water"
       ],
       "related_proj": [
-        63,
-        125,
-        121
+        41,
+        37,
+        107
       ]
     },
     {
@@ -1393,16 +1393,16 @@
         "Skin Cancer"
       ],
       "related_proj": [
-        143,
-        56,
-        134
+        8,
+        64,
+        108
       ]
     },
     {
       "student_name": "Giuliano T.",
       "mentor_name": "Sophia Barton",
       "mentor_title": "Computer Science MS from Stanford",
-      "mentor_image": "assets/images/mentor_imgs/5fba3ab08aeaacfa77fdad7c012f4c97cd983c3a.png",
+      "mentor_image": "assets/images/mentor_imgs/56c2b2fb8dc613f5a0a7ae222a5ee595734e2950.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Environment",
@@ -1423,9 +1423,9 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        126,
-        95,
-        33
+        41,
+        68,
+        35
       ]
     },
     {
@@ -1452,8 +1452,8 @@
         "Fraud"
       ],
       "related_proj": [
-        154,
-        121,
+        116,
+        186,
         88
       ]
     },
@@ -1479,8 +1479,8 @@
         "Law and Order"
       ],
       "related_proj": [
-        114,
         100,
+        72,
         79
       ]
     },
@@ -1508,16 +1508,16 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        153,
-        160,
-        7
+        31,
+        171,
+        103
       ]
     },
     {
       "student_name": "Marco Y.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Sports and Motion Sciences"
@@ -1535,8 +1535,8 @@
         "LSTMs"
       ],
       "related_proj": [
-        142,
         4,
+        112,
         11
       ]
     },
@@ -1544,8 +1544,8 @@
       "student_name": "Deetya N.",
       "mentor_name": "Linda Banh",
       "mentor_title": "Electrical Engineering MS from Stanford with professional AI Certificate, Engineer at Microsoft",
-      "mentor_image": "assets/images/mentor_imgs/92382be5a945bc034f0c2aaa5f9d801172bc9e3e.png",
-      "student_image": "assets/images/student_imgs/e941d68148c11a17a0d59a2814300cb47acae3b1.png",
+      "mentor_image": "assets/images/mentor_imgs/3c9d0f6a41bcd9e11d20529cfd74449f29a85bb9.png",
+      "student_image": "assets/images/student_imgs/7da68d2a7ef90411627e3b7022a256f23042e193.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -1566,9 +1566,9 @@
         "Web Deployment"
       ],
       "related_proj": [
-        13,
-        167,
-        48
+        73,
+        97,
+        153
       ]
     },
     {
@@ -1595,9 +1595,9 @@
         "Generative AI"
       ],
       "related_proj": [
-        66,
-        81,
-        109
+        146,
+        84,
+        87
       ]
     },
     {
@@ -1605,7 +1605,7 @@
       "mentor_name": "Barbie Duckworth",
       "mentor_title": "Computer Science BS Alumni MIT, prior Software Engineer at Facebook and eBay",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/8004f9d9a0db1f1ec74dd2a6cda6aaa8bfc701aa.png",
+      "student_image": "assets/images/student_imgs/73eda021247af8b9c6e12156f6daa7cb38c3f986.png",
       "domains": [
         "Engineering",
         "Humanitarian Efforts and Social Justice"
@@ -1626,9 +1626,9 @@
         "Solar Power"
       ],
       "related_proj": [
-        175,
-        56,
-        130
+        30,
+        159,
+        141
       ]
     },
     {
@@ -1636,7 +1636,7 @@
       "mentor_name": "Aidan Donaghey",
       "mentor_title": "Physics Yale Alumni, Researcher in Bioinformatics and Astrophysics",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/d9570f7587545e42733102bbef7266fdb3f58c5b.png",
+      "student_image": "assets/images/student_imgs/640021b1c2e48914c787d13228b2d9c18aada8c7.png",
       "domains": [
         "Physics"
       ],
@@ -1654,17 +1654,17 @@
         "Astronomy"
       ],
       "related_proj": [
-        83,
-        110,
-        132
+        99,
+        166,
+        3
       ]
     },
     {
       "student_name": "Alexander K.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
-      "student_image": "assets/images/student_imgs/1caba83d416e904cc9825df2efc3671329560b34.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
+      "student_image": "assets/images/student_imgs/88f1d057d0384144cf8e00a10d34c57747e2bdf5.png",
       "domains": [
         "Environment"
       ],
@@ -1682,16 +1682,16 @@
         "Recycling"
       ],
       "related_proj": [
-        5,
+        27,
         23,
-        111
+        172
       ]
     },
     {
       "student_name": "Nuo W.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology"
@@ -1713,16 +1713,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        137,
-        58,
-        178
+        126,
+        50,
+        174
       ]
     },
     {
       "student_name": "Ram N.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology",
@@ -1742,9 +1742,9 @@
         "Drugs"
       ],
       "related_proj": [
-        26,
-        103,
-        126
+        184,
+        155,
+        104
       ]
     },
     {
@@ -1771,9 +1771,9 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        81,
         87,
-        126
+        81,
+        154
       ]
     },
     {
@@ -1781,7 +1781,7 @@
       "mentor_name": "Barbie Duckworth",
       "mentor_title": "Computer Science BS Alumni MIT, prior Software Engineer at Facebook and eBay",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/9b6f95b9b7dce42365164c342b640161dc3bfe9c.png",
+      "student_image": "assets/images/student_imgs/7198ef8fe690ff8d581bb59073aee05e03cf28de.png",
       "domains": [
         "Healthcare and Biology",
         "Psychology"
@@ -1800,9 +1800,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        84,
-        157,
-        12
+        32,
+        10,
+        137
       ]
     },
     {
@@ -1830,9 +1830,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        9,
-        21,
-        167
+        108,
+        117,
+        156
       ]
     },
     {
@@ -1858,9 +1858,9 @@
         "Solar Flares"
       ],
       "related_proj": [
-        1,
-        83,
-        110
+        20,
+        36,
+        129
       ]
     },
     {
@@ -1888,9 +1888,9 @@
         "Psych"
       ],
       "related_proj": [
-        107,
-        148,
-        171
+        24,
+        178,
+        160
       ]
     },
     {
@@ -1918,9 +1918,9 @@
         "Random Forests"
       ],
       "related_proj": [
-        136,
-        88,
-        122
+        89,
+        121,
+        128
       ]
     },
     {
@@ -1947,9 +1947,9 @@
         "Chemicals"
       ],
       "related_proj": [
-        37,
-        111,
-        67
+        54,
+        172,
+        123
       ]
     },
     {
@@ -1975,9 +1975,9 @@
         "Vollyball"
       ],
       "related_proj": [
-        135,
-        68,
-        108
+        67,
+        59,
+        7
       ]
     },
     {
@@ -2005,9 +2005,9 @@
         "Social Justice"
       ],
       "related_proj": [
-        56,
-        9,
-        35
+        35,
+        133,
+        126
       ]
     },
     {
@@ -2033,8 +2033,8 @@
         "Modern Languages"
       ],
       "related_proj": [
+        84,
         51,
-        87,
         109
       ]
     },
@@ -2043,7 +2043,7 @@
       "mentor_name": "Barbie Duckworth",
       "mentor_title": "Computer Science BS Alumni MIT, prior Software Engineer at Facebook and eBay",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/a06c48b74921fc598ba3cd0785ba3f16762ce2e7.png",
+      "student_image": "assets/images/student_imgs/4744640f73ce5f3d6f86765dad1d4f1604b083a9.png",
       "domains": [
         "Environment",
         "Healthcare and Biology"
@@ -2063,16 +2063,16 @@
         "Farming"
       ],
       "related_proj": [
-        120,
-        152,
-        157
+        48,
+        183,
+        42
       ]
     },
     {
       "student_name": "Eera B.",
       "mentor_name": "Clayton Greenberg",
       "mentor_title": "Teaching Professor from UPenn",
-      "mentor_image": "assets/images/mentor_imgs/386ead2265f41608f1d70e611d406f8eb3916841.png",
+      "mentor_image": "assets/images/mentor_imgs/c41d5535b4ef0054a8ee46918a196c8732eb5608.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology",
@@ -2093,9 +2093,9 @@
         "Classification"
       ],
       "related_proj": [
-        126,
-        45,
-        107
+        160,
+        17,
+        101
       ]
     },
     {
@@ -2103,7 +2103,7 @@
       "mentor_name": "Tomer Arnon",
       "mentor_title": "MS Engineering at Stanford",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/b219f65a882647f48faf2fe426e41d395d5bf2a5.png",
+      "student_image": "assets/images/student_imgs/36fa5be484ece500f31fbf51c6d6ff307ad7ba06.png",
       "domains": [
         "Physics"
       ],
@@ -2121,8 +2121,8 @@
         "Physics"
       ],
       "related_proj": [
-        110,
-        150,
+        20,
+        166,
         91
       ]
     },
@@ -2149,17 +2149,17 @@
         "Earth Systems"
       ],
       "related_proj": [
-        67,
-        125,
-        172
+        37,
+        172,
+        111
       ]
     },
     {
       "student_name": "Claire M.",
       "mentor_name": "Clayton Greenberg",
       "mentor_title": "Teaching Professor from UPenn",
-      "mentor_image": "assets/images/mentor_imgs/386ead2265f41608f1d70e611d406f8eb3916841.png",
-      "student_image": "assets/images/student_imgs/7849bf08c4b2c881e69acf87d831314b7e0d585e.png",
+      "mentor_image": "assets/images/mentor_imgs/c41d5535b4ef0054a8ee46918a196c8732eb5608.png",
+      "student_image": "assets/images/student_imgs/56eba6fde8c67ede41242e34e609b24ce0f4bfad.png",
       "domains": [
         "Psychology"
       ],
@@ -2178,8 +2178,8 @@
       ],
       "related_proj": [
         103,
-        40,
-        61
+        84,
+        127
       ]
     },
     {
@@ -2204,9 +2204,9 @@
         "Social Justice"
       ],
       "related_proj": [
-        47,
+        114,
         100,
-        114
+        78
       ]
     },
     {
@@ -2214,7 +2214,7 @@
       "mentor_name": "Yiran Li",
       "mentor_title": "Biometry and Stats Cornell Alum, Bioinformatics MS at ETH Zürich",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/0f009ab2bd49d49e2d7b897b4b144e02b3034eaa.png",
+      "student_image": "assets/images/student_imgs/958b5b973722fdda18a24049d1d011e96faf6856.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -2232,16 +2232,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        178,
-        42,
-        56
+        97,
+        137,
+        24
       ]
     },
     {
       "student_name": "Neal D.",
       "mentor_name": "Clayton Greenberg",
       "mentor_title": "Teaching Professor from UPenn",
-      "mentor_image": "assets/images/mentor_imgs/386ead2265f41608f1d70e611d406f8eb3916841.png",
+      "mentor_image": "assets/images/mentor_imgs/c41d5535b4ef0054a8ee46918a196c8732eb5608.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Cybersecurity"
@@ -2262,8 +2262,8 @@
       ],
       "related_proj": [
         165,
-        0,
-        49
+        173,
+        139
       ]
     },
     {
@@ -2295,16 +2295,16 @@
         "New York"
       ],
       "related_proj": [
-        143,
-        80,
-        35
+        133,
+        40,
+        65
       ]
     },
     {
       "student_name": "Serena F.",
       "mentor_name": "Clayton Greenberg",
       "mentor_title": "Teaching Professor from UPenn",
-      "mentor_image": "assets/images/mentor_imgs/386ead2265f41608f1d70e611d406f8eb3916841.png",
+      "mentor_image": "assets/images/mentor_imgs/c41d5535b4ef0054a8ee46918a196c8732eb5608.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Arts and Music",
@@ -2326,8 +2326,8 @@
       ],
       "related_proj": [
         161,
-        180,
-        136
+        62,
+        159
       ]
     },
     {
@@ -2335,7 +2335,7 @@
       "mentor_name": "Philip Bell",
       "mentor_title": "Computer Science MS from Georgia Tech, Harvard and Oxford alum, AI Engineer at Cognino ",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/05e470acc817fae319af8a78cc10c82a5307f255.png",
+      "student_image": "assets/images/student_imgs/b840b9aa2dbebfd0840ee3d29796d5d0522107f0.png",
       "domains": [
         "Education"
       ],
@@ -2356,16 +2356,16 @@
         "Dropout Rates"
       ],
       "related_proj": [
+        40,
         75,
-        86,
-        80
+        159
       ]
     },
     {
       "student_name": "Yudhiishbala V.",
       "mentor_name": "Ana Sofia Muñoz Valadez",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/b56adeba165b1122e749145cf648a7865b6c0e86.png",
+      "student_image": "assets/images/student_imgs/dc572bb7e79beebf858669c93a28204288f6e88e.png",
       "domains": [
         "PoliSci and Law"
       ],
@@ -2384,17 +2384,17 @@
         "Racial Equality"
       ],
       "related_proj": [
-        114,
-        165,
-        100
+        47,
+        72,
+        79
       ]
     },
     {
       "student_name": "Aman B.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
-      "student_image": "assets/images/student_imgs/445183ce0f1f5dfc55ae5dda695b9fd3005958f8.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
+      "student_image": "assets/images/student_imgs/1fb3f8849768af5f249a603848573804362d8d41.png",
       "domains": [
         "PoliSci and Law",
         "Language and Literature"
@@ -2414,17 +2414,17 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        100,
-        114,
-        78
+        162,
+        66,
+        100
       ]
     },
     {
       "student_name": "Viksar D.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
-      "student_image": "assets/images/student_imgs/cec0f803c2c639e499c49ffe1b9d12d759a8f2e1.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
+      "student_image": "assets/images/student_imgs/55f9c79407f4d88446c84968a146990e9ff152ff.png",
       "domains": [
         "Education"
       ],
@@ -2445,9 +2445,9 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        94,
-        77,
-        75
+        159,
+        86,
+        40
       ]
     },
     {
@@ -2476,9 +2476,9 @@
         "LSTMs"
       ],
       "related_proj": [
-        162,
-        51,
-        82
+        57,
+        87,
+        109
       ]
     },
     {
@@ -2486,7 +2486,7 @@
       "mentor_name": "Sean Konz",
       "mentor_title": "Computer Science MS from Stanford, Software Engineer",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/04ffa4f0de734465c7afe0d0844dfc16ac297e5d.png",
+      "student_image": "assets/images/student_imgs/bb598a63aa0d8f96d36cdff884f20beeed0418a8.png",
       "domains": [
         "Language and Literature"
       ],
@@ -2507,8 +2507,8 @@
       ],
       "related_proj": [
         162,
-        84,
-        81
+        79,
+        38
       ]
     },
     {
@@ -2536,9 +2536,9 @@
         "Classification"
       ],
       "related_proj": [
-        91,
-        1,
-        168
+        20,
+        53,
+        1
       ]
     },
     {
@@ -2566,9 +2566,9 @@
         "Writing"
       ],
       "related_proj": [
-        16,
         162,
-        127
+        146,
+        103
       ]
     },
     {
@@ -2576,7 +2576,7 @@
       "mentor_name": "Shreyas Muralidharan",
       "mentor_title": "PhD Candidate in Electrical and Electronics Engineering at Stanford",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/0120d44e50765600fbd25118b22d75225d085edd.png",
+      "student_image": "assets/images/student_imgs/58cc40701fa3527a94a968779531266e739814b6.png",
       "domains": [
         "Environment"
       ],
@@ -2595,17 +2595,17 @@
         "Classification"
       ],
       "related_proj": [
-        172,
-        45,
-        121
+        125,
+        27,
+        172
       ]
     },
     {
       "student_name": "Rohan S.",
       "mentor_name": "Christina Cheng",
       "mentor_title": "Materials Science and Engineering PhD Candidate at Stanford, ",
-      "mentor_image": "assets/images/mentor_imgs/501d6c73dda97ab7889115b397cfcd39dba10a63.png",
-      "student_image": "assets/images/student_imgs/afe213a0c2e93d17cff0db9c2a585dc0433f969e.png",
+      "mentor_image": "assets/images/mentor_imgs/f13cf99371756efbf3731dd958f71a571ea1072d.png",
+      "student_image": "assets/images/student_imgs/2429ae44ad0c64a6b0ea81ed9e9edeb9bc55b590.png",
       "domains": [
         "Education"
       ],
@@ -2623,9 +2623,9 @@
         "Standardized Testing"
       ],
       "related_proj": [
-        75,
-        40,
-        80
+        80,
+        77,
+        159
       ]
     },
     {
@@ -2653,8 +2653,8 @@
         "BERT"
       ],
       "related_proj": [
-        79,
-        109,
+        81,
+        84,
         57
       ]
     },
@@ -2662,7 +2662,7 @@
       "student_name": "Ayrton S.",
       "mentor_name": "Bryce Johnson",
       "mentor_title": "Computer Science Stanford Alum, Industry Data Analytics and Business Consultant at Oliver Wyman",
-      "mentor_image": "assets/images/mentor_imgs/25cd6897de1225f0749b35c056fee4a35783e102.png",
+      "mentor_image": "assets/images/mentor_imgs/a0c3954a9a3a7373b7ac9acb5e36983a19efc18c.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Business and Finance"
@@ -2681,9 +2681,9 @@
         "Consumer Behavior"
       ],
       "related_proj": [
-        154,
-        2,
-        121
+        122,
+        22,
+        2
       ]
     },
     {
@@ -2691,7 +2691,7 @@
       "mentor_name": "Tomer Arnon",
       "mentor_title": "MS Engineering at Stanford",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/d3d6a74d6a0a9bcd44c95072a47feb60bb27d7c8.png",
+      "student_image": "assets/images/student_imgs/7e0bc07efda21080cec4ac7af76393602f4f7ddb.png",
       "domains": [
         "Business and Finance"
       ],
@@ -2710,8 +2710,8 @@
         "Prediction"
       ],
       "related_proj": [
-        147,
-        88,
+        2,
+        22,
         121
       ]
     },
@@ -2720,7 +2720,7 @@
       "mentor_name": "Tomer Arnon",
       "mentor_title": "MS Engineering at Stanford",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/b5881f4a60a9f4705e87bf2db4a587c136e230fa.png",
+      "student_image": "assets/images/student_imgs/8721cb300b508dd51509c6f7fe23c34c1c8bceff.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -2738,9 +2738,9 @@
         "Eyes"
       ],
       "related_proj": [
+        134,
         26,
-        101,
-        18
+        178
       ]
     },
     {
@@ -2767,8 +2767,8 @@
         "Kinematics"
       ],
       "related_proj": [
-        150,
-        36,
+        151,
+        168,
         3
       ]
     },
@@ -2795,9 +2795,9 @@
         "Classification"
       ],
       "related_proj": [
-        102,
-        76,
-        136
+        144,
+        62,
+        176
       ]
     },
     {
@@ -2822,9 +2822,9 @@
         "Cancer"
       ],
       "related_proj": [
-        157,
-        9,
-        90
+        185,
+        98,
+        156
       ]
     },
     {
@@ -2851,8 +2851,8 @@
         "Education"
       ],
       "related_proj": [
-        75,
-        40,
+        80,
+        86,
         77
       ]
     },
@@ -2860,7 +2860,7 @@
       "student_name": "Vadim Y.",
       "mentor_name": "Darnell Granberry",
       "mentor_title": "MEng Computer Science from MIT, current Machine Learning Engineer",
-      "mentor_image": "assets/images/mentor_imgs/c6b9992da6de5416f20e244e0d5f28548c16b7fa.png",
+      "mentor_image": "assets/images/mentor_imgs/d2773fffd8d24451e14181829c0c3ba1adc8bbf6.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Environment"
@@ -2879,9 +2879,9 @@
         "Earth Systems"
       ],
       "related_proj": [
-        67,
-        145,
-        113
+        54,
+        33,
+        145
       ]
     },
     {
@@ -2909,9 +2909,9 @@
         "Aerospace Engineering"
       ],
       "related_proj": [
-        144,
-        173,
-        110
+        175,
+        180,
+        166
       ]
     },
     {
@@ -2937,9 +2937,9 @@
         "Neuroscience"
       ],
       "related_proj": [
-        169,
-        134,
-        137
+        50,
+        42,
+        61
       ]
     },
     {
@@ -2966,15 +2966,15 @@
         "Neuroscience"
       ],
       "related_proj": [
-        48,
+        13,
         6,
-        117
+        8
       ]
     },
     {
       "student_name": "Akshay N.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/2064dcc4b6d9edaee53b73e1b3afc59c24c8700c.png",
+      "student_image": "assets/images/student_imgs/2884d597b1f0f73604aad904746eb3b128787b3b.png",
       "domains": [
         "Physics",
         "Engineering"
@@ -2994,16 +2994,16 @@
         "Physics"
       ],
       "related_proj": [
-        144,
-        158,
-        167
+        96,
+        181,
+        166
       ]
     },
     {
       "student_name": "Tarun S.",
       "mentor_name": "Katie O'Nell",
       "mentor_title": "PhD Student at Dartmouth, Brain and Cognitive Sciences BS from MIT, Ethics+Social Sciences project and course developer at Inspirit AI",
-      "mentor_image": "assets/images/mentor_imgs/38cee623522cedeafd446336b28a370d7ffbf591.png",
+      "mentor_image": "assets/images/mentor_imgs/3df727e01bd6076d80bdefdd1c47288c998e0f7e.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "PoliSci and Law",
@@ -3026,17 +3026,17 @@
         "Modern Languages"
       ],
       "related_proj": [
-        79,
-        72,
-        0
+        47,
+        35,
+        165
       ]
     },
     {
       "student_name": "Srinivas S.",
       "mentor_name": "Nima Leclerc",
       "mentor_title": "UPenn PhD in Electrical Engineering",
-      "mentor_image": "assets/images/mentor_imgs/e35dba20654739367d02edf5da5c039cea97ac28.png",
-      "student_image": "assets/images/student_imgs/37e18b8db565391a3a13c1e0f4671880f8b68ff7.png",
+      "mentor_image": "assets/images/mentor_imgs/f301042e741b8df589841eaf068176c844806187.png",
+      "student_image": "assets/images/student_imgs/6b5487f76029edef5909aa6bbbc58a923af9057c.png",
       "domains": [
         "Healthcare and Biology",
         "Psychology"
@@ -3057,16 +3057,16 @@
         "Psych"
       ],
       "related_proj": [
-        163,
-        16,
-        29
+        183,
+        14,
+        90
       ]
     },
     {
       "student_name": "Zhou C.",
       "mentor_name": "Ross Greer",
       "mentor_title": "PhD Candidate in Electrical and Computer Engineering, Research at MIT and Berkeley, Engineer at Tesco",
-      "mentor_image": "assets/images/mentor_imgs/773469ffe253b784181dac3d5ca1961b098eb64f.png",
+      "mentor_image": "assets/images/mentor_imgs/c995a8ff1784ed78d976edf101087772c99899fa.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Arts and Music"
@@ -3087,16 +3087,16 @@
         "Pop Culture"
       ],
       "related_proj": [
-        76,
-        176,
-        144
+        62,
+        144,
+        76
       ]
     },
     {
       "student_name": "Claire L.",
       "mentor_name": "Katie O'Nell",
       "mentor_title": "PhD Student at Dartmouth, Brain and Cognitive Sciences BS from MIT, Ethics+Social Sciences project and course developer at Inspirit AI",
-      "mentor_image": "assets/images/mentor_imgs/38cee623522cedeafd446336b28a370d7ffbf591.png",
+      "mentor_image": "assets/images/mentor_imgs/3df727e01bd6076d80bdefdd1c47288c998e0f7e.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology",
@@ -3116,17 +3116,17 @@
         "Data and Privacy"
       ],
       "related_proj": [
-        12,
-        61,
-        44
+        59,
+        21,
+        137
       ]
     },
     {
       "student_name": "Khushi G.",
       "mentor_name": "Joseph Vincent",
       "mentor_title": "Aerospace Engineering PhD Candidate at Stanford",
-      "mentor_image": "assets/images/mentor_imgs/7b7ea5005c74c69e40cdacd9a0d7b16c2822f5dc.png",
-      "student_image": "assets/images/student_imgs/cc48b1db2cf4b8618c822211aef790bdb0c2faaa.png",
+      "mentor_image": "assets/images/mentor_imgs/808f2a4f0dad138963d86e72fa8a6bca1820e194.png",
+      "student_image": "assets/images/student_imgs/6e0a246bb918803da3a91ee66eb2fcecee65b1a4.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -3144,17 +3144,17 @@
         "Computer Vision"
       ],
       "related_proj": [
-        59,
-        143,
-        34
+        117,
+        119,
+        115
       ]
     },
     {
       "student_name": "Nicholas T.",
       "mentor_name": "Sophia Barton",
       "mentor_title": "Computer Science MS from Stanford",
-      "mentor_image": "assets/images/mentor_imgs/5fba3ab08aeaacfa77fdad7c012f4c97cd983c3a.png",
-      "student_image": "assets/images/student_imgs/65da8d5d79c905517e0b6db05359173da5fb037a.png",
+      "mentor_image": "assets/images/mentor_imgs/56c2b2fb8dc613f5a0a7ae222a5ee595734e2950.png",
+      "student_image": "assets/images/student_imgs/5253bdab3dc2db0484dd21f03f089541ee6bd832.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -3172,16 +3172,16 @@
         "Social Justice"
       ],
       "related_proj": [
-        135,
-        55,
-        167
+        184,
+        143,
+        117
       ]
     },
     {
       "student_name": "Rayyaan O.",
       "mentor_name": "Linda Banh",
       "mentor_title": "Electrical Engineering MS from Stanford with professional AI Certificate, Engineer at Microsoft",
-      "mentor_image": "assets/images/mentor_imgs/92382be5a945bc034f0c2aaa5f9d801172bc9e3e.png",
+      "mentor_image": "assets/images/mentor_imgs/3c9d0f6a41bcd9e11d20529cfd74449f29a85bb9.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Humanitarian Efforts and Social Justice"
@@ -3202,15 +3202,15 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        35,
         56,
+        9,
         143
       ]
     },
     {
       "student_name": "Arnav G.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/6d383fcd4d3fa617708fd474109b008ab3351e03.png",
+      "student_image": "assets/images/student_imgs/0e566202b048f3cbbcf8bbb932afbd5f1dd6de25.png",
       "domains": [
         "Healthcare and Biology",
         "Environment"
@@ -3231,17 +3231,17 @@
         "Environmentalism"
       ],
       "related_proj": [
-        37,
-        115,
-        44
+        153,
+        9,
+        5
       ]
     },
     {
       "student_name": "Hoshita U.",
       "mentor_name": "Ayush Pandit",
       "mentor_title": "PhD Candidate at Stanford, prior Stanford Bioengineering Alum",
-      "mentor_image": "assets/images/mentor_imgs/9d7510546b71a66f2dbe4aca574af57805e1e422.png",
-      "student_image": "assets/images/student_imgs/9a450d7f6f8e3a336c45246e2282b69e427abbe2.png",
+      "mentor_image": "assets/images/mentor_imgs/8ebea060f7acf53ebda820482eaa4ee26d37df4b.png",
+      "student_image": "assets/images/student_imgs/69691d7a6d2fb8cc071cd0ff3f9f6ca199544c90.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -3260,9 +3260,9 @@
         "DNA"
       ],
       "related_proj": [
-        160,
-        119,
-        98
+        58,
+        10,
+        119
       ]
     },
     {
@@ -3270,7 +3270,7 @@
       "mentor_name": "Roger Jin",
       "mentor_title": "Computer Science MS at MIT, ML researcher at Apple",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/e475893a5f4237bd6198ba44286300a10c09f846.png",
+      "student_image": "assets/images/missing_image.png",
       "domains": [
         "Language and Literature"
       ],
@@ -3289,9 +3289,9 @@
         "Pop Culture"
       ],
       "related_proj": [
-        162,
-        79,
-        87
+        84,
+        118,
+        82
       ]
     },
     {
@@ -3317,9 +3317,9 @@
         "News"
       ],
       "related_proj": [
-        1,
-        99,
-        52
+        173,
+        83,
+        130
       ]
     },
     {
@@ -3327,7 +3327,7 @@
       "mentor_name": "Sarthak Kanodia",
       "mentor_title": "MS Data Science from Stanford",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/03f2f57ec57dd8f73ba1daa04fe1a569219918d2.png",
+      "student_image": "assets/images/student_imgs/f4a63723d70977fd2076b085ca363a579ead7fac.png",
       "domains": [
         "Environment"
       ],
@@ -3346,16 +3346,16 @@
       ],
       "related_proj": [
         113,
-        125,
-        37
+        121,
+        41
       ]
     },
     {
       "student_name": "Anya N.",
       "mentor_name": "Eric Bradford",
       "mentor_title": "Electrical Engineering and Computer Science Masters from MIT, Technical PM at Apple",
-      "mentor_image": "assets/images/mentor_imgs/1c6e0145b739e5e8514f37fc9548d17022d2535f.png",
-      "student_image": "assets/images/student_imgs/f0e1b36365511c70a250266b0cebedf2d30ffd98.png",
+      "mentor_image": "assets/images/mentor_imgs/a1fe850d3c824ed0e95d61c0d97ce81721602779.png",
+      "student_image": "assets/images/student_imgs/dfdaa723b50328e607df72570d675b7ab3ae8a3a.png",
       "domains": [
         "Sports and Motion Sciences"
       ],
@@ -3374,15 +3374,15 @@
         "Pop Culture"
       ],
       "related_proj": [
-        4,
-        30,
-        11
+        11,
+        142,
+        49
       ]
     },
     {
       "student_name": "Thomas G.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/ac932bfe2817c9e3966d09adc3fc6e506d2229fc.png",
+      "student_image": "assets/images/student_imgs/87c56ab56e04ac1e77c91a72265ff270fb70c4c1.png",
       "domains": [
         "Environment"
       ],
@@ -3402,16 +3402,16 @@
         "Renewable Energy"
       ],
       "related_proj": [
-        63,
-        95,
-        45
+        70,
+        85,
+        107
       ]
     },
     {
       "student_name": "Michael Z.",
       "mentor_name": "Kasra Koushan",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/76a05f96292ebb531cdb6cb3ab5172a833ed2ffd.png",
+      "student_image": "assets/images/student_imgs/d3fd4bd30ab402141be3f6ed665975a9bbc84492.png",
       "domains": [
         "PoliSci and Law"
       ],
@@ -3429,16 +3429,16 @@
         "Political Science"
       ],
       "related_proj": [
-        47,
-        100,
-        165
+        165,
+        79,
+        78
       ]
     },
     {
       "student_name": "Ethan V.",
       "mentor_name": "Anjali Singh",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/e5b713af03b3895c73a82c20b15739b960edf38f.png",
+      "student_image": "assets/images/student_imgs/99206a7ff5b50a947138a2629eadbf6bf85c3aaf.png",
       "domains": [
         "Engineering",
         "Healthcare and Biology"
@@ -3457,16 +3457,16 @@
         "Product Analysis"
       ],
       "related_proj": [
-        108,
-        56,
-        166
+        173,
+        59,
+        157
       ]
     },
     {
       "student_name": "Will K.",
       "mentor_name": "Ana Sofia Muñoz Valadez",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/732f863f90c4f65d076401b4284d55ae34031367.png",
+      "student_image": "assets/images/student_imgs/9ef2e63ea5415702f7abca28b725ad7cd5f59e16.png",
       "domains": [
         "Business and Finance"
       ],
@@ -3485,9 +3485,9 @@
         "Consumer Behavior"
       ],
       "related_proj": [
-        177,
-        22,
-        89
+        2,
+        88,
+        122
       ]
     },
     {
@@ -3512,17 +3512,17 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        174,
-        31,
-        98
+        125,
+        59,
+        12
       ]
     },
     {
       "student_name": "Vanessa H.",
       "mentor_name": "Matan Gans",
       "mentor_title": "Computer Science MS at Brown",
-      "mentor_image": "assets/images/mentor_imgs/3d3ad41beef6202228995b3c6fea47175bcd03bd.png",
-      "student_image": "assets/images/student_imgs/5e9176a39300a28d002726d3906e710189146186.png",
+      "mentor_image": "assets/images/mentor_imgs/73681a9d5dfa8c731c6630f956bd88bbcea828bc.png",
+      "student_image": "assets/images/student_imgs/07e9e0ae4c6a0930d5dc359b9e69b119cd2a21a3.png",
       "domains": [
         "Language and Literature"
       ],
@@ -3541,16 +3541,16 @@
         "CNNs"
       ],
       "related_proj": [
-        87,
         51,
-        38
+        162,
+        79
       ]
     },
     {
       "student_name": "Daniel S.",
       "mentor_name": "Jonathan Delgadillo Lorenzo",
       "mentor_title": "Mathematical Economics UPenn Alum, Harvard Humanities Researcher, Data Scientist at Theta",
-      "mentor_image": "assets/images/mentor_imgs/c701bc8a9a9877a219915b9cd60a232cd257dc8b.png",
+      "mentor_image": "assets/images/mentor_imgs/21734ecfe074515561989e3cc073df8fc46aee21.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology"
@@ -3569,9 +3569,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        68,
-        97,
-        32
+        42,
+        157,
+        163
       ]
     },
     {
@@ -3579,7 +3579,7 @@
       "mentor_name": "West Foster",
       "mentor_title": "PhD Candidate in Electrical Engineering at Stanford",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/10fd11d07ec34b062f667e07683468361db01293.png",
+      "student_image": "assets/images/student_imgs/570bdaf2ea1de7da66cab731ba42b44aef4a7053.png",
       "domains": [
         "Environment"
       ],
@@ -3596,8 +3596,8 @@
         "Wildlife"
       ],
       "related_proj": [
-        171,
-        54,
+        68,
+        27,
         107
       ]
     },
@@ -3605,7 +3605,7 @@
       "student_name": "Sahir G.",
       "mentor_name": "Landon Butler",
       "mentor_title": "PhD Candidate at Berkeley, UPenn CS Master's",
-      "mentor_image": "assets/images/mentor_imgs/bcff725dece680bd3b8516442a1d66af1642bdf1.png",
+      "mentor_image": "assets/images/mentor_imgs/d555e67db872a4dce56c1938f2efc953bb18ce3f.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Business and Finance",
@@ -3626,15 +3626,15 @@
         "Farming"
       ],
       "related_proj": [
-        15,
-        122,
-        37
+        125,
+        123,
+        147
       ]
     },
     {
       "student_name": "James S.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/27e013e8599202542437724edcbfbb5e019ec965.png",
+      "student_image": "assets/images/student_imgs/39d121d6f1ed36ac5070c213bfa0fbf4bed6e926.png",
       "domains": [
         "Business and Finance"
       ],
@@ -3651,16 +3651,16 @@
         "Fraud"
       ],
       "related_proj": [
-        116,
         147,
-        46
+        116,
+        186
       ]
     },
     {
       "student_name": "Gregory G.",
       "mentor_name": "Ribhav Gupta",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/40466518523beac82d14e47895133e197ab1c371.png",
+      "student_image": "assets/images/student_imgs/3cb1d6b771d158ca05ed87c9ec59fe1d0d2ba45e.png",
       "domains": [
         "Environment"
       ],
@@ -3678,17 +3678,17 @@
         "Farming"
       ],
       "related_proj": [
-        15,
-        113,
-        145
+        27,
+        145,
+        85
       ]
     },
     {
       "student_name": "Alfred B.",
       "mentor_name": "Ayush Pandit",
       "mentor_title": "PhD Candidate at Stanford, prior Stanford Bioengineering Alum",
-      "mentor_image": "assets/images/mentor_imgs/9d7510546b71a66f2dbe4aca574af57805e1e422.png",
-      "student_image": "assets/images/student_imgs/5173e5d66e5cda4b36cad4bfc9dd8c07e505eb4e.png",
+      "mentor_image": "assets/images/mentor_imgs/8ebea060f7acf53ebda820482eaa4ee26d37df4b.png",
+      "student_image": "assets/images/student_imgs/63561bbf9e689de55369fb1dc997a0613f279775.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -3706,9 +3706,9 @@
         "DNA"
       ],
       "related_proj": [
-        103,
-        73,
-        133
+        183,
+        131,
+        101
       ]
     },
     {
@@ -3733,9 +3733,9 @@
         "Earth Systems"
       ],
       "related_proj": [
-        55,
-        28,
-        29
+        15,
+        41,
+        115
       ]
     },
     {
@@ -3760,15 +3760,15 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        19,
-        24,
-        93
+        58,
+        10,
+        7
       ]
     },
     {
       "student_name": "Taneesh S.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/1f55ab1fa40dd3f440e967c9c2f634e39bc49807.png",
+      "student_image": "assets/images/student_imgs/402e61f34449089e9ff9432d6f8a67bd30b6dc7e.png",
       "domains": [
         "Psychology"
       ],
@@ -3786,16 +3786,16 @@
         "Social Media"
       ],
       "related_proj": [
-        101,
-        16,
-        40
+        71,
+        58,
+        61
       ]
     },
     {
       "student_name": "Siddharth M.",
       "mentor_name": "Anthony Cuturrufo",
       "mentor_title": "PhD Candidate in Computer Science at UCLA, Cornell CS Alum",
-      "mentor_image": "assets/images/mentor_imgs/9a572300852b5444e27a96ff066911f432a18b30.png",
+      "mentor_image": "assets/images/mentor_imgs/f699a372eb08ca69ee86a5edf71437a7c68bccd5.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Arts and Music"
@@ -3816,16 +3816,16 @@
         "Classification"
       ],
       "related_proj": [
-        92,
         176,
-        136
+        102,
+        144
       ]
     },
     {
       "student_name": "Maanya M.",
       "mentor_name": "Anthony Cuturrufo",
       "mentor_title": "PhD Candidate in Computer Science at UCLA, Cornell CS Alum",
-      "mentor_image": "assets/images/mentor_imgs/9a572300852b5444e27a96ff066911f432a18b30.png",
+      "mentor_image": "assets/images/mentor_imgs/f699a372eb08ca69ee86a5edf71437a7c68bccd5.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Physics"
@@ -3844,16 +3844,16 @@
         "Astronomy"
       ],
       "related_proj": [
-        25,
-        150,
-        151
+        132,
+        91,
+        25
       ]
     },
     {
       "student_name": "Zachary R.",
       "mentor_name": "Zachary Gittelman",
       "mentor_title": "MS in Information Systems from Cornell; startup co-founder",
-      "mentor_image": "assets/images/mentor_imgs/665a58f5690abbc1e91b5429e9379882bd45544c.png",
+      "mentor_image": "assets/images/mentor_imgs/b80905554784ba740eb49afb192e8f2b990e2ad0.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Engineering"
@@ -3871,17 +3871,17 @@
         "Optimization"
       ],
       "related_proj": [
-        144,
         180,
-        161
+        150,
+        30
       ]
     },
     {
       "student_name": "Smriti R.",
       "mentor_name": "Varsha Sandadi",
       "mentor_title": "MS at MIT, Computer Science MIT Alum",
-      "mentor_image": "assets/images/mentor_imgs/1df8a2470d2ecdd62181107ebde57ca10560bff7.png",
-      "student_image": "assets/images/student_imgs/2c72329750575854a0b0a069fab12f6970480b84.png",
+      "mentor_image": "assets/images/missing_image.png",
+      "student_image": "assets/images/student_imgs/c7ba0b6967013acc4c64dc20a755f6188c845276.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -3899,17 +3899,17 @@
         "yoga"
       ],
       "related_proj": [
-        19,
-        9,
-        156
+        98,
+        55,
+        29
       ]
     },
     {
       "student_name": "Aaron W.",
       "mentor_name": "Ronil Synghal",
       "mentor_title": "UPenn MS in Mechatronics and Robotics, Prior Full-Stack Software Engineer at Healthcare Startup",
-      "mentor_image": "assets/images/mentor_imgs/447603f02ba7648ab1c8335ced4562b5ffd2aea1.png",
-      "student_image": "assets/images/student_imgs/50d650b900d0f439a0df7b61dc98fd474b2857ff.png",
+      "mentor_image": "assets/images/mentor_imgs/b4d4da066f156a8ff549472bd1d2673cf8cde8e1.png",
+      "student_image": "assets/images/student_imgs/a1d1c21a712b9810f91c00e5d47af215e3392350.png",
       "domains": [
         "Physics",
         "Engineering"
@@ -3930,16 +3930,16 @@
         "Physics"
       ],
       "related_proj": [
-        76,
-        129,
-        158
+        168,
+        182,
+        60
       ]
     },
     {
       "student_name": "Neha K.",
       "mentor_name": "Udgam Goyal",
       "mentor_title": "MEng CS from MIT, Product Manager at Aurora and prior AI Product Management at Microsoft",
-      "mentor_image": "assets/images/mentor_imgs/5230705f60c33cfe2f58bdb0b315946dbaadb515.png",
+      "mentor_image": "assets/images/mentor_imgs/a3638f2f762e49748ac4a432468a44b6f5a7457b.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology",
@@ -3958,9 +3958,9 @@
         "Mental Health"
       ],
       "related_proj": [
-        7,
-        108,
-        90
+        73,
+        157,
+        59
       ]
     },
     {
@@ -3983,17 +3983,17 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        21,
-        93,
-        68
+        157,
+        31,
+        90
       ]
     },
     {
       "student_name": "Yi-Chen (.",
       "mentor_name": "Samar Abu Hegly",
       "mentor_title": "BS in Electrical Engineering & Computer Science and Neuroscience from MiT",
-      "mentor_image": "assets/images/mentor_imgs/b0084b4234f39275b1f677f5beac5449277c9f24.png",
-      "student_image": "assets/images/student_imgs/8debd3fa78a954eb085454495b9c0af127a86d94.png",
+      "mentor_image": "assets/images/mentor_imgs/1f12946a950e1f40195fdfe6f6aef0297455e7ae.png",
+      "student_image": "assets/images/student_imgs/2ac397d7439987c4f5a7b4aa95ac32afd427ed5d.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -4012,16 +4012,16 @@
         "Physiology"
       ],
       "related_proj": [
-        152,
-        50,
-        174
+        115,
+        19,
+        73
       ]
     },
     {
       "student_name": "Shawn Z.",
       "mentor_name": "Shreyas Ramesh",
       "mentor_title": "MS in Robotics at UPenn",
-      "mentor_image": "assets/images/mentor_imgs/7d95bf3b8a54b0a98bb9165b320a35872a395f1d.png",
+      "mentor_image": "assets/images/mentor_imgs/90c4b479c03699a2614db354382b4dae71dcd07c.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Arts and Music"
@@ -4040,9 +4040,9 @@
         "Prediction"
       ],
       "related_proj": [
-        144,
-        128,
-        62
+        102,
+        176,
+        92
       ]
     },
     {
@@ -4066,15 +4066,15 @@
         "DNA"
       ],
       "related_proj": [
-        126,
-        163,
-        174
+        24,
+        108,
+        184
       ]
     },
     {
       "student_name": "Orhan H.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/d84bf2af79c8072575aea81c47e25d7d27be34ba.png",
+      "student_image": "assets/images/student_imgs/26f40d63c624793bde5380a5f791a6a5fc23d705.png",
       "domains": [
         "Misc"
       ],
@@ -4093,16 +4093,16 @@
       ],
       "related_proj": [
         139,
-        145,
-        97
+        42,
+        11
       ]
     },
     {
       "student_name": "Sid S.",
       "mentor_name": "Yin Kwong John Lee",
       "mentor_title": "Statistics Lecturer at UChicago, MS in Data Analytics",
-      "mentor_image": "assets/images/mentor_imgs/531a10c1ad525e4016e754e05ccf00921365cf12.png",
-      "student_image": "assets/images/student_imgs/ef28b0472370929c997f750c6f0466f4fbca88ba.png",
+      "mentor_image": "assets/images/mentor_imgs/d096d47afb3f61c54536bf220ecc7a2705c6a722.png",
+      "student_image": "assets/images/student_imgs/bd5bf99d99cd40b4f86ac11e60471b4fde32b15b.png",
       "domains": [
         "Misc"
       ],
@@ -4121,16 +4121,16 @@
       ],
       "related_proj": [
         138,
-        160,
-        22
+        61,
+        90
       ]
     },
     {
       "student_name": "Joann C.",
       "mentor_name": "Ivan Felipe Rodriguez",
       "mentor_title": "PhD Candidate at Brown",
-      "mentor_image": "assets/images/mentor_imgs/6c41fc68e9807ce5da92e44c4ef508b78c06e8ed.png",
-      "student_image": "assets/images/student_imgs/3229ccfd1bc6fafa5fc1c52e398d31e3daf1d771.png",
+      "mentor_image": "assets/images/mentor_imgs/0e30c36e4e6916543bba15053026d44332d58185.png",
+      "student_image": "assets/images/student_imgs/c340b0371c12550719b6029b16dca80b30e91dd4.png",
       "domains": [
         "Engineering"
       ],
@@ -4148,15 +4148,15 @@
         "Physics"
       ],
       "related_proj": [
-        172,
-        144,
-        96
+        130,
+        99,
+        27
       ]
     },
     {
       "student_name": "Vihaan B.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/7b1c4e5bb522b8fbc9c84db8dbf213b8a7786005.png",
+      "student_image": "assets/images/student_imgs/7dcd9ef5296c78dad0d6450c37d41982d45acb45.png",
       "domains": [
         "Engineering"
       ],
@@ -4176,17 +4176,17 @@
         "Computer Vision"
       ],
       "related_proj": [
-        167,
-        172,
-        163
+        180,
+        176,
+        30
       ]
     },
     {
       "student_name": "Seohyun P.",
       "mentor_name": "Kasra Koushan",
       "mentor_title": "MSE in CS from Penn",
-      "mentor_image": "assets/images/mentor_imgs/954547fc4717d9312cbbc426445bff8400f3d5ed.png",
-      "student_image": "assets/images/student_imgs/c7b464c235d68ac7c0483515f84893972a64f539.png",
+      "mentor_image": "assets/images/mentor_imgs/bf7b01506cfd765c5e6a874e944f0a83beb5275b.png",
+      "student_image": "assets/images/student_imgs/23195f0d484ffc934772a1ca4c5b191d2ad97c8a.png",
       "domains": [
         "Sports and Motion Sciences"
       ],
@@ -4205,15 +4205,15 @@
         "Prediction"
       ],
       "related_proj": [
-        4,
         30,
-        112
+        11,
+        4
       ]
     },
     {
       "student_name": "Rohan B.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/4d973bfaa31a6f6ad11aad272a07075ba98cca00.png",
+      "student_image": "assets/images/student_imgs/c600fee6dd2c31917b49d9a13309902713b158fe.png",
       "domains": [
         "Healthcare and Biology",
         "Humanitarian Efforts and Social Justice"
@@ -4233,16 +4233,16 @@
         "Computer Vision"
       ],
       "related_proj": [
-        104,
         19,
-        156
+        58,
+        167
       ]
     },
     {
       "student_name": "Lucas C.",
       "mentor_name": "Ross Greer",
       "mentor_title": "PhD Candidate in Electrical and Computer Engineering, Research at MIT and Berkeley, Engineer at Tesco",
-      "mentor_image": "assets/images/mentor_imgs/773469ffe253b784181dac3d5ca1961b098eb64f.png",
+      "mentor_image": "assets/images/mentor_imgs/c995a8ff1784ed78d976edf101087772c99899fa.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Engineering",
@@ -4263,17 +4263,17 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        170,
-        141,
-        128
+        128,
+        96,
+        130
       ]
     },
     {
       "student_name": "Anika S.",
       "mentor_name": "Ying Hang Seah",
       "mentor_title": "MS in Management Science and Engineering and BS in Computer Science from Stanford, Startup Co-founder",
-      "mentor_image": "assets/images/mentor_imgs/a05f7a6ff645b727f9a9f99814485e3070b3710b.png",
-      "student_image": "assets/images/student_imgs/bfd0ac5246d5f2cecbdc716dd7b5d221a3428af3.png",
+      "mentor_image": "assets/images/mentor_imgs/903661425b47b21952595049ff93424d134d2506.png",
+      "student_image": "assets/images/student_imgs/3e81a81724cf0073d0800f5d96bcfd5615110f17.png",
       "domains": [
         "Environment"
       ],
@@ -4296,14 +4296,14 @@
       "related_proj": [
         33,
         27,
-        125
+        107
       ]
     },
     {
       "student_name": "Dhaniya V.",
       "mentor_name": "Matan Gans",
       "mentor_title": "Computer Science MS from Brown",
-      "mentor_image": "assets/images/mentor_imgs/3d3ad41beef6202228995b3c6fea47175bcd03bd.png",
+      "mentor_image": "assets/images/mentor_imgs/73681a9d5dfa8c731c6630f956bd88bbcea828bc.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Language and Literature"
@@ -4322,9 +4322,9 @@
         "Linguistics"
       ],
       "related_proj": [
-        79,
-        66,
-        84
+        51,
+        38,
+        162
       ]
     },
     {
@@ -4332,7 +4332,7 @@
       "mentor_name": "Hassan Azmat",
       "mentor_title": "MS in Mechanical Engineering from CMU, startup co-founder",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/83fc4dbe180d9359427f1e81456afbd99f02e498.png",
+      "student_image": "assets/images/student_imgs/eee3de32ac6adbe66678c46b33814cccc8f50506.png",
       "domains": [
         "Business and Finance"
       ],
@@ -4350,8 +4350,8 @@
         "Fraud"
       ],
       "related_proj": [
-        177,
-        46,
+        122,
+        88,
         89
       ]
     },
@@ -4377,17 +4377,17 @@
         "Deep Learning"
       ],
       "related_proj": [
-        59,
-        58,
-        19
+        163,
+        21,
+        93
       ]
     },
     {
       "student_name": "Barbara T.",
       "mentor_name": "Ivan Villa-Renteria",
       "mentor_title": "MS Computer Science at Stanford",
-      "mentor_image": "assets/images/mentor_imgs/4550d3f29131e2d0ce4918ea4668086440aa93b8.png",
-      "student_image": "assets/images/student_imgs/473f7bae91ec34ef238183cec7953f864069fe23.png",
+      "mentor_image": "assets/images/mentor_imgs/c3367c49c4a121b7eae2189efc7662edd8de4720.png",
+      "student_image": "assets/images/student_imgs/5d375d3fca09d5fee4265b6b92a5031bd2c96d9a.png",
       "domains": [
         "Humanitarian Efforts and Social Justice"
       ],
@@ -4405,15 +4405,15 @@
         "Classification"
       ],
       "related_proj": [
-        75,
-        56,
-        126
+        133,
+        100,
+        0
       ]
     },
     {
       "student_name": "Sambhav A.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/6e1de105c936bcad98453521cbc85c13a5e58dd5.png",
+      "student_image": "assets/images/student_imgs/b72acc6352ba6fc4ba0709a3f8a6b995a954d029.png",
       "domains": [
         "Physics",
         "Engineering"
@@ -4434,15 +4434,15 @@
         "Hardware"
       ],
       "related_proj": [
-        141,
-        83,
-        140
+        69,
+        173,
+        130
       ]
     },
     {
       "student_name": "Mariah D.",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/e061cb82ba26d061a58596beeb2b4a532aef764c.png",
+      "student_image": "assets/images/student_imgs/f18663ea6d71a9d45bdcba31695484f9b9cf39c6.png",
       "domains": [
         "Physics"
       ],
@@ -4461,17 +4461,17 @@
         "Solar Cycles"
       ],
       "related_proj": [
-        129,
-        69,
-        99
+        110,
+        60,
+        166
       ]
     },
     {
       "student_name": "Akshaj S.",
       "mentor_name": "Kasra Koushan",
       "mentor_title": "MSE in CS from Penn",
-      "mentor_image": "assets/images/mentor_imgs/954547fc4717d9312cbbc426445bff8400f3d5ed.png",
-      "student_image": "assets/images/student_imgs/08fc062dfe22658891c03aae7f11f1d321c161bb.png",
+      "mentor_image": "assets/images/mentor_imgs/bf7b01506cfd765c5e6a874e944f0a83beb5275b.png",
+      "student_image": "assets/images/student_imgs/aa94527b1ab608258313c92895694970dacff2bd.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -4490,16 +4490,16 @@
         "Neuroscience"
       ],
       "related_proj": [
-        97,
+        26,
         108,
-        143
+        73
       ]
     },
     {
       "student_name": "Satvi M.",
       "mentor_name": "James Thomson",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/dcac75efb8aae89bec12f8b4c1298048c43bb238.png",
+      "student_image": "assets/images/student_imgs/270aaacb4169c3c3c0828aacf6754b1112d82373.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -4517,16 +4517,16 @@
         "Neuroscience"
       ],
       "related_proj": [
-        98,
+        171,
         12,
-        134
+        50
       ]
     },
     {
       "student_name": "Akshar S.",
       "mentor_name": "John Basbagill",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/67f707917c5a83ceec4fd735473314220b5dd6fd.png",
+      "student_image": "assets/images/student_imgs/d509fcb9e06f76b65b668eb8a9e02a0b3cb005b5.png",
       "domains": [
         "Business and Finance"
       ],
@@ -4544,16 +4544,16 @@
         "Pricing"
       ],
       "related_proj": [
-        147,
-        88,
-        89
+        46,
+        116,
+        122
       ]
     },
     {
       "student_name": "Aditya J.",
       "mentor_name": "Alaisha Alexander",
       "mentor_title": "MS from Stanford, MIT Alum",
-      "mentor_image": "assets/images/mentor_imgs/f2085977adb560f91701f42a895d7d443745833a.png",
+      "mentor_image": "assets/images/mentor_imgs/4c906595003fef5a6395866bcb9b4ddf79ff95be.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology"
@@ -4572,16 +4572,16 @@
         "Skin Cancer"
       ],
       "related_proj": [
-        58,
-        21,
-        55
+        124,
+        6,
+        93
       ]
     },
     {
       "student_name": "Aaryan W.",
       "mentor_name": "Anjali Singh",
       "mentor_title": "MIT CS Alum, Research at MIT Media Lab",
-      "mentor_image": "assets/images/mentor_imgs/136d857a0dc6c8ad15c5278e2a9bb92525e49dd8.png",
+      "mentor_image": "assets/images/mentor_imgs/ea6135d921fb4e648f80edb944175526a4120dd3.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Healthcare and Biology"
@@ -4600,16 +4600,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        90,
-        68,
-        101
+        143,
+        97,
+        167
       ]
     },
     {
       "student_name": "Anirudh C.",
       "mentor_name": "Matthew Radzihovsky",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/b332aaf4c653ad3a21dc28404c85bfa649b02cbf.png",
+      "student_image": "assets/images/student_imgs/b399999d6df11ae4fa206c4b19330c1439744366.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -4628,9 +4628,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        164,
-        101,
-        10
+        18,
+        64,
+        68
       ]
     },
     {
@@ -4657,17 +4657,17 @@
         "Social Media"
       ],
       "related_proj": [
-        30,
-        144,
-        172
+        76,
+        132,
+        27
       ]
     },
     {
       "student_name": "Sameeksha V.",
       "mentor_name": "Jose Reyes",
       "mentor_title": "UChicago Computer Science Alum",
-      "mentor_image": "assets/images/mentor_imgs/0279a0d770c006e5837ee3a301eb785f74b9ad0d.png",
-      "student_image": "assets/images/student_imgs/de1700df12a1d01b9db85cde7ba74c20e4d79cbd.png",
+      "mentor_image": "assets/images/mentor_imgs/c783edc1dcee802fda48afc76dfa7205db18e1df.png",
+      "student_image": "assets/images/student_imgs/cf5c62078126e3261b1aa7df89e67cf935453ed5.png",
       "domains": [
         "Education",
         "Engineering"
@@ -4685,17 +4685,17 @@
         "Education"
       ],
       "related_proj": [
-        132,
-        30,
-        75
+        150,
+        180,
+        158
       ]
     },
     {
       "student_name": "Advik V.",
       "mentor_name": "Ronil Synghal",
       "mentor_title": "UPenn MS Robotics, Data Scientist @ SCPMG",
-      "mentor_image": "assets/images/mentor_imgs/447603f02ba7648ab1c8335ced4562b5ffd2aea1.png",
-      "student_image": "assets/images/student_imgs/3289a759f363c1e2ea33cf79ad19b79cb3297287.png",
+      "mentor_image": "assets/images/mentor_imgs/b4d4da066f156a8ff549472bd1d2673cf8cde8e1.png",
+      "student_image": "assets/images/student_imgs/c455ccfdf49267abea37e9ac5af4a4c67e983118.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -4714,16 +4714,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        6,
-        17,
-        163
+        143,
+        155,
+        21
       ]
     },
     {
       "student_name": "Shishir B.",
       "mentor_name": "Hassan Azmat",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/aa30cb30998f5f979be611b10cbb9d056fa7ae2e.png",
+      "student_image": "assets/images/student_imgs/60375ff67a253b4adfa38f20009bc5630008d843.png",
       "domains": [
         "Engineering"
       ],
@@ -4742,16 +4742,16 @@
         "Engineering"
       ],
       "related_proj": [
-        180,
-        163,
-        158
+        167,
+        182,
+        141
       ]
     },
     {
       "student_name": "Ian M.",
       "mentor_name": "Alaisha Alexander",
       "mentor_title": "MS from Stanford, MIT Alum",
-      "mentor_image": "assets/images/mentor_imgs/f2085977adb560f91701f42a895d7d443745833a.png",
+      "mentor_image": "assets/images/mentor_imgs/4c906595003fef5a6395866bcb9b4ddf79ff95be.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Language and Literature",
@@ -4772,16 +4772,16 @@
         "GPT-3"
       ],
       "related_proj": [
-        82,
         84,
-        79
+        51,
+        118
       ]
     },
     {
       "student_name": "Katie Y.",
       "mentor_name": "Sriram Hathwar",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/4412388d061ab781dcb88e081014f82a18a0f73f.png",
+      "student_image": "assets/images/student_imgs/699db61c6e75da727bf9abb8050aec8d85da1982.png",
       "domains": [
         "Healthcare and Biology",
         "Engineering"
@@ -4800,16 +4800,16 @@
         "Neuroscience"
       ],
       "related_proj": [
-        58,
-        14,
-        175
+        12,
+        171,
+        133
       ]
     },
     {
       "student_name": "Trinity M.",
       "mentor_name": "Kevin Phan",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/3122369e4a86328e4a8ef16a5a200f7433dbeea0.png",
+      "student_image": "assets/images/student_imgs/b2d82c5f8baf1910a1bafab3d539459785fec76f.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -4828,16 +4828,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        29,
-        67,
-        8
+        155,
+        119,
+        29
       ]
     },
     {
       "student_name": "Isabella F.",
       "mentor_name": "Simeon Sayer",
       "mentor_title": "Staff Researcher @ Faculty of Arts and Sciences at Harvad, Head Teaching Fellow @ Harvard CS, Harvard CS Alum",
-      "mentor_image": "assets/images/mentor_imgs/c1301ebf3fcca58473bfbc26a6c6c8ad046421fa.png",
+      "mentor_image": "assets/images/mentor_imgs/290a3c8365be2682eacfad1771b06ce529da5d91.png",
       "student_image": "assets/images/missing_image.png",
       "domains": [
         "Cybersecurity",
@@ -4858,16 +4858,16 @@
         "Engineering"
       ],
       "related_proj": [
+        72,
         100,
-        47,
-        114
+        78
       ]
     },
     {
       "student_name": "Leonardo V.",
       "mentor_name": "Pablo Bonilla",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/8320c7fb426f2a9f747bcacefbb9f4cdebfa534f.png",
+      "student_image": "assets/images/student_imgs/838ab366674f2429062c955080c869f9def1f8c5.png",
       "domains": [
         "Physics",
         "Engineering"
@@ -4887,16 +4887,16 @@
         "Gamma Rays"
       ],
       "related_proj": [
-        140,
-        130,
-        176
+        30,
+        163,
+        115
       ]
     },
     {
       "student_name": "Sara C.",
       "mentor_name": "Emily Broadhurst",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/f413a6356c646ed2799d19332b7e63734a91b740.png",
+      "student_image": "assets/images/student_imgs/556e8c3e002d3b1c14b302549fd5d5b042f97229.png",
       "domains": [
         "Healthcare and Biology",
         "Engineering"
@@ -4917,9 +4917,9 @@
         "Biology"
       ],
       "related_proj": [
-        155,
-        175,
-        56
+        137,
+        173,
+        8
       ]
     },
     {
@@ -4944,16 +4944,16 @@
         "Physics"
       ],
       "related_proj": [
-        25,
-        110,
-        36
+        91,
+        166,
+        151
       ]
     },
     {
       "student_name": "Min W.",
       "mentor_name": "John Basbagill",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/ba2838626dc23faba322554ac6c437c708757065.png",
+      "student_image": "assets/images/student_imgs/aaf28865a6b130217940c758ab5f3adde531e318.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -4971,16 +4971,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        13,
-        104,
-        17
+        103,
+        61,
+        58
       ]
     },
     {
       "student_name": "Madhurima M.",
       "mentor_name": "Victoria Lloyd",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/53f03bd2a6815f2dd2b71a16c354a0f954e9b823.png",
+      "student_image": "assets/images/student_imgs/5cf78eaf169dc6acb1daaf5a28e7e73e33d93014.png",
       "domains": [
         "Engineering",
         "Specific Technologies"
@@ -5000,7 +5000,7 @@
       ],
       "related_proj": [
         96,
-        141,
+        166,
         144
       ]
     },
@@ -5027,16 +5027,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        131,
-        12,
-        152
+        178,
+        90,
+        33
       ]
     },
     {
       "student_name": "Pracheth G.",
       "mentor_name": "Henry Cerbone",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/783d878a2e01e67a5144b68ff4113fbe31016a10.png",
+      "student_image": "assets/images/student_imgs/edf6eed47f9a15155ef5bfd24aaca257e0a0685f.png",
       "domains": [
         "Environment",
         "Engineering"
@@ -5056,16 +5056,16 @@
         "Irrigation"
       ],
       "related_proj": [
-        115,
-        141,
-        41
+        161,
+        120,
+        30
       ]
     },
     {
       "student_name": "Paul N.",
       "mentor_name": "Erick Ruiz",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/5f4dc51035a9c7b02d5aaf2a5db4024ce2d356d3.png",
+      "student_image": "assets/images/student_imgs/901fc534a3310b19a0a26835fab35feedcf61a51.png",
       "domains": [
         "Engineering"
       ],
@@ -5082,16 +5082,16 @@
         "Engineering"
       ],
       "related_proj": [
-        172,
-        150,
-        163
+        30,
+        167,
+        181
       ]
     },
     {
       "student_name": "Advait K.",
       "mentor_name": "Abdulla Kerimov",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/0437f4d24d24801fd15084ddea00e1f514313470.png",
+      "student_image": "assets/images/student_imgs/c9b7628e4f688209721d1fa569c6570eccd85dca.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -5109,16 +5109,16 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        6,
-        143,
-        14
+        152,
+        178,
+        29
       ]
     },
     {
       "student_name": "Brayden T.",
       "mentor_name": "Rima Rebei",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/35ab4c383b91aaec9524fb1c2aa1fadb8814e28a.png",
+      "student_image": "assets/images/student_imgs/ab03fd7689c202a7dde6a94e4885fb41de6e211b.png",
       "domains": [
         "Engineering"
       ],
@@ -5136,16 +5136,16 @@
         "Robotics"
       ],
       "related_proj": [
-        181,
-        166,
-        96
+        170,
+        159,
+        172
       ]
     },
     {
       "student_name": "Ananya S.",
       "mentor_name": "Nancy Zhu",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/22d6dfaf33c5e2b4c16db9dbe494223fe35324d7.png",
+      "student_image": "assets/images/student_imgs/23c6962a2d4b900a6d4b9541f26c136a73a7e5ba.png",
       "domains": [
         "Engineering",
         "Arts and Music"
@@ -5164,16 +5164,16 @@
         "Music"
       ],
       "related_proj": [
-        173,
-        110,
-        150
+        30,
+        141,
+        161
       ]
     },
     {
       "student_name": "Jia A.",
       "mentor_name": "Shreyaa Raghavan",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/28024227d2af477a468d235f7f95f429bee328a9.png",
+      "student_image": "assets/images/student_imgs/3fdaa8acfab47133d6ad5db412af8cd3bc07e427.png",
       "domains": [
         "Business and Finance"
       ],
@@ -5192,16 +5192,16 @@
         "Economics"
       ],
       "related_proj": [
-        121,
-        89,
-        46
+        46,
+        88,
+        186
       ]
     },
     {
       "student_name": "Adi M.",
       "mentor_name": "Abdullah Rashed Ahmed",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/601e3a7ef970e30214fda0fd0801d4c3460e358e.png",
+      "student_image": "assets/images/student_imgs/3fcb658eaad1ae61a87279a102133a78bf2e1464.png",
       "domains": [
         "Healthcare and Biology"
       ],
@@ -5220,16 +5220,16 @@
         "Eyes"
       ],
       "related_proj": [
-        73,
-        134,
-        6
+        143,
+        125,
+        157
       ]
     },
     {
       "student_name": "Satvi M.",
       "mentor_name": "Rebecca Funke",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/658db6a6714d332e7a18b4378804ea507c0720bb.png",
+      "student_image": "assets/images/student_imgs/c2721de7183219cf2f1d980ccafd729877e592f5.png",
       "domains": [
         "Generative AI"
       ],
@@ -5248,15 +5248,15 @@
       ],
       "related_proj": [
         162,
-        125,
-        33
+        76,
+        173
       ]
     },
     {
       "student_name": "Quang M.",
       "mentor_name": "Edoardo Contente",
       "mentor_image": "assets/images/missing_image.png",
-      "student_image": "assets/images/student_imgs/cd69f6c04f0cb804f07ae42cabd680dfd5c667f0.png",
+      "student_image": "assets/images/student_imgs/2ac6f291b540d7d9691e3968998b278d3d25c51d.png",
       "domains": [
         "Engineering"
       ],
@@ -5275,23 +5275,24 @@
       ],
       "related_proj": [
         144,
-        140,
-        52
+        52,
+        110
       ]
     },
     {
       "student_name": "Pandian A.",
       "mentor_name": "Udgam Goyal",
       "mentor_title": "MEng CS from MIT, Product Manager at Aurora and prior AI Product Management at Microsoft",
-      "mentor_image": "assets/images/mentor_imgs/5230705f60c33cfe2f58bdb0b315946dbaadb515.png",
-      "student_image": "assets/images/student_imgs/80cf9fb8379f54f0adde042ff525f4479b140323.png",
+      "mentor_image": "assets/images/mentor_imgs/a3638f2f762e49748ac4a432468a44b6f5a7457b.png",
+      "student_image": "assets/images/student_imgs/79302f756a3a58d4cd41313a5b4080e394fc38be.png",
       "domains": [
         "Engineering"
       ],
       "project_title": "Enhancement of Autonomous Vehicles During Extreme Weather",
       "project_desc": "Autonomous vehicles are self-driving vehicles that operate without human assistance. Self-driving vehicles, which include Teslas, BMWs, Waymos, Fords, and Mercedes, struggle to detect objects under extreme weather conditions, such as rain and fog, due to a lack of visibility, thereby significantly increasing the likelihood of collisions. Although autonomous vehicles have proven to be exceptional in nominal conditions, their poor performance in stormy, foggy, and snowy conditions currently limits their deployment on real roads today. This is important to know because AI can be used to improve the safety of vehicles using algorithms like deep learning via neural networks. In order to answer the question, it involved training and fine-tuning a neural network called the YOLOv8n  model. We loaded a pretrained model, called yolov8n. This model was inaccurate at predicting cars when the vision isn’t clear. However, from the DAWN dataset from Kaggle + YOLOV8, we fine-tuned the model and got it to predict vehicles when the vision wasn’t clear. Initially, the model failed to predict other vehicles in extreme weather conditions, or often predicted other vehicles and objects with low confidence levels. However, after the model was fine-tuned, it was able to increase its prediction confidence level by 40%, also being able to predict 91% of the presented objects, way higher compared to its predicting 22% of its presented objects per image. However, during normal conditions, the fine-tuned model predicted other vehicles at a lower confidence level compared to the original Yolov8n model due to it being trained during extreme weather and not nominal conditions. It was concluded that the fine-tuning of YOLOv8n contributed to the feasibility of object detection during extreme weather conditions, with a 64% increase in objects detected with it being able to detect 94.87% of vehicles and pedestrians,  but led to a 10% decrease in confidence level and <1% decrease in object detection rate under nominal conditions and failed to detect traffic lights, which the non-tuned model could do. This makes it necessary for self-driving providers to build a car with at least two different models: one non-tuned YOLOv8n model, operating during nominal conditions and during traffic lights, and the other being a tuned YOLOv8n model that operates during extreme weather. ",
-      "research_paper": "assets/pdfs/79ca771197d292aa7499b0f12c7b75554204155e.pdf",
+      "research_paper": "assets/pdfs/99f8fd9c50c25bf80336e82eec3e06099673fb0d.pdf",
       "project_yr": "2025",
+      "project_quarter": "Fall",
       "github": "https://github.com/PandianAnand/Autonomous-Vehicle-Improvement",
       "graphic_link": "https://cms.accuweather.com/wp-content/uploads/2016/10/650x366_10101621_650x366_10080011_fordnaias_autonomy_05.jpg",
       "headline": "This research investigates improving object detection for autonomous vehicles in extreme weather by fine-tuning the YOLOv8n neural network. Starting with a pretrained model that struggled to recognize vehicles in rain, fog, and snow, we used the DAWN dataset from Kaggle to retrain it, raising detection accuracy from about 22 percent to over 90 percent in poor-visibility conditions while increasing confidence levels by roughly 40 percent, though at the cost of slightly reduced performance and traffic-light detection in normal conditions.",
@@ -5302,9 +5303,173 @@
         "Engineering"
       ],
       "related_proj": [
-        175,
-        176,
+        99,
+        140,
         163
+      ]
+    },
+    {
+      "student_name": "Richa K.",
+      "mentor_name": "Rami Abi-Akl",
+      "mentor_image": "assets/images/missing_image.png",
+      "student_image": "assets/images/student_imgs/c100ee99327ea9144c621d12294741d2dc993dbc.png",
+      "domains": [
+        "Engineering"
+      ],
+      "project_title": "Predicting Unplanned Electric Vehicle Breakdowns using Machine Learning on Sensor and Diagnostic Data",
+      "project_desc": "Unplanned breakdowns in electric vehicles (EVs) pose challenges such as costly repairs, unexpected downtime, and reduced user confidence. To address this issue, this research investigates whether artificial intelligence (AI) can perform fault prediction and improve EV reliability. Using the EV Sensors, Driving Pattern & Diagnostics dataset (2020–2024), which contains information on battery performance, motor readings, driving behaviors, and diagnostic trouble codes (DTCs), we tested four machine learning models: Random Forest, Decision Tree, Support Vector Regression (SVR), and Linear Regression. Results showed that the Decision Tree and Random Forest models outperformed the others, achieving over 90% predictive accuracy compared to less than 70% for SVR and Linear Regression. These findings indicate that tree-based model approaches are effective in capturing nonlinear patterns between sensor data and breakdown events. Overall, this study highlights the potential of AI to provide early warnings of EV failures, enable proactive maintenance strategies, and strengthen consumer trust in EV technology.",
+      "research_paper": "assets/pdfs/685ea632d2a05cedff92776d0529981ffa0317fa.pdf",
+      "project_yr": "2025",
+      "project_quarter": "Fall",
+      "graphic_link": "https://www.icsense.com/wp-content/uploads/2017/09/iStock-638796582-1.jpg",
+      "headline": "This study explores the use of artificial intelligence (AI) for fault prediction in electric vehicles (EVs) to reduce unexpected breakdowns and improve reliability. Using sensor, driving, and diagnostic data from 2020–2024, the research found that tree-based models, particularly Decision Tree and Random Forest, achieved over 90% predictive accuracy, demonstrating AI’s potential to enable proactive maintenance and enhance user confidence in EV technology.",
+      "project_id": "729ac5a4b9a5e1389a85eb5fa4324202cc752bf2",
+      "expand": true,
+      "tags": [
+        "Autonomous Vehicles",
+        "Optimization",
+        "Engineering"
+      ],
+      "related_proj": [
+        166,
+        173,
+        144
+      ]
+    },
+    {
+      "student_name": "Arya S.",
+      "mentor_name": "Khanh Nguyen",
+      "mentor_image": "assets/images/missing_image.png",
+      "student_image": "assets/images/student_imgs/c0bde7e1a1563651260661c990c2c2b880c76034.png",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "project_title": "Structure-Based Analysis of Parkinson’s Disease Protein Mutations:  Comparative Analysis of Computational and Experimental SNCA Structures",
+      "project_desc": "Parkinson’s disease (PD) is a progressive neurodegenerative disorder strongly associated with the misfolding and aggregation of α-synuclein (SNCA). Familial mutations such as A30P, A53T, and E46K are known to accelerate aggregation and alter protein–ligand interactions, but structural data remain limited due to the intrinsically disordered nature of SNCA. This presents a major challenge for therapeutic design. Recent advances in artificial intelligence, including AlphaFold and ColabFold, enable the prediction of protein structures directly from sequence. While these tools have transformed structural biology, their reliability for intrinsically disordered proteins like SNCA remains uncertain. In this study, we compare computationally predicted wild-type and mutant SNCA models against experimentally determined structures, using molecular docking and binding affinity prediction with pharmacologically relevant ligands. By integrating protein structure prediction with ligand docking, this work highlights both the potential and the limitations of AI-based methods for studying mutation-specific effects in PD. More broadly, it demonstrates how computational modeling can complement experimental approaches to accelerate drug discovery efforts targeting α-synuclein pathology.",
+      "research_paper": "assets/pdfs/00b315fa097dc0bf4293d3bad27aa6cfc60c6e01.pdf",
+      "project_yr": "2025",
+      "project_quarter": "Fall",
+      "graphic_link": "https://assets.technologynetworks.com/production/dynamic/images/content/392556/large-scale-map-tracks-how-mutations-misguide-proteins-in-cells-392556-960x540.jpg?cb=13057049",
+      "headline": "This study uses AI-based protein modeling tools such as AlphaFold and ColabFold to compare wild-type and mutant α-synuclein structures in Parkinson’s disease, evaluating their interactions with pharmacologically relevant ligands. By integrating structure prediction with molecular docking, the research highlights both the potential and limitations of computational methods for understanding mutation-specific effects and guiding drug discovery efforts.",
+      "project_id": "36f0fafbfef808ac4301a663f4a3135b18cfdf5a",
+      "expand": true,
+      "tags": [
+        "Diseases and Health Conditions",
+        "Neuroscience"
+      ],
+      "related_proj": [
+        93,
+        117,
+        101
+      ]
+    },
+    {
+      "student_name": "Samuel P.",
+      "mentor_name": "Rami Abi-Akl",
+      "mentor_image": "assets/images/missing_image.png",
+      "student_image": "assets/images/missing_image.png",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "project_title": "Using Machine Learning Models to Predict Heart Disease and Attack with Non-Clinical and Non-Wearable Variables",
+      "project_desc": "Heart disease is the leading cause of death in the United States for over 100 years. However, electrocardiograms (EKG), the primary method of testing for heart issues, costs the average American ~100-5000 dollars per scan. Therefore, there should be other cheaper and time efficient methods for other methods of early onset heart disease detection. We used data from the  Behavioral Risk Factor Surveillance System (BRFSS), a telephoned based survey with over 200 thousand participants and partnered with theCenters for Disease Control and Prevention (CDC), to find correlations between heart disease and attacks with non-clinical factors. Multiple machine learning models were trained on BRFSS 2015 data. The best model achieved 70% accuracy, while having a 21% precision and a 79% recall. These results show that while there is potential using non-clinical data combined with machine learning to provide a cost-effective preliminary screening tool for heart disease risk, significant improvements are needed before they can be applied effectively in real-world healthcare.",
+      "research_paper": "assets/pdfs/1c65875e316d359f138260fc8f551e521516c38d.pdf",
+      "project_yr": "2025",
+      "project_quarter": "Fall",
+      "graphic_link": "https://scx2.b-cdn.net/gfx/news/2025/engineers-develop-wear.jpg",
+      "headline": "This study uses data from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS) to train machine learning models that predict heart disease risk based on non-clinical factors. The research demonstrates the potential for cost-effective, data-driven screening tools for early heart disease detection, though further improvements are needed for real-world application.",
+      "project_id": "799b3a74ad6e3f41dbf3855f60f38a3ab78c7272",
+      "expand": true,
+      "tags": [
+        "Diseases and Health Conditions",
+        "Heart Disease"
+      ],
+      "related_proj": [
+        171,
+        148,
+        24
+      ]
+    },
+    {
+      "student_name": "Nimeesha K.",
+      "mentor_name": "Serena Hughes",
+      "mentor_image": "assets/images/missing_image.png",
+      "student_image": "assets/images/missing_image.png",
+      "domains": [
+        "Healthcare and Biology"
+      ],
+      "project_title": "Modeling Sleep Efficiency",
+      "project_desc": "I’ve always been interested in sleep and why some people tend to sleep better than others. I think it’s important to recognize what could be affecting a person’s sleep and what they can do to improve it. The goal of my research question, “How much do alcohol, exercise, and smoking affect sleep?” is to show how factors such as these can affect the quality of one’s sleep. I found a data set consisting of many factors that can affect sleep, as well as sleep quality. Using this data set, I built a model that allows you to input values for factors and come out with a sleep quality score. My model is a regression model, as it makes predictions through numerical data given to it. I tested out different models, settling on the most accurate one, Linear Regression, with a mean absolute error of 0.051. ",
+      "research_paper": "assets/pdfs/85be12d9d861f4964683a7f7bd125252d174c1e2.pdf",
+      "project_yr": "2023",
+      "project_quarter": "Summer",
+      "graphic_link": "https://img.freepik.com/free-vector/hand-drawn-bedtime-stories-illustration_23-2151162751.jpg?semt=ais_hybrid&w=740&q=80",
+      "headline": "This study explores how alcohol use, exercise, and smoking affect sleep quality by analyzing a dataset containing various lifestyle and sleep-related factors. Using a regression-based predictive model, the research identifies relationships between these behaviors and sleep outcomes, with the final linear regression model achieving a mean absolute error of 0.051.",
+      "project_id": "59f879b17f79dcb9791157e12ba7cd82e08be230",
+      "expand": false,
+      "tags": [
+        "Physiology"
+      ],
+      "related_proj": [
+        7,
+        48,
+        178
+      ]
+    },
+    {
+      "student_name": "Rishi N.",
+      "mentor_name": "John Basbagill",
+      "mentor_image": "assets/images/missing_image.png",
+      "student_image": "assets/images/student_imgs/a8845545754fe4c102275360d00278c79f673263.png",
+      "domains": [
+        "Business and Finance"
+      ],
+      "project_title": "Forecasting Bitcoin Price Direction from Twitter Sentiment and Market Data",
+      "project_desc": "Forecasting Bitcoin Price Direction from Twitter Sentiment and Market Data, explores how social media emotions influence cryptocurrency prices. Using the 17.7 million Bitcoin Tweets dataset from Kaggle (2017–2019), I  applied VADER sentiment analysis to link tweet tone with hourly market data. After cleaning, visualizing, and preprocessing the data, I trained two machine learning models—Random Forest and XGBoost—to predict Bitcoin’s price direction. XGBoost performed best, reaching 74.15% accuracy and showing that both market and sentiment features (like Compound Score and tweet volume) were key predictors. Future plans include feature engineering, hyperparameter tuning, and combining models for improved accuracy.",
+      "research_paper": "assets/pdfs/fd15d96cc3e54b9d19e963f7bba7b85e8ab4cb61.pdf",
+      "project_yr": "2025",
+      "project_quarter": "Fall",
+      "graphic_link": "https://m.economictimes.com/thumb/msid-121432978,width-1600,height-900,resizemode-4,imgsize-159732/crypto-prices-today-bitcoin-slips-below-110000-amid-profit-booking-altcoins-fall-up-to-5.jpg",
+      "headline": "This research explores how social media sentiment affects cryptocurrency price movements using the 17.7 million Bitcoin Tweets dataset from Kaggle. By applying VADER sentiment analysis and training Random Forest and XGBoost models, the study achieved 74.15% accuracy, highlighting sentiment and market features as key predictors.",
+      "project_id": "d117b46e2f6c8ed2887aaf51127c2b75a42b2a11",
+      "expand": false,
+      "tags": [
+        "Cryptocurrency",
+        "Economics",
+        "Stocks"
+      ],
+      "related_proj": [
+        62,
+        122,
+        88
+      ]
+    },
+    {
+      "student_name": "Humayl F.",
+      "mentor_name": "Rami Abi-Akl",
+      "mentor_image": "assets/images/missing_image.png",
+      "student_image": "assets/images/student_imgs/8a7b0b743c14eb2cd6b7f993e3b2923256bed84a.png",
+      "domains": [
+        "Engineering"
+      ],
+      "project_title": "Adapting Martian Rover Technology for Terrestrial Disaster Response and Extreme Terrains",
+      "project_desc": "Rovers have transformed planetary exploration by enabling autonomous, intelligent operation on alien terrains. From the Soviet Lunokhod 1 to NASA’s Perseverance, rover technology has evolved to include advanced mobility systems, AI-driven navigation, autonomous decision-making, and onboard scientific instruments. This paper examines how these innovations, originally developed for Mars, can be adapted to solve real-world challenges on Earth, particularly in disaster-prone and inaccessible regions. We designed and 3D-printed a rover prototype, informed by Martian mobility principles, and analyzed its potential for navigating extreme terrain. Using global disaster datasets and a review of current aerial and terrestrial solutions, we evaluated rover applicability to scenarios such as floods, landslides, wildfires, and harsh geographical regions. Our results indicate that ground-based rovers, leveraging autonomous navigation and robust suspension systems, could complement drones and helicopters to improve disaster response and accessibility. Future work will explore multi-agent coordination, hybrid aerial-ground systems, and adaptive AI algorithms to enhance rover efficiency and resilience in complex Earth environments.",
+      "research_paper": "assets/pdfs/14965d718ce917780c478def3a984a6db7da129b.pdf",
+      "project_yr": "2025",
+      "project_quarter": "Fall",
+      "graphic_link": "https://cdna.artstation.com/p/assets/images/images/029/001/340/4k/alex-nice-alex-nice-rover-sunset-v011-cameraview.jpg?1596148525",
+      "headline": "This research examines how technological advances in Martian rovers, from autonomous navigation to adaptive suspension systems, can inform solutions for disaster response and operation in inaccessible regions on Earth. A 3D-printed rover prototype and global disaster data were used to evaluate the potential of ground-based rovers to complement aerial systems in challenging environments.",
+      "project_id": "8873d2f28e0daac08541785f3440c579a7dc456e",
+      "expand": true,
+      "tags": [
+        "Robotics",
+        "Hardware",
+        "Optimization"
+      ],
+      "related_proj": [
+        170,
+        52,
+        144
       ]
     }
   ],
@@ -5348,6 +5513,7 @@
     "Computer Vision",
     "Consumer Behavior",
     "Criminal Justice",
+    "Cryptocurrency",
     "DNA",
     "Data and Privacy",
     "Deep Learning",

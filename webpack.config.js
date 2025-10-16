@@ -44,7 +44,7 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
         publicPath: '/',
       }
     ],
-    watchContentBase: true
+    watchFiles: ['src/**/*', 'data.json']
    },
    module: {
      rules: [
@@ -124,5 +124,4 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
     ]), 
   ]
  };
-
 

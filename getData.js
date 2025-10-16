@@ -1,8 +1,154 @@
 const fs = require("fs")
+const path = require("path")
+const http = require("http")
 const https = require("https")
 const airtable = require("airtable")
 const crypto = require('crypto')
 require('dotenv').config()
+
+const DEFAULT_IMAGE_PATH = "assets/images/missing_image.png"
+const MAX_REDIRECTS = 5
+
+function normalizeAttachmentField(fieldValue) {
+    if (!fieldValue) return null
+    if (Array.isArray(fieldValue)) {
+        const attachmentWithUrl = fieldValue.find(item => item && item.url)
+        return attachmentWithUrl ? attachmentWithUrl.url : null
+    }
+    if (typeof fieldValue === "string") {
+        return fieldValue.trim()
+    }
+    return null
+}
+
+function extractGoogleDriveId(url) {
+    if (!url || typeof url !== "string") return null
+
+    const patterns = [
+        /\/d\/([a-zA-Z0-9_-]+)/,                  // https://drive.google.com/file/d/<id>/view
+        /id=([a-zA-Z0-9_-]+)/,                    // https://drive.google.com/open?id=<id> or uc?id=
+        /\/open\?id=([a-zA-Z0-9_-]+)/,            // explicit open?id=
+        /\/uc\?export=download&id=([a-zA-Z0-9_-]+)/,
+    ]
+
+    for (const pattern of patterns) {
+        const match = url.match(pattern)
+        if (match && match[1]) {
+            return match[1]
+        }
+    }
+    return null
+}
+
+function ensureDirectoryExists(filePath) {
+    const dir = path.dirname(filePath)
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true })
+    }
+}
+
+function downloadFile(fileUrl, localPath, attempt = 0) {
+    return new Promise((resolve) => {
+        if (!fileUrl) {
+            return resolve(false)
+        }
+
+        if (attempt > MAX_REDIRECTS) {
+            console.error(`Too many redirects while fetching ${fileUrl}`)
+            return resolve(false)
+        }
+
+        let parsedUrl
+        try {
+            parsedUrl = new URL(fileUrl)
+        } catch (error) {
+            console.error(`Invalid URL for download: ${fileUrl}`, error)
+            return resolve(false)
+        }
+
+        const protocol = parsedUrl.protocol === "http:" ? http : https
+
+        const request = protocol.get(parsedUrl, res => {
+            if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+                const redirectUrl = new URL(res.headers.location, parsedUrl).href
+                res.resume()
+                return resolve(downloadFile(redirectUrl, localPath, attempt + 1))
+            }
+
+            if (res.statusCode !== 200) {
+                console.error(`Failed to download ${fileUrl}. Status code: ${res.statusCode}`)
+                res.resume()
+                return resolve(false)
+            }
+
+            ensureDirectoryExists(localPath)
+
+            const fileStream = fs.createWriteStream(localPath)
+            res.pipe(fileStream)
+
+            fileStream.on("finish", () => {
+                fileStream.close(() => resolve(true))
+            })
+
+            fileStream.on("error", err => {
+                console.error(`Error writing file ${localPath}`, err)
+                fs.unlink(localPath, () => resolve(false))
+            })
+        })
+
+        request.on("error", err => {
+            console.error(`Request error while downloading ${fileUrl}`, err)
+            resolve(false)
+        })
+    })
+}
+
+function getLocalImagePaths(identifier, folder) {
+    const hash = crypto.createHash("sha1").update(identifier).digest("hex")
+    const fileName = `${hash}.png`
+
+    return {
+        absolute: path.join(__dirname, "src", "assets", "images", folder, fileName),
+        relative: `assets/images/${folder}/${fileName}`
+    }
+}
+
+function resolveImageDownload(link, type) {
+    if (!link) {
+        return Promise.resolve(DEFAULT_IMAGE_PATH)
+    }
+
+    const folder = type === "mentor" ? "mentor_imgs" : "student_imgs"
+    const fallback = DEFAULT_IMAGE_PATH
+    const driveId = extractGoogleDriveId(link)
+    let identifier = driveId || link
+
+    if (!driveId) {
+        try {
+            const parsed = new URL(link)
+            identifier = `${parsed.origin}${parsed.pathname}`
+        } catch (error) {
+            identifier = link
+        }
+    }
+
+    const { absolute, relative } = getLocalImagePaths(identifier, folder)
+
+    if (fs.existsSync(absolute)) {
+        return Promise.resolve(relative)
+    }
+
+    const downloadUrl = driveId
+        ? `https://www.googleapis.com/drive/v3/files/${driveId}?alt=media&key=${process.env.GOOGLE_API_KEY}`
+        : link
+
+    return downloadFile(downloadUrl, absolute).then(success => {
+        if (success) {
+            return relative
+        }
+        return fallback
+    })
+}
 
 airtableData = []
 
@@ -59,19 +205,16 @@ const basePromise = new Promise((resolve, reject) => {
             if(!item.Permissions.includes("Web application")){
                 array[index]["Link to Project Webpage (optional)"] = undefined;
             }
-            if(!item["Mentee Picture Link (optional)"]){
-                item["Mentee Picture Link (optional)"] = "missing"//"assets/images/missing_image.png";
-            }
-            if(!item["Mentor Picture Link (optional)"]){
-                item["Mentor Picture Link (optional)"] = "missing"//"assets/images/missing_image.png";
-            } 
-
             let tempObj = {};
-            tempObj["student_name"] = `${item["Mentee Name"].split(" ")[0]} ${item["Mentee Name"].split(" ")[1][0]}.`;
+            const menteeName = item["Mentee Name"] || "";
+            const menteeNameParts = menteeName.trim().split(" ").filter(Boolean);
+            const firstName = menteeNameParts[0] || "";
+            const lastInitial = menteeNameParts[1] ? `${menteeNameParts[1][0]}.` : "";
+            tempObj["student_name"] = [firstName, lastInitial].filter(Boolean).join(" ");
             tempObj["mentor_name"] = item["Mentor Name"];
             tempObj["mentor_title"] = item["Mentor Title"];
-            tempObj["mentor_image"] = item["Mentor Picture Link (optional)"];
-            tempObj["student_image"] = item["Mentee Picture Link (optional)"];
+            tempObj["mentor_image"] = normalizeAttachmentField(item["Mentor Picture Link (optional)"]);
+            tempObj["student_image"] = normalizeAttachmentField(item["Mentee Picture Link (optional)"]);
             tempObj["domains"] = [item["Domain 1"], item["Domain 2"]].filter(item=>item);
             tempObj["project_title"] = item["Project Title"];
             tempObj["project_desc"] = item["Project Description"];
@@ -84,7 +227,7 @@ const basePromise = new Promise((resolve, reject) => {
             tempObj["headline"] = item["Headline"];
             tempObj["project_id"] = crypto.createHash('sha1').update(`${item["Project Title"]}${item["Mentee Name"]}`).digest('hex');
             tempObj["expand"] = item["Project Title"].length > 75 ? true : false;
-            tempObj["tags"] = item["Tags"];
+            tempObj["tags"] = Array.isArray(item["Tags"]) ? item["Tags"] : [];
             tempObj["published"] = item["Published"];
             tempObj["publications"] = item["Publications"];
             tempObj["science_fairs"] = item["Science Fairs"];
@@ -169,59 +312,27 @@ Promise.all([domainsPromise, basePromise]).then(() => {
 
     projectData.projects.forEach((project, index, array) => {
         if(index % 5 == 0) setTimeout(() => {}, 1000)
-        if(project.mentor_image == "missing"){
-            array[index].mentor_image = "assets/images/missing_image.png"
-        } else {
-            let mentor_img_url = project.mentor_image
-            let mentor_img_id = mentor_img_url.substr(mentor_img_url.indexOf("/d/") + 3, 33)
-            let mentor_api_link = `https://www.googleapis.com/drive/v3/files/${mentor_img_id}?alt=media&key=${process.env.GOOGLE_API_KEY}`
 
-            let mentor_promise = new Promise((resolve, reject) => {
-                https.get(mentor_api_link, res => {
-                    const local_id = crypto.createHash('sha1').update(`${mentor_img_id}${mentor_img_id}`).digest('hex');
-                    const mentor_local_url = `./src/assets/images/mentor_imgs/${local_id}.png`
-                    const file = fs.createWriteStream(mentor_local_url)
-                    res.pipe(file)
-                    file.on('finish', () => {
-                        file.close()
-                        console.log(`File downloaded!`)
-                        array[index].mentor_image = `assets/images/mentor_imgs/${local_id}.png`
-                        resolve()
-                    });
-                }).on('error', (e) => {
-                    console.error(e);
-                    reject()
-                });
+        const mentorPromise = resolveImageDownload(project.mentor_image, "mentor")
+            .then(localPath => {
+                array[index].mentor_image = localPath || DEFAULT_IMAGE_PATH
             })
-            image_promises.push(mentor_promise)
-        }
-
-        if(project.student_image == "missing"){
-            array[index].student_image = "assets/images/missing_image.png"
-        } else {
-            let student_img_url = project.student_image
-            let student_img_id = student_img_url.substring(student_img_url.indexOf("id=") + 3)
-            let student_api_link = `https://www.googleapis.com/drive/v3/files/${student_img_id}?alt=media&key=${process.env.GOOGLE_API_KEY}`
-
-            let student_promise = new Promise((resolve, reject) => {
-                https.get(student_api_link, res => {
-                    const local_id = crypto.createHash('sha1').update(`${student_img_id}${student_img_id}`).digest('hex');
-                    const student_local_url = `./src/assets/images/student_imgs/${local_id}.png`
-                    const file = fs.createWriteStream(student_local_url)
-                    res.pipe(file)
-                    file.on('finish', () => {
-                        file.close()
-                        console.log(`File downloaded!`)
-                        array[index].student_image = `assets/images/student_imgs/${local_id}.png`
-                        resolve()
-                    });
-                }).on('error', (e) => {
-                    console.error(e);
-                    reject()
-                });
+            .catch(error => {
+                console.error(`Failed to process mentor image for project ${project.project_title}`, error)
+                array[index].mentor_image = DEFAULT_IMAGE_PATH
             })
-            image_promises.push(student_promise)
-        }
+        image_promises.push(mentorPromise)
+
+        const studentPromise = resolveImageDownload(project.student_image, "student")
+            .then(localPath => {
+                array[index].student_image = localPath || DEFAULT_IMAGE_PATH
+            })
+            .catch(error => {
+                console.error(`Failed to process student image for project ${project.project_title}`, error)
+                array[index].student_image = DEFAULT_IMAGE_PATH
+            })
+        image_promises.push(studentPromise)
+
         if(project.research_paper != undefined){
             let research_paper_url = project.research_paper
             let research_paper_id = research_paper_url.substring(research_paper_url.indexOf("id=") + 3)
