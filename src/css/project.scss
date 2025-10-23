@@ -27,12 +27,23 @@ button {
     min-height: 280px;
 }
 
-// On desktop, cap the header so the title/back link sit closer to the navbar
+// Desktop: lock a consistent spacing between navbar/logo and Back To Projects,
+// independent of title length by reserving a fixed band at the top of header.
 @media (min-width: 992px) {
     .header-container {
-        // Bring the title/back link a little further down from the navbar,
-        // while keeping the header reasonably compact.
-        height: clamp(320px, 32vh + 128px, 460px);
+        position: relative;
+        height: 520px;
+        padding-top: 300px;
+    }
+
+    // Pin the Back To Projects link inside that reserved band
+    .header-container > a.nav-link {
+        position: absolute;
+        // Place the link well below the navbar height (~116.8px)
+        // so it’s safely clear on all pages regardless of title lines.
+        top: 240px;
+        left: 1rem;
+        margin: 0 !important;
     }
 }
 
@@ -239,3 +250,4 @@ button {
     transform: scale(1);
     opacity: 1;
 }
+
