@@ -20,9 +20,20 @@ button {
 
 .header-container {
     background: linear-gradient(340deg, #A7FFF6, #2E5EAA);
-    height: calc(50vh + 116.8px);
+    // Baseline height; desktop refines below. Keep enough room to avoid overlap
+    // while still reducing the original excessive space.
+    height: calc(36vh + 116.8px);
     width: 100%;
-    min-height: 300px;
+    min-height: 280px;
+}
+
+// On desktop, cap the header so the title/back link sit closer to the navbar
+@media (min-width: 992px) {
+    .header-container {
+        // Bring the title/back link a little further down from the navbar,
+        // while keeping the header reasonably compact.
+        height: clamp(320px, 32vh + 128px, 460px);
+    }
 }
 
 @keyframes mymove {
@@ -58,7 +69,8 @@ button {
     height: auto;
     max-height: clamp(240px, 60vh, 520px);
     object-fit: cover;
-    margin: 1.5rem 1.5rem 1.5rem 2rem !important;
+    // Remove bottom margin so script can align pixel-perfect with text
+    margin: 1.5rem 1.5rem 0 2rem !important;
 }
 
 @media (max-width: 991.98px) {
@@ -68,6 +80,17 @@ button {
         width: min(100%, 22rem);
         margin: 0 auto 1.5rem auto !important;
         max-height: clamp(200px, 55vh, 420px);
+    }
+}
+
+// Keep long-body text confined to the left text column (never flowing under the image)
+@media (min-width: 992px) {
+    // All paragraphs after the divider constitute the main description body
+    .projectBody .projectDivider ~ p {
+        // Reserve space equal to the image width + its left margin so text never
+        // runs under the floated image. Use padding to affect the line boxes.
+        padding-right: calc(min(40%, 420px) + 2rem) !important;
+        box-sizing: border-box;
     }
 }
 

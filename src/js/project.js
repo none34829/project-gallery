@@ -63,13 +63,21 @@ window.addEventListener('load', (event) => {
         const imgBox = img.getBoundingClientRect();
         const imgTop = imgBox.top + window.scrollY;
 
-        const descBox = descP.getBoundingClientRect();
-        const cs = window.getComputedStyle(descP);
-        const paddingBottom = parseFloat(cs.paddingBottom) || 0;
-        const borderBottom = parseFloat(cs.borderBottomWidth) || 0;
+        // Align to the last rendered line of the description using Range line boxes.
+        const getLastLineBottom = (el) => {
+            try {
+                const rng = document.createRange();
+                rng.selectNodeContents(el);
+                const rects = rng.getClientRects();
+                if (rects && rects.length) {
+                    return rects[rects.length - 1].bottom + window.scrollY;
+                }
+            } catch (e) { /* fallback below */ }
+            const r = el.getBoundingClientRect();
+            return r.bottom + window.scrollY;
+        };
 
-        // Align to the content box bottom of the description (not including padding).
-        const textBottom = descBox.bottom - paddingBottom - borderBottom + window.scrollY;
+        const textBottom = getLastLineBottom(descP);
 
         let target = Math.round(textBottom - imgTop);
         // Shave a pixel to avoid sub-pixel rounding overshoot.
