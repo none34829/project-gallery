@@ -24,8 +24,7 @@
     "url": "https://github.com/inspiritaiedu/inspirit_ai_projects/issues"
   },
   "engines": {
-    "npm": "7.11.2",
-    "node": "16.1.0"
+    "node": "22.x"
   },
   "homepage": "https://github.com/inspiritaiedu/inspirit_ai_projects#readme",
   "dependencies": {
