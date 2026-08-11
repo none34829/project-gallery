@@ -2,7 +2,8 @@
 .config.js
 .DS_Store
 data.json
-# dist - commented out for Netlify deployment
+# dist is kept committed as a build-output fallback; Vercel rebuilds it from
+# source on every deploy, so it is intentionally not ignored here.
 # dist
 node_modules
 package-lock.json
@@ -10,3 +11,4 @@ src/assets/images/student_imgs/*
 src/assets/images/mentor_imgs/*
 src/assets/pdfs/*
 !**/.keep
+.vercel
