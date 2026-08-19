@@ -14,3 +14,5 @@ src/assets/pdfs/*
 .vercel
 _shots/
 _broken_images.json
+__pycache__/
+*.pyc
