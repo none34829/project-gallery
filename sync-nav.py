@@ -83,7 +83,7 @@ def build(nav, cta):
                 '        <div class="dropdown-menu" aria-labelledby="%sDropdown">' % slug,
             ]
             for k in kids:
-                lines.append('          <a class="dropdown-item text-dark font-secondary" href="%s">%s</a>'
+                lines.append('          <a class="dropdown-item" href="%s">%s</a>'
                              % (absolute(k['href']), esc(k['text'])))
             lines += ['        </div>', '      </li>']
         else:
@@ -91,8 +91,9 @@ def build(nav, cta):
                       '        <a class="nav-link" href="%s">%s</a>' % (href, esc(label)),
                       '      </li>']
     if cta:
-        lines += ['      <li class="nav-item">',
-                  '        <a class="nav-link" href="%s">%s</a>' % (absolute(cta['href']), esc(cta['text'])),
+        # styled as a button to match the main site's header CTA
+        lines += ['      <li class="nav-item nav-cta-item">',
+                  '        <a class="nav-link nav-cta" href="%s">%s</a>' % (absolute(cta['href']), esc(cta['text'])),
                   '      </li>']
     lines += ['    </ul>', '  </div>', '</nav>', '']
     return '\n'.join(lines)

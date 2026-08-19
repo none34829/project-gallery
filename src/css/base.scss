@@ -80,14 +80,15 @@ nav{
 
 .nav-logo{
     height: auto;
-    width:200px;
-    max-height: 10%;
+    width: 252px;
+    max-width: 60vw;
 }
 
+// Values below are measured off the live inspiritai.com header so the two match.
 .nav-link{
-    font-family: 'DIN Condensed';
-    font-weight: 300;
-    font-size: 22px;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 17.6px;
     transition-duration: 0.2s;
 
     &:hover {
@@ -95,19 +96,53 @@ nav{
     }
 }
 
+.navbar-nav > .nav-item {
+    margin-left: 19.2px;
+}
+
+// The main site renders Apply Now as a bordered solid button, not a plain link.
+.nav-cta-item {
+    display: flex;
+    align-items: center;
+}
+// .navbar-nav .nav-link sets 8px side padding at the same specificity and later in
+// the cascade, so this needs the extra .navbar-nav to win.
+.navbar-nav .nav-link.nav-cta,
+.nav-cta {
+    background-color: #2f3167;
+    color: #fff !important;
+    border: 1px solid #fff;
+    border-radius: 6.4px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 20px;
+    line-height: 1.05;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: #3a3d80;
+        color: #fff !important;
+    }
+}
+
 .dropdown-menu{
     border:none;
-    background-color: #131516;
+    background-color: #535353;
     border-radius: 0;
-    font-size: 20px !important;
+    padding: 8.8px 17.6px;
+    box-shadow: none;
 
     & > .dropdown-item{
-        color:rgba(255,255,255,.4) !important;
+        color:#fff !important;
         background-color:unset !important;
+        font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 17.6px;
+        padding: 1.76px 0;
         transition-duration: 0.2s;
 
         &:hover{
-            color: white !important;
+            color: #d0d0d0 !important;
             background-color:unset !important;
         }
     }
