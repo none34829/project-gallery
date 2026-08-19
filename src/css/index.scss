@@ -55,6 +55,34 @@
     position: relative;
 }
 
+// Side by side, the domain select gets ~90px on a phone and renders as "Selec".
+// Stack them so each gets the full width.
+@media only screen and (max-width: 700px) {
+    .searchSubContainer {
+        flex-direction: column;
+        gap: 10px;
+        // the flex ancestors are shrink-to-fit, so a percentage width resolves
+        // against the content box; size from the viewport to escape that
+        width: calc(100vw - 3rem);
+        max-width: 440px;
+    }
+    .searchBarContainer,
+    #searchCategories {
+        width: 100% !important;
+        max-width: 100%;
+        left: 0;
+    }
+    // the chevron is absolutely positioned on the container, so stacking left it
+    // sitting on top of the search input - pin it to the select's row instead
+    .searchSubContainer:after {
+        top: auto;
+        bottom: 26px;
+        right: 18px;
+    }
+    #searchBar { font-size: 1.15rem; padding-left: 3.4rem !important; }
+    #searchCategories { font-size: 1.15rem; }
+}
+
 #searchBar {
     background-color: rgba(0,0,0, 0.2);
     border: 2px solid white;
