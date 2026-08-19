@@ -12,3 +12,5 @@ src/assets/images/mentor_imgs/*
 src/assets/pdfs/*
 !**/.keep
 .vercel
+_shots/
+_broken_images.json

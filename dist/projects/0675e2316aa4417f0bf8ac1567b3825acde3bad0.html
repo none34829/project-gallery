@@ -16,55 +16,88 @@
     </script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md p-4 pe-5">
+  
+
+<nav class="navbar navbar-expand-md p-4 pe-5">
   <a class="navbar-brand" href="https://www.inspiritai.com"><img class="nav-logo" src=../assets/images/logo.png></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.inspiritai.com/">Home</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="homeDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://www.inspiritai.com/team">Team</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="liveOnlineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Live Online
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="programsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programs
         </a>
-        <div class="dropdown-menu" aria-labelledby="liveOnlineDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">Program Overview</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project">Projects</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">Returning Students</a>
+        <div class="dropdown-menu" aria-labelledby="programsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">AI Scholars Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline#programschedule">AI Scholars Program Schedule</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project#projectoptions">AI Scholars Projects 2026</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-program-middle-school">Middle School Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/middle-school-project">Middle School Projects</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI Research Mentorship</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/returning-students-deep-dives">Returning Students AI Deep Dives</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritaisiliconvalley.com/">Bay Area In-Person AI Scholars</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="impactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Impact
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/college-admissions" id="admissionsresultsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admissions Results
         </a>
-        <div class="dropdown-menu" aria-labelledby="impactDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/schools">School Partners</a>
+        <div class="dropdown-menu" aria-labelledby="admissionsresultsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-admissions">College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/inspirit-ai-alumni-journeys">Inspirit AI Alumni Journeys</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://inspirit-admissions-results.vercel.app/">Admissions Results by Class Year</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/reviews">Student Reviews</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-counselors">For College Counselors</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Learn More
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/ai-research-program" id="11researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          1:1 Research
         </a>
-        <div class="dropdown-menu" aria-labelledby="learnMoreDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Team Blog</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Student Alumni Blog</a>
+        <div class="dropdown-menu" aria-labelledby="11researchDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI + X Research Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://research.inspiritai.com/">1:1 AI + X Completed Research Gallery</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/gen-ai-innovation-lab">1:1 Gen AI Innovation Lab</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/1-1-college-admissions">1:1 College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/student-research-journeys">Publications and Science Fair Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-symposium">AI Research Symposium</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://independent-mentorship.paperform.co/">Apply Now</a>
+        <a class="nav-link" href="https://www.inspiritai.com/schools">Schools</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="moreDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://calendly.com/inspiritai-programs/info-session">Attend an Info Session</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Blog</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Inspirit AI Ambassadors Blog</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://inspiritai.paperform.co">Apply Now</a>
       </li>
     </ul>
   </div>
 </nav>
+
   <div class="header-offset">
     <div class="header-container d-flex flex-column justify-content-end text-white p-3">
       <a class="nav-link mb-2" style="width:fit-content" href="../index.html">
@@ -88,7 +121,8 @@
       </div>
     </div>
     <div class="projectBody">
-      <img class="projectGraphic float-right m-4 mb-2" src="https://files.nccih.nih.gov/yoga-gettyimages-1204500395-16-9.jpg" alt=""/>
+      <img class="projectGraphic float-right m-4 mb-2" src="https://files.nccih.nih.gov/yoga-gettyimages-1204500395-16-9.jpg" alt=""
+           data-fallback="linear-gradient(160deg, #2f3167 0%, #6d3f7a 100%)"/>
       <p class="p-4 h5 font-secondary projectDesc" style="text-align: justify;">I created and tuned four regression models that predicted a patient’s ADM levels after doing yoga: a Linear regressor, a Random Forest regressor, a Ridge regressor, and an Artificial Neural Network(ANN). </p>
       <hr class="projectDivider ms-4 w-50"/>
       <p class="p-4" style="text-align: justify;">Non-communicable diseases(NCDs) are the biggest cause of death globally, and have no steadfast vaccine or cure. However, preventative measures such as yoga have been found to prevent NCDs as well as mediate Adrenomedullin(ADM) levels, a biomarker for NCDs, in practitioners. While this relationship has been studied, I plan to study how yoga can aid an individual’s efforts to lower their ADM levels. I did this by creating and tuning four regression models that predicted a patient’s ADM levels after doing yoga: a Linear regressor, a Random Forest regressor, a Ridge regressor, and an Artificial Neural Network(ANN).  I found that the ANN had the smallest mean absolute error(MAE) and mean squared error(MSE) values, which meant that the ANN’s predicted values for ADM levels were closest to the actual values compared to the other models.
@@ -132,7 +166,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='a261ae580ac91826850be5ebf96dec1675450b5d.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://www.radiology.ca/wp-content/uploads/2022/09/mri-brain_web.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://www.radiology.ca/wp-content/uploads/2022/09/mri-brain_web.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f3167 0%, #6d3f7a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -169,7 +203,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='c030fe0fd0857c2c8640e4879ee074ef767e49f6.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://www.news-medical.net/images/news/ImageForNews_722926_16611632963032177.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://www.news-medical.net/images/news/ImageForNews_722926_16611632963032177.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f3167 0%, #6d3f7a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -206,7 +240,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='497d2dfb6fdc004c66430347d7e0e2026a04d6c5.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://miro.medium.com/max/800/1*0YHaGNOMIhZaHkZ7RR-FFQ.jpeg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://miro.medium.com/max/800/1*0YHaGNOMIhZaHkZ7RR-FFQ.jpeg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f3167 0%, #6d3f7a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">

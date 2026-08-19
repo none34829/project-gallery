@@ -4,6 +4,7 @@ import din_condensed2 from "../assets/fonts/DIN Condensed Bold.otf";
 import fatfrank from "../assets/fonts/FatFrank-Regular.otf";
 import fatfrank2 from "../assets/fonts/FatFrank-Regular.ttf";
 import dataService from "./dataService.js";
+import { heroBackground } from "./heroBackground.js";
 
 // import 'bootstrap';
 
@@ -150,7 +151,7 @@ function createProjectElement(project) {
   
   projectElement.innerHTML = `
     <div class="projectSubContainer">
-      <div class="projectImage" style="background:url('${project.graphic_link}') center 50% / cover no-repeat">
+      <div class="projectImage" style="background:${heroBackground(project)}">
         ${publishedRibbon}
         <div class="${contentHeight} contentContainer w-100 d-flex flex-column justify-content-end p-2">
           <div class="hoverContainer">

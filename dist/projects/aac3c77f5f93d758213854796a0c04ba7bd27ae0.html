@@ -16,55 +16,88 @@
     </script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md p-4 pe-5">
+  
+
+<nav class="navbar navbar-expand-md p-4 pe-5">
   <a class="navbar-brand" href="https://www.inspiritai.com"><img class="nav-logo" src=../assets/images/logo.png></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.inspiritai.com/">Home</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="homeDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://www.inspiritai.com/team">Team</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="liveOnlineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Live Online
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="programsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programs
         </a>
-        <div class="dropdown-menu" aria-labelledby="liveOnlineDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">Program Overview</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project">Projects</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">Returning Students</a>
+        <div class="dropdown-menu" aria-labelledby="programsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">AI Scholars Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline#programschedule">AI Scholars Program Schedule</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project#projectoptions">AI Scholars Projects 2026</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-program-middle-school">Middle School Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/middle-school-project">Middle School Projects</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI Research Mentorship</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/returning-students-deep-dives">Returning Students AI Deep Dives</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritaisiliconvalley.com/">Bay Area In-Person AI Scholars</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="impactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Impact
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/college-admissions" id="admissionsresultsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admissions Results
         </a>
-        <div class="dropdown-menu" aria-labelledby="impactDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/schools">School Partners</a>
+        <div class="dropdown-menu" aria-labelledby="admissionsresultsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-admissions">College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/inspirit-ai-alumni-journeys">Inspirit AI Alumni Journeys</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://inspirit-admissions-results.vercel.app/">Admissions Results by Class Year</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/reviews">Student Reviews</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-counselors">For College Counselors</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Learn More
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/ai-research-program" id="11researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          1:1 Research
         </a>
-        <div class="dropdown-menu" aria-labelledby="learnMoreDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Team Blog</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Student Alumni Blog</a>
+        <div class="dropdown-menu" aria-labelledby="11researchDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI + X Research Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://research.inspiritai.com/">1:1 AI + X Completed Research Gallery</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/gen-ai-innovation-lab">1:1 Gen AI Innovation Lab</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/1-1-college-admissions">1:1 College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/student-research-journeys">Publications and Science Fair Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-symposium">AI Research Symposium</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://independent-mentorship.paperform.co/">Apply Now</a>
+        <a class="nav-link" href="https://www.inspiritai.com/schools">Schools</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="moreDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://calendly.com/inspiritai-programs/info-session">Attend an Info Session</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Blog</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Inspirit AI Ambassadors Blog</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://inspiritai.paperform.co">Apply Now</a>
       </li>
     </ul>
   </div>
 </nav>
+
   <div class="header-offset">
     <div class="header-container d-flex flex-column justify-content-end text-white p-3">
       <a class="nav-link mb-2" style="width:fit-content" href="../index.html">
@@ -88,7 +121,8 @@
       </div>
     </div>
     <div class="projectBody">
-      <img class="projectGraphic float-right m-4 mb-2" src="https://marylandmatters.org/wp-content/uploads/2021/04/answer-sheet-1.jpeg" alt=""/>
+      <img class="projectGraphic float-right m-4 mb-2" src="https://marylandmatters.org/wp-content/uploads/2021/04/answer-sheet-1.jpeg" alt=""
+           data-fallback="linear-gradient(160deg, #2f4a6b 0%, #4a6d9a 100%)"/>
       <p class="p-4 h5 font-secondary projectDesc" style="text-align: justify;">How effective is standardized testing in assessing students&#39; knowledge? With data from previous students on sat scores and GPAs from college and high school, I can use this data and plug it into different models to determine how well these sat scores determine GPA.</p>
       <hr class="projectDivider ms-4 w-50"/>
       <p class="p-4" style="text-align: justify;">How effective is standardized testing in assessing students&#39; knowledge? With how much standardized testing has been reinforced in our education, students should be properly assessed for their knowledge, and not be given tests that interfere with their academic learning. Under the federal, Every Student Succeeds act, schools must provide standardized tests. However, some of these standardized tests might not be doing what their intended purpose is and instead interfering with academic learning. had data from previous students on sat scores and GPAs from college and high school. I can use this data and plug it into different models to determine how well these sat scores determine GPA. I used different models to help determine and plot the results. To evaluate and determine how accurate these results are, I used three different error-calculating methods. When using linear regression to evaluate sat scores and first-year college GPA, there was a 0.532 mean percent error. This error seemed high for these two variables. There isn’t a strong enough correlation between sat scores and college GPA for it to be implemented in schools across the nation.</p>
@@ -131,7 +165,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='d390a53d3c26a270b7cd24698fc9696b884b86ea.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://static01.nyt.com/images/2018/05/25/opinion/25leonhardt-newsletter/merlin_35629513_5bc654be-2bee-42b7-b203-8a443cd862eb-superJumbo.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://static01.nyt.com/images/2018/05/25/opinion/25leonhardt-newsletter/merlin_35629513_5bc654be-2bee-42b7-b203-8a443cd862eb-superJumbo.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a6b 0%, #4a6d9a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -168,7 +202,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='4cc59fab0643e8de76419946644772a98630fb3b.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://newjerseymonitor.com/wp-content/uploads/2021/12/GettyImages-168943719-700x467-1.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://newjerseymonitor.com/wp-content/uploads/2021/12/GettyImages-168943719-700x467-1.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a6b 0%, #4a6d9a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -205,7 +239,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='6800a73e4b57a0964429d3508941ee2c9263cd44.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://f.hubspotusercontent10.net/hubfs/5155768/student-success-journey-blog.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://f.hubspotusercontent10.net/hubfs/5155768/student-success-journey-blog.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a6b 0%, #4a6d9a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">

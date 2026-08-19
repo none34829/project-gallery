@@ -16,55 +16,88 @@
     </script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md p-4 pe-5">
+  
+
+<nav class="navbar navbar-expand-md p-4 pe-5">
   <a class="navbar-brand" href="https://www.inspiritai.com"><img class="nav-logo" src=../assets/images/logo.png></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.inspiritai.com/">Home</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="homeDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://www.inspiritai.com/team">Team</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="liveOnlineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Live Online
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="programsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programs
         </a>
-        <div class="dropdown-menu" aria-labelledby="liveOnlineDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">Program Overview</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project">Projects</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">Returning Students</a>
+        <div class="dropdown-menu" aria-labelledby="programsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">AI Scholars Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline#programschedule">AI Scholars Program Schedule</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project#projectoptions">AI Scholars Projects 2026</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-program-middle-school">Middle School Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/middle-school-project">Middle School Projects</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI Research Mentorship</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/returning-students-deep-dives">Returning Students AI Deep Dives</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritaisiliconvalley.com/">Bay Area In-Person AI Scholars</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="impactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Impact
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/college-admissions" id="admissionsresultsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admissions Results
         </a>
-        <div class="dropdown-menu" aria-labelledby="impactDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/schools">School Partners</a>
+        <div class="dropdown-menu" aria-labelledby="admissionsresultsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-admissions">College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/inspirit-ai-alumni-journeys">Inspirit AI Alumni Journeys</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://inspirit-admissions-results.vercel.app/">Admissions Results by Class Year</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/reviews">Student Reviews</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-counselors">For College Counselors</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Learn More
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/ai-research-program" id="11researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          1:1 Research
         </a>
-        <div class="dropdown-menu" aria-labelledby="learnMoreDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Team Blog</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Student Alumni Blog</a>
+        <div class="dropdown-menu" aria-labelledby="11researchDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI + X Research Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://research.inspiritai.com/">1:1 AI + X Completed Research Gallery</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/gen-ai-innovation-lab">1:1 Gen AI Innovation Lab</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/1-1-college-admissions">1:1 College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/student-research-journeys">Publications and Science Fair Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-symposium">AI Research Symposium</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://independent-mentorship.paperform.co/">Apply Now</a>
+        <a class="nav-link" href="https://www.inspiritai.com/schools">Schools</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="moreDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://calendly.com/inspiritai-programs/info-session">Attend an Info Session</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Blog</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Inspirit AI Ambassadors Blog</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://inspiritai.paperform.co">Apply Now</a>
       </li>
     </ul>
   </div>
 </nav>
+
   <div class="header-offset">
     <div class="header-container d-flex flex-column justify-content-end text-white p-3">
       <a class="nav-link mb-2" style="width:fit-content" href="../index.html">
@@ -88,7 +121,8 @@
       </div>
     </div>
     <div class="projectBody">
-      <img class="projectGraphic float-right m-4 mb-2" src="https://images.theconversation.com/files/133347/original/image-20160808-18050-xlihp1.jpg?ixlib=rb-1.1.0&amp;q=45&amp;auto=format&amp;w=1200&amp;h=900.0&amp;fit=crop" alt=""/>
+      <img class="projectGraphic float-right m-4 mb-2" src="https://images.theconversation.com/files/133347/original/image-20160808-18050-xlihp1.jpg?ixlib=rb-1.1.0&amp;q=45&amp;auto=format&amp;w=1200&amp;h=900.0&amp;fit=crop" alt=""
+           data-fallback="linear-gradient(160deg, #2f5a5e 0%, #3f8a8a 100%)"/>
       <p class="p-4 h5 font-secondary projectDesc" style="text-align: justify;">Technology in fencing is generally an underdeveloped field and automated referees present potentially significant benefits to the sport. Automated referees will offer a more consistent call compared to a group of human referees with slightly different interpretations of the fencing rules.</p>
       <hr class="projectDivider ms-4 w-50"/>
       <p class="p-4" style="text-align: justify;">The gradual increase in online fencing videos over the past decade has allowed for novel technical projects in fencing that rely heavily on data, such as artificial intelligence.  This study resulted in a state-of-the-art lightweight Temporal Convolutional Network to referee fencing bouts and classify actions as either a touch for the fencer on the left or the fencer on the right. To address this problem, we developed a pose estimation and audio analysis approach to autonomously referee fencing bouts. Using a custom dataset of international level fencing from the last 7 years, including ~4000 unique clips, our model achieved an accuracy of 89.1%, a 20% increase over previous state-of-the-art models. This model leverages advancements in human pose estimation to extract the position of both fencers and avoids high computational loads typically associated with CNNs. Additionally, it uses a novel technique to solve the issue of blade contact, a key component of refereeing fencing that was generally unaddressed in previous works. Our novel solution uses audio to ‘listen’ for the sound of blade contact rather than attempting to identify it visually. </p>
@@ -138,7 +172,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='97a5b129fe54fbe0de6a6e5cf0be48752691b5df.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/weyzoz6o394sxfkbest9') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/weyzoz6o394sxfkbest9&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f5a5e 0%, #3f8a8a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -175,7 +209,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='4cbd7912aa2b26a6e01fce8033e84450cc8b7ab5.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://cdn.mos.cms.futurecdn.net/kXUY9hyetVzhZ2scwJP7p3-1200-80.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://cdn.mos.cms.futurecdn.net/kXUY9hyetVzhZ2scwJP7p3-1200-80.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2b3a6b 0%, #3f6d8a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -212,7 +246,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='1d602d4f705699f52d148e85ca410e89077fac49.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://neurosciencenews.com/files/2024/08/ai-asd-neuroscience.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://neurosciencenews.com/files/2024/08/ai-asd-neuroscience.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f3167 0%, #6d3f7a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">

@@ -16,55 +16,88 @@
     </script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md p-4 pe-5">
+  
+
+<nav class="navbar navbar-expand-md p-4 pe-5">
   <a class="navbar-brand" href="https://www.inspiritai.com"><img class="nav-logo" src=../assets/images/logo.png></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.inspiritai.com/">Home</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="homeDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://www.inspiritai.com/team">Team</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="liveOnlineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Live Online
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="programsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programs
         </a>
-        <div class="dropdown-menu" aria-labelledby="liveOnlineDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">Program Overview</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project">Projects</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">Returning Students</a>
+        <div class="dropdown-menu" aria-labelledby="programsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">AI Scholars Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline#programschedule">AI Scholars Program Schedule</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project#projectoptions">AI Scholars Projects 2026</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-program-middle-school">Middle School Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/middle-school-project">Middle School Projects</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI Research Mentorship</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/returning-students-deep-dives">Returning Students AI Deep Dives</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritaisiliconvalley.com/">Bay Area In-Person AI Scholars</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="impactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Impact
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/college-admissions" id="admissionsresultsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admissions Results
         </a>
-        <div class="dropdown-menu" aria-labelledby="impactDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/schools">School Partners</a>
+        <div class="dropdown-menu" aria-labelledby="admissionsresultsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-admissions">College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/inspirit-ai-alumni-journeys">Inspirit AI Alumni Journeys</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://inspirit-admissions-results.vercel.app/">Admissions Results by Class Year</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/reviews">Student Reviews</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-counselors">For College Counselors</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Learn More
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/ai-research-program" id="11researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          1:1 Research
         </a>
-        <div class="dropdown-menu" aria-labelledby="learnMoreDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Team Blog</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Student Alumni Blog</a>
+        <div class="dropdown-menu" aria-labelledby="11researchDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI + X Research Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://research.inspiritai.com/">1:1 AI + X Completed Research Gallery</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/gen-ai-innovation-lab">1:1 Gen AI Innovation Lab</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/1-1-college-admissions">1:1 College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/student-research-journeys">Publications and Science Fair Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-symposium">AI Research Symposium</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://independent-mentorship.paperform.co/">Apply Now</a>
+        <a class="nav-link" href="https://www.inspiritai.com/schools">Schools</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="moreDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://calendly.com/inspiritai-programs/info-session">Attend an Info Session</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Blog</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Inspirit AI Ambassadors Blog</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://inspiritai.paperform.co">Apply Now</a>
       </li>
     </ul>
   </div>
 </nav>
+
   <div class="header-offset">
     <div class="header-container d-flex flex-column justify-content-end text-white p-3">
       <a class="nav-link mb-2" style="width:fit-content" href="../index.html">
@@ -88,7 +121,8 @@
       </div>
     </div>
     <div class="projectBody">
-      <img class="projectGraphic float-right m-4 mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1QsK4minVxl1ddZ7leeN_hYkVq4-EHb6QFg1A1_gpQ&amp;usqp=CAU&amp;ec=48665701" alt=""/>
+      <img class="projectGraphic float-right m-4 mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1QsK4minVxl1ddZ7leeN_hYkVq4-EHb6QFg1A1_gpQ&amp;usqp=CAU&amp;ec=48665701" alt=""
+           data-fallback="linear-gradient(160deg, #2f4a6b 0%, #4a6d9a 100%)"/>
       <p class="p-4 h5 font-secondary projectDesc" style="text-align: justify;">The research problem that this research paper attempts to address is, How did Covid impact and affect the test scores of different demographics of students in various schools in New York? The overall approach that was used to answer this question involved using statistical analysis to examine the correlation between how certain factors such as being economically disadvantaged or being hispanic affected student proficiency scores on New York State regents exam tests in 2018 and 2021 in different schools.</p>
       <hr class="projectDivider ms-4 w-50"/>
       <p class="p-4" style="text-align: justify;">The research problem that this research paper attempts to address is, How did Covid impact and affect the test scores of different demographics of students in various schools in New York? This issue is significant for the following reasons. By the conclusion of the school year, students had an average of five months’ worth of math and four month’s worth of reading behind them, according to an analysis of the pandemic’s effects on K-12 student learning. For example, student testing in 2021 was about ten points behind in math and nine points behind in reading, compared with matched students in previous years. The pandemic expanded already-existing achievement and opportunity inequities, particularly harming historically underprivileged students. Children in low-income schools had seven months of unfinished arithmetic work at the end of the year, compared to six months for students in majority-Black schools. High school students are now more likely to drop out, and seniors, particularly those from low-income households, are less likely to continue their education after graduation. The crisis also had an effect on pupils’ general health and well-being, with more than 35% of parents expressing severe or great concern for their kids’ mental health. The effects of the epidemic pose a threat to the hopes and possibilities for this generation far into adulthood. Their chances of enrolling in college and subsequently securing a rewarding profession that allows them to sustain a family may be adversely affected by the knock-on effects. Furthermore, analysis indicates that the pandemic’s effects on schooling may result in today’s students earning $49,000 to $61,000 less in their lifetime unless measures are implemented to remedy unfinished learning. The overall approach that was used to answer this question involved using statistical analysis to examine the correlation between how certain factors such as being economically disadvantaged or being hispanic affected student proficiency scores on New York State regents exam tests in 2018 and 2021 in different schools. Some of the significant results that came out of this research paper involved certain demographics such as those who were economically disadvantaged and those who were white. Specifically, in relation to how their demographic correlated with their school’s percent proficiency difference in a subject exam between the years 2018 and 2021. For example, 100% of the students of the Academy for Language and Technology are economically disadvantaged and compared to 2021, the number of students who were proficient in English dropped by 49%. Furthermore, 72% of Akron High school’s students are economically disadvantaged and compared to 2021, the number of students who were proficient in English dropped by 68%. However, on the other side of the spectrum, students of white descent did not fare as badly. For instance, Adirondack Middle School has an approximate demographic makeup of 100% white students. Their student’s percent proficiency when it came to their Algebra I score did not change at all. Additionally, Yonkers Montessori Academy has a demographic makeup where 46% of its students are white. The students from this school showed a 5% increase in their proficiencies in their science scores. The research that was conducted as the basis for this paper was done in an effort to examine the COVID-19 pandemic’s effects on student performance across various schools in New York. Specifically, it affected some demographics disproportionately when compared to others. Due to students being forced to learn from home, some without the necessary technology and adequate resources. Consequently, a lot of students took a significant hit to their academic progress. For instance, 100% of a student’s demographic make up is economically disadvantaged and out of these students, 49% of them were no longer proficient in ELA after the COVID-19 pandemic. Whereas, students of white descent did not fare as badly.  For instance, Adirondack Middle School has an approximate demographic makeup of 100% white students. Their student’s percent proficiency when it came to their Algebra I score did not change at all.</p>
@@ -131,7 +165,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='94ad35d1a84b38252fe686e8edb852af014b9ac5.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://images.onlymyhealth.com/imported/images/2023/March/22_Mar_2023/Signs-of-Social-Anxiety-Disorder-Main.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://images.onlymyhealth.com/imported/images/2023/March/22_Mar_2023/Signs-of-Social-Anxiety-Disorder-Main.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f3167 0%, #6d3f7a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -168,7 +202,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='eb645ba3e84ff785a70b7e6d92d0b9aacab60af8.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://post.psychcentral.com/wp-content/uploads/sites/4/2021/07/young-man-portrait-looking-at-camera-blank-expression-1200x628-facebook-1200x628.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://post.psychcentral.com/wp-content/uploads/sites/4/2021/07/young-man-portrait-looking-at-camera-blank-expression-1200x628-facebook-1200x628.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #3f2f5e 0%, #5e4a8a 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -205,7 +239,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='6a81620dda02871bb7ce4f1b2c806a64ac08f1be.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://www.familyeducation.com/sites/default/files/2023-02/Black%20Female%20Scientists%20That%20Have%20Shaped%20US%20History_Feature.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://www.familyeducation.com/sites/default/files/2023-02/Black%20Female%20Scientists%20That%20Have%20Shaped%20US%20History_Feature.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #5a2f52 0%, #8a4a63 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">

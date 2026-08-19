@@ -28,6 +28,28 @@ window.addEventListener('load', (event) => {
         if(e.key === "Escape" || e.key === "Esc")
             hideModal()
     }  
+    // A dead Airtable graphic_link renders as a broken-image icon and leaves a hole in
+    // the layout. Replace the <img> outright with a div carrying the project's subject
+    // gradient - the same treatment the cards on the front page use. Restyling the dead
+    // <img> instead leaves Chrome's broken glyph and tiles the gradient at the image's
+    // intrinsic width, so the element has to go.
+    var heroImg = document.querySelector('.projectGraphic');
+    if (heroImg) {
+        var swapHero = function () {
+            if (!heroImg || !heroImg.parentNode) return;
+            var grad = heroImg.getAttribute('data-fallback');
+            if (!grad) { heroImg.style.display = 'none'; return; }
+            var box = document.createElement('div');
+            box.className = heroImg.className + ' is-missing';
+            box.style.background = grad;
+            box.setAttribute('aria-hidden', 'true');
+            heroImg.parentNode.replaceChild(box, heroImg);
+            heroImg = null;
+        };
+        heroImg.addEventListener('error', swapHero);
+        if (heroImg.complete && heroImg.naturalWidth === 0) swapHero();
+    }
+
     // Equalize project image height to match the last paragraph bottom on wide screens
     const img = document.querySelector('.projectGraphic');
     const body = document.querySelector('.projectBody');
@@ -100,6 +122,9 @@ window.addEventListener('load', (event) => {
     if ('ResizeObserver' in window) {
         const ro = new ResizeObserver(resizeImageToText);
         ro.observe(document.body);
-        if (getLastParagraph()) ro.observe(getLastParagraph());
+        // was getLastParagraph() - that function does not exist, so this threw a
+        // ReferenceError and aborted the handler, leaving the observer unregistered
+        const descPara = getDescriptionPara();
+        if (descPara) ro.observe(descPara);
     }
 });

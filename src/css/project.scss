@@ -251,3 +251,13 @@ button {
     opacity: 1;
 }
 
+
+/* A dead Airtable graphic_link is swapped for the project's subject gradient by
+   project.js, so the page keeps its shape rather than showing a broken icon. */
+.projectGraphic.is-missing {
+  min-height: 260px;
+  border-radius: 4px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -16,55 +16,88 @@
     </script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md p-4 pe-5">
+  
+
+<nav class="navbar navbar-expand-md p-4 pe-5">
   <a class="navbar-brand" href="https://www.inspiritai.com"><img class="nav-logo" src=../assets/images/logo.png></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.inspiritai.com/">Home</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="homeDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://www.inspiritai.com/team">Team</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="liveOnlineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Live Online
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="programsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programs
         </a>
-        <div class="dropdown-menu" aria-labelledby="liveOnlineDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">Program Overview</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project">Projects</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">Returning Students</a>
+        <div class="dropdown-menu" aria-labelledby="programsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline">AI Scholars Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/liveonline#programschedule">AI Scholars Program Schedule</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/project#projectoptions">AI Scholars Projects 2026</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-program-middle-school">Middle School Program Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/middle-school-project">Middle School Projects</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI Research Mentorship</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/returning-students-deep-dives">Returning Students AI Deep Dives</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritaisiliconvalley.com/">Bay Area In-Person AI Scholars</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/our-impact" id="impactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Impact
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/college-admissions" id="admissionsresultsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admissions Results
         </a>
-        <div class="dropdown-menu" aria-labelledby="impactDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/our-impact">Our Impact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/schools">School Partners</a>
+        <div class="dropdown-menu" aria-labelledby="admissionsresultsDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-admissions">College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/inspirit-ai-alumni-journeys">Inspirit AI Alumni Journeys</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://inspirit-admissions-results.vercel.app/">Admissions Results by Class Year</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/reviews">Student Reviews</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/college-counselors">For College Counselors</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Learn More
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/ai-research-program" id="11researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          1:1 Research
         </a>
-        <div class="dropdown-menu" aria-labelledby="learnMoreDropdown">
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Team Blog</a>
-          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Student Alumni Blog</a>
+        <div class="dropdown-menu" aria-labelledby="11researchDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-program">1:1 AI + X Research Overview</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://research.inspiritai.com/">1:1 AI + X Completed Research Gallery</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/gen-ai-innovation-lab">1:1 Gen AI Innovation Lab</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/1-1-college-admissions">1:1 College Admissions Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/student-research-journeys">Publications and Science Fair Results</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/ai-research-symposium">AI Research Symposium</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://independent-mentorship.paperform.co/">Apply Now</a>
+        <a class="nav-link" href="https://www.inspiritai.com/schools">Schools</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="moreDropdown">
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/contact">Contact</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://calendly.com/inspiritai-programs/info-session">Attend an Info Session</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Blog</a>
+          <a class="dropdown-item text-dark font-secondary" href="https://www.inspiritai.com/blogs/ai-student-blog">Inspirit AI Ambassadors Blog</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://inspiritai.paperform.co">Apply Now</a>
       </li>
     </ul>
   </div>
 </nav>
+
   <div class="header-offset">
     <div class="header-container d-flex flex-column justify-content-end text-white p-3">
       <a class="nav-link mb-2" style="width:fit-content" href="../index.html">
@@ -88,7 +121,8 @@
       </div>
     </div>
     <div class="projectBody">
-      <img class="projectGraphic float-right m-4 mb-2" src="https://static6.depositphotos.com/1007113/629/i/450/depositphotos_6292715-stock-photo-imposing-bank.jpg" alt=""/>
+      <img class="projectGraphic float-right m-4 mb-2" src="https://static6.depositphotos.com/1007113/629/i/450/depositphotos_6292715-stock-photo-imposing-bank.jpg" alt=""
+           data-fallback="linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)"/>
       <p class="p-4 h5 font-secondary projectDesc" style="text-align: justify;">This paper evaluates eight machine learning (ML) models that are capable of flagging bank accounts as fraudulent at the time of bank account registration.</p>
       <hr class="projectDivider ms-4 w-50"/>
       <p class="p-4" style="text-align: justify;">Bank drops are fraudulent bank accounts that are used to funnel and transfer illegal funds. Most fraudulent bank accounts often go undetected, exposing flaws in the banking system and require large teams of cybersecurity specialists to spend significant amounts of time and money trying to correct. This paper evaluates eight machine learning (ML) models that are capable of flagging bank accounts as fraudulent at the time of bank account registration. Each of these models process bank account registration information to instantly determine the legitimate versus fraudulent status of an account, expediting the bank account flagging process, saving banks internal resources and protecting bank clients from fraudulent activities. The highest performing models are ensemble models such as the gradient boosting classifier and the random forest classifier, each having accuracy scores above 90%. These results show that ML models are a valuable tool to detect fraudulent accounts and protect banks across the world, effectively and efficiently stopping crime before it begins.</p>
@@ -131,7 +165,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='e7bd3704175e954c53553307d6aeb08e983bf8ff.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://d3kqdc25i4tl0t.cloudfront.net/articles/content/449_566610_linkedin.hero.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://d3kqdc25i4tl0t.cloudfront.net/articles/content/449_566610_linkedin.hero.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -168,7 +202,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='4b66e513746ea2fc104cdc9cf98f036d1ce77873.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://www.ecommercetimes.com/wp-content/uploads/sites/5/2023/12/ecommerce-success.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://www.ecommercetimes.com/wp-content/uploads/sites/5/2023/12/ecommerce-success.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">
@@ -205,7 +239,7 @@
       
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='d117b46e2f6c8ed2887aaf51127c2b75a42b2a11.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('https://m.economictimes.com/thumb/msid-121432978,width-1600,height-900,resizemode-4,imgsize-159732/crypto-prices-today-bitcoin-slips-below-110000-amid-profit-booking-altcoins-fall-up-to-5.jpg') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:url(&#39;https://m.economictimes.com/thumb/msid-121432978,width-1600,height-900,resizemode-4,imgsize-159732/crypto-prices-today-bitcoin-slips-below-110000-amid-profit-booking-altcoins-fall-up-to-5.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)">
               
               <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
                 <div class="hoverContainer">

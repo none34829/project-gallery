@@ -58,7 +58,8 @@
       </div>
     </div>
     <div class="projectBody">
-      <img class="projectGraphic float-right m-4 mb-2" src="{{ ctx.graphic_link }}" alt=""/>
+      <img class="projectGraphic float-right m-4 mb-2" src="{{ ctx.graphic_link }}" alt=""
+           data-fallback="{{ ctx.hero_fallback }}"/>
       <p class="p-4 h5 font-secondary projectDesc" style="text-align: justify;">{{ ctx.headline }}</p>
       <hr class="projectDivider ms-4 w-50"/>
       <p class="p-4" style="text-align: justify;">{{ ctx.project_desc }}</p>
@@ -122,7 +123,7 @@
       {% for project in ctx.related_proj %}
         <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='{{ project.project_id }}.html';">
         <div class="projectSubContainer">
-            <div class="projectImage" style="background:url('{{ project.graphic_link }}') center 50% / cover no-repeat">
+            <div class="projectImage" style="background:{{ project.hero_bg }}">
               {% if project.published == true %}
                 <div class="ribbonRelatedProjectContainer">
                   <span class="material-symbols-outlined ribbonRelatedProjectIcon">workspace_premium</span>

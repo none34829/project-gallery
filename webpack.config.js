@@ -3,6 +3,7 @@ const fs = require("fs");
 const webpack = require('webpack');
 const NunjucksWebpackPlugin = require("nunjucks-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const { heroBackground, heroGradient } = require('./src/js/heroBackground.js');
 
 let data = JSON.parse(fs.readFileSync(path.join(__dirname, 'data.json'), 'utf8'));
 let projects_raw = JSON.parse(JSON.stringify(data.projects))
@@ -12,6 +13,10 @@ projects_raw.forEach(proj => {
   prodect_id_map[project_id] = new_obj
 })
 
+data.projects.forEach((item, index) => {
+  data.projects[index].hero_bg = heroBackground(item);
+  data.projects[index].hero_fallback = heroGradient(item);
+})
 data.projects.forEach((item, index) => {
   data.projects[index].related_proj = item.related_proj.map(rel => { return data.projects[rel] });
 })
