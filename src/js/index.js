@@ -178,7 +178,7 @@ function createProjectElement(project) {
                 Mentored by ${project.mentor_name}
               </div>
             </div>
-            <img width="25px" height="25px" src="assets/images/arrow.png" class="backArrow me-2">
+            <img width="25px" height="25px" src="assets/images/arrow.png" class="backArrow me-2" alt="">
           </div>
         </div>
       </div>

@@ -179,7 +179,7 @@ function createProjectElement(project) {
                 </div>
               </div>
             ` : `<div></div>`}
-            <img width="18" height="18" src="assets/images/arrow.png" class="backArrow me-2">
+            <img width="18" height="18" src="assets/images/arrow.png" class="backArrow me-2" alt="">
           </div>
         </div>
       </div>
