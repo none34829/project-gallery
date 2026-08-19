@@ -49,6 +49,13 @@ var OVERRIDES = require('../../image-overrides.json');
 var DEAD = {};
 require('../../dead-links.json').forEach(function (u) { DEAD[u] = 1; });
 
+// A few Airtable links are plain http://. On an HTTPS page the browser blocks those
+// as mixed content, so the image fails and logs a warning. Both hosts checked serve
+// the same file over https, and if one ever does not the tile falls back as before.
+function secure(url) {
+  return String(url || '').replace(/^http:\/\//i, 'https://');
+}
+
 function tintFor(project) {
   var domains = (project && project.domains) || [];
   for (var i = 0; i < domains.length; i++) {
@@ -62,8 +69,9 @@ function heroBackground(project) {
   var tint = tintFor(project);
   var gradient = 'linear-gradient(160deg, ' + tint[0] + ' 0%, ' + tint[1] + ' 100%)';
   var over = project && OVERRIDES[project.project_id];
-  var url = over ? ('/' + over.file) : (project && project.graphic_link);
-  if (!url || DEAD[url]) return gradient;
+  var raw = over ? ('/' + over.file) : (project && project.graphic_link);
+  if (!raw || DEAD[raw]) return gradient;
+  var url = secure(raw);
   // single quotes would terminate the url('...') wrapper in the inline style
   return "url('" + String(url).replace(/'/g, '%27') + "') center 50% / cover no-repeat, " + gradient;
 }
@@ -73,7 +81,7 @@ function heroImageUrl(project) {
   var over = project && OVERRIDES[project.project_id];
   if (over) return '/' + over.file;
   var url = (project && project.graphic_link) || '';
-  return DEAD[url] ? '' : url;
+  return DEAD[url] ? '' : secure(url);
 }
 
 function heroGradient(project) {
