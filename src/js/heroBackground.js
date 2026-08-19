@@ -38,6 +38,11 @@ var DOMAIN_TINT = {
 };
 var DEFAULT_TINT = ['#2f3167', '#55578e'];
 
+// Projects whose Airtable graphic_link is dead and that now use a figure from the
+// student's own paper, self-hosted so it cannot rot the way the hotlink did.
+// Regenerate with `python figures-from-papers.py`.
+var OVERRIDES = require('../../image-overrides.json');
+
 function tintFor(project) {
   var domains = (project && project.domains) || [];
   for (var i = 0; i < domains.length; i++) {
@@ -50,16 +55,23 @@ function tintFor(project) {
 function heroBackground(project) {
   var tint = tintFor(project);
   var gradient = 'linear-gradient(160deg, ' + tint[0] + ' 0%, ' + tint[1] + ' 100%)';
-  var url = project && project.graphic_link;
+  var over = project && OVERRIDES[project.project_id];
+  var url = over ? ('/' + over.file) : (project && project.graphic_link);
   if (!url) return gradient;
   // single quotes would terminate the url('...') wrapper in the inline style
   return "url('" + String(url).replace(/'/g, '%27') + "') center 50% / cover no-repeat, " + gradient;
 }
 
 /** Just the subject gradient, for places that need a standalone fallback. */
+function heroImageUrl(project) {
+  var over = project && OVERRIDES[project.project_id];
+  return over ? ('/' + over.file) : (project && project.graphic_link) || '';
+}
+
 function heroGradient(project) {
   var tint = tintFor(project);
   return 'linear-gradient(160deg, ' + tint[0] + ' 0%, ' + tint[1] + ' 100%)';
 }
 
-module.exports = { heroBackground: heroBackground, heroGradient: heroGradient, tintFor: tintFor };
+module.exports = { heroBackground: heroBackground, heroGradient: heroGradient,
+                   heroImageUrl: heroImageUrl, tintFor: tintFor };

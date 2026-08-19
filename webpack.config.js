@@ -3,7 +3,7 @@ const fs = require("fs");
 const webpack = require('webpack');
 const NunjucksWebpackPlugin = require("nunjucks-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const { heroBackground, heroGradient } = require('./src/js/heroBackground.js');
+const { heroBackground, heroGradient, heroImageUrl } = require('./src/js/heroBackground.js');
 
 let data = JSON.parse(fs.readFileSync(path.join(__dirname, 'data.json'), 'utf8'));
 let projects_raw = JSON.parse(JSON.stringify(data.projects))
@@ -16,6 +16,7 @@ projects_raw.forEach(proj => {
 data.projects.forEach((item, index) => {
   data.projects[index].hero_bg = heroBackground(item);
   data.projects[index].hero_fallback = heroGradient(item);
+  data.projects[index].hero_src = heroImageUrl(item);
 })
 data.projects.forEach((item, index) => {
   data.projects[index].related_proj = item.related_proj.map(rel => { return data.projects[rel] });
@@ -54,7 +55,7 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
    module: {
      rules: [
        {
-        test: /\.jsx?/,
+        test: /\.jsx?$/,   // anchored: unanchored this also matched .json and sent it to babel
         exclude: "/node_modules",
         use: {loader: 'babel-loader'}
        },
