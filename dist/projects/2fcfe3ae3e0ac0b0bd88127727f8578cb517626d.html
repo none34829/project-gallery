@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="../2fcfe3ae3e0ac0b0bd88127727f8578cb517626d.js" type="text/javascript"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png"/>
-    <title>Inspirit AI Projects Catalog</title>
+    <title>Enhancement of Autonomous Vehicles During Extreme Weather | Inspirit AI</title>
+    <meta name="description" content="This research investigates improving object detection for autonomous vehicles in extreme weather by fine-tuning the YOLOv8n neural network. Starting with a...">
+    <link rel="canonical" href="https://research.inspiritai.com/projects/2fcfe3ae3e0ac0b0bd88127727f8578cb517626d.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Inspirit AI">
+    <meta property="og:title" content="Enhancement of Autonomous Vehicles During Extreme Weather">
+    <meta property="og:description" content="This research investigates improving object detection for autonomous vehicles in extreme weather by fine-tuning the YOLOv8n neural network. Starting with a...">
+    <meta property="og:url" content="https://research.inspiritai.com/projects/2fcfe3ae3e0ac0b0bd88127727f8578cb517626d.html">
+    <meta name="twitter:card" content="summary_large_image">
     <script>
     
     </script>
@@ -106,9 +114,9 @@
           <div class="font-secondary ms-2 mb-0 mt-1 h5 text-decoration-none">Back To Projects</div>
         </div>
       </a>
-      <div class="display-6 font-primary">
+      <h1 class="display-6 font-primary m-0">
         Enhancement of Autonomous Vehicles During Extreme Weather
-      </div>
+      </h1>
       <div class="d-flex w-100 align-items-center">
         <div class="profile_image" style="background:url('../assets/images/student_imgs/79302f756a3a58d4cd41313a5b4080e394fc38be.png') center 50% / cover no-repeat"></div>
         <div class="text-white font-secondary h5 m-0 ps-3 pt-2 d-flex align-items-center">
@@ -128,13 +136,13 @@
       <p class="p-4" style="text-align: justify;">Autonomous vehicles are self-driving vehicles that operate without human assistance. Self-driving vehicles, which include Teslas, BMWs, Waymos, Fords, and Mercedes, struggle to detect objects under extreme weather conditions, such as rain and fog, due to a lack of visibility, thereby significantly increasing the likelihood of collisions. Although autonomous vehicles have proven to be exceptional in nominal conditions, their poor performance in stormy, foggy, and snowy conditions currently limits their deployment on real roads today. This is important to know because AI can be used to improve the safety of vehicles using algorithms like deep learning via neural networks. In order to answer the question, it involved training and fine-tuning a neural network called the YOLOv8n  model. We loaded a pretrained model, called yolov8n. This model was inaccurate at predicting cars when the vision isn’t clear. However, from the DAWN dataset from Kaggle + YOLOV8, we fine-tuned the model and got it to predict vehicles when the vision wasn’t clear. Initially, the model failed to predict other vehicles in extreme weather conditions, or often predicted other vehicles and objects with low confidence levels. However, after the model was fine-tuned, it was able to increase its prediction confidence level by 40%, also being able to predict 91% of the presented objects, way higher compared to its predicting 22% of its presented objects per image. However, during normal conditions, the fine-tuned model predicted other vehicles at a lower confidence level compared to the original Yolov8n model due to it being trained during extreme weather and not nominal conditions. It was concluded that the fine-tuning of YOLOv8n contributed to the feasibility of object detection during extreme weather conditions, with a 64% increase in objects detected with it being able to detect 94.87% of vehicles and pedestrians,  but led to a 10% decrease in confidence level and &lt;1% decrease in object detection rate under nominal conditions and failed to detect traffic lights, which the non-tuned model could do. This makes it necessary for self-driving providers to build a car with at least two different models: one non-tuned YOLOv8n model, operating during nominal conditions and during traffic lights, and the other being a tuned YOLOv8n model that operates during extreme weather. </p>
       
         <div class="text-dark p-4">
-          <p class="h4 font-secondary title-black"> Explore More!</p>
+          <h2 class="h4 font-secondary title-black mb-3"> Explore More!</h2>
           <div class="d-flex flex-wrap">
             
               <button type="button" class="position-relative me-3 mb-3 text-decoration-none research_button">
                 <div class="unclosedButton d-flex">
                   Research Paper
-                  <img class="externalLink" src="../assets/images/external_link.svg">
+                  <img class="externalLink" src="../assets/images/external_link.svg" alt="">
                 </div>
               </button>
             
@@ -143,7 +151,7 @@
               <div onclick="window.open('https://github.com/PandianAnand/Autonomous-Vehicle-Improvement', '_blank').focus();" class="position-relative me-3 mb-3 text-decoration-none cursor-p">
                 <div class="unclosedButton d-flex">
                   Source Code
-                  <img class="externalLink" src="../assets/images/external_link.svg">
+                  <img class="externalLink" src="../assets/images/external_link.svg" alt="">
                 </div>
               </div>
             
@@ -328,10 +336,11 @@
     </div>
   </div>  
 
+
   <div class="pdfModal d-flex justify-content-center align-items-center">
       <div class="modal-container w-80 h-80 p-3">
         <div class="modal-header">
-          <h5 class="modal-title h3 font-secondary">Research Paper</h5>
+          <h2 class="modal-title h3 font-secondary">Research Paper</h2>
           <button type="button" class="close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -342,5 +351,6 @@
         </div>
       </div>
   </div>
+
 </body>
 </html>

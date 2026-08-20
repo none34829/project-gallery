@@ -6,22 +6,31 @@ import fatfrank2 from "../assets/fonts/FatFrank-Regular.ttf";
 
 
 function showModal(){
-    console.log("thing")
-    document.querySelector(".pdfModal").classList.add("pdfModal--show")
+    const m = document.querySelector(".pdfModal")
+    if (m) m.classList.add("pdfModal--show")
 }
 
 function hideModal(){
-    console.log("thing2")
-    document.querySelector(".pdfModal").classList.remove("pdfModal--show")
+    const m = document.querySelector(".pdfModal")
+    if (m) m.classList.remove("pdfModal--show")
 }
 
 window.addEventListener('load', (event) => {
-    document.querySelector('.research_button').onclick = () => {
-        showModal()
-    }   
+    // Projects without a research paper render neither the button nor the modal, so
+    // these were throwing on null and aborting the rest of this load handler - which
+    // also killed the dead-image gradient fallback further down.
+    const researchButton = document.querySelector('.research_button')
+    if (researchButton) {
+        researchButton.onclick = () => {
+            showModal()
+        }
+    }
 
-    document.querySelector('.close').onclick = () => {
-        hideModal()
+    const closeButton = document.querySelector('.close')
+    if (closeButton) {
+        closeButton.onclick = () => {
+            hideModal()
+        }
     }
 
     document.onkeydown = (e) => {

@@ -13,6 +13,11 @@ let current_category = ""
 let isInitialized = false
 
 // Show loading state
+// Assigned inside the window-load callback below. It has to be declared out here
+// because initializeSearch() (module scope) calls it, while its body needs
+// executeSearch(), which only exists inside that callback's scope.
+let renderSuggestions = function () {};
+
 function showLoadingState() {
   const gallery = document.querySelector('.projectGallery');
   if (gallery) {
@@ -246,6 +251,15 @@ window.addEventListener('load', (event) => {
     executeSearch("")
   }
 
+  // Enter picks the first suggestion. Without it the box swallows Enter entirely,
+  // which reads as a broken search - the only other way in is clicking a pill.
+  document.getElementById('searchBar').addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return
+    e.preventDefault()
+    const first = document.querySelector('.searchSuggestions > .searchPill')
+    if (first) executeSearch(first.textContent)
+  })
+
   function executeSearch(queryString) {
     let hasFilter = false
     active_filters.forEach((filter, index) => {
@@ -313,8 +327,9 @@ window.addEventListener('load', (event) => {
     })
   }
 
-  function renderSuggestions(items) {
+  renderSuggestions = function (items) {
     let target = document.querySelector(".searchSuggestions");
+    if (!target) return;
     target.innerHTML = "";
 
     if(items.length == 0){
@@ -326,6 +341,6 @@ window.addEventListener('load', (event) => {
     Array.from(document.querySelectorAll(".searchSuggestions > .searchPill")).forEach(elem => {
       elem.onclick = () => {executeSearch(elem.innerHTML)};
     })
-  }
+  };
 
 });

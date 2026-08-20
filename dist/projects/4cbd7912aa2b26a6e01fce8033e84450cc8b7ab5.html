@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="../4cbd7912aa2b26a6e01fce8033e84450cc8b7ab5.js" type="text/javascript"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png"/>
-    <title>Inspirit AI Projects Catalog</title>
+    <title>Drone Obstacle Detection Using YOLOv5 | Inspirit AI</title>
+    <meta name="description" content="This project was built with the goal of performing real-time obstacle detection on a drone.">
+    <link rel="canonical" href="https://research.inspiritai.com/projects/4cbd7912aa2b26a6e01fce8033e84450cc8b7ab5.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Inspirit AI">
+    <meta property="og:title" content="Drone Obstacle Detection Using YOLOv5">
+    <meta property="og:description" content="This project was built with the goal of performing real-time obstacle detection on a drone.">
+    <meta property="og:url" content="https://research.inspiritai.com/projects/4cbd7912aa2b26a6e01fce8033e84450cc8b7ab5.html">
+    <meta name="twitter:card" content="summary_large_image">
     <script>
     
     </script>
@@ -106,9 +114,9 @@
           <div class="font-secondary ms-2 mb-0 mt-1 h5 text-decoration-none">Back To Projects</div>
         </div>
       </a>
-      <div class="display-6 font-primary">
+      <h1 class="display-6 font-primary m-0">
         Drone Obstacle Detection Using YOLOv5
-      </div>
+      </h1>
       <div class="d-flex w-100 align-items-center">
         <div class="profile_image" style="background:url('../assets/images/student_imgs/7dcd9ef5296c78dad0d6450c37d41982d45acb45.png') center 50% / cover no-repeat"></div>
         <div class="text-white font-secondary h5 m-0 ps-3 pt-2 d-flex align-items-center">
@@ -128,13 +136,13 @@
       <p class="p-4" style="text-align: justify;">This project was built with the goal of performing real-time obstacle detection on a drone. In order to achieve this given the lack of pre-existing drone image datasets, I had to collect images, label them, and train a functional model. I collected my dataset using the DJI Mavic Mini Drone and labeled the images on Roboflow, a computer vision data labeling website. I resorted to creating my own dataset focused around 6 different classes: buildings, houses, fences, poles, street signs, and trees. Based on these goals, I picked 3 locations to take pictures: Brandywine Drive, Saratoga High School, and downtown Los Gatos. I flew my drone at a varying range of altitudes from around 5-30 meters off the ground and altered the angle of the gimbal from looking straight down (90°) to horizontal views at around (10°). Throughout the process of labeling, I did not label minute objects which did not directly affect the flight path of the drone. Hence, I did not label many trees/buildings/poles/etc. in the background where I did not find it necessary to do so. Data augmentation has been key to the success I have had throughout this project. Labeling is a lengthy process requiring excessive labor, and a quick way to easily upscale the size of my dataset was through augmentation. I used Roboflow’s threefold (3x) augmentation and ended up settling on 4 types of image-level augmentation: noise, exposure, brightness, and blur. I trained my model using transfer learning on YOLOv5, and was able to achieve proficient results. Albeit mediocre training accuracies, my models performed well on test datasets, correctly creating bounding boxes with high confidences. In the near future, I will look to increase the size of my dataset and balance the label count in order to improve my model and address the skew in my dataset. Additionally, I intend to open-source my current dataset along with my best model on Kaggle and Github to help others dive into the relatively unexplored domain of drone AI.</p>
       
         <div class="text-dark p-4">
-          <p class="h4 font-secondary title-black"> Explore More!</p>
+          <h2 class="h4 font-secondary title-black mb-3"> Explore More!</h2>
           <div class="d-flex flex-wrap">
             
               <button type="button" class="position-relative me-3 mb-3 text-decoration-none research_button">
                 <div class="unclosedButton d-flex">
                   Research Paper
-                  <img class="externalLink" src="../assets/images/external_link.svg">
+                  <img class="externalLink" src="../assets/images/external_link.svg" alt="">
                 </div>
               </button>
             
@@ -143,7 +151,7 @@
               <div onclick="window.open('https://github.com/vihaanb-v/yolov5', '_blank').focus();" class="position-relative me-3 mb-3 text-decoration-none cursor-p">
                 <div class="unclosedButton d-flex">
                   Source Code
-                  <img class="externalLink" src="../assets/images/external_link.svg">
+                  <img class="externalLink" src="../assets/images/external_link.svg" alt="">
                 </div>
               </div>
             
@@ -328,10 +336,11 @@
     </div>
   </div>  
 
+
   <div class="pdfModal d-flex justify-content-center align-items-center">
       <div class="modal-container w-80 h-80 p-3">
         <div class="modal-header">
-          <h5 class="modal-title h3 font-secondary">Research Paper</h5>
+          <h2 class="modal-title h3 font-secondary">Research Paper</h2>
           <button type="button" class="close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -342,5 +351,6 @@
         </div>
       </div>
   </div>
+
 </body>
 </html>

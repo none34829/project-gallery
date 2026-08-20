@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="../12d0ba551ac91ec981010b287a4026f75ca451bf.js" type="text/javascript"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png"/>
-    <title>Inspirit AI Projects Catalog</title>
+    <title>Developing a novel 3D GNN and Random Forest Regression model for screening and predicting potential oxide electrocatalysts with greater accuracy and computational efficiency | Inspirit AI</title>
+    <meta name="description" content="Phase 1 of my research evaluated the Dimenet++ model and Graphormer 3D Transformer model on a subset of the OC20 (Open Catalyst 2020) IS2RE dataset to...">
+    <link rel="canonical" href="https://research.inspiritai.com/projects/12d0ba551ac91ec981010b287a4026f75ca451bf.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Inspirit AI">
+    <meta property="og:title" content="Developing a novel 3D GNN and Random Forest Regression model for screening and predicting potential oxide electrocatalysts with greater accuracy and computational efficiency">
+    <meta property="og:description" content="Phase 1 of my research evaluated the Dimenet++ model and Graphormer 3D Transformer model on a subset of the OC20 (Open Catalyst 2020) IS2RE dataset to...">
+    <meta property="og:url" content="https://research.inspiritai.com/projects/12d0ba551ac91ec981010b287a4026f75ca451bf.html">
+    <meta name="twitter:card" content="summary_large_image">
     <script>
     
     </script>
@@ -106,9 +114,9 @@
           <div class="font-secondary ms-2 mb-0 mt-1 h5 text-decoration-none">Back To Projects</div>
         </div>
       </a>
-      <div class="display-6 font-primary">
+      <h1 class="display-6 font-primary m-0">
         Developing a novel 3D GNN and Random Forest Regression model for screening and predicting potential oxide electrocatalysts with greater accuracy and computational efficiency
-      </div>
+      </h1>
       <div class="d-flex w-100 align-items-center">
         <div class="profile_image" style="background:url('../assets/images/missing_image.png') center 50% / cover no-repeat"></div>
         <div class="text-white font-secondary h5 m-0 ps-3 pt-2 d-flex align-items-center">
@@ -128,13 +136,13 @@
       <p class="p-4" style="text-align: justify;">In order to develop green hydrogen into a viable source of renewable energy that can be produced and stored at scale to address climate change, cost effective electrocatalysts (catalysts that facilitate the reaction of electrolysis), are imperative. Current simulation based efforts, such as Density Functional Theory (DFT), to screen such catalysts are too computational intensive and not scalable. To address this, ML models have been developed that predict the total relaxed energy of catalyst structures, a key attribute that drives chemical reactions. Phase 1 of my research evaluated the Dimenet++ model and Graphormer 3D Transformer model on a subset of the OC20 (Open Catalyst 2020) IS2RE dataset to analyze the relationship between a 3D Transformer and a GNN, and establish a baseline model that can be used to compare to Phase 2. In addition, I trained a joint model with both OC20 and OC22 data and compared the results to the independently trained models produced earlier to evaluate joint training on model performance. However, the thermodynamic data provided by OC20 is not enough for accurate screening. Atom charge distribution is an important factor in driving the chemical reactions of electrocatalysts so it can potentially also bolster model performance, and it has not yet been included in previous models because it is calculated through DFT. Using Bader Charges calculated through DFT for atom structures in OC20, I performed feature engineering with 13 additional atomic characteristics, and constructed a Random Forest and GNN model to predict Bader charges for all atom structures. I then modified the Graphormer model to incorporate this new predicted charge attribute. The refined model saw ~3.5% less in loss and ~10% greater in EwT across all the validation splits. With this new model, electrocatalysts can be screened faster with higher accuracy at scale.</p>
       
         <div class="text-dark p-4">
-          <p class="h4 font-secondary title-black"> Explore More!</p>
+          <h2 class="h4 font-secondary title-black mb-3"> Explore More!</h2>
           <div class="d-flex flex-wrap">
             
               <button type="button" class="position-relative me-3 mb-3 text-decoration-none research_button">
                 <div class="unclosedButton d-flex">
                   Research Paper
-                  <img class="externalLink" src="../assets/images/external_link.svg">
+                  <img class="externalLink" src="../assets/images/external_link.svg" alt="">
                 </div>
               </button>
             
@@ -325,10 +333,11 @@
     </div>
   </div>  
 
+
   <div class="pdfModal d-flex justify-content-center align-items-center">
       <div class="modal-container w-80 h-80 p-3">
         <div class="modal-header">
-          <h5 class="modal-title h3 font-secondary">Research Paper</h5>
+          <h2 class="modal-title h3 font-secondary">Research Paper</h2>
           <button type="button" class="close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -339,5 +348,6 @@
         </div>
       </div>
   </div>
+
 </body>
 </html>
