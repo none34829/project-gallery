@@ -6,6 +6,51 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const { heroBackground, heroGradient, heroImageUrl } = require('./src/js/heroBackground.js');
 
 let data = JSON.parse(fs.readFileSync(path.join(__dirname, 'data.json'), 'utf8'));
+// Airtable holds a few projects twice (same title + student, so the same derived
+// project_id). That rendered duplicate cards in the gallery, and both cards opened
+// the same page - whichever record webpack wrote last. Merge each set into one
+// record, preferring populated values and unioning the list fields. related_proj
+// stores indices into this array, so it has to be remapped as we collapse it.
+function mergeDuplicateProjects(projects) {
+  const indexById = {};
+  const merged = [];
+  const remap = [];
+  projects.forEach((proj, oldIndex) => {
+    const existing = indexById[proj.project_id];
+    if (existing === undefined) {
+      indexById[proj.project_id] = merged.length;
+      remap[oldIndex] = merged.length;
+      merged.push(Object.assign({}, proj));
+      return;
+    }
+    remap[oldIndex] = existing;
+    const target = merged[existing];
+    Object.keys(proj).forEach(key => {
+      if (key === 'related_proj') return;
+      const incoming = proj[key];
+      const current = target[key];
+      if (Array.isArray(incoming) && Array.isArray(current)) {
+        incoming.forEach(v => { if (current.indexOf(v) === -1) current.push(v); });
+      } else if (current === null || current === undefined || current === '') {
+        target[key] = incoming;
+      }
+    });
+  });
+  merged.forEach(proj => {
+    const seen = {};
+    proj.related_proj = (proj.related_proj || [])
+      .map(i => remap[i])
+      .filter(i => i !== undefined && merged[i] !== proj && !seen[i] && (seen[i] = true));
+  });
+  return merged;
+}
+data.projects = mergeDuplicateProjects(data.projects);
+// The front page builds its cards client-side from data.json, so the copy shipped
+// to dist has to be the deduped one too - otherwise the duplicate cards come back.
+// Snapshot it here, before related_proj is expanded into objects further down
+// (that turns the structure circular and unserialisable).
+const DEDUPED_DATA_JSON = JSON.stringify(data);
+
 let projects_raw = JSON.parse(JSON.stringify(data.projects))
 let prodect_id_map = {}
 projects_raw.forEach(proj => {
@@ -126,7 +171,7 @@ data.projects.forEach(item => entry_points[item.project_id] = "./src/js/project.
     // Removed data bundling - data is now loaded dynamically via dataService
     new CopyWebpackPlugin([
       {from:'src/assets/',to:'assets/'},
-      {from:'data.json',to:'data.json'}
+      {from:'data.json',to:'data.json',transform: () => DEDUPED_DATA_JSON}
     ]), 
   ]
  };
