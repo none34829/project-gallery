@@ -8,6 +8,7 @@ require('dotenv').config()
 
 const DEFAULT_IMAGE_PATH = "assets/images/missing_image.png"
 const MAX_REDIRECTS = 5
+const DOWNLOAD_TIMEOUT_MS = 20000
 
 function normalizeAttachmentField(fieldValue) {
     if (!fieldValue) return null
@@ -68,7 +69,19 @@ function downloadFile(fileUrl, localPath, attempt = 0) {
 
         const protocol = parsedUrl.protocol === "http:" ? http : https
 
-        const request = protocol.get(parsedUrl, res => {
+        // Plenty of image hosts reject requests that do not look like a browser -
+        // without these headers they answer 403 and a perfectly good image would be
+        // downgraded to a gradient placeholder.
+        const requestOptions = {
+            headers: {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
+                    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+                "Referer": `${parsedUrl.origin}/`
+            }
+        }
+
+        const request = protocol.get(parsedUrl, requestOptions, res => {
             if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
                 const redirectUrl = new URL(res.headers.location, parsedUrl).href
                 res.resume()
@@ -96,6 +109,15 @@ function downloadFile(fileUrl, localPath, attempt = 0) {
             })
         })
 
+        // Without this, a host that accepts the connection but never answers hangs the
+        // request forever - Promise.all never settles and the build never writes
+        // data.json. Several of the rotted image hosts behave exactly that way.
+        request.setTimeout(DOWNLOAD_TIMEOUT_MS, () => {
+            console.error(`Timed out after ${DOWNLOAD_TIMEOUT_MS}ms downloading ${fileUrl}`)
+            request.destroy()
+            resolve(false)
+        })
+
         request.on("error", err => {
             console.error(`Request error while downloading ${fileUrl}`, err)
             resolve(false)
@@ -115,11 +137,15 @@ function getLocalImagePaths(identifier, folder) {
 
 function resolveImageDownload(link, type) {
     if (!link) {
-        return Promise.resolve(DEFAULT_IMAGE_PATH)
+        return Promise.resolve(type === "hero" ? null : DEFAULT_IMAGE_PATH)
     }
 
-    const folder = type === "mentor" ? "mentor_imgs" : "student_imgs"
-    const fallback = DEFAULT_IMAGE_PATH
+    const folder = type === "mentor" ? "mentor_imgs"
+        : type === "hero" ? "project_graphics"
+        : "student_imgs"
+    // A hero that will not download should leave graphic_link empty so the card
+    // falls back to its subject gradient, not to the grey missing-image box.
+    const fallback = type === "hero" ? null : DEFAULT_IMAGE_PATH
     const driveId = extractGoogleDriveId(link)
     let identifier = driveId || link
 
@@ -223,7 +249,9 @@ const basePromise = new Promise((resolve, reject) => {
             tempObj["project_quarter"] = item["Project Completed Season"];
             tempObj["github"] = item["Github Repo/Other Code File Links (optional)"];
             tempObj["project_webpage"] = item["Link to Project Webpage (optional)"];
-            tempObj["graphic_link"] = item["Image Link"];
+            // Accepts either a pasted URL or an Airtable attachment. Attachment URLs expire,
+            // so whichever form it takes, the image is downloaded below and served locally.
+            tempObj["graphic_link"] = normalizeAttachmentField(item["Image Link"]);
             tempObj["headline"] = item["Headline"];
             tempObj["project_id"] = crypto.createHash('sha1').update(`${item["Project Title"]}${item["Mentee Name"]}`).digest('hex');
             tempObj["expand"] = item["Project Title"].length > 75 ? true : false;
@@ -332,6 +360,25 @@ Promise.all([domainsPromise, basePromise]).then(() => {
                 array[index].student_image = DEFAULT_IMAGE_PATH
             })
         image_promises.push(studentPromise)
+
+        // Hero images used to be hotlinked straight from whatever third-party site the
+        // URL pointed at, which is why so many rotted (404/403/expired CDN links).
+        // Download it once at build time and serve it from our own assets instead. The
+        // path is root-absolute so it resolves from both / and /projects/*.html.
+        const originalHero = project.graphic_link
+        const heroPromise = resolveImageDownload(originalHero, "hero")
+            .then(localPath => {
+                // Keep the original URL when the download fails. A few hosts refuse our
+                // request but still serve the image to a real browser, and downgrading
+                // those to a gradient would lose a picture that currently displays.
+                // Genuinely dead URLs are caught separately by dead-links.json.
+                array[index].graphic_link = localPath ? `/${localPath}` : (originalHero || null)
+            })
+            .catch(error => {
+                console.error(`Failed to process hero image for project ${project.project_title}`, error)
+                array[index].graphic_link = originalHero || null
+            })
+        image_promises.push(heroPromise)
 
         if(project.research_paper != undefined){
             let research_paper_url = project.research_paper
