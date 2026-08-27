@@ -19,7 +19,7 @@ button {
 }
 
 .header-container {
-    background: linear-gradient(340deg, #A7FFF6, #2E5EAA);
+    background: linear-gradient(340deg, #565889, #2f3167);
     // Baseline height; desktop refines below. Keep enough room to avoid overlap
     // while still reducing the original excessive space.
     height: calc(36vh + 116.8px);
@@ -115,7 +115,7 @@ button {
 }
 
 .involedPeople{
-    background-color: #1C427D
+    background-color: #2f3167
 }
 
 .largerProfile{
@@ -154,10 +154,10 @@ button {
 }
 
 .unclosedButton{
-    color: #1C427D !important;
+    color: #2f3167 !important;
     text-decoration: none;
     padding: 1rem 2rem;
-    border: 2px solid #1C427D;
+    border: 2px solid #2f3167;
     transition: all 0.25s;
     transition-delay: 0.25s;
 
@@ -174,7 +174,7 @@ button {
         -ms-transform-origin: 0 1px;
         transform-origin: 0 1px;
         width: 100%;
-        background: #1C427D;
+        background: #2f3167;
     }
 
     &:after {
@@ -190,7 +190,7 @@ button {
         -ms-transform-origin: 1px 0;
         transform-origin: 1px 0;
         width: 2px;
-        background: #1C427D;
+        background: #2f3167;
     }
 
     &:hover:before {
@@ -207,7 +207,7 @@ button {
     }
 
     &:hover {
-        background: #1C427D;
+        background: #2f3167;
         color: white !important;
     }
 }

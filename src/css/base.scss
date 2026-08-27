@@ -1,3 +1,11 @@
+// Brand palette, shared with inspiritai.com and success.inspiritai.com so the
+// gallery reads as part of the same site (Adeesh asked for font/colour parity).
+$brand-primary: #2f3167;   // navy - buttons, bands, borders
+$brand-band:    #565889;   // lighter companion, used in gradients
+$brand-accent:  #e9a13b;   // gold
+$brand-fg:      #000;      // body text
+$brand-body-font: "Trebuchet MS", Helvetica, Arial, sans-serif;
+
 .meta-text{
   font-size: 0.7rem;
   line-height: 1.1;
@@ -50,11 +58,11 @@
 }
 
 .font-secondary {
-    font-family: "DIN Condensed" !important;
+    font-family: $brand-body-font !important;
 }
 
 .font-text {
-    font-family: "Open Sans";
+    font-family: $brand-body-font;
 }
 
 .title-black{
@@ -221,7 +229,7 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
             font-size: 0.85rem;
             display: flex;
             align-items: center;
-            font-family: 'DIN Condensed';
+            font-family: $brand-body-font;
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
@@ -437,7 +445,7 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 
 .button-primary-bordered {
-  font-family: "DIN Condensed", sans-serif !important; 
+  font-family: $brand-body-font !important;
   cursor: pointer;
   transition-duration: 0.2s;
   border: 1px solid white;
@@ -455,4 +463,11 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black !important;
     text-decoration: none !important;
   }
+}
+
+// Bootstrap's defaults (system-ui stack, #212529 text) were the main reason this
+// site did not look related to the rest of inspiritai.com.
+body {
+    font-family: $brand-body-font;
+    color: $brand-fg;
 }
