@@ -474,3 +474,28 @@ body {
     font-family: $brand-body-font;
     color: $brand-fg;
 }
+
+/* The collapsed menu had no background of its own, so when it opened over the
+   project header the two sets of text rendered on top of each other and neither
+   was readable. navbar-expand-xl means it collapses below 1200px. */
+@media (max-width: 1199.98px) {
+    .navbar {
+        /* sit above the absolutely-positioned page header */
+        z-index: 1030;
+    }
+
+    .navbar-collapse.show,
+    .navbar-collapse.collapsing {
+        background: $brand-primary;
+        margin: 0.5rem -3rem -1.5rem -1.5rem;
+        padding: 0.75rem 1.5rem 1.25rem;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+    }
+
+    /* the dropdown inside the opened menu needs to read against that panel */
+    .navbar-collapse.show .dropdown-menu {
+        background: rgba(255, 255, 255, 0.06);
+        border: 0;
+    }
+}
