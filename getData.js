@@ -129,6 +129,42 @@ function downloadFile(fileUrl, localPath, attempt = 0) {
 // saved with a .png extension regardless of what the server actually sent, so the
 // format is sniffed from magic bytes rather than trusted from the name. Avoids
 // pulling in an image library, which would have to build on Vercel too.
+// Some hosts answer a hotlink with a bot-block notice rendered as a perfectly valid
+// image and HTTP 200 - vectorstock serves an "Access Restricted" card that way, and
+// three projects ended up displaying it. The tell is that the bytes come back
+// identical across unrelated projects; real project artwork never repeats. Drop
+// those so the card falls back to its subject gradient instead.
+function dropSharedPlaceholderImages(projects) {
+    const byHash = {}
+    projects.forEach(proj => {
+        const link = proj.graphic_link
+        if (!link || link.indexOf("/assets/") !== 0) return
+        const file = path.join(__dirname, "src", link.replace(/^\//, ""))
+        let hash
+        try {
+            hash = crypto.createHash("sha1").update(fs.readFileSync(file)).digest("hex")
+        } catch (error) {
+            return
+        }
+        if (!byHash[hash]) byHash[hash] = []
+        byHash[hash].push(proj)
+    })
+    Object.keys(byHash).forEach(hash => {
+        const group = byHash[hash]
+        // count distinct projects - the duplicated Airtable rows share a project_id
+        // and legitimately share one picture, so they must not trip this
+        const ids = {}
+        group.forEach(p => { ids[p.project_id] = 1 })
+        // Three or more is the threshold: two unrelated projects genuinely do share a
+        // picture in this dataset, so a pair is not evidence of a block page.
+        if (Object.keys(ids).length < 3) return
+        console.log("Dropping an image shared by " + Object.keys(ids).length +
+                    " unrelated projects (almost certainly a block page): " +
+                    group.map(p => p.project_title).join(" | "))
+        group.forEach(p => { p.graphic_link = null; delete p.hero_w; delete p.hero_h })
+    })
+}
+
 function imageSize(file) {
     let buf
     try {
@@ -476,6 +512,7 @@ Promise.all([domainsPromise, basePromise]).then(() => {
         }
     })
     Promise.all(image_promises).then(() => {
+        dropSharedPlaceholderImages(projectData.projects)
         fs.writeFileSync('./data.json', JSON.stringify(projectData, null, 2) , 'utf-8');
     })
 });

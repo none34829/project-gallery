@@ -1,13 +1,18 @@
 @import "base.scss";
 
 
+/* The backdrop used to be a fixed 85vh block, so the purple ran out around the
+   third row of cards and the rest of the gallery sat on white. html and body are
+   both pinned to height:100%, so sizing that block to the document is not
+   possible - painting the gradient on body instead propagates it to the canvas,
+   which covers the whole scrollable page. Fixed attachment keeps the gradient
+   even rather than stretching it over a 13,000px page. */
+body {
+    background: linear-gradient(340deg, #565889, #2f3167) fixed;
+}
+
 .background-container {
-    background: linear-gradient(340deg, #565889, #2f3167);
-    position: absolute;
-    height: 85vh;
-    width: 100%;
-    z-index:-2;
-    min-height: 600px;
+    display: none;
 }
 
 .hero-container {
