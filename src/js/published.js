@@ -142,6 +142,10 @@ function renderAllProjects(projects) {
 function createProjectElement(project) {
   const projectElement = document.createElement('div');
   projectElement.className = `projectContainer`;
+  // Same masonry sizing as the main gallery - height follows the picture's real
+  // shape, clamped so the overlay text still fits.
+  const ratio = (project.hero_w && project.hero_h) ? project.hero_h / project.hero_w : 0.87;
+  projectElement.style.setProperty('--card-ratio', Math.min(1.15, Math.max(0.65, ratio)).toFixed(3));
   projectElement.setAttribute('data-id', project.project_id);
   projectElement.onclick = () => window.location = `projects/${project.project_id}.html`;
   

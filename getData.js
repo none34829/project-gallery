@@ -125,6 +125,63 @@ function downloadFile(fileUrl, localPath, attempt = 0) {
     })
 }
 
+// Reads intrinsic width/height straight from the file header. Downloads are all
+// saved with a .png extension regardless of what the server actually sent, so the
+// format is sniffed from magic bytes rather than trusted from the name. Avoids
+// pulling in an image library, which would have to build on Vercel too.
+function imageSize(file) {
+    let buf
+    try {
+        const fd = fs.openSync(file, "r")
+        buf = Buffer.alloc(65536)
+        const read = fs.readSync(fd, buf, 0, 65536, 0)
+        fs.closeSync(fd)
+        buf = buf.slice(0, read)
+    } catch (error) {
+        return null
+    }
+    if (buf.length < 24) return null
+
+    // PNG
+    if (buf.slice(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))) {
+        return { width: buf.readUInt32BE(16), height: buf.readUInt32BE(20) }
+    }
+    // GIF
+    if (buf.slice(0, 3).toString("latin1") === "GIF") {
+        return { width: buf.readUInt16LE(6), height: buf.readUInt16LE(8) }
+    }
+    // WebP (VP8X / VP8 / VP8L)
+    if (buf.slice(0, 4).toString("latin1") === "RIFF" && buf.slice(8, 12).toString("latin1") === "WEBP") {
+        const type = buf.slice(12, 16).toString("latin1")
+        if (type === "VP8X") {
+            return { width: 1 + buf.readUIntLE(24, 3), height: 1 + buf.readUIntLE(27, 3) }
+        }
+        if (type === "VP8 ") {
+            return { width: buf.readUInt16LE(26) & 0x3fff, height: buf.readUInt16LE(28) & 0x3fff }
+        }
+        if (type === "VP8L") {
+            const b = buf.readUInt32LE(21)
+            return { width: (b & 0x3fff) + 1, height: ((b >> 14) & 0x3fff) + 1 }
+        }
+        return null
+    }
+    // JPEG - walk the segment markers to the frame header
+    if (buf[0] === 0xff && buf[1] === 0xd8) {
+        let i = 2
+        while (i < buf.length - 9) {
+            if (buf[i] !== 0xff) { i++; continue }
+            const marker = buf[i + 1]
+            // SOF0-SOF15, excluding the non-frame markers DHT/JPG/DAC
+            if (marker >= 0xc0 && marker <= 0xcf &&
+                marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+                return { height: buf.readUInt16BE(i + 5), width: buf.readUInt16BE(i + 7) }
+            }
+            i += 2 + buf.readUInt16BE(i + 2)
+        }
+    }
+    return null
+}
+
 function getLocalImagePaths(identifier, folder) {
     const hash = crypto.createHash("sha1").update(identifier).digest("hex")
     const fileName = `${hash}.png`
@@ -251,7 +308,10 @@ const basePromise = new Promise((resolve, reject) => {
             tempObj["project_webpage"] = item["Link to Project Webpage (optional)"];
             // Accepts either a pasted URL or an Airtable attachment. Attachment URLs expire,
             // so whichever form it takes, the image is downloaded below and served locally.
-            tempObj["graphic_link"] = normalizeAttachmentField(item["Image Link"]);
+            // Ronil added an "Image Attachment" column because copying links into the
+            // attachment field was cumbersome. Prefer it, fall back to "Image Link".
+            tempObj["graphic_link"] = normalizeAttachmentField(item["Image Attachment"])
+                || normalizeAttachmentField(item["Image Link"]);
             tempObj["headline"] = item["Headline"];
             tempObj["project_id"] = crypto.createHash('sha1').update(`${item["Project Title"]}${item["Mentee Name"]}`).digest('hex');
             tempObj["expand"] = item["Project Title"].length > 75 ? true : false;
@@ -373,6 +433,15 @@ Promise.all([domainsPromise, basePromise]).then(() => {
                 // those to a gradient would lose a picture that currently displays.
                 // Genuinely dead URLs are caught separately by dead-links.json.
                 array[index].graphic_link = localPath ? `/${localPath}` : (originalHero || null)
+                // Record the real shape so the gallery can lay cards out by aspect
+                // ratio rather than forcing every one to the same height.
+                if (localPath) {
+                    const dims = imageSize(path.join(__dirname, "src", localPath))
+                    if (dims && dims.width && dims.height) {
+                        array[index].hero_w = dims.width
+                        array[index].hero_h = dims.height
+                    }
+                }
             })
             .catch(error => {
                 console.error(`Failed to process hero image for project ${project.project_title}`, error)

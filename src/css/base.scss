@@ -192,11 +192,14 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 
 .projectContainer{
-    height: 260px;
+    /* --card-ratio is set per card from the image's measured height/width, so the
+       gallery reads as a dynamic layout rather than a uniform grid. The fallback
+       matches the old fixed 260px card. */
+    aspect-ratio: 1 / var(--card-ratio, 0.87);
+    height: auto;
     transition: padding 0.2s ;
     pointer-events: none;
-    min-height: 220px;
-    max-height: 260px;
+    min-height: 180px;
     cursor: pointer;
     flex-grow: 0 !important; /* do not override Bootstrap col widths */
     width: 100%;

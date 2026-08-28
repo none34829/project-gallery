@@ -13,7 +13,7 @@
       "project_desc": "Gender inequality is a complex subject consisting of a variety of issues and nuances. In this project, we choose to study gender income inequality—a prevalent issue in current society. Among the many factors that play a role in the gender wage gap, we focus on the affects of marital status, race, geographical location (by state), age, and years of education. By using these variables to create a model able to predict the hourly wage gap between a woman and their equivalent male counterpart, we can analyze the impact of each variable to better understand the role they play in the income gap. Utilizing income data from the Current Population Survey, we train and test five models—a Linear Regression, Decision Tree Regressor, Random Forest Regressor, KNeighbors Regressor, and MLP Regressor. Our Linear Regression model found that there is a correlation between being a never married worker and a smaller gender wage gap, as well as being a married worker with an absent spouse and a greater gender wage gap. In general, though, our models found little correlation between the variables provided and the predicted hourly age gap. \n",
       "research_paper": "assets/pdfs/4c2dec4fb3c31bc305c9008eb6addb04d1747d92.pdf",
       "github": "https://github.com/sophiaguan/genderwagegapanalysis",
-      "graphic_link": "/assets/images/project_graphics/6c90bc5c050a00c63cb8ec35824ee530ce54e4f3.png",
+      "graphic_link": "/assets/images/project_graphics/93ed009076f94e0dcc3f51b13be0d8b5b288b91a.png",
       "headline": " By studying the affect of different attributes on the gender wage gap, we can better understand both the scale of this issue and its possible solutions. So, we explore the question, how does a worker’s marital status, along with other variables, impact the gap in hourly wage between male and female workers? We seek to create a model able to predict the gender wage gap given a set of variables—age, years of education, race, state, and marital status.",
       "project_id": "0a574bde2fff76c3dafb371ae2cef1cfbd7ed854",
       "expand": true,
@@ -26,10 +26,12 @@
       "published": true,
       "science_fairs": "2nd Place at San Diego BROADCOM Science Fair (Senior Division)",
       "related_proj": [
-        24,
-        20,
-        133
-      ]
+        10,
+        16,
+        143
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Alice H.",
@@ -43,7 +45,7 @@
       ],
       "project_title": "A Hybrid CNN-LSTM Model For Predicting Solar Cycle 25",
       "project_desc": "The solar cycle is linked to the number of visible sunspots and follows the fluctuations of the Sun’s magnetic field. It can have powerful global impacts on the Earth. Thus, predicting the timing and amplitude of the peak of the incoming solar cycle 25 is of great importance. This study uses a hybrid deep learning CNN-LSTM model and observed 13-month smoothed sunspot numbers to predict Solar Cycle 25. The MinMax normalization substantially reduces the error of the CNN-LSTM model’s solar cycle predictions compared to the Standard Deviation normalization. The results suggest that it is best to use four historical solar cycles to predict the future solar cycle. The predicted Solar Cycle 25 will have a peak amplitude similar to the 13-month smoothed peak of solar cycle 24. The predicted solar cycle 25 peak spans a relatively long period of time between approximately August 2023 and July 2024. ",
-      "graphic_link": "/assets/images/project_graphics/63944e8287ea62f8de195fedda9d2f200d103db8.png",
+      "graphic_link": "/assets/images/project_graphics/b88e96cd9b1bdb85cadddf9b41c63aee0e32bc18.png",
       "headline": "The goal of this study is to predict Solar Cycle 25 through the deep learning approach,and determine what parameters affect prediction accuracy and what the optimal number of historical solar cycles are used to reliably and accurately predict the upcoming solar cycle. The solar cycle predictions will help us prepare ahead of time for future solar activity.",
       "project_id": "073776ccdb02a715b1a9c4ea590c72703600cadc",
       "expand": false,
@@ -57,10 +59,12 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/3996",
       "related_proj": [
+        11,
         2,
-        53,
-        6
-      ]
+        60
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Alex M.",
@@ -74,7 +78,7 @@
       ],
       "project_title": "Applications of AI in Microfinance ",
       "project_desc": "Using AI models to predict who will be able to get a microloan",
-      "graphic_link": "/assets/images/project_graphics/1e522ce05b735ff967dd71694b380d95cefb9e3f.png",
+      "graphic_link": "/assets/images/project_graphics/9ccd809a371fde3f9983aaf0382c4790f84a8ef8.png",
       "headline": "I hope to explore how to use AI in the field of microfinance to help reduce income inequality. Microfinance has greatly helped decrease rural poverty rates in Bangladesh. The leader of this effort won the Nobel Peace Prize for his work. These micro-loans give opportunity to those who are not otherwise able to obtain financing for their entrepreneurial ideas. This can be applied in the U.S. too, in places where the population cannot otherwise obtain loans to start small businesses and climb their way out of poverty. It can be very difficult to start from rock bottom in the US, especially for those without access to resources. If people could obtain small loans and start small businesses, they could work their way out of poverty. The microloans have to be viable for banks as well. The problem I’d like to explore is whether AI/ML can be used to determine how to deploy microloans efficiently to address income inequality in the U.S.",
       "project_id": "aeb3a7e9bdee8ba99533d1e263521562419a8fb6",
       "expand": false,
@@ -87,10 +91,12 @@
       "published": true,
       "science_fairs": "Massachusetts Science and Engineering Fair (MSEF)",
       "related_proj": [
-        21,
-        3,
-        18
-      ]
+        88,
+        1,
+        116
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Roberto T.",
@@ -105,7 +111,7 @@
       "project_title": "Stellar Classification based on Numerous Characteristics using Machine Learning",
       "project_desc": "The task of stellar classification can be tedious and\nlengthy when done manually. One can expedite stellar classifi-\ncation by creating an artificial intelligence model to automate\nthe process. As we as a species continue to explore the frontier\nof the observable universe, we should seek to automate time\nintensive problems like stellar classification. The current stellar\nclassification model serves to effectively categorize stars for re-\nsearch purposes regarding their distribution around the universe,\nso automating the development of this resource would allow\nprofessionals to allocate more time to explore the bounds of our\ncurrent understanding of space and the universe. After finding\nand analyzing a dataset containing numerical and categorical\nfeatures, a supervised learning approach was then used to train\nand test different models on their ability to classify the stars\nin the given test set. A Decision Tree Classifier, Random Forest\nClassifier, Ridge Classifier, and Support Vector Classifier were\ntrained and tested using the data. The most successful models\nwere the Decision Tree Classifier and Random Forest Classifier,\neach with about a 94 percent prediction accuracy across different\naccuracy metrics on the test data. Despite some drawbacks in\nregards to the availability of usable data, four models were\ntrained and two were proven to be consistently and successfully\naccurate. Any future attempts at developing models for stellar\nclassification should concentrate more on gathering data as to\nhave a more thoroughly trained set of models.",
       "research_paper": "assets/pdfs/7b342766e5c2f5ed3fcf18d4910c0e3513323044.pdf",
-      "graphic_link": "/assets/images/project_graphics/4975d28119aba50b70a8351f53310e28fcba6b0c.png",
+      "graphic_link": "/assets/images/project_graphics/fb135b8cc350127412f1dd981f4976253ec687c2.png",
       "headline": "The task of stellar classification can be tedious and lengthy when done manually. One can expedite stellar classification by creating an artificial intelligence model to automate the process. The current stellar classification model serves to effectively categorize stars for research purposes regarding their distribution around the universe, so automating the development of this resource would allow professionals to allocate more time to explore the bounds of our current understanding of space and the universe. After finding and analyzing a dataset containing numerical and categorical features, a supervised learning approach was then used to train and test different models on their ability to classify the stars in the given test set. A Decision Tree Classifier, Random Forest Classifier, Ridge Classifier, and Support Vector Classifier were trained and tested using the data. ",
       "project_id": "5ee1177c671abf3e11897fc2ebbba3e1355573d4",
       "expand": true,
@@ -118,10 +124,12 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4375",
       "related_proj": [
-        5,
-        0,
-        53
-      ]
+        13,
+        69,
+        12
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Elgin V.",
@@ -136,7 +144,7 @@
       "project_title": "Predicting Running Injuries with Machine Learning Models",
       "project_desc": "Is it possible to predict running injuries with only a dataset and machine learning models? This paper explores this question by using classification models, including the Logistic Regression model and the Random Forest Classifier model. In the dataset used, ten features were taken into account when predicting running injuries. With slight modifications, the Weighted Logistic Regression and over and down-sampling Random Forest Classifier models were used to mitigate the imbalance in the dataset. The results suggested that the best model was Weighted Logistic Regression and that the best score metric to take into account was the F beta score.",
       "research_paper": "assets/pdfs/be88cd8430de161d40c89667573175ca23a8a90e.pdf",
-      "graphic_link": "/assets/images/project_graphics/44c77cd75cb10601d384babc63b4c8c7f0fa4423.png",
+      "graphic_link": "/assets/images/project_graphics/3210680490894216a2e9a7798d2a3b451e93126d.png",
       "headline": "Is it possible to predict running injuries with only a dataset and machine learning models? This paper explores this question by using classification models, including the Logistic Regression model and the Random Forest Classifier model.",
       "project_id": "8f11c9cea7ec6c6ef1b452880aceade84635e612",
       "expand": false,
@@ -149,10 +157,12 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4046",
       "related_proj": [
-        16,
-        142,
-        11
-      ]
+        1,
+        30,
+        142
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Rayyan M.",
@@ -169,7 +179,7 @@
       "research_paper": "assets/pdfs/d80b43b85a066c44470644a3696aca2d9ecfac57.pdf",
       "github": "https://github.com/SpicyTaco17/Climate-Fake-News",
       "project_webpage": "https://spicytaco17-climate-fake-news-app-57cfkv.streamlit.app/",
-      "graphic_link": "/assets/images/project_graphics/5ab36352bafbb3da0a94d115df00a6c41091d30f.png",
+      "graphic_link": "/assets/images/project_graphics/9600a62b3d362a0b5ca21d3de8c7b1b5b6c0a5d5.png",
       "headline": "As fake news becomes more prevalent across the US, important issues become harder to solve. One such issue is climate change, where climate misinformation has worsened viewer’s abilities to distinguish between fake information and real information. This project’s objective is to tackle climate misinformation using an artificial intelligence model.",
       "project_id": "1dbfe39aa305fa7f40158cb17cd70a167c56d275",
       "expand": false,
@@ -182,10 +192,12 @@
       "published": true,
       "science_fairs": "Santa Clara ISEF Qualifier",
       "related_proj": [
-        121,
-        68,
-        45
-      ]
+        7,
+        37,
+        111
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Arnav D.",
@@ -199,7 +211,7 @@
       ],
       "project_title": "The Differentiation of Viral and Bacterial Pneumonia using Deep Learning",
       "project_desc": "This project aims to find out whether a Convolutional Neural Network can be used to classify x-ray scans as having either bacterial or viral Pneumonia. First, its use is discussed, as it is meant to be used to assist with pulmonary healthcare in underprivileged areas. Then, its structure is outlined as a CNN set up using Keras and Tensorflow that is trained on a dataset consisting of 5856 x-ray scans of patients one to five years old from Guangzhou Women and Children’s Medical Center. After testing multiple setups, the final model, based on Inception ResNet v2, differentiates between the two types of Pneumonia with a 75% test accuracy, using minimal epochs in order to increase efficiency. The model was further improved by using dropout, the implementation of early stopping, L2 regularization and augmentation of the training data in order to combat overfitting. Lastly, the model’s limitations and future are discussed. This model proves one can predict and identify types of Pneumonia using a CNN with relatively high accuracy and shows the potential of deep learning in the context of medical imaging to assist medical staff.",
-      "graphic_link": "https://thorax.bmj.com/content/thoraxjnl/57/5/438/F1.large.jpg",
+      "graphic_link": "/assets/images/project_graphics/b99003fcd787d68c4f41549a819e06d26dd70153.png",
       "headline": "This project aims to find out whether a Convolutional Neural Network can be used to classify x-ray scans as having either bacterial or viral Pneumonia. ",
       "project_id": "58dec3622ea48a99256e07cb547de3f8418e0c94",
       "expand": false,
@@ -212,10 +224,12 @@
       "published": true,
       "science_fairs": "2nd Place at Orange County Science Fair, California Science and Engineering Fair (CSEF)",
       "related_proj": [
-        59,
-        31,
-        101
-      ]
+        22,
+        4,
+        11
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Avyukth H.",
@@ -228,7 +242,7 @@
       "project_title": "Impact of Class Weights and Feature Importance in Automated Stroke Detection",
       "project_desc": "A stroke occurs when a blood vessel that carries oxygen and nutrients to the brain is either blocked by a clot or ruptures. Consequently, part of the brain is unable to obtain the blood (and oxygen) it needs, so brain cells die. This makes it important to be able to assess the probability of a stroke given features that are specific to patients so that they could take preventative measures in the future. Thus, the unpredictability and deadliness of strokes pose the following questions: Can we predict the occurrence of a stroke from few facts about the patient easily accessible by the doctor? What are the most important features for stroke prediction? In this project, we investigate the feasibility of using a supervised machine learning model to predict stroke occurrence. In practice, however, we faced challenges such as low prevalence and the imbalance in the available dataset, with many more negative than positive cases. In this research paper, we do a parametric study of class weighting as a way to tackle imbalance during training. We then infer the most important features that should be taken into consideration for stroke prediction. Assessing feature importance allows for patients to focus on two or three areas that may be contributing to their high probability for getting a stroke. The most significant result was that the most important feature that should be considered when determining the probability of an individual getting a stroke is age. However, there is no distinct second most important feature. Additionally, a non monotonic improvement with a class weight of 22.5 for positive cases in this dataset produces the most optimal results. \n",
       "research_paper": "assets/pdfs/070cedde410910544ceefd49565631e69a685b9a.pdf",
-      "graphic_link": "/assets/images/project_graphics/124a88e5c3481fe08877b76e30d5cc6c6c84c175.png",
+      "graphic_link": "/assets/images/project_graphics/6b6061e3690f607b09e3ee05c91512ca196252b7.png",
       "headline": "In this research paper, we do a parametric study of class weighting as a way to tackle imbalance during training. We then infer the most important features that should be taken into consideration for stroke prediction. ",
       "project_id": "c5872d603a0e4ff94f5ecab64817175d43b9961c",
       "expand": true,
@@ -240,10 +254,12 @@
       "published": true,
       "publications": "Curieux Academic Journal",
       "related_proj": [
-        68,
-        34,
-        191
-      ]
+        108,
+        25,
+        171
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Avnith V.",
@@ -259,7 +275,7 @@
       "project_desc": "Enzymes are efficient catalysts for biological reactions, and can potentially be designed to speed up non-biological reactions, such as reactions in industrial processes. However, physically experimenting with new protein designs is time consuming, and an efficient method to predict protein stability is needed. Our research problem is finding the best machine learning model to predict the change in enzyme thermostability after a single point mutation in the amino acid sequence. We trained several machine learning models and found that the XGBoost model had the best performance with an R2 score of 0.593 (R2 score is a metric where higher is better and a perfect model would have a score of 1). ",
       "research_paper": "assets/pdfs/2534c03998d293d48a8b45f9a7341724d2d1e3df.pdf",
       "github": "https://github.com/avnithv/enzyme-thermostability-project",
-      "graphic_link": "/assets/images/project_graphics/3451bbba417e1f2a948a4ac117aaba8021d9fa4b.png",
+      "graphic_link": "/assets/images/project_graphics/a0c5294a6aeaaea84ba1f3fccf9bc4c6e3fc6e6d.png",
       "headline": "Our research problem is finding the best machine learning model to predict the change in enzyme thermostability after a single point mutation in the amino acid sequence. ",
       "project_id": "c6626d41c51d0fda47297103ef1343bd58a9b435",
       "expand": true,
@@ -273,10 +289,12 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/4364",
       "related_proj": [
-        105,
-        98,
-        34
-      ]
+        137,
+        134,
+        11
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Anjali S.",
@@ -291,7 +309,7 @@
       "project_title": "Differences in predicted rates of vaginal births after cesarean across racial groups in a ‘race-neutral’ model",
       "project_desc": "When physicians and pregnant patients make decisions about whether to pursue a vaginal birth or cesarean, there are many factors at play. While vaginal birth can have health benefits for both parent and child, there are significant safety risks. In order to minimize these risks, physicians use predictive models to determine how likely patients are to have successful vaginal births after cesareans (VBAC). For many years, these predictive models included race as a variable. This decision recently came under fire, and the Maternal Fetal Medicine Unit (MFMU) published a calculator that did not include race as a variable, but still predicted VBAC success with high accuracy. A large body of work in machine learning has highlighted that supposedly de-biased systems often re-code sensitive variables like race in terms of proxy variables. In order to determine if this was the case in this calculator, we replicated their formula, then found base-rate statistics of all the input variables for three different racial groups: Black, White, and Asian. We found that the distribution of VBAC probabilities for our simulated patients from these three groups were, indeed, significantly different from each other. Further, the predicted VBAC rates increased as a function of societal marginalization: Black patients were 47.6% likely to have a successful VBAC, Asian patients had a 48.6% probability, and White patients had a 49.4% probability. While these values are all within a few percentage points of each other, the differences in these simulated distributions shows how there may still be underlying disparities in the maternal healthcare system.",
       "research_paper": "assets/pdfs/4a1e29bb400296758e8d804dbefc5ac88a058f7f.pdf",
-      "graphic_link": "https://www.verywellfamily.com/thmb/m5vCHw2YW_zteiIwmYXmJ2QRosE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AA6030-001-56a7713e3df78cf77295fbe7.jpg",
+      "graphic_link": "/assets/images/project_graphics/57df0ccdcfd9587c59b625cd733b348b4f7a6f5a.png",
       "headline": "A large body of work in machine learning has highlighted that supposedly de-biased systems often re-code sensitive variables like race in terms of proxy variables. In order to determine if this was the case in this calculator, we replicated their formula, then found base-rate statistics of all the input variables for three different racial groups: Black, White, and Asian.",
       "project_id": "72bcaf1817b1e88e623d2b3f28f29d58dd65d048",
       "expand": true,
@@ -305,10 +323,12 @@
       "publications": "medRxiv Medical Ethics preprint",
       "publication_link": "https://www.medrxiv.org/content/10.1101/2023.10.14.23296978v1",
       "related_proj": [
-        126,
-        153,
-        50
-      ]
+        104,
+        107,
+        19
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Shanzeh H.",
@@ -337,9 +357,9 @@
       "published": true,
       "publications": "Journal of Emerging Investigators",
       "related_proj": [
-        137,
-        25,
-        178
+        2,
+        163,
+        157
       ]
     },
     {
@@ -369,10 +389,12 @@
       "published": true,
       "science_fairs": "2nd Place at Contra Costa Science and Engineering Fair",
       "related_proj": [
-        25,
-        13,
-        14
-      ]
+        22,
+        16,
+        6
+      ],
+      "hero_w": 1486,
+      "hero_h": 991
     },
     {
       "student_name": "Armita K.",
@@ -399,10 +421,12 @@
       "publications": "Journal of High School Research",
       "publication_link": "https://jhss.scholasticahq.com/article/89930",
       "related_proj": [
-        171,
-        103,
-        178
-      ]
+        39,
+        25,
+        7
+      ],
+      "hero_w": 960,
+      "hero_h": 540
     },
     {
       "student_name": "Dhruv M.",
@@ -431,10 +455,12 @@
       "published": true,
       "publications": "Journal of Student Research",
       "related_proj": [
-        169,
-        34,
-        124
-      ]
+        156,
+        8,
+        160
+      ],
+      "hero_w": 590,
+      "hero_h": 350
     },
     {
       "student_name": "Surya K.",
@@ -462,10 +488,12 @@
       "published": true,
       "publications": "Journal of Emerging Investigators",
       "related_proj": [
-        171,
-        42,
-        22
-      ]
+        101,
+        125,
+        133
+      ],
+      "hero_w": 1229,
+      "hero_h": 768
     },
     {
       "student_name": "Katarina A.",
@@ -492,10 +520,12 @@
       "published": true,
       "science_fairs": "Synopsys Science Fair",
       "related_proj": [
-        43,
-        26,
-        121
-      ]
+        63,
+        188,
+        10
+      ],
+      "hero_w": 2048,
+      "hero_h": 1536
     },
     {
       "student_name": "Jack L.",
@@ -510,7 +540,7 @@
       "project_title": "Investigating Data Augmentation Strategies for Computer Vision Facial Expression Recognition",
       "project_desc": "Autism is a neurodevelopmental disorder. A major symptom is difficulty communicating and understanding social cues such as emotions. I aim to help people with autism better recognize emotions by developing improved artificial intelligence (AI) models to recognize facial expressions. Such models can be and have been integrated into digital therapeutics for children with autism. A crucial step to achieving performant models is to apply data augmentation to increase the dataset size and the generalization capacity. I compare and contrast data augmentation strategies on the Facial Expression Recognition (FER) 2013 dataset to determine which method leads to a maximal increase in performance. I then examine the benefit of data augmentation at various training set sizes. Among the strategies I evaluate, I find that shifting the width of the image provides the greatest increase to performance when compared to not applying data augmentation. Furthermore, I find that at several training dataset sizes ranging from 100 to 20,000 images, applying all data augmentation strategies consistently outperforms no data augmentation. These strategies can inform the development of digital therapies for autism which focus on the evocation and subsequent automatic detection of facial expressions.",
       "research_paper": "assets/pdfs/16737c9b12a4149b57d291e8d624dca57062a193.pdf",
-      "graphic_link": "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/04/Learn-Facial-Recognition-scaled.jpg",
+      "graphic_link": "/assets/images/project_graphics/cc5d995d5531c8c3c5bfe116441493d0f4c79da3.png",
       "headline": "I aim to help people with autism better recognize emotions by developing improved artificial intelligence (AI) models to recognize facial expressions.",
       "project_id": "2157806554f790856dcb6cc95179a733d8161679",
       "expand": true,
@@ -523,10 +553,12 @@
       "publications": "Curieux Academic Journal",
       "publication_link": "https://www.curieuxacademicjournal.com/_files/ugd/99711c_cae123aa84284189b8142087c8589d21.pdf",
       "related_proj": [
-        58,
-        21,
-        6
-      ]
+        0,
+        18,
+        2
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Varsha N.",
@@ -553,10 +585,12 @@
       "published": true,
       "science_fairs": "3rd Place in the Alameda County Science Fair",
       "related_proj": [
-        8,
-        44,
-        48
-      ]
+        107,
+        134,
+        178
+      ],
+      "hero_w": 628,
+      "hero_h": 375
     },
     {
       "student_name": "Cherry (.",
@@ -582,10 +616,12 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/5601",
       "related_proj": [
-        117,
-        42,
-        15
-      ]
+        171,
+        107,
+        39
+      ],
+      "hero_w": 1000,
+      "hero_h": 563
     },
     {
       "student_name": "Sam L.",
@@ -611,10 +647,12 @@
       "published": true,
       "publication_link": "https://mareg5.zfairs.com/File/Client/efd07aa7-d1f7-43cc-8292-3bf60118f1f7?ext=.pdf",
       "related_proj": [
-        115,
-        184,
-        55
-      ]
+        48,
+        64,
+        68
+      ],
+      "hero_w": 915,
+      "hero_h": 615
     },
     {
       "student_name": "Aarav S.",
@@ -639,10 +677,12 @@
       "published": true,
       "science_fairs": "Accepted for Exhibition at TNJSF",
       "related_proj": [
-        21,
-        60,
-        91
-      ]
+        16,
+        2,
+        14
+      ],
+      "hero_w": 1600,
+      "hero_h": 900
     },
     {
       "student_name": "Sam L.",
@@ -671,10 +711,12 @@
       "science_fairs": "2nd place at Massachusetts Region V Science Fair",
       "publication_link": "https://mareg5.zfairs.com/File/Client/efd07aa7-d1f7-43cc-8292-3bf60118f1f7?ext=.pdf",
       "related_proj": [
-        117,
-        64,
-        31
-      ]
+        17,
+        93,
+        107
+      ],
+      "hero_w": 2000,
+      "hero_h": 1228
     },
     {
       "student_name": "Emin C.",
@@ -703,9 +745,11 @@
       "publication_link": "https://ojs.stanford.edu/ojs/index.php/intersect/article/view/3031",
       "related_proj": [
         7,
-        2,
-        116
-      ]
+        20,
+        186
+      ],
+      "hero_w": 770,
+      "hero_h": 513
     },
     {
       "student_name": "Seokhyun C.",
@@ -732,10 +776,12 @@
       "publications": "Frontiers in Environmental Science",
       "publication_link": "https://www.frontiersin.org/articles/10.3389/fenvs.2024.1301343/full",
       "related_proj": [
-        21,
-        107,
-        68
-      ]
+        113,
+        18,
+        67
+      ],
+      "hero_w": 1200,
+      "hero_h": 741
     },
     {
       "student_name": "Arnav J.",
@@ -762,10 +808,12 @@
       "publications": "Journal of Student Research",
       "publication_link": "https://www.jsr.org/hs/index.php/path/article/view/6558",
       "related_proj": [
-        32,
-        10,
-        4
-      ]
+        13,
+        6,
+        67
+      ],
+      "hero_w": 1207,
+      "hero_h": 996
     },
     {
       "student_name": "Suhaan K.",
@@ -792,9 +840,9 @@
       "science_fairs": "3rd Place in the Texas Science and Engineering Fair",
       "publication_link": "https://txsef.tamu.edu/awards/2024-category-awards/",
       "related_proj": [
-        129,
-        150,
-        168
+        83,
+        20,
+        8
       ]
     },
     {
@@ -822,10 +870,12 @@
       "science_fairs": "1st Place in the Alameda County Science Fair",
       "publication_link": "https://docs.google.com/presentation/d/1A3VusY0XctXC1fBKNjxb-26fjAWup7ajJel2ZtFxVsY/edit?slide=id.g335de835b50_0_965#slide=id.g335de835b50_0_965",
       "related_proj": [
-        61,
-        17,
-        39
-      ]
+        73,
+        135,
+        14
+      ],
+      "hero_w": 800,
+      "hero_h": 525
     },
     {
       "student_name": "Anika S.",
@@ -852,9 +902,9 @@
       "published": true,
       "science_fairs": "Tackling Social Issues with AI | Inspirit AI Research Symposium | Category Winner",
       "related_proj": [
-        107,
-        110,
-        176
+        54,
+        182,
+        141
       ]
     },
     {
@@ -880,9 +930,11 @@
       ],
       "related_proj": [
         172,
-        54,
+        45,
         125
-      ]
+      ],
+      "hero_w": 1080,
+      "hero_h": 608
     },
     {
       "student_name": "Leah N.",
@@ -905,10 +957,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        119,
-        73,
-        12
-      ]
+        191,
+        174,
+        34
+      ],
+      "hero_w": 800,
+      "hero_h": 533
     },
     {
       "student_name": "Jason M.",
@@ -935,9 +989,9 @@
         "Audio Analysis"
       ],
       "related_proj": [
-        11,
-        110,
-        175
+        181,
+        170,
+        167
       ]
     },
     {
@@ -962,10 +1016,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        107,
-        50,
-        178
-      ]
+        178,
+        44,
+        13
+      ],
+      "hero_w": 1000,
+      "hero_h": 750
     },
     {
       "student_name": "Fiona B.",
@@ -985,10 +1041,12 @@
         "Diabetes"
       ],
       "related_proj": [
-        7,
-        131,
-        97
-      ]
+        48,
+        93,
+        185
+      ],
+      "hero_w": 1600,
+      "hero_h": 900
     },
     {
       "student_name": "Audrey W.",
@@ -1012,10 +1070,12 @@
         "Pollution"
       ],
       "related_proj": [
-        45,
-        145,
-        188
-      ]
+        28,
+        63,
+        70
+      ],
+      "hero_w": 1200,
+      "hero_h": 800
     },
     {
       "student_name": "Keithan P.",
@@ -1039,10 +1099,12 @@
         "Cancer"
       ],
       "related_proj": [
-        133,
-        48,
-        126
-      ]
+        156,
+        8,
+        133
+      ],
+      "hero_w": 722,
+      "hero_h": 406
     },
     {
       "student_name": "Sohum T.",
@@ -1066,9 +1128,9 @@
         "Psych"
       ],
       "related_proj": [
-        133,
-        16,
-        40
+        75,
+        40,
+        61
       ]
     },
     {
@@ -1092,10 +1154,12 @@
         "Gamma Rays"
       ],
       "related_proj": [
-        20,
-        151,
-        3
-      ]
+        25,
+        53,
+        69
+      ],
+      "hero_w": 1023,
+      "hero_h": 578
     },
     {
       "student_name": "Molly H.",
@@ -1119,10 +1183,12 @@
         "Water Use"
       ],
       "related_proj": [
-        28,
-        85,
-        75
-      ]
+        0,
+        35,
+        65
+      ],
+      "hero_w": 1100,
+      "hero_h": 619
     },
     {
       "student_name": "Anitej S.",
@@ -1137,7 +1203,7 @@
       "project_desc": "I work with the Davinci model in GPT-3, an autoregressive language model, to answer middle-school science textbook questions in the textbook question answering (TQA) dataset. The dataset was split into training, test, and validation sets. In this task, I simulate a student taking a test in three different scenarios. First, the Zero-Shot-Learning experiment where I only provide the model with the questions from a specific lesson. This would be the equivalent of a student going into a test without studying as the model has not gathered any knowledge from the lesson. Second, the Few-Shot-Learning experiment, where I provide the model with specific lesson content from the textbook and the corresponding questions. This equates to a student skimming over the lesson content before taking the test. Lastly, I fine-tuned the Davinci model on some of the textbook questions and then fed it questions. This is similar to a student doing a thorough review of the material before taking the test. After conducting all three experiments, I compare their accuracies and in doing so, highlight the “intelligence” and limitations of GPT-3. \n",
       "research_paper": "assets/pdfs/bb454b71ae4f6b392600ee1ea2ba28d5b74d4841.pdf",
       "github": "https://github.com/TejSuklikar/GPT-3-Research-Project",
-      "graphic_link": "/assets/images/project_graphics/f7888ddf374a6b4dc05c178335757f4821004a79.png",
+      "graphic_link": "/assets/images/project_graphics/8576da558b56adf3b421b80052f3564e3804dceb.png",
       "headline": "Question answering (QA) and Large Language models (LLM) have been a major research focus in Artificial Intelligence for several years. In 2017, a task called Textbook Question Answering (TQA) was introduced. The task included lessons from a middle school science textbook consisting of texts, diagrams, and natural questions. Many people attempted to create question answer models but reported sub-par accuracies.",
       "project_id": "12bafc1b0d40c5efca04d8d8aaef32d3ba22e042",
       "expand": false,
@@ -1146,10 +1212,12 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        81,
-        146,
-        118
-      ]
+        82,
+        79,
+        109
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Adam S.",
@@ -1173,10 +1241,12 @@
         "Lung Cancer"
       ],
       "related_proj": [
-        124,
-        194,
-        169
-      ]
+        143,
+        117,
+        12
+      ],
+      "hero_w": 1000,
+      "hero_h": 539
     },
     {
       "student_name": "Bertran M.",
@@ -1199,9 +1269,9 @@
         "Psych"
       ],
       "related_proj": [
-        94,
-        58,
-        61
+        80,
+        86,
+        127
       ]
     },
     {
@@ -1225,10 +1295,12 @@
         "Natural Disasters"
       ],
       "related_proj": [
-        188,
-        68,
-        15
-      ]
+        121,
+        33,
+        113
+      ],
+      "hero_w": 1600,
+      "hero_h": 1067
     },
     {
       "student_name": "Animish J.",
@@ -1253,10 +1325,12 @@
         "Cancer"
       ],
       "related_proj": [
-        58,
-        156,
-        115
-      ]
+        44,
+        48,
+        26
+      ],
+      "hero_w": 1200,
+      "hero_h": 800
     },
     {
       "student_name": "Matthew N.",
@@ -1279,10 +1353,12 @@
         "Water"
       ],
       "related_proj": [
-        41,
-        15,
-        120
-      ]
+        107,
+        37,
+        28
+      ],
+      "hero_w": 640,
+      "hero_h": 360
     },
     {
       "student_name": "Jaida G.",
@@ -1306,9 +1382,9 @@
         "Skin Cancer"
       ],
       "related_proj": [
-        24,
-        31,
-        48
+        148,
+        58,
+        13
       ]
     },
     {
@@ -1334,10 +1410,12 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        143,
-        56,
-        67
-      ]
+        100,
+        113,
+        54
+      ],
+      "hero_w": 2560,
+      "hero_h": 1707
     },
     {
       "student_name": "Aryaman R.",
@@ -1361,10 +1439,12 @@
         "Fraud"
       ],
       "related_proj": [
-        89,
-        154,
+        62,
+        22,
         122
-      ]
+      ],
+      "hero_w": 600,
+      "hero_h": 400
     },
     {
       "student_name": "Alexander F.",
@@ -1387,9 +1467,9 @@
         "Law and Order"
       ],
       "related_proj": [
-        165,
-        100,
-        72
+        114,
+        72,
+        100
       ]
     },
     {
@@ -1414,10 +1494,12 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        32,
-        191,
-        13
-      ]
+        169,
+        131,
+        24
+      ],
+      "hero_w": 673,
+      "hero_h": 424
     },
     {
       "student_name": "Marco Y.",
@@ -1439,10 +1521,12 @@
         "LSTMs"
       ],
       "related_proj": [
+        30,
         189,
-        112,
         4
-      ]
+      ],
+      "hero_w": 2440,
+      "hero_h": 1372
     },
     {
       "student_name": "Deetya N.",
@@ -1468,10 +1552,12 @@
         "Web Deployment"
       ],
       "related_proj": [
-        194,
-        21,
-        191
-      ]
+        61,
+        156,
+        68
+      ],
+      "hero_w": 704,
+      "hero_h": 396
     },
     {
       "student_name": "Leo R.",
@@ -1485,7 +1571,7 @@
       "project_title": "SaShiMi: Adapted for Google Colab",
       "project_desc": "Adapting code and how it runs to allow SaShiMi to run on Google's resources",
       "research_paper": "assets/pdfs/069b465e1d7b252a5b98f92d617dad97b3cae7b0.pdf",
-      "graphic_link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYY6n1fYadsaidY0V8tPq6vomWkb8qu9y5lME7SKy7Pe4UKDn9",
+      "graphic_link": "/assets/images/project_graphics/c00ea4e4d5ff72bcf0f6f15e4c4c6f000d8824d8.png",
       "headline": "In this project, I convert SaShiMi, a music generation software, into something more resource-friendly.",
       "project_id": "5e1b2bfaa9c8506d5425ef0bdff1944ddaff00c7",
       "expand": false,
@@ -1495,10 +1581,12 @@
         "Generative AI"
       ],
       "related_proj": [
+        81,
         66,
-        87,
-        109
-      ]
+        162
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Khondoker F.",
@@ -1524,9 +1612,9 @@
         "Solar Power"
       ],
       "related_proj": [
-        99,
-        167,
-        173
+        172,
+        159,
+        149
       ]
     },
     {
@@ -1550,10 +1638,12 @@
         "Astronomy"
       ],
       "related_proj": [
-        1,
-        151,
-        129
-      ]
+        166,
+        83,
+        69
+      ],
+      "hero_w": 1280,
+      "hero_h": 720
     },
     {
       "student_name": "Alexander K.",
@@ -1576,10 +1666,12 @@
         "Recycling"
       ],
       "related_proj": [
-        45,
-        15,
-        113
-      ]
+        85,
+        70,
+        27
+      ],
+      "hero_w": 735,
+      "hero_h": 414
     },
     {
       "student_name": "Nuo W.",
@@ -1605,10 +1697,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        119,
-        185,
-        105
-      ]
+        31,
+        42,
+        178
+      ],
+      "hero_w": 2000,
+      "hero_h": 1029
     },
     {
       "student_name": "Ram N.",
@@ -1632,10 +1726,12 @@
         "Drugs"
       ],
       "related_proj": [
-        97,
-        32,
-        183
-      ]
+        31,
+        39,
+        67
+      ],
+      "hero_w": 1500,
+      "hero_h": 1000
     },
     {
       "student_name": "Arianna H.",
@@ -1649,7 +1745,7 @@
       "project_title": "Biased News Detection Using Artificial Intelligence",
       "project_desc": "Biased news has become especially problematic in modern times. In this paper, we investigate the abilities of various machine learning models to correctly identify biased news. Our results indicate that artificial intelligence is very capable of doing this detection. In particular, both logistic regression and K-nearest neighbor classifier performed rather well in cross validation. ",
       "research_paper": "assets/pdfs/cdd9c0c92540083d70801edb3b5de1666857fc95.pdf",
-      "graphic_link": "https://www.usnews.com/object/image/00000185-f52e-d39b-a98f-ff6e7bdf0000/gettyimages-1239793196.jpg?update-time=1674855937422&size=responsive640",
+      "graphic_link": "/assets/images/project_graphics/397bcf831a96ea6127e20c6547d0a33d96c1cea4.png",
       "headline": "Biased news has become especially problematic in modern times. In this paper, we investigate the abilities of various machine learning models to correctly identify biased news. Our results indicate that artificial intelligence is very capable of doing this detection. In particular, both logistic regression and K-nearest neighbor classifier performed rather well in cross validation. ",
       "project_id": "75980cadee1c8968603f2a45662662cc2fe31db8",
       "expand": false,
@@ -1659,10 +1755,12 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        81,
         87,
-        121
-      ]
+        81,
+        61
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Bwohan W.",
@@ -1686,10 +1784,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        68,
-        73,
-        134
-      ]
+        184,
+        134,
+        152
+      ],
+      "hero_w": 722,
+      "hero_h": 406
     },
     {
       "student_name": "Rohan S.",
@@ -1714,10 +1814,12 @@
         "Neuroscience"
       ],
       "related_proj": [
-        32,
-        152,
-        14
-      ]
+        167,
+        44,
+        135
+      ],
+      "hero_w": 630,
+      "hero_h": 630
     },
     {
       "student_name": "Isaac A.",
@@ -1740,10 +1842,12 @@
         "Solar Flares"
       ],
       "related_proj": [
-        69,
-        36,
-        132
-      ]
+        53,
+        91,
+        83
+      ],
+      "hero_w": 780,
+      "hero_h": 438
     },
     {
       "student_name": "Samantha K.",
@@ -1768,10 +1872,12 @@
         "Psych"
       ],
       "related_proj": [
-        44,
-        169,
-        174
-      ]
+        127,
+        104,
+        24
+      ],
+      "hero_w": 2523,
+      "hero_h": 1687
     },
     {
       "student_name": "Vincent P.",
@@ -1796,9 +1902,9 @@
         "Random Forests"
       ],
       "related_proj": [
-        116,
-        88,
-        92
+        89,
+        102,
+        128
       ]
     },
     {
@@ -1823,10 +1929,12 @@
         "Chemicals"
       ],
       "related_proj": [
-        120,
-        28,
-        41
-      ]
+        5,
+        33,
+        111
+      ],
+      "hero_w": 800,
+      "hero_h": 534
     },
     {
       "student_name": "Justin H.",
@@ -1849,10 +1957,12 @@
         "Vollyball"
       ],
       "related_proj": [
-        119,
-        183,
-        39
-      ]
+        153,
+        55,
+        178
+      ],
+      "hero_w": 1080,
+      "hero_h": 650
     },
     {
       "student_name": "Saket R.",
@@ -1877,10 +1987,12 @@
         "Social Justice"
       ],
       "related_proj": [
-        56,
-        52,
-        126
-      ]
+        100,
+        9,
+        106
+      ],
+      "hero_w": 1254,
+      "hero_h": 836
     },
     {
       "student_name": "Peijie G.",
@@ -1903,10 +2015,12 @@
         "Modern Languages"
       ],
       "related_proj": [
-        146,
         38,
-        51
-      ]
+        162,
+        109
+      ],
+      "hero_w": 1000,
+      "hero_h": 667
     },
     {
       "student_name": "Archith S.",
@@ -1931,10 +2045,12 @@
         "Farming"
       ],
       "related_proj": [
-        33,
-        167,
-        68
-      ]
+        6,
+        93,
+        113
+      ],
+      "hero_w": 1920,
+      "hero_h": 1080
     },
     {
       "student_name": "Eera B.",
@@ -1959,9 +2075,9 @@
         "Classification"
       ],
       "related_proj": [
-        34,
-        164,
-        85
+        93,
+        33,
+        37
       ]
     },
     {
@@ -1985,10 +2101,12 @@
         "Physics"
       ],
       "related_proj": [
-        166,
+        20,
         53,
-        129
-      ]
+        91
+      ],
+      "hero_w": 1920,
+      "hero_h": 1080
     },
     {
       "student_name": "Maximilian P.",
@@ -2011,10 +2129,12 @@
         "Earth Systems"
       ],
       "related_proj": [
-        23,
-        188,
+        28,
+        43,
         63
-      ]
+      ],
+      "hero_w": 750,
+      "hero_h": 300
     },
     {
       "student_name": "Claire M.",
@@ -2037,10 +2157,12 @@
         "Facial Emotion"
       ],
       "related_proj": [
-        40,
-        58,
-        84
-      ]
+        101,
+        84,
+        16
+      ],
+      "hero_w": 1600,
+      "hero_h": 840
     },
     {
       "student_name": "Thalia S.",
@@ -2062,10 +2184,12 @@
         "Social Justice"
       ],
       "related_proj": [
-        114,
         78,
-        47
-      ]
+        47,
+        165
+      ],
+      "hero_w": 960,
+      "hero_h": 540
     },
     {
       "student_name": "Noor E.",
@@ -2088,10 +2212,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        31,
-        13,
-        167
-      ]
+        105,
+        185,
+        24
+      ],
+      "hero_w": 1600,
+      "hero_h": 1600
     },
     {
       "student_name": "Neal D.",
@@ -2116,9 +2242,11 @@
       ],
       "related_proj": [
         165,
-        56,
-        192
-      ]
+        82,
+        186
+      ],
+      "hero_w": 1030,
+      "hero_h": 504
     },
     {
       "student_name": "Deniz G.",
@@ -2133,7 +2261,7 @@
       "project_title": "The Impact of the Covid-19 Pandemic on the Test Scores of Various Demographics",
       "project_desc": "The research problem that this research paper attempts to address is, How did Covid impact and affect the test scores of different demographics of students in various schools in New York? This issue is significant for the following reasons. By the conclusion of the school year, students had an average of five months’ worth of math and four month’s worth of reading behind them, according to an analysis of the pandemic’s effects on K-12 student learning. For example, student testing in 2021 was about ten points behind in math and nine points behind in reading, compared with matched students in previous years. The pandemic expanded already-existing achievement and opportunity inequities, particularly harming historically underprivileged students. Children in low-income schools had seven months of unfinished arithmetic work at the end of the year, compared to six months for students in majority-Black schools. High school students are now more likely to drop out, and seniors, particularly those from low-income households, are less likely to continue their education after graduation. The crisis also had an effect on pupils’ general health and well-being, with more than 35% of parents expressing severe or great concern for their kids’ mental health. The effects of the epidemic pose a threat to the hopes and possibilities for this generation far into adulthood. Their chances of enrolling in college and subsequently securing a rewarding profession that allows them to sustain a family may be adversely affected by the knock-on effects. Furthermore, analysis indicates that the pandemic’s effects on schooling may result in today’s students earning $49,000 to $61,000 less in their lifetime unless measures are implemented to remedy unfinished learning. The overall approach that was used to answer this question involved using statistical analysis to examine the correlation between how certain factors such as being economically disadvantaged or being hispanic affected student proficiency scores on New York State regents exam tests in 2018 and 2021 in different schools. Some of the significant results that came out of this research paper involved certain demographics such as those who were economically disadvantaged and those who were white. Specifically, in relation to how their demographic correlated with their school’s percent proficiency difference in a subject exam between the years 2018 and 2021. For example, 100% of the students of the Academy for Language and Technology are economically disadvantaged and compared to 2021, the number of students who were proficient in English dropped by 49%. Furthermore, 72% of Akron High school’s students are economically disadvantaged and compared to 2021, the number of students who were proficient in English dropped by 68%. However, on the other side of the spectrum, students of white descent did not fare as badly. For instance, Adirondack Middle School has an approximate demographic makeup of 100% white students. Their student’s percent proficiency when it came to their Algebra I score did not change at all. Additionally, Yonkers Montessori Academy has a demographic makeup where 46% of its students are white. The students from this school showed a 5% increase in their proficiencies in their science scores. The research that was conducted as the basis for this paper was done in an effort to examine the COVID-19 pandemic’s effects on student performance across various schools in New York. Specifically, it affected some demographics disproportionately when compared to others. Due to students being forced to learn from home, some without the necessary technology and adequate resources. Consequently, a lot of students took a significant hit to their academic progress. For instance, 100% of a student’s demographic make up is economically disadvantaged and out of these students, 49% of them were no longer proficient in ELA after the COVID-19 pandemic. Whereas, students of white descent did not fare as badly.  For instance, Adirondack Middle School has an approximate demographic makeup of 100% white students. Their student’s percent proficiency when it came to their Algebra I score did not change at all.",
       "research_paper": "assets/pdfs/e8d80e23bb221e30b11b74806ba7ab11dcd7ac0a.pdf",
-      "graphic_link": "/assets/images/project_graphics/0983c348015979c9b53fc6b1ed88c6776b0c244f.png",
+      "graphic_link": "/assets/images/project_graphics/74c715eb8867f28a5de56e585768691f43d1e7e9.png",
       "headline": "The research problem that this research paper attempts to address is, How did Covid impact and affect the test scores of different demographics of students in various schools in New York? The overall approach that was used to answer this question involved using statistical analysis to examine the correlation between how certain factors such as being economically disadvantaged or being hispanic affected student proficiency scores on New York State regents exam tests in 2018 and 2021 in different schools.",
       "project_id": "cf9350cead2fe96bbfaf975fb68dd1f94d126b3e",
       "expand": true,
@@ -2147,10 +2275,12 @@
         "New York"
       ],
       "related_proj": [
-        37,
-        133,
-        77
-      ]
+        94,
+        9,
+        37
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Serena F.",
@@ -2164,7 +2294,7 @@
       ],
       "project_title": "Brightness helps CNN classify a subset of the images from Google Quick Draw",
       "project_desc": "We made a CNN that learned to recognize and classify sketches from Google’s Quick Draw dataset and implemented a novel brightness feature to test if it increased the accuracy. The results displayed up to a 4% increase in validation accuracy. To conduct experiments, we created 3 models, 1 with brightness and two without. In addition, we used different numbers of epochs, metalayers, kernels, and sizes of kernels and dropouts. ",
-      "graphic_link": "https://www.labnol.org/images/2023/google-drive-drawings.jpg",
+      "graphic_link": "/assets/images/project_graphics/80b03c3ca0b1dba74f10b398679f38877754adda.png",
       "headline": "We made a CNN that learned to recognize and classify sketches from Google’s Quick Draw dataset and implemented a novel brightness feature to test if it increased the accuracy.",
       "project_id": "eb405932a81ebf0ee021c4d7110eb79a8be94072",
       "expand": false,
@@ -2175,10 +2305,12 @@
         "Classification"
       ],
       "related_proj": [
-        161,
-        159,
-        130
-      ]
+        193,
+        96,
+        180
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Emily J.",
@@ -2204,10 +2336,12 @@
         "Dropout Rates"
       ],
       "related_proj": [
-        86,
-        75,
-        94
-      ]
+        40,
+        94,
+        159
+      ],
+      "hero_w": 700,
+      "hero_h": 467
     },
     {
       "student_name": "Yudhiishbala V.",
@@ -2230,10 +2364,12 @@
         "Racial Equality"
       ],
       "related_proj": [
-        114,
         79,
-        72
-      ]
+        47,
+        100
+      ],
+      "hero_w": 1920,
+      "hero_h": 1280
     },
     {
       "student_name": "Aman B.",
@@ -2258,10 +2394,12 @@
         "Natural Language Processing"
       ],
       "related_proj": [
-        162,
-        100,
+        38,
+        118,
         82
-      ]
+      ],
+      "hero_w": 2000,
+      "hero_h": 1333
     },
     {
       "student_name": "Viksar D.",
@@ -2288,9 +2426,11 @@
       ],
       "related_proj": [
         94,
-        40,
-        159
-      ]
+        77,
+        86
+      ],
+      "hero_w": 2048,
+      "hero_h": 1365
     },
     {
       "student_name": "Roshni K.",
@@ -2316,10 +2456,12 @@
         "LSTMs"
       ],
       "related_proj": [
-        162,
-        57,
-        79
-      ]
+        38,
+        118,
+        51
+      ],
+      "hero_w": 4954,
+      "hero_h": 2560
     },
     {
       "student_name": "Christopher G.",
@@ -2344,10 +2486,12 @@
         "GPT-3"
       ],
       "related_proj": [
-        118,
-        87,
-        146
-      ]
+        79,
+        66,
+        51
+      ],
+      "hero_w": 353,
+      "hero_h": 143
     },
     {
       "student_name": "Chinmay R.",
@@ -2372,10 +2516,12 @@
         "Classification"
       ],
       "related_proj": [
-        1,
-        36,
-        99
-      ]
+        3,
+        69,
+        1
+      ],
+      "hero_w": 959,
+      "hero_h": 599
     },
     {
       "student_name": "Parinita K.",
@@ -2400,10 +2546,12 @@
         "Writing"
       ],
       "related_proj": [
-        146,
-        82,
-        40
-      ]
+        71,
+        61,
+        16
+      ],
+      "hero_w": 793,
+      "hero_h": 400
     },
     {
       "student_name": "Nicholas K.",
@@ -2427,9 +2575,9 @@
         "Classification"
       ],
       "related_proj": [
-        95,
-        107,
-        37
+        63,
+        37,
+        107
       ]
     },
     {
@@ -2453,10 +2601,12 @@
         "Standardized Testing"
       ],
       "related_proj": [
-        40,
+        159,
         75,
         94
-      ]
+      ],
+      "hero_w": 1024,
+      "hero_h": 683
     },
     {
       "student_name": "David S.",
@@ -2481,10 +2631,12 @@
         "BERT"
       ],
       "related_proj": [
-        84,
-        79,
-        162
-      ]
+        162,
+        51,
+        82
+      ],
+      "hero_w": 890,
+      "hero_h": 501
     },
     {
       "student_name": "Ayrton S.",
@@ -2507,9 +2659,9 @@
         "Consumer Behavior"
       ],
       "related_proj": [
-        22,
-        186,
-        116
+        177,
+        154,
+        2
       ]
     },
     {
@@ -2534,10 +2686,12 @@
         "Prediction"
       ],
       "related_proj": [
-        154,
-        186,
-        116
-      ]
+        116,
+        88,
+        186
+      ],
+      "hero_w": 1000,
+      "hero_h": 600
     },
     {
       "student_name": "Aishwaroopa N.",
@@ -2560,10 +2714,12 @@
         "Eyes"
       ],
       "related_proj": [
-        56,
-        10,
-        124
-      ]
+        156,
+        124,
+        10
+      ],
+      "hero_w": 1000,
+      "hero_h": 667
     },
     {
       "student_name": "Roneet D.",
@@ -2588,9 +2744,11 @@
       ],
       "related_proj": [
         129,
-        99,
-        20
-      ]
+        83,
+        60
+      ],
+      "hero_w": 320,
+      "hero_h": 240
     },
     {
       "student_name": "Joseph N.",
@@ -2613,10 +2771,12 @@
         "Classification"
       ],
       "related_proj": [
-        128,
-        102,
-        176
-      ]
+        144,
+        176,
+        136
+      ],
+      "hero_w": 320,
+      "hero_h": 213
     },
     {
       "student_name": "Rohan T.",
@@ -2638,9 +2798,9 @@
         "Cancer"
       ],
       "related_proj": [
-        56,
-        108,
-        26
+        126,
+        194,
+        183
       ]
     },
     {
@@ -2665,9 +2825,9 @@
         "Education"
       ],
       "related_proj": [
-        77,
+        159,
         80,
-        75
+        77
       ]
     },
     {
@@ -2691,10 +2851,12 @@
         "Earth Systems"
       ],
       "related_proj": [
-        68,
+        145,
         111,
-        121
-      ]
+        107
+      ],
+      "hero_w": 320,
+      "hero_h": 180
     },
     {
       "student_name": "Michael T.",
@@ -2719,10 +2881,12 @@
         "Aerospace Engineering"
       ],
       "related_proj": [
-        167,
-        158,
-        140
-      ]
+        141,
+        166,
+        52
+      ],
+      "hero_w": 2838,
+      "hero_h": 1580
     },
     {
       "student_name": "Vinati P.",
@@ -2746,9 +2910,11 @@
       ],
       "related_proj": [
         55,
-        185,
-        13
-      ]
+        58,
+        101
+      ],
+      "hero_w": 1254,
+      "hero_h": 836
     },
     {
       "student_name": "Samya C.",
@@ -2772,10 +2938,12 @@
         "Neuroscience"
       ],
       "related_proj": [
-        14,
-        183,
-        148
-      ]
+        93,
+        48,
+        68
+      ],
+      "hero_w": 1350,
+      "hero_h": 759
     },
     {
       "student_name": "Akshay N.",
@@ -2798,10 +2966,12 @@
         "Physics"
       ],
       "related_proj": [
-        161,
-        20,
-        115
-      ]
+        36,
+        193,
+        180
+      ],
+      "hero_w": 600,
+      "hero_h": 300
     },
     {
       "student_name": "Tarun S.",
@@ -2828,10 +2998,12 @@
         "Modern Languages"
       ],
       "related_proj": [
-        0,
-        133,
-        126
-      ]
+        37,
+        78,
+        45
+      ],
+      "hero_w": 3000,
+      "hero_h": 2000
     },
     {
       "student_name": "Srinivas S.",
@@ -2857,9 +3029,9 @@
         "Psych"
       ],
       "related_proj": [
-        105,
-        185,
-        55
+        71,
+        156,
+        64
       ]
     },
     {
@@ -2885,9 +3057,9 @@
         "Pop Culture"
       ],
       "related_proj": [
-        128,
-        176,
-        62
+        92,
+        62,
+        136
       ]
     },
     {
@@ -2912,10 +3084,12 @@
         "Data and Privacy"
       ],
       "related_proj": [
-        104,
-        93,
-        14
-      ]
+        6,
+        55,
+        135
+      ],
+      "hero_w": 2120,
+      "hero_h": 1414
     },
     {
       "student_name": "Khushi G.",
@@ -2938,10 +3112,12 @@
         "Computer Vision"
       ],
       "related_proj": [
-        135,
-        19,
-        125
-      ]
+        185,
+        61,
+        64
+      ],
+      "hero_w": 724,
+      "hero_h": 483
     },
     {
       "student_name": "Nicholas T.",
@@ -2964,9 +3140,9 @@
         "Social Justice"
       ],
       "related_proj": [
-        191,
-        108,
-        68
+        48,
+        21,
+        7
       ]
     },
     {
@@ -2992,10 +3168,12 @@
         "Logistic Regression"
       ],
       "related_proj": [
-        9,
-        143,
-        126
-      ]
+        52,
+        0,
+        65
+      ],
+      "hero_w": 645,
+      "hero_h": 363
     },
     {
       "student_name": "Arnav G.",
@@ -3019,10 +3197,12 @@
         "Environmentalism"
       ],
       "related_proj": [
-        123,
-        73,
-        85
-      ]
+        27,
+        13,
+        18
+      ],
+      "hero_w": 5500,
+      "hero_h": 3667
     },
     {
       "student_name": "Hoshita U.",
@@ -3046,10 +3226,12 @@
         "DNA"
       ],
       "related_proj": [
-        13,
-        26,
-        67
-      ]
+        59,
+        12,
+        44
+      ],
+      "hero_w": 640,
+      "hero_h": 426
     },
     {
       "student_name": "Ariel M.",
@@ -3073,10 +3255,12 @@
         "Pop Culture"
       ],
       "related_proj": [
-        81,
-        146,
-        38
-      ]
+        84,
+        82,
+        79
+      ],
+      "hero_w": 920,
+      "hero_h": 800
     },
     {
       "student_name": "Soham P.",
@@ -3098,10 +3282,12 @@
         "News"
       ],
       "related_proj": [
-        172,
-        182,
-        180
-      ]
+        193,
+        132,
+        176
+      ],
+      "hero_w": 3840,
+      "hero_h": 2160
     },
     {
       "student_name": "Yash J.",
@@ -3124,10 +3310,12 @@
         "Weather"
       ],
       "related_proj": [
-        37,
-        63,
-        107
-      ]
+        15,
+        113,
+        27
+      ],
+      "hero_w": 1500,
+      "hero_h": 992
     },
     {
       "student_name": "Anya N.",
@@ -3151,10 +3339,12 @@
         "Pop Culture"
       ],
       "related_proj": [
-        142,
-        49,
-        189
-      ]
+        189,
+        30,
+        49
+      ],
+      "hero_w": 1024,
+      "hero_h": 576
     },
     {
       "student_name": "Thomas G.",
@@ -3177,9 +3367,9 @@
         "Renewable Energy"
       ],
       "related_proj": [
-        111,
-        15,
-        63
+        41,
+        43,
+        15
       ]
     },
     {
@@ -3202,10 +3392,12 @@
         "Political Science"
       ],
       "related_proj": [
-        47,
         165,
-        78
-      ]
+        100,
+        72
+      ],
+      "hero_w": 1029,
+      "hero_h": 579
     },
     {
       "student_name": "Ethan V.",
@@ -3228,10 +3420,12 @@
         "Product Analysis"
       ],
       "related_proj": [
-        124,
-        12,
-        190
-      ]
+        189,
+        73,
+        52
+      ],
+      "hero_w": 800,
+      "hero_h": 450
     },
     {
       "student_name": "Will K.",
@@ -3254,10 +3448,12 @@
         "Consumer Behavior"
       ],
       "related_proj": [
-        121,
-        22,
-        88
-      ]
+        89,
+        154,
+        22
+      ],
+      "hero_w": 1000,
+      "hero_h": 520
     },
     {
       "student_name": "Neil S.",
@@ -3279,9 +3475,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        107,
-        183,
-        19
+        137,
+        6,
+        68
       ]
     },
     {
@@ -3307,8 +3503,8 @@
       ],
       "related_proj": [
         84,
-        162,
-        79
+        146,
+        162
       ]
     },
     {
@@ -3332,10 +3528,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        104,
-        17,
-        126
-      ]
+        194,
+        174,
+        21
+      ],
+      "hero_w": 900,
+      "hero_h": 525
     },
     {
       "student_name": "Alya K.",
@@ -3357,10 +3555,12 @@
         "Wildlife"
       ],
       "related_proj": [
-        15,
-        113,
-        54
-      ]
+        125,
+        70,
+        188
+      ],
+      "hero_w": 1500,
+      "hero_h": 1000
     },
     {
       "student_name": "Sahir G.",
@@ -3385,10 +3585,12 @@
         "Farming"
       ],
       "related_proj": [
-        54,
-        70,
-        147
-      ]
+        33,
+        2,
+        37
+      ],
+      "hero_w": 720,
+      "hero_h": 520
     },
     {
       "student_name": "James S.",
@@ -3408,10 +3610,12 @@
         "Fraud"
       ],
       "related_proj": [
-        89,
-        22,
-        2
-      ]
+        186,
+        147,
+        88
+      ],
+      "hero_w": 600,
+      "hero_h": 450
     },
     {
       "student_name": "Gregory G.",
@@ -3433,9 +3637,9 @@
         "Farming"
       ],
       "related_proj": [
-        43,
-        41,
-        45
+        145,
+        171,
+        121
       ]
     },
     {
@@ -3459,9 +3663,9 @@
         "DNA"
       ],
       "related_proj": [
-        184,
-        107,
-        101
+        6,
+        191,
+        21
       ]
     },
     {
@@ -3484,9 +3688,9 @@
         "Earth Systems"
       ],
       "related_proj": [
-        120,
-        68,
-        169
+        95,
+        115,
+        157
       ]
     },
     {
@@ -3500,7 +3704,7 @@
       "project_title": "Predicting Mental Health Conditions Using Student Demographic Information ",
       "project_desc": "We are working with supervised data and this is classification data. With this, we will train the data to extrapolate what symptoms the user has based on their demographics and academic/social life. This can help understand what symptoms a person has of certain characteristics. Age, gender, course year, course study, cgpa, and marital status are the inputs of the data. Whether the person is more prone to depression, anxiety, or panic attacks is the output of the model.",
       "research_paper": "assets/pdfs/517cc29d68fdde1c6a7213015a94959c85956b74.pdf",
-      "graphic_link": "https://onlinecounselingprograms.com/wp-content/uploads/sites/52/2021/04/9646_OCP_Managing-Your-Mental-Health-in-College-hero.jpeg",
+      "graphic_link": "/assets/images/project_graphics/bd3a6f81751edeb1a71faccfe0e1247a9ed8e88f.png",
       "headline": "With this, we will train the data to extrapolate what symptoms the user has based on their demographics and academic/social life. This can help understand what symptoms a person has of certain characteristics.",
       "project_id": "4b4af9496d29d87deae52a285bf64b58f22b0c39",
       "expand": false,
@@ -3509,10 +3713,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        12,
-        45,
-        153
-      ]
+        6,
+        75,
+        194
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Taneesh S.",
@@ -3533,10 +3739,12 @@
         "Social Media"
       ],
       "related_proj": [
-        61,
-        58,
-        40
-      ]
+        40,
+        35,
+        61
+      ],
+      "hero_w": 2160,
+      "hero_h": 1620
     },
     {
       "student_name": "Siddharth M.",
@@ -3551,7 +3759,7 @@
       "project_desc": "The emergence of artificial intelligence (AI) in music composition has surfaced as a contentious yet captivating topic of exploration within the music industry [1]. It raises questions about the legitimacy of machine-generated creativity and the complexities surrounding copyright, ownership, and the evolving nature of artistic expression [2]. One prominent and groundbreaking creation that has captured the attention of many is Jukebox, the AI music generation model created by OpenAI [3]. The importance of this research is twofold: addressing copyright issues and fostering the adoption of AI in the music industry. As AI-generated music blurs the line between human and AI creation, concerns regarding copyright ownership and artistic attribution become paramount [2]. To address these challenges, we created an AI model to differentiate AI-generated music from human-composed music, specifically focusing on music generated by the JukeBox model. Using 3 different models: a Multi-Layer-Perceptron (MLP), a long-short term memory network (LSTM), and a transformer, we were able to classify JukeBox generated songs with 96 percent accuracy.\n",
       "research_paper": "assets/pdfs/2ededfe6e527c0b86f86b57d56647c1400ba9a27.pdf",
       "github": "https://github.com/0sid0/AI-Generated-Music-Detection.git",
-      "graphic_link": "https://kentwired.com/wp-content/uploads/2023/08/AIPhotoAlton-1200x873.png",
+      "graphic_link": "/assets/images/project_graphics/4b258e59948eac4787bfadee9499d77a0cd1803d.png",
       "headline": "The importance of this research is twofold: addressing copyright issues and fostering the adoption of AI in the music industry. As AI-generated music blurs the line between human and AI creation, concerns regarding copyright ownership and artistic attribution become paramount [2]. To address these challenges, we created an AI model to differentiate AI-generated music from human-composed music, specifically focusing on music generated by the JukeBox model.",
       "project_id": "0d221e1c32a9166edee886d980d9fefb06705a18",
       "expand": false,
@@ -3561,10 +3769,12 @@
         "Classification"
       ],
       "related_proj": [
-        176,
+        136,
         62,
-        92
-      ]
+        102
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Maanya M.",
@@ -3587,9 +3797,9 @@
         "Astronomy"
       ],
       "related_proj": [
+        83,
         60,
-        1,
-        69
+        1
       ]
     },
     {
@@ -3612,10 +3822,12 @@
         "Optimization"
       ],
       "related_proj": [
-        158,
-        181,
-        27
-      ]
+        140,
+        27,
+        76
+      ],
+      "hero_w": 640,
+      "hero_h": 640
     },
     {
       "student_name": "Smriti R.",
@@ -3638,10 +3850,12 @@
         "yoga"
       ],
       "related_proj": [
-        14,
-        97,
-        17
-      ]
+        191,
+        90,
+        50
+      ],
+      "hero_w": 1200,
+      "hero_h": 675
     },
     {
       "student_name": "Aaron W.",
@@ -3667,10 +3881,12 @@
         "Physics"
       ],
       "related_proj": [
-        181,
-        163,
-        20
-      ]
+        172,
+        110,
+        52
+      ],
+      "hero_w": 2400,
+      "hero_h": 1800
     },
     {
       "student_name": "Neha K.",
@@ -3693,10 +3909,12 @@
         "Mental Health"
       ],
       "related_proj": [
-        59,
-        100,
-        152
-      ]
+        9,
+        157,
+        26
+      ],
+      "hero_w": 1200,
+      "hero_h": 675
     },
     {
       "student_name": "Maryam A.",
@@ -3716,10 +3934,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        61,
-        156,
-        105
-      ]
+        135,
+        152,
+        59
+      ],
+      "hero_w": 800,
+      "hero_h": 600
     },
     {
       "student_name": "Yi-Chen (.",
@@ -3743,10 +3963,12 @@
         "Physiology"
       ],
       "related_proj": [
-        169,
-        160,
-        59
-      ]
+        59,
+        19,
+        171
+      ],
+      "hero_w": 960,
+      "hero_h": 729
     },
     {
       "student_name": "Shawn Z.",
@@ -3769,10 +3991,12 @@
         "Prediction"
       ],
       "related_proj": [
-        76,
+        144,
         102,
-        92
-      ]
+        128
+      ],
+      "hero_w": 600,
+      "hero_h": 338
     },
     {
       "student_name": "Sriram S.",
@@ -3793,10 +4017,12 @@
         "DNA"
       ],
       "related_proj": [
-        9,
-        17,
-        13
-      ]
+        183,
+        12,
+        171
+      ],
+      "hero_w": 960,
+      "hero_h": 540
     },
     {
       "student_name": "Orhan H.",
@@ -3818,9 +4044,11 @@
       ],
       "related_proj": [
         139,
-        159,
-        25
-      ]
+        112,
+        91
+      ],
+      "hero_w": 640,
+      "hero_h": 360
     },
     {
       "student_name": "Sid S.",
@@ -3844,9 +4072,11 @@
       ],
       "related_proj": [
         138,
-        153,
-        84
-      ]
+        4,
+        178
+      ],
+      "hero_w": 1200,
+      "hero_h": 800
     },
     {
       "student_name": "Joann C.",
@@ -3869,10 +4099,12 @@
         "Physics"
       ],
       "related_proj": [
-        193,
-        150,
-        172
-      ]
+        27,
+        175,
+        144
+      ],
+      "hero_w": 1170,
+      "hero_h": 516
     },
     {
       "student_name": "Vihaan B.",
@@ -3895,10 +4127,12 @@
         "Computer Vision"
       ],
       "related_proj": [
-        52,
-        27,
-        110
-      ]
+        193,
+        99,
+        52
+      ],
+      "hero_w": 1200,
+      "hero_h": 675
     },
     {
       "student_name": "Seohyun P.",
@@ -3922,10 +4156,12 @@
         "Prediction"
       ],
       "related_proj": [
-        4,
         112,
-        11
-      ]
+        4,
+        189
+      ],
+      "hero_w": 1400,
+      "hero_h": 1050
     },
     {
       "student_name": "Rohan B.",
@@ -3948,10 +4184,12 @@
         "Computer Vision"
       ],
       "related_proj": [
-        67,
-        155,
-        171
-      ]
+        13,
+        18,
+        93
+      ],
+      "hero_w": 1920,
+      "hero_h": 1080
     },
     {
       "student_name": "Lucas C.",
@@ -3976,9 +4214,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        62,
-        110,
-        166
+        140,
+        52,
+        158
       ]
     },
     {
@@ -4005,10 +4243,12 @@
         "Sustainability"
       ],
       "related_proj": [
-        188,
-        5,
-        23
-      ]
+        123,
+        37,
+        68
+      ],
+      "hero_w": 1280,
+      "hero_h": 852
     },
     {
       "student_name": "Dhaniya V.",
@@ -4031,10 +4271,12 @@
         "Linguistics"
       ],
       "related_proj": [
-        81,
-        118,
-        162
-      ]
+        79,
+        87,
+        51
+      ],
+      "hero_w": 800,
+      "hero_h": 640
     },
     {
       "student_name": "Ronit M.",
@@ -4057,9 +4299,9 @@
         "Fraud"
       ],
       "related_proj": [
-        88,
-        186,
-        46
+        2,
+        154,
+        122
       ]
     },
     {
@@ -4082,10 +4324,12 @@
         "Deep Learning"
       ],
       "related_proj": [
-        133,
-        44,
-        164
-      ]
+        97,
+        174,
+        29
+      ],
+      "hero_w": 1200,
+      "hero_h": 675
     },
     {
       "student_name": "Barbara T.",
@@ -4108,10 +4352,12 @@
         "Classification"
       ],
       "related_proj": [
-        52,
-        56,
-        100
-      ]
+        106,
+        0,
+        52
+      ],
+      "hero_w": 353,
+      "hero_h": 143
     },
     {
       "student_name": "Sambhav A.",
@@ -4135,10 +4381,12 @@
         "Hardware"
       ],
       "related_proj": [
-        172,
-        175,
-        3
-      ]
+        193,
+        180,
+        173
+      ],
+      "hero_w": 4342,
+      "hero_h": 2443
     },
     {
       "student_name": "Mariah D.",
@@ -4160,9 +4408,9 @@
         "Solar Cycles"
       ],
       "related_proj": [
-        83,
-        36,
-        91
+        129,
+        150,
+        1
       ]
     },
     {
@@ -4187,10 +4435,12 @@
         "Neuroscience"
       ],
       "related_proj": [
-        137,
-        67,
-        64
-      ]
+        103,
+        164,
+        90
+      ],
+      "hero_w": 1536,
+      "hero_h": 1024
     },
     {
       "student_name": "Satvi M.",
@@ -4212,10 +4462,12 @@
         "Neuroscience"
       ],
       "related_proj": [
-        21,
-        183,
-        55
-      ]
+        101,
+        19,
+        29
+      ],
+      "hero_w": 2000,
+      "hero_h": 1333
     },
     {
       "student_name": "Akshar S.",
@@ -4237,10 +4489,12 @@
         "Pricing"
       ],
       "related_proj": [
+        186,
         147,
-        62,
-        122
-      ]
+        46
+      ],
+      "hero_w": 1666,
+      "hero_h": 1432
     },
     {
       "student_name": "Aditya J.",
@@ -4263,10 +4517,12 @@
         "Skin Cancer"
       ],
       "related_proj": [
-        178,
-        153,
-        103
-      ]
+        18,
+        26,
+        6
+      ],
+      "hero_w": 1376,
+      "hero_h": 774
     },
     {
       "student_name": "Aaryan W.",
@@ -4289,9 +4545,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        155,
-        34,
-        103
+        137,
+        184,
+        19
       ]
     },
     {
@@ -4306,7 +4562,7 @@
       "project_desc": "Cardiovascular disease (CVD) poses a significant threat to global health, responsible for approximately one-third of all deaths worldwide. Early diagnosis plays a crucial role in preventing severe complications, yet traditional methods often require expensive tests and equipment. Machine learning offers an innovative and more cost-efficient alternative, through pattern recognition of more lightweight data to accurately predict CVD presence and severity. In this paper, we look past traditional binary approaches to CVD diagnosis and look towards quantitative ordinal labels, where a higher number represents more severity. Using the UC Irvine Heart Disease dataset, we test six lightweight models — Logistic Regression (LR), Random Forest (RF), K-Nearest Neighbors (KNN), Multilayer Perceptron (MLP), Support Vector Machines (SVC), and Decision Trees (DT) — alongside a custom neural network model to evaluate their performance on this multi-class classification task. Each model's accuracy, precision, recall, and F1 score are analyzed to assess robustness in clinical settings. The RF, KNN, and custom models achieved testing accuracies above 86%, with the KNN leading in accuracy, precision, and recall, going beyond the baseline LR model’s accuracy of 52%. Our findings demonstrate that lightweight models are highly effective for CVD prediction, offering potential for future deployment in AI-assisted tasks in hospitals. However, these models lack explainability behind diagnosis, which is essential for real-world deployment. Future directions include exploring wearable technology for continuous CVD monitoring and the inclusion of worldwide data to account for diverse risk factors.",
       "research_paper": "assets/pdfs/92e108533f288592a66439c20ecc2656f0e88ef5.pdf",
       "github": "https://github.com/anirudhc5/cvd-machine-learning-notebook",
-      "graphic_link": "https://media.licdn.com/dms/image/D4D12AQGTaolbDut09g/article-cover_image-shrink_720_1280/0/1706783266740?e=2147483647&v=beta&t=Ja3j5IKxMlFszN98O1bb3ZPAKND2wjy-V6kKVjrUrJ4",
+      "graphic_link": "/assets/images/project_graphics/47847f24b2e3de70a60a9fdd80b1a91dd3cd0933.png",
       "headline": "This paper evaluates the effectiveness of lightweight machine learning models for predicting cardiovascular disease severity, finding high accuracy and potential for practical use, while emphasizing the need for better explainability and integration with wearable technology.",
       "project_id": "43d31825d4f316dea22f68dae92bb5bbf5f17986",
       "expand": true,
@@ -4315,10 +4571,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        8,
-        97,
-        59
-      ]
+        13,
+        163,
+        107
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Shreyes B.",
@@ -4342,10 +4600,12 @@
         "Social Media"
       ],
       "related_proj": [
-        115,
-        173,
-        132
-      ]
+        189,
+        181,
+        176
+      ],
+      "hero_w": 960,
+      "hero_h": 640
     },
     {
       "student_name": "Sameeksha V.",
@@ -4369,9 +4629,11 @@
       ],
       "related_proj": [
         76,
-        170,
-        141
-      ]
+        158,
+        110
+      ],
+      "hero_w": 787,
+      "hero_h": 517
     },
     {
       "student_name": "Advik V.",
@@ -4395,10 +4657,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        115,
-        143,
-        117
-      ]
+        104,
+        64,
+        18
+      ],
+      "hero_w": 1666,
+      "hero_h": 1432
     },
     {
       "student_name": "Shishir B.",
@@ -4411,7 +4675,7 @@
       "project_title": "Understanding Object Detection’s Role in Decision-Making for Self-Driving Vehicles",
       "project_desc": "Our research aimed to understand computer vision in self-driving vehicles through object detection. We evaluated different AI models to determine the best performer for this task. Self-driving cars, led by companies like Tesla, rely heavily on advanced software, and understanding these systems is crucial before their widespread adoption. We applied machine learning models to detect vehicles in highway surveillance footage, comparing their precision and recall. Among the models tested, VGG16 outperformed others, achieving a precision of 0.7209 and a recall of 0.7298. Object detection in self-driving cars identifies vehicles and other road objects, ensuring safe navigation. Achieving high precision and recall requires large datasets with tens of thousands of images and thorough hyperparameter tuning. Choosing the right model is critical; in our case, VGG16 proved the most effective. These findings underscore the importance of robust model selection and optimization in advanced self-driving technology.",
       "research_paper": "assets/pdfs/3843f4071a210918229f409707486fdc2cb43ac2.pdf",
-      "graphic_link": "/assets/images/project_graphics/f5266253fe23dddee80b6e3349728c95b72b12ce.png",
+      "graphic_link": "/assets/images/project_graphics/d58df00aea6dbefde54d0120ad8c91e039b492a2.png",
       "headline": "This research focuses on computer vision for self-driving vehicles by evaluating various AI models for object detection, finding that VGG16 outperformed others with precision of 0.7209 and recall of 0.7298, highlighting the importance of model selection and optimization in ensuring safe navigation in autonomous driving systems.",
       "project_id": "18352981768f1d001bae3cef68e973a51aa9d1eb",
       "expand": true,
@@ -4421,10 +4685,12 @@
         "Engineering"
       ],
       "related_proj": [
-        144,
-        189,
-        173
-      ]
+        170,
+        173,
+        182
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Ian M.",
@@ -4449,10 +4715,12 @@
         "GPT-3"
       ],
       "related_proj": [
-        146,
-        109,
-        79
-      ]
+        118,
+        81,
+        82
+      ],
+      "hero_w": 1344,
+      "hero_h": 768
     },
     {
       "student_name": "Katie Y.",
@@ -4475,10 +4743,12 @@
         "Neuroscience"
       ],
       "related_proj": [
-        31,
-        125,
-        27
-      ]
+        19,
+        104,
+        7
+      ],
+      "hero_w": 980,
+      "hero_h": 980
     },
     {
       "student_name": "Trinity M.",
@@ -4501,10 +4771,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        131,
-        117,
-        169
-      ]
+        160,
+        169,
+        64
+      ],
+      "hero_w": 1666,
+      "hero_h": 1432
     },
     {
       "student_name": "Isabella F.",
@@ -4529,10 +4801,12 @@
         "Engineering"
       ],
       "related_proj": [
+        78,
         100,
-        47,
-        74
-      ]
+        79
+      ],
+      "hero_w": 900,
+      "hero_h": 500
     },
     {
       "student_name": "Leonardo V.",
@@ -4556,10 +4830,12 @@
         "Gamma Rays"
       ],
       "related_proj": [
-        170,
+        115,
         182,
-        192
-      ]
+        151
+      ],
+      "hero_w": 996,
+      "hero_h": 581
     },
     {
       "student_name": "Sara C.",
@@ -4584,10 +4860,12 @@
         "Biology"
       ],
       "related_proj": [
-        26,
-        137,
-        185
-      ]
+        14,
+        133,
+        191
+      ],
+      "hero_w": 1200,
+      "hero_h": 800
     },
     {
       "student_name": "Akilan P.",
@@ -4609,10 +4887,12 @@
         "Physics"
       ],
       "related_proj": [
-        60,
-        1,
+        83,
+        20,
         151
-      ]
+      ],
+      "hero_w": 600,
+      "hero_h": 400
     },
     {
       "student_name": "Min W.",
@@ -4634,10 +4914,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        108,
-        24,
-        32
-      ]
+        167,
+        68,
+        21
+      ],
+      "hero_w": 1254,
+      "hero_h": 836
     },
     {
       "student_name": "Madhurima M.",
@@ -4651,7 +4933,7 @@
       "project_title": "A Comprehensive Review on Deep Learning Architectures for Image Segmentation",
       "project_desc": "At a micro level, image segmentation is an important computer vision task that assists in applications in various fields such as medical diagnostics, self-driving cars, and robotics. The introduction of deep learning in the scene led to great improvements in the performance of segmentation models in terms of accuracy, efficiency, and size. This paper presents a comprehensive literature review of recent advancements pertaining to the deep learning-based architectures for the image segmentation task. Such models include the well-known U-Net and Mask R-CNN models, as well as more recent models including Attention U-Net, segmentation using Generative Adversarial Networks (GANs) and transformer-based models including Vision Transformer (ViT) for segmentation tasks. We also include the analysis of hybrid architectures that utilize both CNN and transformer components for better performance in segmentation tasks. Other important issues such as data shortage and over-difficulty of annotation tasks are also considered, as well as the influence of data augmentation and few apologies on these problems. In addition to that, we also perform a comparative analysis of these architectures and evaluate and compare their performance on several benchmark datasets including their merits and demerits and usage. Finally, we identify current challenges and suggest promising future research directions which will include the development of more efficient models for real-time deployment and improvements in model interpretability and explainability.",
       "research_paper": "assets/pdfs/2b4f8be15163ac1d35c60b01862b31bcfb08becc.pdf",
-      "graphic_link": "https://www.carierista.com/storage/company-posts/82/266769da4e5df45ec3a5d6947aba04dc.jpg",
+      "graphic_link": "/assets/images/project_graphics/f45d8b9a3395b40548b8ff375535b8d3e477b59e.png",
       "headline": "This paper provides a comprehensive review of recent advancements in deep learning-based models for image segmentation, including U-Net, Mask R-CNN, and transformer-based models, analyzing their performance, challenges like data shortage, and potential future directions for improved real-time deployment and interpretability.",
       "project_id": "2549cd0399a882042fd1aff5316475dd89af893c",
       "expand": true,
@@ -4660,10 +4942,12 @@
         "Computer Vision"
       ],
       "related_proj": [
-        193,
-        110,
-        163
-      ]
+        130,
+        166,
+        110
+      ],
+      "hero_w": 1448,
+      "hero_h": 1086
     },
     {
       "student_name": "Nikhil T.",
@@ -4686,10 +4970,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        115,
-        104,
-        19
-      ]
+        15,
+        85,
+        155
+      ],
+      "hero_w": 1200,
+      "hero_h": 687
     },
     {
       "student_name": "Pracheth G.",
@@ -4713,10 +4999,12 @@
         "Irrigation"
       ],
       "related_proj": [
-        45,
-        15,
-        111
-      ]
+        5,
+        182,
+        99
+      ],
+      "hero_w": 800,
+      "hero_h": 600
     },
     {
       "student_name": "Paul N.",
@@ -4737,10 +5025,12 @@
         "Engineering"
       ],
       "related_proj": [
-        110,
-        144,
-        161
-      ]
+        193,
+        150,
+        163
+      ],
+      "hero_w": 730,
+      "hero_h": 410
     },
     {
       "student_name": "Advait K.",
@@ -4762,10 +5052,12 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        56,
-        21,
-        157
-      ]
+        55,
+        7,
+        13
+      ],
+      "hero_w": 612,
+      "hero_h": 387
     },
     {
       "student_name": "Brayden T.",
@@ -4787,10 +5079,12 @@
         "Robotics"
       ],
       "related_proj": [
-        161,
-        99,
-        182
-      ]
+        187,
+        159,
+        130
+      ],
+      "hero_w": 1185,
+      "hero_h": 670
     },
     {
       "student_name": "Ananya S.",
@@ -4814,9 +5108,11 @@
       ],
       "related_proj": [
         99,
-        92,
-        52
-      ]
+        150,
+        102
+      ],
+      "hero_w": 1600,
+      "hero_h": 900
     },
     {
       "student_name": "Jia A.",
@@ -4839,10 +5135,12 @@
         "Economics"
       ],
       "related_proj": [
-        2,
-        122,
-        121
-      ]
+        22,
+        116,
+        154
+      ],
+      "hero_w": 1920,
+      "hero_h": 1080
     },
     {
       "student_name": "Adi M.",
@@ -4865,10 +5163,12 @@
         "Eyes"
       ],
       "related_proj": [
-        156,
-        135,
-        31
-      ]
+        32,
+        117,
+        6
+      ],
+      "hero_w": 1200,
+      "hero_h": 628
     },
     {
       "student_name": "Satvi M.",
@@ -4891,8 +5191,8 @@
       ],
       "related_proj": [
         162,
-        175,
-        111
+        90,
+        48
       ]
     },
     {
@@ -4915,10 +5215,12 @@
         "Engineering"
       ],
       "related_proj": [
-        172,
-        99,
-        158
-      ]
+        141,
+        181,
+        170
+      ],
+      "hero_w": 2400,
+      "hero_h": 1350
     },
     {
       "student_name": "Pandian A.",
@@ -4942,9 +5244,9 @@
         "Engineering"
       ],
       "related_proj": [
-        27,
-        161,
-        76
+        140,
+        158,
+        187
       ]
     },
     {
@@ -4968,10 +5270,12 @@
         "Engineering"
       ],
       "related_proj": [
-        159,
-        140,
-        132
-      ]
+        181,
+        193,
+        170
+      ],
+      "hero_w": 2175,
+      "hero_h": 1378
     },
     {
       "student_name": "Arya S.",
@@ -4993,10 +5297,12 @@
         "Neuroscience"
       ],
       "related_proj": [
-        44,
-        55,
-        98
-      ]
+        61,
+        59,
+        153
+      ],
+      "hero_w": 960,
+      "hero_h": 540
     },
     {
       "student_name": "Samuel P.",
@@ -5018,10 +5324,12 @@
         "Heart Disease"
       ],
       "related_proj": [
-        126,
-        117,
-        64
-      ]
+        21,
+        155,
+        14
+      ],
+      "hero_w": 1279,
+      "hero_h": 716
     },
     {
       "student_name": "Nimeesha K.",
@@ -5042,9 +5350,9 @@
         "Physiology"
       ],
       "related_proj": [
-        93,
-        10,
-        156
+        64,
+        17,
+        21
       ]
     },
     {
@@ -5068,10 +5376,12 @@
         "Stocks"
       ],
       "related_proj": [
-        154,
-        2,
-        121
-      ]
+        122,
+        88,
+        22
+      ],
+      "hero_w": 1600,
+      "hero_h": 900
     },
     {
       "student_name": "Humayl F.",
@@ -5094,10 +5404,12 @@
         "Optimization"
       ],
       "related_proj": [
-        150,
         173,
-        76
-      ]
+        175,
+        163
+      ],
+      "hero_w": 3840,
+      "hero_h": 2051
     },
     {
       "student_name": "Riya B.",
@@ -5120,9 +5432,11 @@
       ],
       "related_proj": [
         111,
-        23,
-        41
-      ]
+        85,
+        43
+      ],
+      "hero_w": 600,
+      "hero_h": 400
     },
     {
       "student_name": "Ali Q.",
@@ -5144,10 +5458,12 @@
         "Sports"
       ],
       "related_proj": [
-        163,
-        166,
-        112
-      ]
+        130,
+        170,
+        181
+      ],
+      "hero_w": 2048,
+      "hero_h": 1087
     },
     {
       "student_name": "Nathan K.",
@@ -5171,10 +5487,12 @@
         "Engineering"
       ],
       "related_proj": [
-        30,
-        163,
-        96
-      ]
+        167,
+        52,
+        173
+      ],
+      "hero_w": 1024,
+      "hero_h": 638
     },
     {
       "student_name": "Isaac G.",
@@ -5196,10 +5514,12 @@
         "Heart Disease"
       ],
       "related_proj": [
-        104,
-        160,
-        157
-      ]
+        194,
+        56,
+        115
+      ],
+      "hero_w": 636,
+      "hero_h": 424
     },
     {
       "student_name": "Mia M.",
@@ -5222,10 +5542,12 @@
         "Autonomous Vehicles"
       ],
       "related_proj": [
-        167,
-        115,
-        76
-      ]
+        175,
+        173,
+        52
+      ],
+      "hero_w": 1200,
+      "hero_h": 848
     },
     {
       "student_name": "Mira C.",
@@ -5249,10 +5571,12 @@
         "Social Media"
       ],
       "related_proj": [
-        192,
-        52,
+        130,
+        115,
         30
-      ]
+      ],
+      "hero_w": 1000,
+      "hero_h": 576
     },
     {
       "student_name": "Ochir J.",
@@ -5274,9 +5598,9 @@
         "Diseases and Health Conditions"
       ],
       "related_proj": [
-        32,
-        7,
-        157
+        108,
+        171,
+        64
       ]
     }
   ],
