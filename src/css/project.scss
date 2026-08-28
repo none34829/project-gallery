@@ -261,3 +261,95 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* ---------------------------------------------------------------- mobile fixes
+   Ronil reported the project page "looks a bit weird on mobile". Three causes:
+
+   1. .header-container is a fixed height with its content bottom-aligned, and the
+      navbar is overlaid on top of it. A long title grew upward into the logo, so
+      "Back To Projects" and the heading collided with the brand mark. Desktop
+      already reserves a band via padding-top; small screens reserved nothing.
+   2. The student/award line is a single flex row, so a long award name squeezed
+      the student's name into a two-character column.
+   3. Justified body copy in a ~350px column opens rivers of whitespace. */
+
+@media (max-width: 991.98px) {
+    /* .header-offset is absolutely positioned, so once the container stops being a
+       fixed height it shrink-wraps to the widest line of the title and pushes the
+       page sideways. Pin it to the viewport width. */
+    .header-offset {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .header-container {
+        /* grow with the title instead of overflowing a fixed box */
+        height: auto;
+        min-height: calc(36vh + 116.8px);
+        /* clear the overlaid navbar (logo sits ~103px down at this width) */
+        /* .p-3 on this element is a Bootstrap utility and declares !important,
+           so the reserved band has to match that weight to win.
+           .header-offset is pulled up by 116.8px, so the band has to clear that
+           offset *plus* the navbar (~108px at this width) before content starts. */
+        padding-top: calc(116.8px + 124px) !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+.studentMeta {
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
+    column-gap: 0.35rem;
+    line-height: 1.35;
+    /* flex items default to min-width:auto and refuse to shrink below their content,
+       so the long award name pushed the whole page sideways instead of wrapping. */
+    min-width: 0;
+}
+
+.studentMeta,
+.studentMeta div,
+.studentMeta a {
+    min-width: 0;
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+.studentMeta a,
+.studentMeta span {
+    overflow-wrap: anywhere;
+}
+
+/* Once the meta block wraps onto several lines, centring it against the avatar
+   leaves the avatar floating in the middle. Pin both to the top so the picture
+   sits beside the student's name. */
+@media (max-width: 991.98px) {
+    .header-container .profile_image {
+        align-self: flex-start;
+    }
+
+    .header-container > .d-flex.w-100 {
+        align-items: flex-start !important;
+    }
+
+    /* Keep the award icon on the same line as the award text: let the link shrink
+       and wrap its own words instead of breaking between icon and text. */
+    .studentMeta > div {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+}
+
+
+.projectDesc,
+.projectBody {
+    text-align: left;
+}
+
+/* justification only earns its keep on a wide measure */
+@media (min-width: 992px) {
+    .projectDesc,
+    .projectBody {
+        text-align: justify;
+    }
+}

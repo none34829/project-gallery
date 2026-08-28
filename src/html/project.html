@@ -38,7 +38,7 @@
       </h1>
       <div class="d-flex w-100 align-items-center">
         <div class="profile_image" style="background:url('../{{ ctx.student_image }}') center 50% / cover no-repeat"></div>
-        <div class="text-white font-secondary h5 m-0 ps-3 pt-2 d-flex align-items-center">
+        <div class="text-white font-secondary h5 m-0 ps-3 pt-2 d-flex align-items-center studentMeta">
           {{ ctx.student_name }} 
           {% if ctx.project_yr %}
             | {{ ctx.project_quarter }} {{ ctx.project_yr }} 
@@ -68,9 +68,9 @@
     <div class="projectBody">
       <img class="projectGraphic float-right m-4 mb-2" src="{{ ctx.hero_src }}" alt=""
            data-fallback="{{ ctx.hero_fallback }}"/>
-      <p class="p-4 h5 font-secondary projectDesc" style="text-align: justify;">{{ ctx.headline }}</p>
+      <p class="p-4 h5 font-secondary projectDesc">{{ ctx.headline }}</p>
       <hr class="projectDivider ms-4 w-50"/>
-      <p class="p-4" style="text-align: justify;">{{ ctx.project_desc }}</p>
+      <p class="p-4 projectBody">{{ ctx.project_desc }}</p>
       {% if ctx.github or ctx.research_paper or ctx.project_webpage %}
         <div class="text-dark p-4">
           <h2 class="h4 font-secondary title-black mb-3"> Explore More!</h2>
