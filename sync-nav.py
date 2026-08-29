@@ -61,7 +61,7 @@ def build(nav, cta):
         '{# Do not hand-edit - re-run `python sync-nav.py` to resync. #}',
         '<nav class="navbar navbar-expand-xl p-4 pe-5">',
         "  <a class=\"navbar-brand\" href=\"https://www.inspiritai.com\">"
-        "<img class=\"nav-logo\" src={{ '../assets/images/logo.png' if isProject else 'assets/images/logo.png'}} alt="Inspirit AI"></a>",
+        "<img class=\"nav-logo\" src={{ '../assets/images/logo.png' if isProject else 'assets/images/logo.png'}} alt=\"Inspirit AI\"></a>",
         '  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"'
         ' aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">',
         '      <span class="navbar-toggler-icon"></span>',
