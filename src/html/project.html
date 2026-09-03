@@ -19,6 +19,32 @@
     <meta property="og:description" content="{{ ctx.headline | trim | truncate(155) }}">
     <meta property="og:url" content="https://research.inspiritai.com/projects/{{ ctx.project_id }}.html">
     <meta name="twitter:card" content="summary_large_image">
+    {% if ctx.og_image %}<meta property="og:image" content="{{ ctx.og_image }}">{% endif %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": {{ ctx.project_title | dump | safe }},
+      "url": "https://research.inspiritai.com/projects/{{ ctx.project_id }}.html",
+      {% if ctx.headline %}"abstract": {{ ctx.headline | trim | dump | safe }},{% endif %}
+      {% if ctx.project_desc %}"description": {{ ctx.project_desc | trim | truncate(300) | dump | safe }},{% endif %}
+      {% if ctx.og_image %}"image": "{{ ctx.og_image }}",{% endif %}
+      {% if ctx.project_yr %}"datePublished": "{{ ctx.project_yr }}",{% endif %}
+      {% if ctx.domains %}"about": {{ ctx.domains | dump | safe }},{% endif %}
+      {% if ctx.tags %}"keywords": {{ ctx.tags | dump | safe }},{% endif %}
+      "author": { "@type": "Person", "name": {{ ctx.student_name | dump | safe }} },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Inspirit AI",
+        "url": "https://www.inspiritai.com"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "name": "Inspirit AI Research Projects",
+        "url": "https://research.inspiritai.com/"
+      }
+    }
+    </script>
     <script>
     
     </script>

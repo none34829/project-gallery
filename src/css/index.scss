@@ -213,3 +213,14 @@ body {
 .galleryError{
     display: none;
 }
+
+/* The server-rendered cards are real anchors so crawlers can follow them and the
+   gallery works without JS. They must not pick up link styling - index.js replaces
+   them with the identical div-based cards once it runs. */
+a.projectContainer,
+a.projectContainer:hover,
+a.projectContainer:focus {
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+}

@@ -20,6 +20,10 @@ let renderSuggestions = function () {};
 
 function showLoadingState() {
   const gallery = document.querySelector('.projectGallery');
+  // Nothing to wait for when the cards are already server-rendered - replacing them
+  // with a spinner threw away the pre-rendered gallery and forced a full rebuild,
+  // which is what moved the footer and drove the page's layout shift.
+  if (gallery && gallery.querySelector('.projectContainer')) return;
   if (gallery) {
     gallery.innerHTML = `
       <div class="loading-container text-center font-secondary h2 pt-5">
@@ -118,7 +122,25 @@ function initializeSearch() {
 function renderAllProjects(projects) {
   const gallery = document.querySelector('.projectGallery');
   if (!gallery) return;
-  
+
+  // The cards are already in the HTML - server-rendered so crawlers can follow them
+  // and the gallery paints before this script runs. Tearing them down and rebuilding
+  // identical ones empties the container and refills it, which moves the footer twice
+  // and accounted for most of the page's layout shift. Reuse them when they match;
+  // filtering works off [data-id], which the server-rendered cards already carry.
+  const prerendered = gallery.querySelectorAll('.projectContainer');
+  if (prerendered.length === projects.length) {
+    if (!gallery.querySelector('.galleryError')) {
+      const err = document.createElement('div');
+      err.className = 'galleryError text-center font-secondary h2 pt-5';
+      err.style.display = 'none';
+      err.textContent = 'Sorry, no projects match those filters :(';
+      gallery.insertBefore(err, gallery.firstChild);
+    }
+    renderResults();
+    return;
+  }
+
   gallery.innerHTML = '';
   
   // Add error message element
