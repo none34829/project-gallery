@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="../9fc9ba46e6c740726aab57912c149fd3b0133454.js" type="text/javascript"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png"/>
+    <title>Backtesting and Machine Learning for a Self-Developed Futures Trading Strategy | Inspirit AI</title>
+    <meta name="description" content="This study investigates whether the poor backtesting performance of a discretionary futures trading strategy stems from important subconscious rules that...">
+    <link rel="canonical" href="https://research.inspiritai.com/projects/9fc9ba46e6c740726aab57912c149fd3b0133454.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Inspirit AI">
+    <meta property="og:title" content="Backtesting and Machine Learning for a Self-Developed Futures Trading Strategy">
+    <meta property="og:description" content="This study investigates whether the poor backtesting performance of a discretionary futures trading strategy stems from important subconscious rules that...">
+    <meta property="og:url" content="https://research.inspiritai.com/projects/9fc9ba46e6c740726aab57912c149fd3b0133454.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://research.inspiritai.com/assets/images/project_graphics/d5c29588e100082881e325831086f52a0e47ba05.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Backtesting and Machine Learning for a Self-Developed Futures Trading Strategy",
+      "url": "https://research.inspiritai.com/projects/9fc9ba46e6c740726aab57912c149fd3b0133454.html",
+      "abstract": "This study investigates whether the poor backtesting performance of a discretionary futures trading strategy stems from important subconscious rules that were never formally documented. Testing ten years of Nasdaq-100 and S&P 500 futures data showed that adding an previously unwritten market-structure rule substantially improved performance, while machine learning found short-term price direction largely unpredictable but volatility expansion moderately predictable.",
+      "description": "Having traded futures discretionary for about a year as most in this position I noticed that written rules would not reproduce in results. The usual explanation is that a trader's memory is fallible. I wanted to investigate another: the incompleteness of the written rules since the real most...",
+      "image": "https://research.inspiritai.com/assets/images/project_graphics/d5c29588e100082881e325831086f52a0e47ba05.png",
+      
+      "about": ["Business and Finance"],
+      "keywords": ["Microfinance","Stocks","Options"],
+      "author": { "@type": "Person", "name": "Anant S." },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Inspirit AI",
+        "url": "https://www.inspiritai.com"
+      },
+      "isPartOf": {
+        "@type": "CollectionPage",
+        "name": "Inspirit AI Research Projects",
+        "url": "https://research.inspiritai.com/"
+      }
+    }
+    </script>
+    <script>
+    
+    </script>
+</head>
+<body>
+  
+
+<nav class="navbar navbar-expand-xl p-4 pe-5">
+  <a class="navbar-brand" href="https://www.inspiritai.com"><img class="nav-logo" src=../assets/images/logo.png alt="Inspirit AI"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.inspiritai.com/">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/team" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+          <a class="dropdown-item" href="https://www.inspiritai.com/team">Team</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/inspirit-ai-alumni-journeys">Alumni Journeys</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/our-impact">Impact</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/liveonline" id="smallgroupDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Small Group
+        </a>
+        <div class="dropdown-menu" aria-labelledby="smallgroupDropdown">
+          <a class="dropdown-item" href="https://www.inspiritai.com/liveonline">AI Scholars (High School)</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/ai-program-middle-school">AI Pioneers (Middle School)</a>
+          <a class="dropdown-item" href="https://www.inspiritaisiliconvalley.com/">Silicon Valley In-Person Program</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/college-admissions">Admissions Results</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/reviews">Student Reviews</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/ai-research-program" id="11mentorshipDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          1:1 Mentorship
+        </a>
+        <div class="dropdown-menu" aria-labelledby="11mentorshipDropdown">
+          <a class="dropdown-item" href="https://www.inspiritai.com/ai-research-program">AI + X Research Fellowship</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/gen-ai-innovation-lab">Gen AI Innovation Fellowship</a>
+          <a class="dropdown-item" href="https://success.inspiritai.com">Publications and Competition Results</a>
+          <a class="dropdown-item" href="https://research.inspiritai.com">Research Gallery</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/1-1-college-admissions">Admissions Results</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.inspiritai.com/schools">Schools</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.inspiritai.com/college-counselors">Counselors</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://www.inspiritai.com/contact" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="moreDropdown">
+          <a class="dropdown-item" href="https://www.inspiritai.com/contact">Contact Us</a>
+          <a class="dropdown-item" href="https://calendly.com/inspiritai-programs/ai-scholars-advising-call">Schedule an Advising Call</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/frequently-asked-questions">Frequently Asked Questions</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/blogs/ai-blog">Inspirit AI Blog</a>
+          <a class="dropdown-item" href="https://www.inspiritai.com/ai-research-symposium">AI Research Symposium</a>
+        </div>
+      </li>
+      <li class="nav-item nav-cta-item">
+        <a class="nav-link nav-cta" href="https://inspiritai.paperform.co">Apply Now</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="header-offset">
+    <div class="header-container d-flex flex-column justify-content-end text-white p-3">
+      <a class="nav-link mb-2" style="width:fit-content" href="../index.html">
+        <div class="d-flex align-items-start backArrowContainer">
+          <img width="25px" height="25px" src="../assets/images/arrow.png" class="backArrow" alt="">
+          <div class="font-secondary ms-2 mb-0 mt-1 h5 text-decoration-none">Back To Projects</div>
+        </div>
+      </a>
+      <h1 class="display-6 font-primary m-0">
+        Backtesting and Machine Learning for a Self-Developed Futures Trading Strategy
+      </h1>
+      <div class="d-flex w-100 align-items-center">
+        <div class="profile_image" style="background:url('../assets/images/student_imgs/75bc37a1807315312ab5402672dd4c6b7ed0e9b1.png') center 50% / cover no-repeat"></div>
+        <div class="text-white font-secondary h5 m-0 ps-3 pt-2 d-flex align-items-center studentMeta">
+          Anant S. 
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="projectBody">
+      <img class="projectGraphic float-right m-4 mb-2" src="/assets/images/project_graphics/d5c29588e100082881e325831086f52a0e47ba05.png" alt=""
+           data-fallback="linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)"/>
+      <p class="p-4 h5 font-secondary projectDesc">This study investigates whether the poor backtesting performance of a discretionary futures trading strategy stems from important subconscious rules that were never formally documented. Testing ten years of Nasdaq-100 and S&amp;P 500 futures data showed that adding an previously unwritten market-structure rule substantially improved performance, while machine learning found short-term price direction largely unpredictable but volatility expansion moderately predictable.</p>
+      <hr class="projectDivider ms-4 w-50"/>
+      <p class="p-4 projectBody">Having traded futures discretionary for about a year as most in this position I noticed that written rules would not reproduce in results. The usual explanation is that a trader&#39;s memory is fallible. I wanted to investigate another: the incompleteness of the written rules since the real most important rules are subconscious, applied without being noticed. I have tried to encode my strategy for Nasdaq-100 and S&amp;P 500 futures exactly as I have written it, matched it against ten years of one-minute prices from 7.07 million bars. When traded it lost money: compared to break even probability 33.3%, 31.7% of trades were profitable with expectancy of -0.175R per trade over 205 trades. I have tried to switch parameters and none of the 24 of them resulted in profit. I looked at the only section of specification written without any measurable definition and what it depicted was the market structure or session-structure model: Accumulation-Manipulation-Distribution, that states whether to trade a day or not. Having added it without altering all other inputs resulted in trading 53.0 % of trades profitably with +0.480R of expectancy on 742 trades, positive on all five years of testing. In a separate analysis I have had a look at 300 101 samples through machine learning methods where it resulted in unpredictable short term price direction and predictable movement (expansion of volatility) with 57.6 % of hits against the base probability of 48.2%. The one rule I have never bothered to write down mattered most.</p>
+      
+        <div class="text-dark p-4">
+          <h2 class="h4 font-secondary title-black mb-3"> Explore More!</h2>
+          <div class="d-flex flex-wrap">
+            
+              <button type="button" class="position-relative me-3 mb-3 text-decoration-none research_button">
+                <div class="unclosedButton d-flex">
+                  Research Paper
+                  <img class="externalLink" src="../assets/images/external_link.svg" alt="">
+                </div>
+              </button>
+            
+            
+            
+              <div onclick="window.open('https://github.com/anantsahai09-lab/trading-decision-support .', '_blank').focus();" class="position-relative me-3 mb-3 text-decoration-none cursor-p">
+                <div class="unclosedButton d-flex">
+                  Source Code
+                  <img class="externalLink" src="../assets/images/external_link.svg" alt="">
+                </div>
+              </div>
+            
+            
+          </div>
+        </div>
+      
+    </div>    
+    <div class="involedPeople p-4">
+      <div class="d-flex">
+        <div class="profile_image largerProfile" style="background:url('../assets/images/student_imgs/75bc37a1807315312ab5402672dd4c6b7ed0e9b1.png') center 50% / cover no-repeat"></div>
+        <div class="d-flex flex-column justify-content-center">
+          <div class="h4 text-white font-secondary ms-3">Anant S.</div>
+        </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+        <div class="profile_image largerProfile" style="background:url(../assets/images/missing_image.png) center 50% / cover no-repeat"></div>
+        <div class="d-flex flex-column justify-content-center align-items-end">
+          <div class="h4 text-white font-secondary me-3">Odysseas Drosis</div>
+          <div class="h5 text-white font-secondary me-3"></div>
+        </div>
+      </div>
+    </div>
+    <p class="h2 font-primary text-center blackTitle m-5">Related Projects</p>
+    <div class="row g-0 px-3">
+      
+        <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='cc8726745726dab5f9cfc29ff8712b4823648242.html';">
+        <div class="projectSubContainer">
+            <div class="projectImage" style="background:url(&#39;/assets/images/project_graphics/cc8726745726dab5f9cfc29ff8712b4823648242.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)">
+              
+              <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
+                <div class="hoverContainer">
+                  <div class="projectTitle text-white font-secondary h2 m-0">
+                    Analysis of Trending YouTube Videos: Finding Patterns in Viral Content
+                  </div>
+                  <hr class="contentDivider mx-auto my-2"/>
+                  <div class="projectHeadline text-white font-text m-0">
+                    As the digital world continues to grow, content creators frequently have trouble building a community and producing videos that will interest their audience. Especially as these people look toward the internet for both recreational and monetary reasons, finding out techniques to build a community is important in today’s age. This paper analyzes the issues of video performance, revealing the patterns of what makes a video successful and viral. By training different models and testing different datasets, we were able to find the correlation between the potential chances of popularity and the video’s content. Using the most accurate model, the Random Forest model, content creators can see whether or not they are likely to do well based on patterns found in trending videos.
+                  </div>
+                </div>
+                <div class="d-flex w-100 align-items-center">
+                  <div class="profile_image" style="background:url('../assets/images/missing_image.png') center 50% / cover no-repeat"></div>
+                  <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
+                    Vincent P. 
+                    
+                  </div>
+                </div>
+                <div class="d-flex w-100 justify-content-between align-items-center mentorImage">
+                  <div class="d-flex align-items-center">
+                    <div class="profile_image" style="background:url('../assets/images/missing_image.png') center 50% / cover no-repeat"></div>
+                    <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
+                      Mentored by Amanda Wang 
+                    </div>
+                  </div>
+                  <img width="25px" height="25px" src="../assets/images/arrow.png" class="backArrowRelated me-2" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+        <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='229d998bb0c3ad8c33a6edec3a7e0c7544463dbc.html';">
+        <div class="projectSubContainer">
+            <div class="projectImage" style="background:url(&#39;/assets/images/project_graphics/8039b2be51fd6ef6c9c46a32e81aa549a1cf084a.png&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)">
+              
+              <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
+                <div class="hoverContainer">
+                  <div class="projectTitle text-white font-secondary h2 m-0">
+                    Predicting International Commodity Prices, Production, and Land Usage Towards Reducing Agricultural Emissions 
+                  </div>
+                  <hr class="contentDivider mx-auto my-2"/>
+                  <div class="projectHeadline text-white font-text m-0">
+                    Our long-term goal for this research project was to analyze food insecurity and determine if we could predict the emissions and pricing of different food commodities. 
+                  </div>
+                </div>
+                <div class="d-flex w-100 align-items-center">
+                  <div class="profile_image" style="background:url('../assets/images/missing_image.png') center 50% / cover no-repeat"></div>
+                  <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
+                    Sahir G. 
+                    
+                  </div>
+                </div>
+                <div class="d-flex w-100 justify-content-between align-items-center mentorImage">
+                  <div class="d-flex align-items-center">
+                    <div class="profile_image" style="background:url('../assets/images/mentor_imgs/d555e67db872a4dce56c1938f2efc953bb18ce3f.png') center 50% / cover no-repeat"></div>
+                    <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
+                      Mentored by Landon Butler 
+                    </div>
+                  </div>
+                  <img width="25px" height="25px" src="../assets/images/arrow.png" class="backArrowRelated me-2" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+        <div class="col-12 col-md-6 col-lg-4 p-2 projectContainer" onclick="window.location='e7bd3704175e954c53553307d6aeb08e983bf8ff.html';">
+        <div class="projectSubContainer">
+            <div class="projectImage" style="background:url(&#39;https://d3kqdc25i4tl0t.cloudfront.net/articles/content/449_566610_linkedin.hero.jpg&#39;) center 50% / cover no-repeat, linear-gradient(160deg, #2f4a3a 0%, #4f7a52 100%)">
+              
+              <div class="contentContainer w-100 h-100 d-flex flex-column justify-content-end p-3" >
+                <div class="hoverContainer">
+                  <div class="projectTitle text-white font-secondary h2 m-0">
+                    Predicting Fake Job Listings  from Real Ones using Machine Learning Models
+                  </div>
+                  <hr class="contentDivider mx-auto my-2"/>
+                  <div class="projectHeadline text-white font-text m-0">
+                    The main way this problem is going to be solved is through the creation of models that can predict whether these job listings are real or fake.
+                  </div>
+                </div>
+                <div class="d-flex w-100 align-items-center">
+                  <div class="profile_image" style="background:url('../assets/images/student_imgs/eee3de32ac6adbe66678c46b33814cccc8f50506.png') center 50% / cover no-repeat"></div>
+                  <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
+                    Ronit M. 
+                    
+                  </div>
+                </div>
+                <div class="d-flex w-100 justify-content-between align-items-center mentorImage">
+                  <div class="d-flex align-items-center">
+                    <div class="profile_image" style="background:url('../assets/images/missing_image.png') center 50% / cover no-repeat"></div>
+                    <div class="text-white font-secondary h5 m-0 ps-3 pt-2">
+                      Mentored by Hassan Azmat 
+                    </div>
+                  </div>
+                  <img width="25px" height="25px" src="../assets/images/arrow.png" class="backArrowRelated me-2" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="mt-5">
+      <div class="footer">
+  <div class="row no-gutters text-white align-items-start justify-content-center w-90 m-0 m-auto pt-4 pb-5">
+    <div class="d-flex col-12 col-sm-7 col-lg-4 pt-5 justify-content-center justify-content-sm-start">
+      <img width="250px" src=../assets/images/logo.png alt="Inspirit AI" />
+    </div>
+    <div class="col-6 col-sm-3 col-lg-2 text-right d-flex justify-content-center justify-content-sm-start pt-5">
+      <div class="w-fit">
+        <p class="font-secondary h4">About Inspirit AI</p>
+        <a class="footer-nav-link font-text" href="https://www.inspiritai.com/">Home</a>
+        <a class="footer-nav-link font-text" href="https://www.inspiritai.com/team">Team</a>
+        <a class="footer-nav-link font-text" href="https://www.inspiritai.com/our-impact">Impact</a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-2 col-lg-2 text-right d-flex justify-content-center justify-content-sm-end justify-content-lg-start pt-5">
+      <div class="w-fit">
+        <p class="font-secondary h4">Programs</p>
+        <a class="footer-nav-link font-text" href="https://www.inspiritai.com/liveonline">Live Online</a>
+        <a class="footer-nav-link font-text" href="https://www.inspiritai.com/contact">Learn More</a>
+        <a class="footer-nav-link font-text" href="https://inspiritai.typeform.com/to/yq7Al8WT">Apply Now</a>
+      </div>
+    </div>
+    <div class=" col-12 col-lg-4 text-right pt-5">
+      <p class="font-secondary h4">Join Our Mailing List</p>
+      <p class="font-text">Stay up to date with all things Inspirit AI!</p>
+      <div class="d-flex justify-content-end">
+        <input class="w-70 footer-input pr-2 mr-4 text-right font-text" placeholder="example@gmail.com" type="text" name="email">
+        <a class="pl-0 button-primary-bordered footer-button font-secondary">
+          Subscribe
+        </a>
+      </div> 
+    </div>
+  </div>
+  <hr class="w-90 footer-divider m-auto mt-4 mb-2"/>
+  <div class="row no-gutters text-white w-90 justify-content-between m-auto">
+    <p class="col-lg-7 font-text">© 2022 Inspirit AI. All Rights Reserved.</p>
+    <p class="col-lg-5 text-lg-right font-text">
+      <a href="">Terms and conditions</a> |
+      <a href="">Refund policy</a> |
+      <a href="">Privacy policy</a>
+    </p>    
+  </div>
+</div>
+    </div>
+  </div>  
+
+
+  <div class="pdfModal d-flex justify-content-center align-items-center">
+      <div class="modal-container w-80 h-80 p-3">
+        <div class="modal-header">
+          <h2 class="modal-title h3 font-secondary">Research Paper</h2>
+          <button type="button" class="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <hr/>
+        <div class="modal-body h-85">
+          <iframe class="w-100 h-100"src="../assets/pdfs/af04da438eab20bb1de1d8f1c7ba3611f2f178f3.pdf#toolbar=0"></iframe>
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
