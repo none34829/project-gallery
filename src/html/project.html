@@ -23,7 +23,8 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
+      "@type": "ScholarlyArticle",
+      "headline": {{ ctx.project_title | dump | safe }},
       "name": {{ ctx.project_title | dump | safe }},
       "url": "https://research.inspiritai.com/projects/{{ ctx.project_id }}.html",
       {% if ctx.headline %}"abstract": {{ ctx.headline | trim | dump | safe }},{% endif %}
@@ -43,6 +44,26 @@
         "name": "Inspirit AI Research Projects",
         "url": "https://research.inspiritai.com/"
       }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Research Projects",
+          "item": "https://research.inspiritai.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ ctx.project_title | dump | safe }},
+          "item": "https://research.inspiritai.com/projects/{{ ctx.project_id }}.html"
+        }
+      ]
     }
     </script>
     <script>

@@ -23,7 +23,8 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
+      "@type": "ScholarlyArticle",
+      "headline": "Brain Tumor Classification",
       "name": "Brain Tumor Classification",
       "url": "https://research.inspiritai.com/projects/3bdffe331f52081e0f2024f17e079d5ec940cc41.html",
       "abstract": "Early classification and diagnosis of Brain Tumors are essential for providing the right treatment to a patient. It is crucial to get treatment as soon as possible because the survival rate for someone with an untreated brain tumor can range from as low as 3 months to as high as 5 years. In this project, we classified brain tumor images into 4 categories: glioma, meningioma, pituitary, and no tumor. With the use of baseline and deep learning models, the deep learning models demonstrated a significantly higher performance due to their ability to analyze images. The model with the highest accuracy was the MobileNet, a pre-trained transfer learning model trained on 5,608 images. This model yielded a validation accuracy of 98.24%. Using metrics including Kappa cohen score, precision, and recall, we validated the machine learning model's performance. We deployed the MobileNet model to a web app using Streamlit, where users submit MRI images and receive diagnoses of tumor class. We found that the model performed very well while utilizing the web app, indicating that it is safe to be used. However, since we only have 4 classes and there are over 150 total types of brain tumors, it could easily get a diagnosis wrong if it is not in one of these 4 classes.",
@@ -43,6 +44,26 @@
         "name": "Inspirit AI Research Projects",
         "url": "https://research.inspiritai.com/"
       }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Research Projects",
+          "item": "https://research.inspiritai.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brain Tumor Classification",
+          "item": "https://research.inspiritai.com/projects/3bdffe331f52081e0f2024f17e079d5ec940cc41.html"
+        }
+      ]
     }
     </script>
     <script>
